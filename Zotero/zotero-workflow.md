@@ -14,6 +14,8 @@ Use Zotero for the bibliography layer.
 
 Detailed setup checklist: [Zotero-Obsidian Setup](../Workflow/zotero-obsidian-setup.md)
 
+Recommended collection tree: [Zotero Collection Structure](collection-structure.md)
+
 ## Citation Key Rule
 
 Use one citation key consistently across:
