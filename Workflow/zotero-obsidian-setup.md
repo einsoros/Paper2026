@@ -26,6 +26,14 @@ Use a Zotero account if you want:
 
 Do not put the Zotero data directory inside iCloud, Dropbox, Google Drive, or OneDrive. Keep Zotero's database in the default local location and use Zotero Sync.
 
+Current Zotero profile:
+
+```text
+https://www.zotero.org/einsoros/publications
+```
+
+Note: `My Publications` is mainly for publicly sharing your own publications. For this paper project, collect reference papers in the Zotero desktop app under `My Library` or a project collection such as `Paper2026`, not necessarily under `My Publications`.
+
 ### Obsidian Account
 
 An Obsidian account is only needed for Obsidian Sync or paid services. A local vault does not require an Obsidian account.
