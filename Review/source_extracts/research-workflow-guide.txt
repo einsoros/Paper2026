@@ -1,0 +1,232 @@
+# research-workflow-guide.pdf
+Pages: 14
+
+
+
+--- Page 1 ---
+
+AI-Assisted Research Workflow
+Claude Code · Zotero · Obsidian · Marp
+연구의 모든 단계를 연결하는 도구 구성 가이드
+2026.05
+1
+
+
+--- Page 2 ---
+
+왜 이런 구성이 필요한가?
+연구는 읽고 → 정리하고 → 쓰고 → 고치는 반복입니다.
+각 단계마다 다른 도구를 쓰면 정보가 흩어지고, 같은 작업을 반복하게 됩니다.
+이 구성의 핵심 아이디어:
+각 도구가 잘하는 일을 맡기고, 도구 사이를 자동으로 연결한다.
+문제 해결
+논문 PDF가 폴더에 쌓이기만 함Zotero가 자동 정리
+읽은 내용을 어디 적었는지 모름Obsidian에 구조화된 노트
+초안 쓸 때 매번 처음부터 Claude가 맥락을 기억하고 도움
+발표 자료 만들기 귀찮음 Marp로 마크다운 → 슬라이드
+2
+
+
+--- Page 3 ---
+
+전체 구성: 한눈에 보기
+Researcher (You)
+questions / instructions / feedback
+Claude Code
+AI Research Assistant (CLI)
+search / import read / write notes generate slides
+Zotero
+Paper PDFs
+Bibliography
+Tags & Collections
+Obsidian
+Paper Notes
+Knowledge Base
+Drafts & Daily Logs
+Marp
+Markdown Slides
+PDF Export
+Version Control 3
+
+
+--- Page 4 ---
+
+도구 1: Zotero — 논문 서재
+하는 일
+논문 PDF를 자동으로 수집·분류·관리
+저자, 제목, 저널, 연도 등 서지 정보를 자동 추출
+인용 목록(BibTeX)을 자동 생성
+비유하자면
+도서관 사서가 논문을 받아서 분류하고, 필요할 때 "이 주제 논문 찾아줘"하면 꺼내주는 것
+실제 사용 예시
+DOI 번호만 넣으면 → 논문 정보 + PDF 자동 저장
+"LLM Agent 관련 논문" 검색 → 관련 논문 목록 즉시 반환
+태그(#BPM, #Neuro-Symbolic)로 주제별 분류
+4
+
+
+--- Page 5 ---
+
+도구 2: Obsidian — 연구 두뇌
+하는 일
+읽은 논문, 아이디어, 실험 기록을 구조화된 노트로 관리
+노트 간 링크로 지식의 연결 관계를 시각화
+일일 연구 로그, 실험 기록, 논문 초안까지 한 곳에
+비유하자면
+연구 노트북인데, 모든 페이지가 서로 하이퍼링크로 연결된 것.
+"이 실험 결과"를 클릭하면 "관련 논문 노트"로 바로 이동.
+우리 프로젝트의 노트 구조
+sop-agent/
+├── 00-Hub.md     ← 프로젝트  대시보드      ├── Writing/      ← 논문  초안
+├── Papers/       ← 논문별  읽기  노트        ├── Experiments/  ← 실험  설계 · 기록
+├── Knowledge/    ← 핵심  개념  정리          └── Daily/        ← 일일  연구  로그 5
+
+
+--- Page 6 ---
+
+도구 3: Claude Code — AI 연구 비서
+하는 일
+터미널(명령줄)에서 작동하는 AI 어시스턴트
+코드 작성, 논문 초안, 문헌 검색, 데이터 분석 등 다양한 연구 작업 보조
+프로젝트의 맥락(파일, 히스토리)을 이해하고 기억
+비유하자면
+내 연구실에 상주하는 박사급 RA(Research Assistant).
+프로젝트 폴더를 다 읽어본 상태에서 일을 도와줌.
+핵심 특징
+맥락 인식: 프로젝트 구조, 이전 대화를 기억
+도구 연동: Zotero 검색, Obsidian 노트 작성을 직접 수행
+전문 스킬: 문헌 리뷰, 논문 작성, 통계 분석 등 연구 특화 기능 6
+
+
+--- Page 7 ---
+
+Claude Scholar 스킬 — 연구 단계별 전문가
+Claude Code에 연구 전문 스킬을 추가한 확장입니다.
+연구 단계 스킬 하는 일
+아이디어research-ideation 연구 갭 분석 질문 정식화
+문헌 조사zotero-obsidian-bridge Zotero → Obsidian 노트 자동 생성
+논문 작성ml-paper-writing 학술 논문 구조·문체 지원
+자가 검토paper-self-review 논리·완결성·인용 검증
+문체 교정writing-anti-ai AI스러운 표현 제거
+결과 분석results-analysis 통계 분석 + 과학 도표 생성
+리뷰 대응review-response 리뷰어 코멘트 체계적 응답
+각 스킬은 / 스킬이름 으로 호출하면 자동 실행됩니다.
+7
+
+
+--- Page 8 ---
+
+도구 4: Marp — 발표자료 제작기
+하는 일
+마크다운(텍스트 파일)을 슬라이드 PDF로 변환
+파워포인트 없이, 코드 에디터에서 발표 자료 작성 가능
+버전 관리(Git)와 자연스럽게 통합
+비유하자면
+글을 쓰듯 발표자료를 만드는 것. 디자인은 자동, 내용에만 집중.
+Markdown
+Write content
+Marp CLI
+Auto design
+PDF Slides
+Clean design
+PowerPoint 없이도 전문적인 슬라이드 / 지금 보고 계신 이 자료도 Marp로 만들었습니다 8
+
+
+--- Page 9 ---
+
+실제 연구 흐름 예시 (1~3단계)
+1단계: 논문 수집
+나 : "LLM Agent BPM 관련  논문  찾아줘 "
+Claude → Zotero 에서  검색  → 결과  목록  제시  → 컬렉션에  자동  추가
+2단계: 문헌 정리
+나 : " 저장한  논문들  읽기  노트  만들어줘 "
+Claude → 논문  PDF 읽기  → Obsidian Papers/ 에  노트  생성
+3단계: 초안 작성
+나 : "Related Work 섹션  초안  작성해줘 "
+Claude → Obsidian 노트  참조  → 학술  문체로  초안  → Writing/ 에  저장
+9
+
+
+--- Page 10 ---
+
+실제 연구 흐름 예시 (4~6단계)
+4단계: 자가 검토
+나 : " 초안  검토해줘 "
+Claude → 논리  흐름 , 인용  정확성 , 누락  검토  → Before/After 수정  제안
+5단계: 결과 분석
+나 : " 실험  결과  통계  분석하고  도표  만들어줘 "
+Claude → 데이터  로드  → 통계  검정  → 논문용  Figure 생성
+6단계: 발표 자료
+나 : " 연구  내용으로  발표자료  만들어줘 "
+Claude → Marp 마크다운  작성  → PDF 슬라이드  변환
+모든 단계에서 Claude가 프로젝트 맥락을 유지하며 도움을 줍니다.
+10
+
+
+--- Page 11 ---
+
+도구 간 연결 구조
+Zotero
+Paper PDFs
+Bibliographic metadata
+Tags & Collections
+Source of truth: references
+Obsidian
+Papers/
+Reading notes
+Knowledge/
+Core concepts
+Writing/
+Paper drafts
+Daily/
+Research logs
+Source of truth: knowledge
+bridge
+references.bib
+ Paper Draft (LaTeX)
+Final Submission 11
+
+
+--- Page 12 ---
+
+이 구성의 장점
+1. 정보가 흩어지지 않는다
+논문은 Zotero, 노트는 Obsidian, 코드는 Git — 각각 최적의 도구가 관리
+2. 반복 작업이 줄어든다
+서지정보 수동 입력 → Zotero 자동 추출
+읽기 노트 처음부터 → Claude가 초안 생성
+BibTeX 수동 작성 → Zotero에서 자동 내보내기
+3. 맥락이 유지된다
+Claude는 프로젝트 구조와 이전 작업을 기억
+"지난번 Related Work에서 빠진 부분 보충해줘" 같은 요청 가능
+4. 품질 검증이 내장되어 있다
+인용 검증, 논리 검토, AI 문체 제거가 스킬로 자동화 12
+
+
+--- Page 13 ---
+
+시작하기: 필요한 것들
+도구 설치 방법 비용
+Claude Code brew install claude-code (Mac) Anthropic API 사용료
+Zotero zoteroorg에서 다운로드 무료 (저장 MB)
+Obsidian obsidianmd에서 다운로드 개인 사용 무료
+Marp brew install marp-cli (Mac) 무료 (오픈소스)
+최소 설정 순서
+ Zotero 설치 → 논문 컬렉션 생성
+ Obsidian 설치 → 연구 프로젝트 폴더 구조 생성
+ Claude Code 설치 → 프로젝트 폴더에서 실행
+ Marp 설치 → 마크다운으로 슬라이드 작성
+각 도구의 상세 설정은 별도 가이드를 참고하세요. 13
+
+
+--- Page 14 ---
+
+요약
+Zotero가 논문을 모으고
+Obsidian이 지식을 엮고
+Claude Code가 연구를 돕고
+Marp가 결과를 보여줍니다
+각 도구가 잘하는 일에 집중하고
+Claude Code가 중심에서 연결합니다
+Questions? → larry.kim@zent.kr
+14
