@@ -21,12 +21,31 @@ Use this project as a paper-writing and literature-analysis workspace.
 5. Draft writing in `Writing/literature-review.md`.
 6. Convert mature draft sections into LaTeX under `Writing/latex/sections/`.
 
+## Literature Paper Workflow
+
+For all prior-literature work, follow `Methodology/literature-paper-workflow.md`.
+
+The standard collaboration pattern is:
+
+```text
+Zotero item
+  -> citation key
+  -> Obsidian paper note
+  -> feature matrix row
+  -> claim / gap promotion
+  -> writing draft
+```
+
+Paper notes must not be generic summaries. Each note must explain the paper's role in the current research project.
+
 ## Paper Note Standard
 
 Every paper note should include:
 
 - citation key
 - full title
+- Zotero collection placement
+- project role
 - research problem
 - main claim
 - method
@@ -35,6 +54,8 @@ Every paper note should include:
 - limitations
 - relation to other papers
 - relevance to the current project
+- feature matrix row draft
+- promotion decision
 
 ## Writing Standard
 

@@ -3,5 +3,6 @@
 ~$*
 *.tmp
 *.log
+.obsidian/
 .obsidian/workspace*
 .obsidian/cache/

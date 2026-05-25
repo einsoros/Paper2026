@@ -12,6 +12,7 @@ Start from [00-Hub.md](00-Hub.md).
 - `Analysis/`: comparison matrices and feature extraction
 - `Knowledge/`: durable claims, concepts, and research gaps
 - `Experiments/`: vignette and survey design
+- `Methodology/`: standard workflows for literature processing and research activity
 - `Writing/`: outlines, review drafts, and LaTeX manuscript files
 - `Zotero/`: citation-key and bibliography workflow notes
 - `Workflow/`: research workflow and daily completion plans
@@ -41,6 +42,8 @@ Keep Zotero as the source of truth for PDF files, metadata, annotations, and Bib
 ## Claude Use
 
 Claude should help extract structure, compare papers, draft sections, and challenge weak claims. It should not invent citations or promote unsupported claims.
+
+For prior-literature work, use the standard method in [Methodology/literature-paper-workflow.md](Methodology/literature-paper-workflow.md).
 
 ## Current Research Focus
 

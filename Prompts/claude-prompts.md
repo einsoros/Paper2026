@@ -18,6 +18,16 @@ Return a row that fits Analysis/paper-feature-matrix.md.
 Do not invent missing details. Mark missing evidence as "not stated".
 ```
 
+## Process One Literature Paper
+
+```text
+Use the Paper2026 literature paper workflow.
+Create or update the paper note for [citation key].
+Focus on the role of this paper in my research, not just summary.
+Then propose a feature-matrix row and identify any claims that can or cannot be promoted.
+Do not invent metadata, citations, findings, or page numbers.
+```
+
 ## Compare Papers
 
 ```text

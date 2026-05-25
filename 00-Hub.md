@@ -24,11 +24,12 @@
 2. [Today Completion Plan](Workflow/today-completion-plan_260522.md)
 3. [Zotero-Obsidian Setup](Workflow/zotero-obsidian-setup.md)
 4. [Zotero Collection Structure](Zotero/collection-structure.md)
-5. [Research Workflow](Workflow/research-workflow.md)
-6. [Construct Definition](Analysis/construct-definition_attribution-ambiguity.md)
-7. [Research Model](Analysis/research-model.md)
-8. [Vignette Design](Experiments/vignette-design.md)
-9. [Literature Review Draft](Writing/literature-review.md)
+5. [Literature Paper Workflow](Methodology/literature-paper-workflow.md)
+6. [Research Workflow](Workflow/research-workflow.md)
+7. [Construct Definition](Analysis/construct-definition_attribution-ambiguity.md)
+8. [Research Model](Analysis/research-model.md)
+9. [Vignette Design](Experiments/vignette-design.md)
+10. [Literature Review Draft](Writing/literature-review.md)
 
 ## Source Files Reviewed
 
