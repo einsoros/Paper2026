@@ -26,6 +26,11 @@ Weiner(1985)의 귀인이론에 따르면: - 성과 원인을 특정 주체에 �
 → 이 상태를 **성과 기여 귀속 모호성(Performance Attribution Ambiguity)**으로 개념화
 → 상세 정의: `construct-definition_attribution-ambiguity.md`
 
+### Orlikowski(2007) 연결
+Orlikowski(2007)는 사회적인 것과 물질적인 것이 일상적 실천에서 구성적으로 얽혀있으며 분리 불가능하다고 주장한다(사회물질성). 인간-AI 협업 산출물은 인간의 판단과 AI의 생성이 반복적으로 얽히면서 창발하는 사회물질적 결과물이므로, 기여 원천의 분리는 구조적으로 불가능하다. 이것이 Attribution Ambiguity 발생의 존재론적 근거다.
+
+→ 상세 논리: Sources/Papers/Orlikowski (2007)사회물질성.md
+
 ---
 
 ## Layer 3 — 결과: 그게 왜 공정성 문제로 이어지는가
