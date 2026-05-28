@@ -41,3 +41,13 @@ Leonardi의 대안: Imbrication
 ## 연결 파일
 - 상세 인용+논리: `Sources/Papers/Leonardi (2011)Imbrication.md`
 - 연구모델: `Analysis/logic-architecture.md` Layer 2
+
+## 추후 활용 메모
+pp. 159-163 CrashLab 임브리케이션 2~5 사례:
+IV 조작화 및 실험 시나리오 설계 시 재참고
+어포던스→루틴변화, 제약→기술변화의 반복 패턴
+
+## 핵심 인용 3개 (업데이트)
+1. "To imbricate means to arrange distinct elements in overlapping patterns so that they function interdependently." (p. 150) — 임브리케이션 핵심 정의
+2. "the way imbrication occurs at Time 1 will influence the way it occurs at Time 2." (p. 152) — 축적성, H1 핵심 근거
+3. "human and material agencies are constantly imbricated with one another and this chain of imbrications occurs in a path dependent manner." (p. 163) — 경로의존성, H1 최종 근거
