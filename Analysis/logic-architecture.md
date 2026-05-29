@@ -92,4 +92,9 @@ Leonardi(2011)는 인간 행위성과 물질 행위성이 반복적으로 맞물
 - 구성개념 정의: `construct-definition_attribution-ambiguity.md`
 - 연구모델·가설: `research-model.md`
 - 측정 항목: `measurement-items.md`
-- 논문 정리: `Sources/Papers/`
+- 논문 정리: `Sources/Papers/
+
+### He et al.(2025) 연결 — 실증적 선행연구 gap
+He et al.(2025)는 지식 노동자들이 인간-AI 공동 창작물에서 기여 유형·량·주도성에 따라 다른 수준의 크레딧을 부여하며, 동일 기여에도 AI < 인간의 체계적 비대칭이 존재함을 실증하였다. 그러나 이 연구는 창작 맥락에 한정되며, 조직 성과평가 맥락, 복합적 협업 워크플로우, 실제 귀속 실천은 다루지 못했다. 선생님 연구는 이 gap에 직접 응답한다.
+
+→ 상세 논리: Sources/Papers/He (2025) — AI Attribution in Co-Creation.md
