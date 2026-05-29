@@ -14,6 +14,12 @@
 
 **이 전제가 인간-AI 협업 환경에서 흔들린다.**
 
+### 이론적 근거
+Orlikowski(2007)는 물질성(AI)이 조직 실천에 가끔 등장하는 외부 요소가 아니라 모든 실천에 항상 내재되어 있다고 주장한다. 즉 AI의 업무 개입은 예외적 사건이 아니라 조직 실천의 구조적 조건이다. He et al.(2025)는 현재 AI 귀속 정책이 AI 사용 여부만을 요구하는 이분법적 접근을 취하며, 서로 다른 종류의 AI 기여를 구분하는 기준이 부재함을 실증하였다. 이 두 가지가 기존 평가체계의 전제를 흔드는 이론적·실증적 근거다.
+
+→ 상세 근거: Sources/Papers/Orlikowski (2007) — Quick Reference.md
+→ 실증 근거: Sources/Papers/He (2025) — Quick Reference.md
+
 ---
 
 ## Layer 2 — 문제: 그 전제가 왜 흔들리는가
@@ -65,12 +71,17 @@ Leonardi(2011)는 인간 행위성과 물질 행위성이 반복적으로 맞물
 
 ## Layer 4 — 조절: 무엇이 그 영향을 완화하는가
 
-평가기준이 명확하게 제시될 경우:
-- AI 활용 성과에서 인간 기여를 판단하는 기준이 존재
-- Accuracy, Consistency 훼손이 부분적으로 보완됨
+귀속 모호성이 절차공정성을 훼손하는 경로는 accuracy와 consistency의 붕괴에서 시작된다. Leventhal(1980)은 절차공정성의 핵심 기준으로 일관된 규칙의 적용(consistency)과 정확한 정보에 근거한 판단(accuracy)을 제시하였다(Colquitt, 2001 재인용). 평가기준이 명확하게 제시될 경우:
+
+- AI 활용 성과에서 인간 기여를 판단하는 기준이 존재 → accuracy 훼손 부분 보완
+- 모든 평가자가 동일한 기준을 적용 → consistency 훼손 부분 보완
 - 귀속 모호성이 절차공정성에 미치는 부정적 영향이 약화
 
 → **평가기준 명확성**이 조절변수로 작동 (H4)
+
+논리 구조:
+귀속 모호성 → accuracy·consistency 훼손 → 절차공정성 저하
+        ↑ 평가기준 명확성이 이 경로를 완화
 
 ---
 
@@ -85,16 +96,22 @@ Leonardi(2011)는 인간 행위성과 물질 행위성이 반복적으로 맞물
 → "AI가 평가하면 불공정하다"가 아니라
   "AI와 협업한 사람을 어떻게 평가할 수 있는가"라는 새로운 질문
 
----
-
-## 연결 파일
-
-- 구성개념 정의: `construct-definition_attribution-ambiguity.md`
-- 연구모델·가설: `research-model.md`
-- 측정 항목: `measurement-items.md`
-- 논문 정리: `Sources/Papers/
-
 ### He et al.(2025) 연결 — 실증적 선행연구 gap
 He et al.(2025)는 지식 노동자들이 인간-AI 공동 창작물에서 기여 유형·량·주도성에 따라 다른 수준의 크레딧을 부여하며, 동일 기여에도 AI < 인간의 체계적 비대칭이 존재함을 실증하였다. 그러나 이 연구는 창작 맥락에 한정되며, 조직 성과평가 맥락, 복합적 협업 워크플로우, 실제 귀속 실천은 다루지 못했다. 선생님 연구는 이 gap에 직접 응답한다.
 
 → 상세 논리: Sources/Papers/He (2025) — AI Attribution in Co-Creation.md
+
+---
+
+## 연결 파일
+
+- 구성개념 정의: `Analysis/construct-definition_attribution-ambiguity.md`
+- 연구모델·가설: `Analysis/research-model.md`
+- 측정 항목: `Analysis/measurement-items.md`
+- 논문 정리: `Sources/Papers/`
+  - Weiner (1985) Attribution Theory.md
+  - Colquitt (2001) - On the Dimensionality of Organizational Justice.md
+  - Orlikowski (2007)사회물질성.md
+  - Leonardi (2011)Imbrication.md
+  - He (2025) — AI Attribution in Co-Creation.md
+
