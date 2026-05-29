@@ -3,6 +3,23 @@
 All items are draft items. They need translation refinement, pilot testing, and reliability/validity checks.
 
 ---
+## Human-AI Collaborative Integration (협업 결합도)
+IV measure. Adapted from Van der Vegt et al.(2001) and Morgeson & Humphrey(2006).
+Scale anchor: 1 = 전혀 그렇지 않다, 7 = 매우 그렇다
+
+| 번호 | 문항 | 출처 척도 | 이론적 근거 |
+|---|---|---|---|
+| 1 | 나는 업무 결과물을 완성하기 위해 AI의 산출물에 의존한다. | Van der Vegt et al.(2001) TI-2번 적응 | Orlikowski(2007) — 구조적 얽힘 |
+| 2 | 나는 업무를 수행하기 위해 AI와 긴밀하게 협력해야 한다. | Van der Vegt et al.(2001) TI-4번 적응 | Leonardi(2011) — 임브리케이션 |
+| 3 | 내 업무 활동은 AI의 산출물에 의해 크게 영향을 받는다. | Morgeson & Humphrey(2006) RI-1번 적응 | Orlikowski(2007) — 사회물질적 구성 |
+| 4 | AI의 도움 없이는 내 업무를 완수하기 어렵다. | Morgeson & Humphrey(2006) RI-3번 적응 | Leonardi(2011) — 경로의존적 얽힘 |
+| 5 | 나의 업무 성과는 AI와의 협업 방식에 따라 크게 달라진다. | Van der Vegt et al.(2001) TI-1번 적응 | Orlikowski(2007) + Leonardi(2011) |
+
+⚠️ 기존 Task Interdependence 척도(Van der Vegt et al., 2001) 및 Received Interdependence 척도(Morgeson & Humphrey, 2006)를 인간-AI 협업 맥락에 맞게 수정하여 사용. 수정 근거: Orlikowski(2007) 사회물질성 및 Leonardi(2011) 임브리케이션 이론.
+
+## 변경 이력 추가
+- Human-AI Collaborative Integration (IV) 섹션 신규 추가 (Van der Vegt et al., 2001; Morgeson & Humphrey, 2006 적응)
+
 
 ## Performance Attribution Ambiguity
 Scale anchor: 1 = 전혀 그렇지 않다, 7 = 매우 그렇다

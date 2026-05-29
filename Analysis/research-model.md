@@ -31,6 +31,10 @@ Perceived procedural justice of performance appraisal
 - Leonardi(2011): 임브리케이션 — 협업이 반복될수록 인간 행위성과 AI 물질성이 경로의존적으로 깊어져 기여 원천 식별이 어려워짐
 - He et al.(2025): 실증적 근거 — 기여 유형·량·주도성이 복합될수록 귀속 판단이 더 어려워짐 (⚠️ 창작 맥락, 선행연구 언급 수준)
 
+**측정 근거:**
+- Van der Vegt et al.(2001): Task Interdependence 척도 — 구조적 상호의존 측정 방식 차용, 인간-AI 맥락으로 수정
+- Morgeson & Humphrey(2006): WDQ Received Interdependence 척도 — "AI 없이는 업무 완수 불가" 구조적 결합 측정
+
 ### H2. 성과 기여 귀속 모호성 → 절차공정성 지각
 성과 기여 귀속 모호성이 높을수록 성과평가 절차공정성 지각은 낮아질 것이다.
 
@@ -58,6 +62,16 @@ Perceived procedural justice of performance appraisal
 - He et al.(2025): 이분법적 접근의 한계 — 스펙트럼 접근(기준 명확화)이 귀속 판단을 개선할 수 있음 (⚠️ 창작 맥락)
 - logic-architecture Layer 4: 평가기준 명확성이 accuracy·consistency 훼손 경로를 완화하는 메커니즘
 
+- Wang(2023): 형식성(formality)이 역할 명확성을 매개로 절차공정성에 정적 영향 — 평가기준 명확성이 공정성 지각을 높이는 직접 근거
+- Leventhal(1980): 절차공정성의 6가지 기준 — consistency와 accuracy는 명확한 기준이 전제되어야 작동 가능 (Colquitt 통해 간접 인용)
+
+**이론적 근거:**
+- Leventhal(1980): 절차공정성 6기준 — consistency와 accuracy는 명확한 기준이 전제되어야 작동 가능 (Colquitt 통해 간접 인용)
+- Colquitt(2001): accuracy와 consistency는 명확한 기준이 있을 때 회복 가능
+- Wang(2023) Formality: 형식성이 역할 명확성을 매개로 절차공정성을 높인다 — 평가기준 명확성이 공정성 지각을 높이는 직접 근거
+- He et al.(2025): 이분법적 접근의 한계 — 스펙트럼 접근(기준 명확화)이 귀속 판단을 개선할 수 있음 (⚠️ 창작 맥락)
+- logic-architecture Layer 4: 평가기준 명확성이 accuracy·consistency 훼손 경로를 완화하는 메커니즘
+
 ## Recommended Analysis
 
 **Primary analysis:**
@@ -79,13 +93,12 @@ Perceived procedural justice of performance appraisal
 - "모호성이 생기더라도 기준이 명확하면 공정성 훼손이 줄어든다"는 논리가 자연스럽다.
 
 ## 연결 파일
-
 | 가설 | 핵심 근거 논문 | 파일 경로 |
 |---|---|---|
-| H1 | Orlikowski(2007), Leonardi(2011), He et al.(2025) | Sources/Papers/ |
+| H1 | Orlikowski(2007), Leonardi(2011), He et al.(2025), Van der Vegt et al.(2001), Morgeson & Humphrey(2006) | Sources/Papers/ |
 | H2 | Weiner(1985), Colquitt(2001), He et al.(2025) | Sources/Papers/ |
 | H3 | Weiner(1985) — 귀인 연쇄 구조 | Sources/Papers/ |
-| H4 | Colquitt(2001)/Leventhal(1980), He et al.(2025) | Sources/Papers/ |
+| H4 | Leventhal(1980), Colquitt(2001), Wang(2023) Formality, He et al.(2025) | Sources/Papers/ |
 
 - 구성개념 정의: `Analysis/construct-definition_attribution-ambiguity.md`
 - 논리 뼈대: `Analysis/logic-architecture.md`
