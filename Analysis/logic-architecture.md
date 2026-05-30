@@ -117,3 +117,70 @@ He et al.(2025)는 지식 노동자들이 인간-AI 공동 창작물에서 기�
   - Leonardi (2011)Imbrication.md
   - He (2025) — AI Attribution in Co-Creation.md
 
+## 문헌 보강 필요 섹션 (Literature Gap Tracker)
+
+### Layer 1 — 배경 문헌 ★★★
+현재 공백: AI 업무 도입 현황, 조직 성과평가 체계 변화 실태
+필요한 논문 방향:
+- 생성형 AI의 조직 내 업무 도입 실태 (지식노동 맥락)
+- AI 도입이 성과평가 체계에 미치는 영향
+- 인간-AI 협업 업무 맥락 정의 논문
+상태: ✅ 1차 탐색 완료
+확보 논문:
+- Brynjolfsson et al. (2025) Generative AI at Work — QJE
+- Pan et al. (2026) AI in Performance Appraisal — HRM
+- Dell'Acqua et al. (2023) Jagged Technological Frontier — Organization Science
+
+### Layer 2 — 귀인이론 조직 맥락 적용 ★★
+현재 공백: Weiner(1985) 하나로 커버 중. 조직 맥락 적용 중간 연구 없음
+필요한 논문 방향:
+- 귀인이론을 조직 성과평가에 적용한 연구
+- 외부 귀인 요인(기술, 도구)이 평가에 미치는 영향 연구
+상태: ✅ 1차 탐색 완료
+확보 논문:
+- Weiner (1985) — 이미 보유 (핵심 이론)
+- Martinko et al. (2019) Attribution theory — JOB ← 신규
+- Hewett et al. IJHRM — Attribution Theories in HRM review ← 신규
+
+### Layer 3 — 성과평가-절차공정성 연결 ★★★
+현재 공백: Colquitt(2001) 하나. 성과평가 맥락 연결 연구 없음
+필요한 논문 방향:
+- 성과평가 절차와 절차공정성 지각 연구
+- 평가 정보 불완전성이 공정성 지각에 미치는 영향
+상태: ✅ 1차 탐색 완료
+확보 논문:
+- Colquitt (2001) — 이미 보유 (핵심 이론)
+- Levy & Williams (2004) Journal of Management — 성과평가-공정성 리뷰 ← 신규
+- Lyu et al. (2023) SAGE Open — 성과평가 공정성 최신 실증 ← 신규
+
+### Layer 4 — 조절변수 근거 보강 ★★
+현재 공백: 평가기준 명확성이 귀속 모호성의 부정적 영향을 완화한다는 직접 실증 연구 없음
+필요한 논문 방향:
+- 평가기준 명확성과 공정성 지각 연구
+- 모호한 평가 상황에서 기준 명확성의 완충 효과 연구
+상태: ✅ 1차 탐색 완료
+확보 논문:
+- Leventhal (1980) — 이미 보유 (핵심 이론, 서지정보만)
+- Wang et al. (2023) Formality — Accounting & Finance ← 신규
+
+### Layer 5 — 선행연구 비교 ★★
+현재 공백: AI 공정성 관련 유사연구와 체계적 비교 없음
+필요한 논문 방향:
+- AI 기반 의사결정 공정성(algorithmic fairness) 연구
+- AI 투명성·설명가능성과 공정성 연구
+- 본 연구와의 차별점 명시용
+상태: ✅ 1차 탐색 완료
+확보 논문:
+- He et al. (2025) — 이미 보유 (실증적 선행연구)
+- Pan et al. (2026) HRM — AI in Performance Appraisal ← Layer 1 공유
+- Starke et al. (2022) Big Data & Society — Algorithmic fairness 리뷰 ← 신규
+
+### 방법론 보강 ★
+현재 공백: 척도 적응 정당화, 조절매개 유사연구 없음
+필요한 논문 방향:
+- 인간-AI 협업 맥락 설문 연구 사례
+- PROCESS Model 14 활용 유사 연구
+상태: ✅ 1차 탐색 완료
+확보 논문:
+- Heggestad et al. (2019) Journal of Management — 척도 적응 가이드라인 ← 신규
+- 조절매개 유사연구 → 기확보 논문(Wang et al. 2023 등)에서 인용으로 대체
