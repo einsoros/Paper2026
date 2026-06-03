@@ -1,6 +1,12 @@
+---
+last-updated: 2026-06-02
+version: 3.6단계 구조 리뷰 완료 — V1~V7 추적 섹션 추가
+related-review: progress/review-2026-06-01.md
+---
+
+# context-summary
 
 ## 연구자 정보
-
 - 인사조직학 논문 작성 중
 - 연구실 요구사항: 모든 문항이 이론적 근거로 지지되어야 함
 - 방향성: 정성연구 → 실증적 정량연구 전환, 주장 범위 명확하고 간결하게 유지
@@ -30,7 +36,7 @@ H4 조절 평가기준 명확성 (Moderator) AI Literacy → 통제변수 (확�
 
 - Obsidian Vault: /Users/user/Documents/Codex/2026-05-22/new-chat/Paper
 - GitHub: https://github.com/einsoros/Paper2026
-- Git 작업 터미널: cd ~/Documents/Paper2026
+- Git 작업 터미널: cd ~/Documents/Paper2026 (또는 ~/Paper)
 - Zotero: 논문 관리
 
 
@@ -44,6 +50,10 @@ Analysis/
 - paper-feature-matrix.md — 논문 비교 매트릭스
 - Literature Map.md — 전체 논문 섹션별 인용 지도
 
+progress/
+- context-summary.md — 작업 컨텍스트 (이 파일)
+- review-2026-06-01.md — 구조 리뷰 V1~V7 진단
+
 Sources/Papers/
 - Weiner (1985) + QR
 - Colquitt (2001) + QR
@@ -55,7 +65,7 @@ Sources/Papers/
 - Wang et al. (2023) Formality QR
 
 
-## 전체 확보 논문 현황 (1라운드 — 19편)
+## 전체 확보 논문 현황 (총 29편)
 
 ### 핵심 이론 논문 (Core Anchors)
 
@@ -65,7 +75,7 @@ Sources/Papers/
 | Colquitt (2001) | JAP | DV 정의+측정 |
 | Orlikowski (2007) | Organization Science | IV 존재론적 근거 |
 | Leonardi (2011) | MIS Quarterly | H1 메커니즘 |
-| He et al. (2025) | CSCW | 실증 선행연구 ⚠️ 창작 맥락 |
+| He et al. (2025) ⚠️ | CSCW | 실증 선행연구 ⚠️ 창작 맥락 — V7 |
 
 ### IV 측정 근거
 
@@ -74,12 +84,28 @@ Sources/Papers/
 | Van der Vegt et al. (2001) | Personnel Psychology | Task Interdependence 척도 적응 |
 | Morgeson & Humphrey (2006) | JAP | Received Interdependence 척도 적응 |
 
+### H1 실증 보강 (2라운드)
+
+| 논문 | 저널 | 역할 |
+| --- | --- | --- |
+| Maasland & Weißmüller (2022) | Frontiers in Psychology | HRM 맥락 AI→책임 귀속 모호성 실증 |
+| Douer & Meyer (2021) | ACM TIIS | AI 보조 의사결정→귀속 모호성 이론+실증 |
+
+### H2 연결고리 (2라운드)
+
+| 논문 | 저널 | 역할 |
+| --- | --- | --- |
+| Van den Bos (2001) | JPSP | UMT — 불확실성→공정성 민감도 (3개 실험) |
+| Hartmann & Slapničar (2012) | Management Accounting Research | 성과평가 맥락 불확실성→공정성 실증 |
+
 ### H4 조절변수 근거
 
 | 논문 | 저널 | 역할 |
 | --- | --- | --- |
 | Leventhal (1980) | Book Chapter | 절차공정성 6기준 (Colquitt 통해 간접인용) |
-| Wang et al. (2023) Formality | Accounting & Finance | formality→공정성 실증 ⚠️ 제조업 맥락 |
+| Wang et al. (2023) Formality | Accounting & Finance | formality→공정성 실증 ⚠️ 제조업 |
+| Erdogan (2002) | HRMR | 평가기준→공정성 선행요인 HR 맥락 이론 (2라운드) |
+| Kim (2016) | Public Personnel Management | 평가기준 명확성→공정성 직접 실증 (2라운드) |
 
 ### Layer 1 배경 문헌
 
@@ -88,6 +114,8 @@ Sources/Papers/
 | Brynjolfsson et al. (2025) | QJE | 생성형 AI 업무 도입 실증 |
 | Pan et al. (2026) | Human Resource Management | AI 성과평가 맥락 + Layer 5 차별화 공유 |
 | Dell'Acqua et al. (2023) | Organization Science | AI 협업이 역량 식별 어렵게 함 실증 |
+| Pan & Froese (2023) | HRMR | AI+HRM 학제간 리뷰 (2라운드) |
+| Budhwar et al. (2022) | IJHRM | AI+HRM 도전과 기회 (2라운드) |
 
 ### Layer 2 귀인이론 보강
 
@@ -116,69 +144,49 @@ Sources/Papers/
 | --- | --- | --- |
 | Wang et al. (2022) AI Literacy | BIT | AI Literacy 척도 — 통제변수 |
 | Heggestad et al. (2019) | Journal of Management | 척도 적응 방법론 정당화 |
+| Hayes (2018) | Guilford Press | PROCESS Model 14 매개조절 검증 (2라운드) |
+| MacKenzie et al. (2011) | MIS Quarterly | 신규 construct 개발 절차 정당화 (2라운드) |
 
 
-## 문헌 보강 2라운드 — 보강 대상 및 진행 현황
+## 구조 리뷰 추적 (V1~V7)
 
-진단 기준: 학위논문 심사 방어 가능성 기준으로 논리 공백 및 맥락 불일치 식별
+진단 일자: 2026-06-01
+진단 파일: `progress/review-2026-06-01.md`
 
-### 🔴 긴급 (논리 공백 — 심사 질문 직격)
+### 🔴 긴급 — 5단계 진입 전 결정 필수
 
-#### [B1] H2 연결고리 — 귀속 모호성→절차공정성 중간 메커니즘
-- **공백**: Weiner(1985)→Colquitt(2001) 직접 연결 시 논리 점프 발생
-- **보강 논리**: 귀속 모호성(불확실성) → 공정성 판단 민감도 증가 → 절차공정성 지각 저하
-- **확정 논문**:
-  - ✅ Van den Bos (2001) — *JPSP* 80(6), 931–941 — Uncertainty Management Theory 실험 실증 (3개 실험) — **Zotero: 03_Model_Hypotheses/MV_Attribution_Ambiguity**
-  - ✅ Hartmann & Slapničar (2012) — *Management Accounting Research* 23(1), 17–33 — 과업불확실성×성과평가→절차공정성 실증 (은행업 178명) — **Zotero: 03_Model_Hypotheses/DV_Procedural_Justice**
-- **인용 방식**: Lind & Van den Bos (2002)는 Van den Bos (2001)에서 간접인용 가능 — 설명력 충분
-- **상태**: 🔲 논문 확보 대기
+| 항목 | 내용 | 영향 파일 | 상태 |
+|------|------|---------|------|
+| V1 | MV 응답자 시점 통일 (평가 대상자) | measurement-items, construct-definition | ✅ 반영 완료 |
+| V2 | IV 측정 vs 실험 조작 결정 | research-model, measurement-items | 🔲 5단계 결정 대기 |
 
-#### [B2] 방법론 — 매개효과 검증 근거 부재
-- **공백**: research-model.md에 PROCESS Model 14 명시되어 있으나 Hayes 인용 없음
-- **확정 논문**:
-  - 🔲 Hayes (2013) — *Introduction to Mediation, Moderation, and Conditional Process Analysis* — Guilford Press — **Zotero: 04_Method/Measurement_Scales**
-- **상태**: 🔲 논문 확보 대기
+### 🟡 보완 권장 — 5단계 진행 중
 
-#### [B3] H1 실증 보강 — AI 협업→귀속 모호성 조직 맥락 실증 부재
-- **공백**: Orlikowski+Leonardi는 이론, He et al.은 창작 맥락 ⚠️. 지식노동/조직 맥락 실증 없음
-- **탐색 방향**: AI 협업에서 책임/기여 모호성 실증 (CSCW, MISQ, OS, JOB 계열)
-- **후보**: Dell'Acqua et al.(2023) 부분 활용 가능하나 귀속 모호성 직접 측정 아님 — 추가 탐색 필요
-- **상태**: 🔲 탐색 필요
+| 항목 | 내용 | 영향 파일 | 상태 |
+|------|------|---------|------|
+| V3 | 7기준 중 3기준 선택 정당화 | logic-architecture, construct-definition | ✅ 반영 완료 |
+| V4 | H4 양방향 가능성 인정 | research-model | ✅ 반영 완료 |
+| V5 | AI Literacy 통제변수 정당화 | research-model | ✅ 반영 완료 |
+| V6 | 보조 DV 활용 분석 계획 | measurement-items, research-model | ✅ 메모 반영, 6단계에서 최종 결정 |
 
-### 🟡 보완 권장 (방어력 강화)
+### 🟢 본문 작성 시 반영
 
-#### [B4] H4 조절 — 평가기준 명확성 지식노동/HR 맥락 논문 부재
-- **공백**: Wang et al.(2023) 제조업 맥락 ⚠️, Leventhal(1980) 간접인용 구조
-- **탐색 방향**: 역할명확성 또는 평가기준 명확성→절차공정성 HR/지식노동 맥락 실증
-- **상태**: 🔲 탐색 필요
-
-#### [B5] MV construct 개발 방법론 정당화
-- **공백**: Attribution Ambiguity는 신규 construct — 개발 절차 정당화 논문 부재
-- **후보**: MacKenzie, Podsakoff & Podsakoff (2011) — *JOM* — construct 개발 절차
-- **상태**: 🔲 탐색 필요
-
-#### [B6] 서론 배경 — AI+HRM 리뷰 논문 보강
-- **공백**: AI가 HR 의사결정(특히 성과평가)에 도입되는 현황 리뷰 부재
-- **탐색 방향**: AI in HRM 또는 AI in performance appraisal 리뷰/메타분석
-- **상태**: 🔲 탐색 필요
-
-### 보강 순서 (확정)
-1. [B1] Van den Bos (2001) + Hartmann & Slapničar (2012) ← 현재 진행 중
-2. [B2] Hayes (2013)
-3. [B3] H1 실증 보강 논문 탐색
-4. [B4] H4 조절 HR 맥락 논문 탐색
-5. [B5] MacKenzie et al. (2011) 확인
-6. [B6] AI+HRM 리뷰 논문 탐색
+| 항목 | 내용 | 영향 파일 | 상태 |
+|------|------|---------|------|
+| V7 | He et al.(2025) 의존도 분산 | Literature Map, logic-architecture, research-model | ✅ 인용 전략 명시, 7단계에서 실제 재분배 |
+| F1 | 가설 표현의 학술적 정밀성 | research-model | 🔲 7단계 |
+| F2 | H3 매개효과 가설의 명시성 | research-model | 🔲 7단계 |
+| F3 | 통제변수 추가 검토 (인구통계) | measurement-items, research-model | 🔲 6단계 |
 
 
 ## 측정 문항 현황
 
 - IV (5문항): Van der Vegt + Morgeson 적응, Orlikowski+Leonardi 정당화
-- MV (6문항): Weiner, Orlikowski, Leonardi, He et al. 근거
-- DV (5문항): Colquitt(2001) adapted
-- MOD (4문항): Leventhal + Colquitt 근거
+- MV (6문항): Weiner, Orlikowski, Leonardi, He et al. + Douer & Meyer, Maasland & Weißmüller 근거 (V1 응답자 시점 통일)
+- DV (5문항): Colquitt(2001) adapted + Van den Bos, Hartmann & Slapničar 보강
+- MOD (4문항): Leventhal + Colquitt + Erdogan, Kim 근거
 - Control AI Literacy (4문항): Wang et al.(2022) adapted
-- Secondary DV Evaluation Acceptance (3문항): 변경 없음
+- Secondary DV Evaluation Acceptance (3문항): V6 강건성 검정 활용 예정
 
 
 ## Zotero 폴더 구조
@@ -199,23 +207,42 @@ Paper2026/
 └── 04_Method
     └── Measurement_Scales ← Wang(2022), Heggestad(2019) + [B2] Hayes(2013) 추가 예정
 
+Paper2026/ 
+├── 00_Core_Anchors 
+├── 01_Introduction
+ │ ├── AI_HRM_Background ← Brynjolfsson, Dell'Acqua, Starke, Pan, Pan & Froese, Budhwar
+ │ └── Human_AI_Collaboration 
+├── 02_Theory 
+ │ ├── Attribution_Theory ← Martinko, Hewett 
+ │ ├── Procedural_Justice 
+ │ └── Sociomateriality_Imbrication 
+├── 03_Model_Hypotheses 
+ │ ├── DV_Procedural_Justice ← Levy & Williams, Lyu, Pan, Hartmann & Slapničar
+ │ ├── IV_Human_AI_Collaboration ← Van der Vegt, Morgeson, Maasland & Weißmüller 
+ │ ├── MOD_Criteria_Clarity_AI_Literacy ← Wang(2023), Erdogan, Kim 
+ │ └── MV_Attribution_Ambiguity ← Van den Bos, Douer & Meyer 
+└── 04_Method 
+    └── Measurement_Scales ← Wang(2022), Heggestad, Hayes, MacKenzie
+
 ## 작업 진행 현황
 
 ✅ 1단계 — 논문 뼈대 완료
 ✅ 2단계 — 연구모델 정교화 완료
 ✅ 3단계 — 문헌 보강 1라운드 완료 (총 19편)
-🔄 3.5단계 — 문헌 보강 2라운드 진행 중
+✅ 3.5단계 — 문헌 보강 2라운드 완료 (총 29편)
   - ✅ 보강 대상 진단 완료 (B1~B6 식별)
-  - 🔲 [B1] Van den Bos (2001) + Hartmann & Slapničar (2012) 확보
-  - 🔲 [B2] Hayes (2013) 확보
-  - 🔲 [B3] H1 실증 보강 논문 탐색
-  - 🔲 [B4] H4 HR 맥락 논문 탐색
-  - 🔲 [B5] MacKenzie et al. (2011) 확인
-  - 🔲 [B6] AI+HRM 리뷰 논문 탐색
-🔲 4단계 — 문헌 읽기 및 QR 작성 (기존 8편 + 2라운드 신규)
-🔲 5단계 — IV 설계 방식 최종 확정
-🔲 6단계 — 설문 설계 구체화
-🔲 7단계 — 논문 본문 작성
+  - ✅ B1~B6 전체 논문 탐색 완료
+  - ✅ Zotero 추가 완료 (B1~B6 전체)
+  - ✅ Literature Map 업데이트 완료
+  - ✅ context-summary 최종 업데이트
+✅ 3.6단계 — 전체 구조 리뷰 완료
+  - ✅ V1~V7 취약지점 진단 (progress/review-2026-06-01.md)
+  - ✅ 6개 Analysis 파일에 V 플래그 반영
+  - ✅ context-summary V 추적 섹션 추가
+🔲 4단계 — 신규 확보 논문 QR 작성 (기존 8편 + 2라운드 10편)
+🔲 5단계 — IV 설계 방식 최종 확정 (V1·V2 결정 필수)
+🔲 6단계 — 설문 설계 구체화 (V6 결정 반영)
+🔲 7단계 — 논문 본문 작성 (V7, F1~F3 반영)
 
 
 ## 지원 방식 유지를 위한 핵심 사항
@@ -227,3 +254,39 @@ Paper2026/
 - Zotero 위치: 논문 역할에 따라 폴더 안내
 - 진행 상황: 체크박스로 추적
 - cd ~/Documents/Paper2026 먼저 드리지 않기 (이미 거기 계심 ㅋㅋ)
+
+
+## Daily Wrap-up 체크리스트
+
+작업 종료 전 아래 순서로 점검 후 git push.
+
+### 1. Analysis 파일 6개 점검
+- [ ] construct-definition_attribution-ambiguity — Claims 이론적 근거 보강 여부
+- [ ] Literature Map — 신규 논문 추가 및 섹션별 인용 업데이트 여부
+- [ ] logic-architecture — Layer별 이론 근거 + Gap Tracker 업데이트 여부
+- [ ] measurement-items — 문항별 이론적 근거 열 업데이트 여부
+- [ ] paper-feature-matrix — 신규 논문 행 추가 + 파일 연결 테이블 업데이트 여부
+- [ ] research-model — 가설별 이론적 근거 + 연결 파일 테이블 업데이트 여부
+
+### 2. context-summary 업데이트
+- [ ] 작업 진행 현황 체크박스 업데이트
+- [ ] 신규 확보 논문 목록 반영
+- [ ] 다음 작업 세션 시작점 명시
+
+### 3. Git push
+- [ ] git add .
+- [ ] git commit -m "Daily: [날짜] [작업 내용 한 줄 요약]"
+- [ ] git push
+
+
+## 다음 세션 시작점
+
+**우선 결정 사항 (5단계 진입 전):**
+- V1 ✅ 반영 완료 (MV 응답자 시점 통일)
+- V2 🔲 IV 측정 vs 실험 조작 결정 — 5단계 핵심 의사결정
+
+**다음 작업 옵션:**
+- Option A: 4단계 — 신규 논문 QR 작성 (Van den Bos → Hartmann & Slapničar → Maasland & Weißmüller 순)
+- Option B: 5단계 — V2 결정부터 진행 (IV 설계 방식 확정)
+
+권장 순서: 4단계 QR 작성 후 5단계 진입 (QR 작성 과정에서 V2 결정에 필요한 정보 보강 가능)

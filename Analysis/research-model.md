@@ -1,4 +1,8 @@
-# Research Model
+---
+last-updated: 2026-06-02
+version: V1~V7 구조 리뷰 반영 (V2 5단계 결정 대기)
+related-review: progress/review-2026-06-01.md
+---
 
 ## Core Model
 
@@ -14,12 +18,15 @@ Perceived procedural justice of performance appraisal
 
 | Role | Variable | Korean label | Current status |
 |---|---|---|---|
-| IV | Human-AI collaborative integration | 인간-AI 협업 결합도 | 실험 조작 후보 |
+| IV | Human-AI collaborative integration | 인간-AI 협업 결합도 | 🔲 [V2] 측정 vs 실험 조작 결정 대기 (5단계) |
 | MV | Performance attribution ambiguity | 성과 기여 귀속 모호성 | 핵심 construct |
 | DV | Procedural justice perception | 성과평가 절차공정성 지각 | 메인 DV |
-| Secondary DV | Evaluation acceptance | 평가 수용성 | 보조 결과 |
+| Secondary DV | Evaluation acceptance | 평가 수용성 | 보조 결과 — [V6] 강건성 검정 활용 예정 |
 | Moderator | Evaluation criteria clarity | 평가기준 명확성 | 메인 조절 후보 |
-| Alternative Moderator | Evaluator AI literacy | 평가자의 AI 리터러시 | 대체 조절 또는 통제변수 |
+| Control | Evaluator AI literacy | 평가자의 AI 리터러시 | 통제변수 확정 (V5 참조) |
+
+**[V5] AI Literacy 통제변수 정당화:**
+AI Literacy는 응답자의 개인 특성으로 협업 결합도(IV)와 독립적으로 작동하며, 본 연구의 가설은 협업 환경의 구조적 특성에 초점을 두므로 개인 특성은 통제변수로 처리한다. 단, 강건성 검정 단계에서 AI Literacy를 조절변수로 추가 분석하여 결과의 강건성을 확인한다.
 
 ## Hypotheses
 
@@ -29,7 +36,9 @@ Perceived procedural justice of performance appraisal
 **이론적 근거:**
 - Orlikowski(2007): 사회물질적 얽힘 — 인간과 AI의 기여는 구조적으로 분리 불가능
 - Leonardi(2011): 임브리케이션 — 협업이 반복될수록 인간 행위성과 AI 물질성이 경로의존적으로 깊어져 기여 원천 식별이 어려워짐
-- He et al.(2025): 실증적 근거 — 기여 유형·량·주도성이 복합될수록 귀속 판단이 더 어려워짐 (⚠️ 창작 맥락, 선행연구 언급 수준)
+- Maasland & Weißmüller(2022): HRM 맥락 실증 — AI 알고리즘 개입↑ → 인간의 책임 귀속 모호성↑ (N=288 실험)
+- Douer & Meyer(2021): AI 보조 의사결정에서 귀속 모호성 이론+실증 — 협업 결합도가 높을수록 주관적 책임 귀속이 달라짐
+- He et al.(2025): 실증적 근거 — 기여 유형·량·주도성이 복합될수록 귀속 판단이 더 어려워짐 (⚠️ 창작 맥락, 선행연구 언급 수준 — [V7] 의존도 분산 위해 보조 근거로만 사용)
 
 **측정 근거:**
 - Van der Vegt et al.(2001): Task Interdependence 척도 — 구조적 상호의존 측정 방식 차용, 인간-AI 맥락으로 수정
@@ -40,11 +49,13 @@ Perceived procedural justice of performance appraisal
 
 **이론적 근거:**
 - Weiner(1985): 귀인이론 — 귀속 불가 시 평가자의 판단 연쇄 전체가 작동하지 않음
+- Van den Bos(2001): Uncertainty Management Theory — 불확실성이 현저해질수록 공정성 판단에 더 민감하게 반응하며, 절차공정성 지각이 강화된 영향을 받음 (JPSP, 3개 실험 실증)
+- Hartmann & Slapničar(2012): 성과평가 맥락 실증 — 과업불확실성이 절차공정성 지각에 미치는 영향을 HR 맥락에서 직접 실증 (은행업 178명)
 - Colquitt(2001): 절차공정성 기준 — 귀속 모호성이 accuracy, consistency, bias suppression을 직접 훼손
   - Accuracy: 기여 원천 불분명 → 정확한 정보 확보 불가
   - Consistency: 귀속 기준 부재 → 평가자마다 다른 판단
   - Bias suppression: 식별 불가 → 주관·추측 개입 여지 확대
-- He et al.(2025): 귀속 기준의 개인 간 불일치 실증 — consistency 훼손의 실증적 근거 (⚠️ 창작 맥락)
+- He et al.(2025): 귀속 기준의 개인 간 불일치 실증 — consistency 훼손의 실증적 근거 (⚠️ 창작 맥락 — [V7] 보조 근거)
 
 ### H3. 성과 기여 귀속 모호성의 매개 효과
 성과 기여 귀속 모호성은 인간-AI 협업 결합도와 성과평가 절차공정성 지각 간의 관계를 매개할 것이다.
@@ -57,19 +68,16 @@ Perceived procedural justice of performance appraisal
 ### H4. 평가기준 명확성의 조절 효과
 평가기준 명확성은 성과 기여 귀속 모호성이 성과평가 절차공정성 지각에 미치는 부정적 영향을 완화할 것이다.
 
-**이론적 근거:**
-- Colquitt(2001) / Leventhal(1980): accuracy와 consistency는 명확한 기준이 있을 때 회복 가능
-- He et al.(2025): 이분법적 접근의 한계 — 스펙트럼 접근(기준 명확화)이 귀속 판단을 개선할 수 있음 (⚠️ 창작 맥락)
-- logic-architecture Layer 4: 평가기준 명확성이 accuracy·consistency 훼손 경로를 완화하는 메커니즘
-
-- Wang(2023): 형식성(formality)이 역할 명확성을 매개로 절차공정성에 정적 영향 — 평가기준 명확성이 공정성 지각을 높이는 직접 근거
-- Leventhal(1980): 절차공정성의 6가지 기준 — consistency와 accuracy는 명확한 기준이 전제되어야 작동 가능 (Colquitt 통해 간접 인용)
+**[V4] 대안 가설 가능성 인정:**
+평가기준이 매우 명확할 때 기준 위반이 더 두드러져 보여 공정성 지각이 오히려 하락할 가능성(양면 효과)도 이론적으로 가능하다. 그러나 Erdogan(2002), Kim(2016), Wang(2023)의 실증 결과가 일관되게 "평가기준 명확성↑ → 공정성 지각↑" 방향을 지지하므로, 본 연구는 완화 효과를 가설로 채택한다.
 
 **이론적 근거:**
 - Leventhal(1980): 절차공정성 6기준 — consistency와 accuracy는 명확한 기준이 전제되어야 작동 가능 (Colquitt 통해 간접 인용)
 - Colquitt(2001): accuracy와 consistency는 명확한 기준이 있을 때 회복 가능
+- Erdogan(2002): 평가기준(시스템 특성)이 절차공정성 지각의 핵심 선행요인 — HR 맥락 이론 정립
+- Kim(2016): 평가기준 명확성→절차공정성 지각 정적 관계를 공공부문 HR 맥락에서 직접 실증
 - Wang(2023) Formality: 형식성이 역할 명확성을 매개로 절차공정성을 높인다 — 평가기준 명확성이 공정성 지각을 높이는 직접 근거
-- He et al.(2025): 이분법적 접근의 한계 — 스펙트럼 접근(기준 명확화)이 귀속 판단을 개선할 수 있음 (⚠️ 창작 맥락)
+- He et al.(2025): 이분법적 접근의 한계 — 스펙트럼 접근(기준 명확화)이 귀속 판단을 개선할 수 있음 (⚠️ 창작 맥락 — [V7] 보조 근거)
 - logic-architecture Layer 4: 평가기준 명확성이 accuracy·consistency 훼손 경로를 완화하는 메커니즘
 
 ## Recommended Analysis
@@ -77,11 +85,20 @@ Perceived procedural justice of performance appraisal
 **Primary analysis:**
 - Scenario-based experiment
 - Mediation and moderated mediation
-- PROCESS Model 14 or equivalent regression model
+- PROCESS Model 14 or equivalent regression model (Hayes, 2018)
 
 **Alternative analysis:**
 - If moderator is placed on IV → MV path, use PROCESS Model 7.
 - If using SEM, test measurement model first and then structural path.
+
+**Robustness checks ([V5], [V6]):**
+- AI Literacy를 통제변수가 아닌 조절변수로 추가 분석
+- 보조 DV(평가 수용성)를 활용한 결과 강건성 확인
+- Colquitt(2001) 4요인(분배·대인·정보 공정성) 비교 측정으로 본 효과가 절차공정성에 특정함을 확인 (선택적)
+
+**방법론 근거:**
+- Hayes(2018): PROCESS macro — 조건부 매개효과 검증 표준 방법론
+- MacKenzie et al.(2011): Attribution Ambiguity 신규 construct 개발 및 척도 적응 절차 정당화
 
 ## Model Decision
 
@@ -92,14 +109,25 @@ Perceived procedural justice of performance appraisal
 - AI 리터러시보다 응답자 개인차 문제가 작다.
 - "모호성이 생기더라도 기준이 명확하면 공정성 훼손이 줄어든다"는 논리가 자연스럽다.
 
+## 5단계 결정 대기 사항
+
+**[V2] IV 측정 vs 실험 조작 결정:**
+- Option A: 시나리오 조작 → IV는 더미변수, 현재 5문항은 manipulation check (인과 추론 강함, 외적 타당도 약함)
+- Option B: 측정 기반 횡단연구 → 실험 조작 제거, 5문항 유지 (일반화 강함, 인과 추론 약함)
+- 결정 시점: 5단계 진입 시점
+- 결정 영향: measurement-items.md IV 섹션, 6단계 설문 설계 전반
+
 ## 연결 파일
+
 | 가설 | 핵심 근거 논문 | 파일 경로 |
 |---|---|---|
-| H1 | Orlikowski(2007), Leonardi(2011), He et al.(2025), Van der Vegt et al.(2001), Morgeson & Humphrey(2006) | Sources/Papers/ |
-| H2 | Weiner(1985), Colquitt(2001), He et al.(2025) | Sources/Papers/ |
+| H1 | Orlikowski(2007), Leonardi(2011), Maasland & Weißmüller(2022), Douer & Meyer(2021), Van der Vegt et al.(2001), Morgeson & Humphrey(2006), He et al.(2025) ⚠️ | Sources/Papers/ |
+| H2 | Weiner(1985), Van den Bos(2001), Hartmann & Slapničar(2012), Colquitt(2001), He et al.(2025) ⚠️ | Sources/Papers/ |
 | H3 | Weiner(1985) — 귀인 연쇄 구조 | Sources/Papers/ |
-| H4 | Leventhal(1980), Colquitt(2001), Wang(2023) Formality, He et al.(2025) | Sources/Papers/ |
+| H4 | Leventhal(1980), Colquitt(2001), Erdogan(2002), Kim(2016), Wang(2023) Formality, He et al.(2025) ⚠️ | Sources/Papers/ |
+| 방법론 | Hayes(2018), MacKenzie et al.(2011), Heggestad et al.(2019) | Sources/Papers/ |
 
 - 구성개념 정의: `Analysis/construct-definition_attribution-ambiguity.md`
 - 논리 뼈대: `Analysis/logic-architecture.md`
 - 측정 항목: `Analysis/measurement-items.md`
+- 구조 리뷰: `progress/review-2026-06-01.md`
