@@ -240,6 +240,8 @@ Paper2026/
   - ✅ 6개 Analysis 파일에 V 플래그 반영
   - ✅ context-summary V 추적 섹션 추가
 🔲 4단계 — 신규 확보 논문 QR 작성 (기존 8편 + 2라운드 10편)
+  - ✅ Brynjolfsson et al. (2025) 읽기 완료 + QR 작성
+  - 🔲 Dell'Acqua et al. (2023) ~ 나머지 논문 대기
 🔲 5단계 — IV 설계 방식 최종 확정 (V1·V2 결정 필수)
 🔲 6단계 — 설문 설계 구체화 (V6 결정 반영)
 🔲 7단계 — 논문 본문 작성 (V7, F1~F3 반영)
@@ -286,7 +288,10 @@ Paper2026/
 - V2 🔲 IV 측정 vs 실험 조작 결정 — 5단계 핵심 의사결정
 
 **다음 작업 옵션:**
-- Option A: 4단계 — 신규 논문 QR 작성 (Van den Bos → Hartmann & Slapničar → Maasland & Weißmüller 순)
-- Option B: 5단계 — V2 결정부터 진행 (IV 설계 방식 확정)
+- Option A: 4단계 — 신규 논문 QR 작성 (Van den Bos → ...)
+- Option B: 5단계 — V2 결정부터 진행
+- **다음 작업:**
+4단계 계속 — Dell'Acqua et al. (2023) PDF 업로드 후 읽기 시작
+
 
 권장 순서: 4단계 QR 작성 후 5단계 진입 (QR 작성 과정에서 V2 결정에 필요한 정보 보강 가능)
