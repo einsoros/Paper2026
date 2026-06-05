@@ -1,7 +1,7 @@
 ---
-last-updated: 2026-06-02
-version: V1~V7 구조 리뷰 반영 (V2 5단계 결정 대기)
-related-review: progress/review-2026-06-01.md
+last-updated: 2026-06-05
+version: V2] IV 결정 완료 (Option A 시나리오 실험 확정)
+related-review: progress/review-2026-06-04.md
 ---
 
 ## Core Model
@@ -16,14 +16,14 @@ Perceived procedural justice of performance appraisal
 
 ## Variables
 
-| Role | Variable | Korean label | Current status |
-|---|---|---|---|
-| IV | Human-AI collaborative integration | 인간-AI 협업 결합도 | 🔲 [V2] 측정 vs 실험 조작 결정 대기 (5단계) |
-| MV | Performance attribution ambiguity | 성과 기여 귀속 모호성 | 핵심 construct |
-| DV | Procedural justice perception | 성과평가 절차공정성 지각 | 메인 DV |
-| Secondary DV | Evaluation acceptance | 평가 수용성 | 보조 결과 — [V6] 강건성 검정 활용 예정 |
-| Moderator | Evaluation criteria clarity | 평가기준 명확성 | 메인 조절 후보 |
-| Control | Evaluator AI literacy | 평가자의 AI 리터러시 | 통제변수 확정 (V5 참조) |
+| Role         | Variable                           | Korean label  | Current status                                                  |
+| ------------ | ---------------------------------- | ------------- | --------------------------------------------------------------- |
+| IV           | Human-AI collaborative integration | 인간-AI 협업 결합도  | ✅ [V2] 시나리오 조작(더미: 고결합/저결합) 확정 — 기존 5문항은 manipulation check로 전환 |
+| MV           | Performance attribution ambiguity  | 성과 기여 귀속 모호성  | 핵심 construct                                                    |
+| DV           | Procedural justice perception      | 성과평가 절차공정성 지각 | 메인 DV                                                           |
+| Secondary DV | Evaluation acceptance              | 평가 수용성        | 보조 결과 — [V6] 강건성 검정 활용 예정                                       |
+| Moderator    | Evaluation criteria clarity        | 평가기준 명확성      | 메인 조절 후보                                                        |
+| Control      | Evaluator AI literacy              | 평가자의 AI 리터러시  | 통제변수 확정 (V5 참조)                                                 |
 
 **[V5] AI Literacy 통제변수 정당화:**
 AI Literacy는 응답자의 개인 특성으로 협업 결합도(IV)와 독립적으로 작동하며, 본 연구의 가설은 협업 환경의 구조적 특성에 초점을 두므로 개인 특성은 통제변수로 처리한다. 단, 강건성 검정 단계에서 AI Literacy를 조절변수로 추가 분석하여 결과의 강건성을 확인한다.
@@ -109,13 +109,22 @@ AI Literacy는 응답자의 개인 특성으로 협업 결합도(IV)와 독립�
 - AI 리터러시보다 응답자 개인차 문제가 작다.
 - "모호성이 생기더라도 기준이 명확하면 공정성 훼손이 줄어든다"는 논리가 자연스럽다.
 
-## 5단계 결정 대기 사항
+## [V8] IV 측정 방식 결정 완료
 
-**[V2] IV 측정 vs 실험 조작 결정:**
-- Option A: 시나리오 조작 → IV는 더미변수, 현재 5문항은 manipulation check (인과 추론 강함, 외적 타당도 약함)
-- Option B: 측정 기반 횡단연구 → 실험 조작 제거, 5문항 유지 (일반화 강함, 인과 추론 약함)
-- 결정 시점: 5단계 진입 시점
-- 결정 영향: measurement-items.md IV 섹션, 6단계 설문 설계 전반
+**결정: Option A (단일시점 시나리오 실험) 채택**
+
+> 근거 1 (학문적 공헌): 본 연구의 기여는 "귀속 모호성 → 절차공정성 저하" 인과 메커니즘 규명에 있다. Option B(측정)는 상관에 머물러 역인과·제3변수 반박에 취약하나, 시나리오 조작 + 무선할당은 이를 차단한다.
+> 근거 2 (모델 정합성): PROCESS Model 14의 IV→MV 경로 인과 해석은 IV 조작 시 깨끗하게 성립한다.
+> 근거 3 (실증가능성): 단일시점 1회 설문으로 종료 — 종단 시간 장벽 없음, 조직 데이터 섭외 부담 없음. 석사 일정 내 통제 가능.
+> 근거 4 (선행연구 정합): Maasland & Weißmüller(2022)가 N=288 실험설계로 AI 개입→귀속 모호성을 실증함. 본 연구는 이 실험 패러다임을 성과평가·절차공정성 맥락으로 확장한다.
+
+→ 확정 영향:
+- IV = 더미변수 (고결합 vs 저결합 시나리오 조작)
+- 기존 5문항 = IV 측정 아님, **manipulation check**로 역할 전환 → measurement-items.md IV 섹션 수정 필요
+- MV(귀속 모호성) = 조작 대상 아님, 독립 측정 척도 유지
+- 조절(평가기준 명확성) = 시나리오 내 동반 조작 시 2×2 요인설계 가능 (Step 4에서 확정)
+
+→ 한계 선언: 가상 시나리오 기반 → 외적 타당도 제약을 limitation에 명시. 박사 단계 종단 설계(Leonardi 2011 임브리케이션의 시간적·경로의존적 축적)로 확장 예정.
 
 ## 연결 파일
 
