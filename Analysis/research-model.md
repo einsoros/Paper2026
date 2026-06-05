@@ -1,6 +1,6 @@
 ---
 last-updated: 2026-06-05
-version: V2] IV 결정 완료 (Option A 시나리오 실험 확정)
+version: " [V2] IV 결정 완료 (Option A 시나리오 실험 확정)"
 related-review: progress/review-2026-06-04.md
 ---
 
