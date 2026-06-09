@@ -1,7 +1,7 @@
 ---
-last-updated: 2026-06-02
-version: V7 구조 리뷰 반영
-related-review: progress/review-2026-06-01.md
+last-updated: 2026-06-09
+version: V9 — MOD 재정의 반영, 방법론 섹션 갱신
+related-review: progress/review-2026-06-09.md
 ---
 
 # Literature Map — 논문 섹션별 인용 지도
@@ -26,8 +26,8 @@ He et al.(2025)는 ⚠️ 창작 맥락 한정이라는 한계로 인해 인용 
 | Orlikowski (2007) | Organization Science | IV 존재론적 근거 — 사회물질성 | 2. 이론적 배경 / 3. 가설 H1 | Layer 1·2 |
 | Leonardi (2011) | MIS Quarterly | H1 메커니즘 — 임브리케이션 | 2. 이론적 배경 / 3. 가설 H1 | Layer 2 |
 | He et al. (2025) ⚠️ | CSCW | 실증적 선행연구 ⚠️ 창작 맥락 — Layer 5 핵심 / 타 Layer 보조 인용 [V7] | 2. 선행연구 gap (핵심) / 1. 서론·3. 가설 (보조) | Layer 5 (핵심), Layer 1·2·4 (보조) |
-| Van der Vegt et al. (2001) | Personnel Psychology | IV 측정 근거 — Task Interdependence 척도 | 4. 방법론 — 측정 | 측정 |
-| Morgeson & Humphrey (2006) | JAP | IV 측정 근거 — Received Interdependence 척도 | 4. 방법론 — 측정 | 측정 |
+| Van der Vegt et al. (2001) | Personnel Psychology | IV manipulation check 근거 — Task Interdependence 척도 | 4. 방법론 — 측정 | 측정 |
+| Morgeson & Humphrey (2006) | JAP | IV manipulation check 근거 — Received Interdependence 척도 | 4. 방법론 — 측정 | 측정 |
 | Wang et al. (2023) Formality | Accounting & Finance | H4 조절변수 근거 ⚠️ 제조업 맥락 | 3. 가설 H4 | Layer 4 |
 | Leventhal (1980) | Book Chapter | H4 메커니즘 — 절차공정성 6기준 | 2. 이론적 배경 / 3. 가설 H4 | Layer 3·4 |
 | Brynjolfsson et al. (2025) | QJE | AI 업무 도입 실태 실증 | 1. 서론 / 2. 배경 | Layer 1 |
@@ -42,7 +42,7 @@ He et al.(2025)는 ⚠️ 창작 맥락 한정이라는 한계로 인해 인용 
 | Heggestad et al. (2019) | Journal of Management | 척도 적응 방법론 정당화 | 4. 방법론 — 측정 | 방법론 |
 | Van den Bos (2001) | JPSP | H2 연결고리 — 불확실성→공정성 민감도 (UMT) | 2. 이론적 배경 / 3. 가설 H2 | Layer 2·3 |
 | Hartmann & Slapničar (2012) | Management Accounting Research | H2 실증 — 과업불확실성×성과평가→절차공정성 | 3. 가설 H2 | Layer 3 |
-| Maasland & Weißmüller (2022) | Frontiers in Psychology | H1 실증 보강 — HRM 맥락 AI→책임 귀속 모호성 (He et al. ⚠️ 1차 대체) | 3. 가설 H1 | Layer 1·2 |
+| Maasland & Weißmüller (2022) | Frontiers in Psychology | H1 실증 보강 — HRM 맥락 AI→책임 귀속 모호성 | 3. 가설 H1 | Layer 1·2 |
 | Douer & Meyer (2021) | ACM TIIS | MV 메커니즘 — AI 보조 의사결정→귀속 모호성 이론+실증 | 2. 이론적 배경 / 3. 가설 H1 | Layer 2 |
 | Erdogan (2002) | HRMR | H4 이론 — 평가기준→공정성 지각 선행요인 (HR 맥락) | 2. 이론적 배경 / 3. 가설 H4 | Layer 4 |
 | Kim (2016) | Public Personnel Management | H4 실증 — 평가기준 명확성→공정성 직접 실증 | 3. 가설 H4 | Layer 4 |
@@ -96,11 +96,11 @@ He et al.(2025)는 ⚠️ 창작 맥락 한정이라는 한계로 인해 인용 
 
 ### 4. 방법론 (Methodology)
 **측정 문항**
-- IV: Van der Vegt et al.(2001), Morgeson & Humphrey(2006)
+- IV (manipulation check): Van der Vegt et al.(2001), Morgeson & Humphrey(2006) — [V2] manipulation check로 전환
 - MV: Weiner(1985), Orlikowski(2007), Leonardi(2011), Douer & Meyer(2021), Maasland & Weißmüller(2022)
 - DV: Colquitt(2001)
-- MOD: Leventhal(1980), Colquitt(2001), Erdogan(2002), Kim(2016)
-- Control: Wang et al.(2022) AI Literacy
+- MOD: Leventhal(1980), Colquitt(2001), Erdogan(2002), Kim(2016) — [V9] B안("AI 활용 성과평가 절차 명확성") 기준으로 문항 재설계 예정 (6단계)
+- Control (Respondent AI Literacy): Wang et al.(2022) AI Literacy — [V9] 명칭 갱신
 
 **방법론:**
 - Hayes(2018) — PROCESS Model 14
@@ -110,7 +110,5 @@ He et al.(2025)는 ⚠️ 창작 맥락 한정이라는 한계로 인해 인용 
 ---
 
 ## 변경 이력
-- [V7] He et al.(2025) 인용 전략 명시 — Layer 5 핵심 인용, 타 Layer는 보조 인용 원칙
-- [V7] 전체 논문 목록에서 He et al.(2025)에 ⚠️ 표시 강화 및 인용 지점 명확화
-- [V7] 가설별 인용 목록에서 He et al.(2025)을 "보조" 표기로 구분
-- [V7] Maasland & Weißmüller(2022)를 H1 1차 근거로, Douer & Meyer(2021)를 MV 1차 근거로 명시
+- [V7] He et al.(2025) 인용 전략 명시
+- [V9] 방법론 섹션 MOD 항목 갱신 — B안 정의 반영, 6단계 재설계 예정 명시; Control 명칭 Evaluator → Respondent 갱신; Van der Vegt·Morgeson 항목에 manipulation check 전환 명시

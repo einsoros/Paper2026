@@ -1,7 +1,7 @@
 ---
-last-updated: 2026-06-05
-version: " [V2] IV 결정 완료 (Option A 시나리오 실험 확정)"
-related-review: progress/review-2026-06-04.md
+last-updated: 2026-06-09
+version: "[V9] MOD 재정의 — AI 활용 성과평가 절차 명확성(B안) 확정"
+related-review: progress/review-2026-06-09.md
 ---
 
 ## Core Model
@@ -22,11 +22,18 @@ Perceived procedural justice of performance appraisal
 | MV           | Performance attribution ambiguity  | 성과 기여 귀속 모호성  | 핵심 construct                                                    |
 | DV           | Procedural justice perception      | 성과평가 절차공정성 지각 | 메인 DV                                                           |
 | Secondary DV | Evaluation acceptance              | 평가 수용성        | 보조 결과 — [V6] 강건성 검정 활용 예정                                       |
-| Moderator    | Evaluation criteria clarity        | 평가기준 명확성      | 메인 조절 후보                                                        |
-| Control      | Evaluator AI literacy              | 평가자의 AI 리터러시  | 통제변수 확정 (V5 참조)                                                 |
+| Moderator    | Appraisal procedure clarity        | AI 활용 성과평가 절차 명확성 | ✅ [V9] B안 확정 — "조직이 AI 활용 성과평가 절차를 명확히 설명하는 정도" |
+| Control      | Respondent AI literacy             | 응답자(평가 대상자)의 AI 리터러시 | 통제변수 확정 (V5 참조) — [V9] 평가 대상자 시점 통일로 명칭 갱신 |
 
 **[V5] AI Literacy 통제변수 정당화:**
 AI Literacy는 응답자의 개인 특성으로 협업 결합도(IV)와 독립적으로 작동하며, 본 연구의 가설은 협업 환경의 구조적 특성에 초점을 두므로 개인 특성은 통제변수로 처리한다. 단, 강건성 검정 단계에서 AI Literacy를 조절변수로 추가 분석하여 결과의 강건성을 확인한다.
+
+**[V9] MOD 재정의 — B안 확정:**
+조절변수(MOD)를 "평가자가 인간/AI 기여를 분리하는 기준 제시"(A안)에서 "조직이 AI 활용 성과평가 절차를 명확히 설명하는 정도"(B안)로 재정의한다.
+
+A안은 MV(성과 기여 귀속 모호성)와 개념적으로 근접하여 Model 14 매개조절 분석의 정당성을 훼손할 위험이 있다. B안은 MV(평가 대상자의 인지 상태)와 MOD(평가 대상자가 지각하는 조직의 절차적 구조)를 차원적으로 분리함으로써 매개조절 모형의 통계적 정당성을 확보한다.
+
+응답자(평가 대상자) 시점에서 B안은 "조직이 AI 활용 성과를 어떻게 평가하는지 절차를 명확히 알려주는가"를 묻는 것으로, 시스템 신뢰의 직접 선행요인으로 작동한다. 문항 수준 재설계는 6단계(설문 설계)에서 처리한다.
 
 ## Hypotheses
 
@@ -65,20 +72,27 @@ AI Literacy는 응답자의 개인 특성으로 협업 결합도(IV)와 독립�
 - Weiner(1985): 귀인 연쇄 구조 — 결과→귀인→차원분류→기대+감정→행동의 연쇄에서 귀속 불가 시 전체 연쇄 붕괴
 - logic-architecture Layer 1→2→3의 전체 흐름
 
-### H4. 평가기준 명확성의 조절 효과
-평가기준 명확성은 성과 기여 귀속 모호성이 성과평가 절차공정성 지각에 미치는 부정적 영향을 완화할 것이다.
+### H4. AI 활용 성과평가 절차 명확성의 조절 효과
+AI 활용 성과평가 절차 명확성은 성과 기여 귀속 모호성이 성과평가 절차공정성 지각에 미치는 부정적 영향을 완화할 것이다.
 
 **[V4] 대안 가설 가능성 인정:**
 평가기준이 매우 명확할 때 기준 위반이 더 두드러져 보여 공정성 지각이 오히려 하락할 가능성(양면 효과)도 이론적으로 가능하다. 그러나 Erdogan(2002), Kim(2016), Wang(2023)의 실증 결과가 일관되게 "평가기준 명확성↑ → 공정성 지각↑" 방향을 지지하므로, 본 연구는 완화 효과를 가설로 채택한다.
+
+**[V9] MOD 개념적 분리:**
+B안으로 재정의된 MOD는 MV(평가 대상자의 인지 상태)와 차원이 다르다.
+- MV: "나의 기여를 식별하기 어렵다" — 평가 대상자의 인지 상태
+- MOD: "조직이 AI 활용 성과평가 절차를 명확히 설명한다" — 평가 대상자가 지각하는 조직의 절차적 구조
+
+이 분리로 MOD가 MV를 직접 낮추는 변수가 아니라 MV→DV 경로의 강도를 조절하는 변수임이 명확해진다.
 
 **이론적 근거:**
 - Leventhal(1980): 절차공정성 6기준 — consistency와 accuracy는 명확한 기준이 전제되어야 작동 가능 (Colquitt 통해 간접 인용)
 - Colquitt(2001): accuracy와 consistency는 명확한 기준이 있을 때 회복 가능
 - Erdogan(2002): 평가기준(시스템 특성)이 절차공정성 지각의 핵심 선행요인 — HR 맥락 이론 정립
 - Kim(2016): 평가기준 명확성→절차공정성 지각 정적 관계를 공공부문 HR 맥락에서 직접 실증
-- Wang(2023) Formality: 형식성이 역할 명확성을 매개로 절차공정성을 높인다 — 평가기준 명확성이 공정성 지각을 높이는 직접 근거
+- Wang(2023) Formality: 형식성이 역할 명확성을 매개로 절차공정성을 높인다 — 평가절차 명확성이 공정성 지각을 높이는 직접 근거
 - He et al.(2025): 이분법적 접근의 한계 — 스펙트럼 접근(기준 명확화)이 귀속 판단을 개선할 수 있음 (⚠️ 창작 맥락 — [V7] 보조 근거)
-- logic-architecture Layer 4: 평가기준 명확성이 accuracy·consistency 훼손 경로를 완화하는 메커니즘
+- logic-architecture Layer 4: 평가절차 명확성이 accuracy·consistency 훼손 경로를 완화하는 메커니즘
 
 ## Recommended Analysis
 
@@ -102,12 +116,13 @@ AI Literacy는 응답자의 개인 특성으로 협업 결합도(IV)와 독립�
 
 ## Model Decision
 
-현재 초안에서는 `평가기준 명확성`을 조절변수로 두는 것이 가장 방어 가능하다. 이유는 다음과 같다.
+현재 초안에서는 `AI 활용 성과평가 절차 명확성`을 조절변수로 두는 것이 가장 방어 가능하다. 이유는 다음과 같다.
 
 - 실험에서 직접 조작할 수 있다.
 - HRM 실무 시사점으로 연결하기 쉽다.
 - AI 리터러시보다 응답자 개인차 문제가 작다.
-- "모호성이 생기더라도 기준이 명확하면 공정성 훼손이 줄어든다"는 논리가 자연스럽다.
+- "모호성이 생기더라도 절차가 명확하면 공정성 훼손이 줄어든다"는 논리가 자연스럽다.
+- MV(인지 상태)와 차원이 달라 매개조절 모형의 통계적 정당성이 확보된다. [V9]
 
 ## [V8] IV 측정 방식 결정 완료
 
@@ -122,7 +137,7 @@ AI Literacy는 응답자의 개인 특성으로 협업 결합도(IV)와 독립�
 - IV = 더미변수 (고결합 vs 저결합 시나리오 조작)
 - 기존 5문항 = IV 측정 아님, **manipulation check**로 역할 전환 → measurement-items.md IV 섹션 수정 필요
 - MV(귀속 모호성) = 조작 대상 아님, 독립 측정 척도 유지
-- 조절(평가기준 명확성) = 시나리오 내 동반 조작 시 2×2 요인설계 가능 (Step 4에서 확정)
+- 조절(AI 활용 성과평가 절차 명확성) = 시나리오 내 동반 조작 시 2×2 요인설계 가능 (Step 4에서 확정)
 
 → 한계 선언: 가상 시나리오 기반 → 외적 타당도 제약을 limitation에 명시. 박사 단계 종단 설계(Leonardi 2011 임브리케이션의 시간적·경로의존적 축적)로 확장 예정.
 
@@ -139,4 +154,9 @@ AI Literacy는 응답자의 개인 특성으로 협업 결합도(IV)와 독립�
 - 구성개념 정의: `Analysis/construct-definition_attribution-ambiguity.md`
 - 논리 뼈대: `Analysis/logic-architecture.md`
 - 측정 항목: `Analysis/measurement-items.md`
-- 구조 리뷰: `progress/review-2026-06-01.md`
+- 구조 리뷰: `progress/review-2026-06-04.md`
+
+## 변경 이력
+- [V2] IV 결정 완료 — Option A 시나리오 실험 확정
+- [V8] IV 측정 방식 결정 완료 섹션 추가
+- [V9] MOD 재정의 — B안(AI 활용 성과평가 절차 명확성) 확정, Variables 테이블 갱신, H4 표현 수정, Control 명칭 변경(Evaluator → Respondent), Model Decision에 V9 근거 추가

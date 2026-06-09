@@ -1,11 +1,7 @@
 ---
-
-## last-updated: 2026-06-04 version: V8 — Layer 1·2 본문 복원 + V3 옵션 중립화 (V2 5단계 결정 대기) related-review: progress/review-2026-06-01.md
----
----
-last-updated: 2026-06-05
-version: V8 — [V2] IV 시나리오 조작 결정 반영
-related-review: progress/review-2026-06-04.md
+last-updated: 2026-06-09
+version: V9 — MOD 재정의(B안) Layer 4 반영
+related-review: progress/review-2026-06-09.md
 ---
 
 # Logic Architecture
@@ -60,7 +56,7 @@ Van den Bos(2001)의 Uncertainty Management Theory에 따르면 불확실성이 
 
 **[V3] 7기준 중 3기준 선택의 이론적 정당화:** 본 연구는 귀속 모호성이라는 **인지적 조건**이 절차공정성에 미치는 영향을 다룬다. 따라서 절차의 **구조적 설계 수준**에서 결정되는 기준(process control, decision control, correctability, ethicality)이 아닌, 평가 정보의 **인식론적 충족 여부**에 해당하는 기준(accuracy, consistency, bias suppression)에 초점을 둔다. 이 3기준은 Colquitt(2001)의 측정 도구에서도 절차공정성 지각의 핵심 구성요소로 실증되어 있으며, 본 연구의 인과 경로(귀속 모호성 → 정보 불완전성 → 공정성 지각 저하)와 직접 연결된다.
 
-나머지 4개 기준(process control, decision control, correctability, ethicality)은 귀속 모호성과 무관하게 평가 절차의 구조적 설계 수준에서 결정되는 기준이므로 본 연구의 인과 경로에 포함되지 않는다. [V2]가 시나리오 실험(Option A)으로 확정됨에 따라, 이들 기준은 모든 조건에서 동일한 절차적 구조로 제시하여 통제한다.
+나머지 4개 기준(process control, decision control, correctability, ethicality)은 귀속 모호성과 무관하게 평가 절차의 구조적 설계 수준에서 결정되는 기준이므로 본 연구의 인과 경로에 포함되지 않는다. [V2] 시나리오 실험(Option A) 확정에 따라, 이들 기준은 모든 조건에서 동일한 절차적 구조로 시나리오를 제시하여 통제한다.
 
 → 귀속 모호성 → 절차공정성 지각 저하 (H2, H3)
 
@@ -68,23 +64,30 @@ Van den Bos(2001)의 Uncertainty Management Theory에 따르면 불확실성이 
 
 ## Layer 4 — 조절: 무엇이 그 영향을 완화하는가
 
+**[V9] MOD 재정의 — B안 확정:**
+조절변수는 "AI 활용 성과평가 절차 명확성"으로 정의된다. 이는 "조직이 AI 활용 성과를 어떻게 평가하는지 절차를 명확히 설명하는 정도"를 뜻하며, 평가 대상자가 지각하는 조직의 절차적 구조 차원이다. MV(평가 대상자의 인지 상태)와 차원이 달라 매개조절 모형의 통계적 정당성이 확보된다.
+
 귀속 모호성이 절차공정성을 훼손하는 경로는 accuracy와 consistency의 붕괴에서 시작된다. Leventhal(1980)은 절차공정성의 핵심 기준으로 일관된 규칙의 적용(consistency)과 정확한 정보에 근거한 판단(accuracy)을 제시하였다(Colquitt, 2001 재인용).
 
 Erdogan(2002)은 평가기준(시스템 특성)이 절차공정성 지각의 핵심 선행요인임을 HR 맥락에서 이론적으로 정립하였다. Kim(2016)은 평가기준 명확성이 절차공정성 지각과 정적으로 유의하게 연관됨을 공공부문 HR 맥락에서 직접 실증하였다.
 
-평가기준이 명확하게 제시될 경우:
+조직이 AI 활용 성과평가 절차를 명확히 설명할 경우:
 
-- AI 활용 성과에서 인간 기여를 판단하는 기준이 존재 → accuracy 훼손 부분 보완
-- 모든 평가자가 동일한 기준을 적용 → consistency 훼손 부분 보완
+- 평가 대상자가 평가 절차의 근거를 이해 가능 → accuracy 훼손 부분 보완
+- 모든 평가자가 동일한 기준을 적용한다는 신뢰 형성 → consistency 훼손 부분 보완
 - 귀속 모호성이 절차공정성에 미치는 부정적 영향이 약화
 
-→ **평가기준 명확성**이 조절변수로 작동 (H4)
+→ **AI 활용 성과평가 절차 명확성**이 조절변수로 작동 (H4)
 
 논리 구조:
 
-귀속 모호성 → accuracy·consistency 훼손 → 절차공정성 저하 ↑ 평가기준 명확성이 이 경로를 완화
+귀속 모호성 → accuracy·consistency 훼손 → 절차공정성 저하
+↑
+AI 활용 성과평가 절차 명확성이 이 경로를 완화
 
-→ Wang et al.(2023): 형식적 평가기준이 역할 명확성을 통해 절차공정성을 높인다는 실증적 근거 (호주 제조업 맥락 ⚠️) → Erdogan(2002): 평가기준이 공정성 지각 선행요인 — HR 맥락 이론 정립 → Kim(2016): 평가기준 명확성→공정성 직접 실증 — HR 맥락 보완
+→ Wang et al.(2023): 형식적 평가절차가 역할 명확성을 통해 절차공정성을 높인다는 실증적 근거 (호주 제조업 맥락 ⚠️)
+→ Erdogan(2002): 평가기준이 공정성 지각 선행요인 — HR 맥락 이론 정립
+→ Kim(2016): 평가기준 명확성→공정성 직접 실증 — HR 맥락 보완
 
 ---
 
@@ -116,22 +119,15 @@ He et al.(2025)는 지식 노동자들이 인간-AI 공동 창작물에서 기�
 - 구성개념 정의: `Analysis/construct-definition_attribution-ambiguity.md`
 - 연구모델·가설: `Analysis/research-model.md`
 - 측정 항목: `Analysis/measurement-items.md`
-- 구조 리뷰: `progress/review-2026-06-01.md`
+- 구조 리뷰: `progress/review-2026-06-09.md`
 - 논문 정리: `Sources/Papers/`
-    - Weiner (1985) Attribution Theory.md
-    - Colquitt (2001) - On the Dimensionality of Organizational Justice.md
-    - Orlikowski (2007)사회물질성.md
-    - Leonardi (2011)Imbrication.md
-    - He (2025) — AI Attribution in Co-Creation.md
 
 ---
 
 ## 문헌 보강 현황 (Literature Gap Tracker)
 
 ### Layer 1 — 배경 문헌
-
-상태: ✅ 2라운드 보강 완료 확보 논문:
-
+상태: ✅ 2라운드 보강 완료
 - Brynjolfsson et al. (2025) Generative AI at Work — QJE
 - Pan et al. (2026) AI in Performance Appraisal — HRM
 - Dell'Acqua et al. (2023) Jagged Technological Frontier — Organization Science
@@ -139,9 +135,7 @@ He et al.(2025)는 지식 노동자들이 인간-AI 공동 창작물에서 기�
 - Budhwar et al. (2022) AI+HRM 도전과 기회 — IJHRM
 
 ### Layer 2 — 귀인이론 조직 맥락 적용
-
-상태: ✅ 2라운드 보강 완료 확보 논문:
-
+상태: ✅ 2라운드 보강 완료
 - Weiner (1985) — 핵심 이론
 - Martinko et al. (2019) Attribution theory — JOB
 - Hewett et al. IJHRM — Attribution Theories in HRM review
@@ -149,9 +143,7 @@ He et al.(2025)는 지식 노동자들이 인간-AI 공동 창작물에서 기�
 - Douer & Meyer (2021) — AI 보조 의사결정→귀속 모호성 이론+실증
 
 ### Layer 3 — 성과평가-절차공정성 연결
-
-상태: ✅ 2라운드 보강 완료 확보 논문:
-
+상태: ✅ 2라운드 보강 완료
 - Colquitt (2001) — 핵심 이론
 - Levy & Williams (2004) Journal of Management — 성과평가-공정성 리뷰
 - Lyu et al. (2023) SAGE Open — 성과평가 공정성 최신 실증
@@ -159,26 +151,20 @@ He et al.(2025)는 지식 노동자들이 인간-AI 공동 창작물에서 기�
 - Hartmann & Slapničar (2012) — 성과평가 맥락 불확실성→공정성 실증
 
 ### Layer 4 — 조절변수 근거
-
-상태: ✅ 2라운드 보강 완료 확보 논문:
-
+상태: ✅ 2라운드 보강 완료 + [V9] MOD 재정의 반영
 - Leventhal (1980) — 핵심 이론
 - Wang et al. (2023) Formality — Accounting & Finance ⚠️ 제조업 맥락
 - Erdogan (2002) — 평가기준→공정성 지각 선행요인 HR 맥락 이론
 - Kim (2016) — 평가기준 명확성→공정성 직접 실증 HR 맥락
 
 ### Layer 5 — 선행연구 비교
-
-상태: ✅ 2라운드 보강 완료 확보 논문:
-
+상태: ✅ 2라운드 보강 완료
 - He et al. (2025) — 실증적 선행연구 [V7 핵심 인용 지점]
 - Pan et al. (2026) HRM — AI in Performance Appraisal
 - Starke et al. (2022) Big Data & Society — Algorithmic fairness 리뷰
 
 ### 방법론
-
-상태: ✅ 2라운드 보강 완료 확보 논문:
-
+상태: ✅ 2라운드 보강 완료
 - Heggestad et al. (2019) Journal of Management — 척도 적응 가이드라인
 - Hayes (2018) — PROCESS Model 14 매개조절 검증
 - MacKenzie et al. (2011) — 신규 construct 개발 절차 정당화
@@ -186,12 +172,8 @@ He et al.(2025)는 지식 노동자들이 인간-AI 공동 창작물에서 기�
 ---
 
 ## 변경 이력
-
 - [V3] Layer 3에 7기준 중 3기준 선택의 이론적 정당화 문단 추가
-- [V7] Layer 5에 He et al.(2025) 인용 전략 명시 (Layer 5 핵심 인용, 타 Layer는 보조 인용)
-- [V7] Layer 1에 He et al.(2025) ⚠️ 표시 강화
-- [V8] Layer 1·2 본문 복원 (배경·메커니즘 서술 + 박우성·양재완(2020) 한국 맥락 앵커 추가)
-- [V8] 속성 블록(last-updated / version / related-review) 추가 — research-model·construct-definition과 스키마 통일
-- [V8] Layer 3 [V3]의 "시나리오에서 통제" 문구를 V2 옵션 중립으로 수정 — construct-definition [V3]과 정합 (Option A 선택 시에만 통제 적용되도록 조건부 표기)
-- [V8] 파일 최상단의 떠도던 `→ 상세 논리:` 링크 한 줄 제거 (Layer 2 내 동일 링크로 대체)
-- [V8] [V2] IV 측정 방식 결정 완료 → Option A(단일시점 시나리오 실험) 확정. 이에 따라 (1) Layer 2 [V2 연결] 경고문을 결정 완료로 갱신, (2) Layer 3 [V3]의 조건부 중립 표기를 단정형으로 환원 — "모든 조건에서 동일한 절차적 구조를 시나리오로 제시하여 통제"로 확정 서술
+- [V7] Layer 5에 He et al.(2025) 인용 전략 명시
+- [V8] Layer 1·2 본문 복원 + IV 시나리오 조작 결정 반영
+- [V8] frontmatter 중복 블록 제거 및 단일 블록으로 통합
+- [V9] Layer 4 MOD 재정의 반영 — "AI 활용 성과평가 절차 명확성(B안)"으로 표현 전환, MV-MOD 차원 분리 명시

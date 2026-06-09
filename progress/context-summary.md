@@ -1,7 +1,7 @@
 ---
-last-updated: 2026-06-02
-version: 3.6단계 구조 리뷰 완료 — V1~V7 추적 섹션 추가
-related-review: progress/review-2026-06-01.md
+last-updated: 2026-06-09
+version: V9 반영 완료 — 5단계 구조 작업 종결, 6단계 진입 준비
+related-review: progress/review-2026-06-09.md
 ---
 
 # context-summary
@@ -17,42 +17,46 @@ related-review: progress/review-2026-06-01.md
 연구 주제: 인간-AI 협업 환경에서 성과 기여 귀속 모호성(Performance Attribution Ambiguity)이 성과평가 절차공정성 지각에 미치는 영향
 
 핵심 연구 모델:
-인간-AI 협업 결합도 (IV) 
-↓
-H1 성과 기여 귀속 모호성 (MV) 
-↓ 
-H2/H3 절차공정성 지각 (DV) 
-↑ 
-H4 조절 평가기준 명확성 (Moderator) AI Literacy → 통제변수 (확정)
+인간-AI 협업 결합도 (IV) — 시나리오 조작 (고결합/저결합)
+↓ H1
+성과 기여 귀속 모호성 (MV)
+↓ H2/H3
+절차공정성 지각 (DV)
+↑ H4
+AI 활용 성과평가 절차 명확성 (Moderator) [V9 B안 확정]
+AI Literacy → 통제변수 (확정, Respondent 시점)
 
 가설:
 - H1: 협업 결합도↑ → 귀속 모호성↑ (Orlikowski+Leonardi 이론적 근거)
 - H2: 귀속 모호성↑ → 절차공정성↓ (Weiner+Colquitt 근거)
 - H3: 귀속 모호성이 IV→DV 매개
-- H4: 평가기준 명확성이 MV→DV 부정적 영향 완화
+- H4: AI 활용 성과평가 절차 명확성이 MV→DV 부정적 영향 완화 [V9]
+
+응답자 시점: 평가 대상자(target) 통일 — MV, DV, MOD, Control 모두 평가 대상자 시점
 
 
 ## 워크플로우
 
-- Obsidian Vault: /Users/user/Documents/Codex/2026-05-22/new-chat/Paper
+- Obsidian Vault: ~/Documents/Paper2026 (Mac 기준, 2026-06-09 이관 완료)
 - GitHub: https://github.com/einsoros/Paper2026
-- Git 작업 터미널: cd ~/Documents/Paper2026 (또는 ~/Paper)
+- Git 작업 터미널: cd ~/Documents/Paper2026
 - Zotero: 논문 관리
 
 
 ## GitHub 파일 구조
 
 Analysis/
-- logic-architecture.md — 논문 전체 논리 뼈대 (Layer 1~5 + Gap Tracker 완성)
-- construct-definition_attribution-ambiguity.md — MV 정의
-- research-model.md — H1~H4 이론적 근거 연결 완성
-- measurement-items.md — 측정 문항 (IV 섹션 추가 완료)
+- logic-architecture.md — 논문 전체 논리 뼈대 (Layer 1~5 + Gap Tracker)
+- construct-definition_attribution-ambiguity.md — MV 정의 + MV-MOD 경계 명시 [V9]
+- research-model.md — H1~H4 이론적 근거 연결 + V9 MOD 재정의 반영
+- measurement-items.md — 측정 문항 (MOD 섹션 B안 정의 반영, 문항 재설계 6단계 이연)
 - paper-feature-matrix.md — 논문 비교 매트릭스
-- Literature Map.md — 전체 논문 섹션별 인용 지도
+- Literature_Map.md — 전체 논문 섹션별 인용 지도 [파일명 언더스코어로 통일]
 
 progress/
 - context-summary.md — 작업 컨텍스트 (이 파일)
-- review-2026-06-01.md — 구조 리뷰 V1~V7 진단
+- review-2026-06-04.md — 측정 설계 정합성 리뷰 V8~V11 + V2 결정
+- review-2026-06-09.md — 환경 정비 + V9 MOD 재정의 결정
 
 Sources/Papers/
 - Weiner (1985) + QR
@@ -63,6 +67,7 @@ Sources/Papers/
 - Van der Vegt et al. (2001) QR
 - Morgeson & Humphrey (2006) QR
 - Wang et al. (2023) Formality QR
+- Brynjolfsson et al. (2025) + QR
 
 
 ## 전체 확보 논문 현황 (총 29편)
@@ -77,12 +82,12 @@ Sources/Papers/
 | Leonardi (2011) | MIS Quarterly | H1 메커니즘 |
 | He et al. (2025) ⚠️ | CSCW | 실증 선행연구 ⚠️ 창작 맥락 — V7 |
 
-### IV 측정 근거
+### IV manipulation check 근거
 
 | 논문 | 저널 | 역할 |
 | --- | --- | --- |
-| Van der Vegt et al. (2001) | Personnel Psychology | Task Interdependence 척도 적응 |
-| Morgeson & Humphrey (2006) | JAP | Received Interdependence 척도 적응 |
+| Van der Vegt et al. (2001) | Personnel Psychology | Task Interdependence 척도 → manipulation check 전환 [V2] |
+| Morgeson & Humphrey (2006) | JAP | Received Interdependence 척도 → manipulation check 전환 [V2] |
 
 ### H1 실증 보강 (2라운드)
 
@@ -144,85 +149,71 @@ Sources/Papers/
 | --- | --- | --- |
 | Wang et al. (2022) AI Literacy | BIT | AI Literacy 척도 — 통제변수 |
 | Heggestad et al. (2019) | Journal of Management | 척도 적응 방법론 정당화 |
-| Hayes (2018) | Guilford Press | PROCESS Model 14 매개조절 검증 (2라운드) |
-| MacKenzie et al. (2011) | MIS Quarterly | 신규 construct 개발 절차 정당화 (2라운드) |
+| Hayes (2018) | Guilford Press | PROCESS Model 14 매개조절 검증 |
+| MacKenzie et al. (2011) | MIS Quarterly | 신규 construct 개발 절차 정당화 |
 
 
-## 구조 리뷰 추적 (V1~V7)
+## 구조 리뷰 추적 (V1~V11)
 
-진단 일자: 2026-06-01
-진단 파일: `progress/review-2026-06-01.md`
+### V1~V7 — 2026-06-01 진단 (review-2026-06-01.md → 삭제, context-summary에 흡수)
 
-### 🔴 긴급 — 5단계 진입 전 결정 필수
+| 항목 | 내용 | 상태 |
+|------|------|------|
+| V1 | MV 응답자 시점 통일 (평가 대상자) | ✅ 완료 |
+| V2 | IV 측정 vs 실험 조작 결정 | ✅ Option A 시나리오 실험 확정 |
+| V3 | 7기준 중 3기준 선택 정당화 | ✅ 완료 |
+| V4 | H4 양방향 가능성 인정 | ✅ 완료 |
+| V5 | AI Literacy 통제변수 정당화 | ✅ 완료 |
+| V6 | 보조 DV 활용 분석 계획 | ✅ 메모 반영, 6단계 최종 결정 |
+| V7 | He et al.(2025) 의존도 분산 | ✅ 인용 전략 명시, 7단계 실제 재분배 |
 
-| 항목 | 내용 | 영향 파일 | 상태 |
-|------|------|---------|------|
-| V1 | MV 응답자 시점 통일 (평가 대상자) | measurement-items, construct-definition | ✅ 반영 완료 |
-| V2 | IV 측정 vs 실험 조작 결정 | research-model, measurement-items | 🔲 5단계 결정 대기 |
+### V8~V11 — 2026-06-04 진단 (review-2026-06-04.md)
 
-### 🟡 보완 권장 — 5단계 진행 중
+| 항목 | 내용 | 상태 |
+|------|------|------|
+| V8 | 응답자 시점 전체 모형 통일 (DV·MOD·Control) | 🔲 6단계 문항 설계 시 처리 |
+| V9 | MOD-MV 개념적 분리 — MOD 재정의 | ✅ B안 확정 (2026-06-09) |
+| V10 | DV 정합성 + 7기준 표현 완화 | 🔲 6단계 문항 설계 시 처리 |
+| V11 | MV 5번 문항 construct domain 재정렬 | 🔲 6단계 문항 설계 시 처리 |
 
-| 항목 | 내용 | 영향 파일 | 상태 |
-|------|------|---------|------|
-| V3 | 7기준 중 3기준 선택 정당화 | logic-architecture, construct-definition | ✅ 반영 완료 |
-| V4 | H4 양방향 가능성 인정 | research-model | ✅ 반영 완료 |
-| V5 | AI Literacy 통제변수 정당화 | research-model | ✅ 반영 완료 |
-| V6 | 보조 DV 활용 분석 계획 | measurement-items, research-model | ✅ 메모 반영, 6단계에서 최종 결정 |
+### F1~F3 — 본문 작성 시 반영
 
-### 🟢 본문 작성 시 반영
-
-| 항목 | 내용 | 영향 파일 | 상태 |
-|------|------|---------|------|
-| V7 | He et al.(2025) 의존도 분산 | Literature Map, logic-architecture, research-model | ✅ 인용 전략 명시, 7단계에서 실제 재분배 |
-| F1 | 가설 표현의 학술적 정밀성 | research-model | 🔲 7단계 |
-| F2 | H3 매개효과 가설의 명시성 | research-model | 🔲 7단계 |
-| F3 | 통제변수 추가 검토 (인구통계) | measurement-items, research-model | 🔲 6단계 |
+| 항목 | 내용 | 상태 |
+|------|------|------|
+| F1 | 가설 표현의 학술적 정밀성 | 🔲 7단계 |
+| F2 | H3 매개효과 가설의 명시성 | 🔲 7단계 |
+| F3 | 통제변수 추가 검토 (인구통계) | 🔲 6단계 |
 
 
 ## 측정 문항 현황
 
-- IV (5문항): Van der Vegt + Morgeson 적응, Orlikowski+Leonardi 정당화
-- MV (6문항): Weiner, Orlikowski, Leonardi, He et al. + Douer & Meyer, Maasland & Weißmüller 근거 (V1 응답자 시점 통일)
+- IV: 시나리오 조작 더미변수 (고결합/저결합) — 기존 5문항은 manipulation check [V2]
+- MV (6문항): Weiner, Orlikowski, Leonardi, He et al. + Douer & Meyer, Maasland & Weißmüller 근거
 - DV (5문항): Colquitt(2001) adapted + Van den Bos, Hartmann & Slapničar 보강
-- MOD (4문항): Leventhal + Colquitt + Erdogan, Kim 근거
-- Control AI Literacy (4문항): Wang et al.(2022) adapted
+- MOD (4문항): B안 정의 확정 ("AI 활용 성과평가 절차 명확성") — 문항 재설계 6단계 이연 [V9]
+- Control Respondent AI Literacy (4문항): Wang et al.(2022) adapted [V9 명칭 갱신]
 - Secondary DV Evaluation Acceptance (3문항): V6 강건성 검정 활용 예정
 
 
 ## Zotero 폴더 구조
+
 Paper2026/
 ├── 00_Core_Anchors
 ├── 01_Introduction
- │   ├── AI_HRM_Background ← Brynjolfsson, Dell'Acqua, Starke, Pan
- │   └── Human_AI_Collaboration
+│   ├── AI_HRM_Background ← Brynjolfsson, Dell'Acqua, Starke, Pan, Pan & Froese, Budhwar
+│   └── Human_AI_Collaboration
 ├── 02_Theory
- │   ├── Attribution_Theory ← Martinko, Hewett
- │   ├── Procedural_Justice
- │   └── Sociomateriality_Imbrication
+│   ├── Attribution_Theory ← Martinko, Hewett
+│   ├── Procedural_Justice
+│   └── Sociomateriality_Imbrication
 ├── 03_Model_Hypotheses
- │   ├── DV_Procedural_Justice ← Levy & Williams, Lyu, Pan + [B1] Hartmann & Slapničar
- │   ├── IV_Human_AI_Collaboration ← Van der Vegt, Morgeson
- │   ├── MOD_Criteria_Clarity_AI_Literacy ← Wang(2023) Formality
- │   └── MV_Attribution_Ambiguity ← [B1] Van den Bos (2001) 추가 예정
+│   ├── DV_Procedural_Justice ← Levy & Williams, Lyu, Pan, Hartmann & Slapničar
+│   ├── IV_Human_AI_Collaboration ← Van der Vegt, Morgeson, Maasland & Weißmüller
+│   ├── MOD_Criteria_Clarity_AI_Literacy ← Wang(2023), Erdogan, Kim
+│   └── MV_Attribution_Ambiguity ← Van den Bos, Douer & Meyer
 └── 04_Method
-    └── Measurement_Scales ← Wang(2022), Heggestad(2019) + [B2] Hayes(2013) 추가 예정
-
-Paper2026/ 
-├── 00_Core_Anchors 
-├── 01_Introduction
- │ ├── AI_HRM_Background ← Brynjolfsson, Dell'Acqua, Starke, Pan, Pan & Froese, Budhwar
- │ └── Human_AI_Collaboration 
-├── 02_Theory 
- │ ├── Attribution_Theory ← Martinko, Hewett 
- │ ├── Procedural_Justice 
- │ └── Sociomateriality_Imbrication 
-├── 03_Model_Hypotheses 
- │ ├── DV_Procedural_Justice ← Levy & Williams, Lyu, Pan, Hartmann & Slapničar
- │ ├── IV_Human_AI_Collaboration ← Van der Vegt, Morgeson, Maasland & Weißmüller 
- │ ├── MOD_Criteria_Clarity_AI_Literacy ← Wang(2023), Erdogan, Kim 
- │ └── MV_Attribution_Ambiguity ← Van den Bos, Douer & Meyer 
-└── 04_Method 
     └── Measurement_Scales ← Wang(2022), Heggestad, Hayes, MacKenzie
+
 
 ## 작업 진행 현황
 
@@ -230,20 +221,17 @@ Paper2026/
 ✅ 2단계 — 연구모델 정교화 완료
 ✅ 3단계 — 문헌 보강 1라운드 완료 (총 19편)
 ✅ 3.5단계 — 문헌 보강 2라운드 완료 (총 29편)
-  - ✅ 보강 대상 진단 완료 (B1~B6 식별)
-  - ✅ B1~B6 전체 논문 탐색 완료
-  - ✅ Zotero 추가 완료 (B1~B6 전체)
-  - ✅ Literature Map 업데이트 완료
-  - ✅ context-summary 최종 업데이트
-✅ 3.6단계 — 전체 구조 리뷰 완료
-  - ✅ V1~V7 취약지점 진단 (progress/review-2026-06-01.md)
-  - ✅ 6개 Analysis 파일에 V 플래그 반영
-  - ✅ context-summary V 추적 섹션 추가
+✅ 3.6단계 — 전체 구조 리뷰 완료 (V1~V7)
+✅ 3.7단계 — 측정 설계 정합성 리뷰 완료 (V8~V11 진단 + V2·V9 결정)
+  - ✅ V2 IV 시나리오 실험 확정 (2026-06-04)
+  - ✅ V9 MOD 재정의 B안 확정 (2026-06-09)
+  - ✅ Analysis 6개 파일 V9 반영 완료 (2026-06-09)
+  - ✅ Mac 환경 이관 + 저장소 정리 완료 (2026-06-09)
 🔲 4단계 — 신규 확보 논문 QR 작성 (기존 8편 + 2라운드 10편)
   - ✅ Brynjolfsson et al. (2025) 읽기 완료 + QR 작성
   - 🔲 Dell'Acqua et al. (2023) ~ 나머지 논문 대기
-🔲 5단계 — IV 설계 방식 최종 확정 (V1·V2 결정 필수)
-🔲 6단계 — 설문 설계 구체화 (V6 결정 반영)
+🔲 5단계 — 설문 시나리오 설계 (V2 확정으로 진입 가능)
+🔲 6단계 — 설문 설계 구체화 (V8·V10·V11·V6·F3 일괄 처리)
 🔲 7단계 — 논문 본문 작성 (V7, F1~F3 반영)
 
 
@@ -264,7 +252,7 @@ Paper2026/
 
 ### 1. Analysis 파일 6개 점검
 - [ ] construct-definition_attribution-ambiguity — Claims 이론적 근거 보강 여부
-- [ ] Literature Map — 신규 논문 추가 및 섹션별 인용 업데이트 여부
+- [ ] Literature_Map — 신규 논문 추가 및 섹션별 인용 업데이트 여부
 - [ ] logic-architecture — Layer별 이론 근거 + Gap Tracker 업데이트 여부
 - [ ] measurement-items — 문항별 이론적 근거 열 업데이트 여부
 - [ ] paper-feature-matrix — 신규 논문 행 추가 + 파일 연결 테이블 업데이트 여부
@@ -283,15 +271,18 @@ Paper2026/
 
 ## 다음 세션 시작점
 
-**우선 결정 사항 (5단계 진입 전):**
-- V1 ✅ 반영 완료 (MV 응답자 시점 통일)
-- V2 🔲 IV 측정 vs 실험 조작 결정 — 5단계 핵심 의사결정
+**5단계 구조 작업 완료 — 6단계 진입 준비 상태**
+
+완료된 구조 결정:
+- V1 ✅ MV 응답자 시점 통일
+- V2 ✅ IV 시나리오 실험 확정
+- V3 ✅ 7기준 중 3기준 정당화
+- V4 ✅ H4 양방향 가능성 인정
+- V5 ✅ AI Literacy 통제변수 정당화
+- V9 ✅ MOD B안 확정
 
 **다음 작업 옵션:**
-- Option A: 4단계 — 신규 논문 QR 작성 (Van den Bos → ...)
-- Option B: 5단계 — V2 결정부터 진행
-- **다음 작업:**
-4단계 계속 — Dell'Acqua et al. (2023) PDF 업로드 후 읽기 시작
+- Option A: 4단계 계속 — Dell'Acqua et al. (2023) PDF 업로드 후 읽기 시작
+- Option B: 6단계 진입 — 설문 시나리오 설계 (V2 확정으로 진입 가능)
 
-
-권장 순서: 4단계 QR 작성 후 5단계 진입 (QR 작성 과정에서 V2 결정에 필요한 정보 보강 가능)
+**권장 순서:** 4단계 QR 작업 병행하며 6단계 진입 (QR 작성 과정이 시나리오 설계에 필요한 정보 보강)
