@@ -1,162 +1,228 @@
 ---
-last-updated: 2026-06-09
-version: "[V9] MOD 재정의 — AI 활용 성과평가 절차 명확성(B안) 확정"
-related-review: progress/review-2026-06-09.md
+last-updated: 2026-06-15
+version: V12~V16 — 모델 전면 재정립 (IV·MV 재배치 + COR 이론 도입)
+related-review: progress/review-2026-06-15.md
+---
+
+# Research Model
+
+## Overarching Theoretical Framework
+
+본 연구는 4개 이론의 단계별 역할 분담 구조로 구성된다:
+
+| 단계 | 이론 | 담당 영역 |
+|------|------|---------|
+| 1 | 귀인이론 (Weiner, 1985) | IV 정당화 — AI 협업에서 귀속 모호성 발생 메커니즘 |
+| 2 | 자원보존이론 (COR, Hobfoll, 1989) | IV→MV 경로 — 귀속 모호성이 심리적 무력감으로 이어지는 심리적 자원 위협 메커니즘 |
+| 3 | 불확실성 관리 이론 (UMT, Van den Bos, 2001) | MV→DV 경로 — 무력감/불확실성이 절차공정성 지각에 영향을 주는 메커니즘 |
+| 4 | 절차공정성 이론 (Colquitt, 2001) | DV 측정 및 정당화 |
+
+**핵심 문제의식:**
+
+> "AI-인간 협업 환경에서 자기 기여 경계를 설명하기 어려워질수록, 평가 대상자는 기존 평가 시스템에 대한 절차공정성을 낮게 지각하게 된다. 이는 시스템 자체의 결함이 아닌, 평가 대상자의 인식 조건 변화에서 비롯되는 심리적 기제다."
+
 ---
 
 ## Core Model
 
 ```text
-Human-AI collaborative integration
-        ↓
-Performance attribution ambiguity
-        ↓
-Perceived procedural justice of performance appraisal
+[배경 전제]
+AI-인간 협업 환경
+(IT 개발직 — 샘플링으로 통제)
+
+[IV — 시나리오 조작]
+성과 기여 귀속 모호성
+(기여 명확 vs 기여 모호)
+        ↓ H1
+[MV — 측정]
+심리적 무력감
+(Psychological Powerlessness)
+        ↓ H2 / H3 (매개)
+[DV — 측정]
+절차공정성 지각
+        ↑ H4
+[MOD — 측정]
+AI 활용 성과평가 절차 명확성
 ```
+
+---
 
 ## Variables
 
-| Role         | Variable                           | Korean label  | Current status                                                  |
-| ------------ | ---------------------------------- | ------------- | --------------------------------------------------------------- |
-| IV           | Human-AI collaborative integration | 인간-AI 협업 결합도  | ✅ [V2] 시나리오 조작(더미: 고결합/저결합) 확정 — 기존 5문항은 manipulation check로 전환 |
-| MV           | Performance attribution ambiguity  | 성과 기여 귀속 모호성  | 핵심 construct                                                    |
-| DV           | Procedural justice perception      | 성과평가 절차공정성 지각 | 메인 DV                                                           |
-| Secondary DV | Evaluation acceptance              | 평가 수용성        | 보조 결과 — [V6] 강건성 검정 활용 예정                                       |
-| Moderator    | Appraisal procedure clarity        | AI 활용 성과평가 절차 명확성 | ✅ [V9] B안 확정 — "조직이 AI 활용 성과평가 절차를 명확히 설명하는 정도" |
-| Control      | Respondent AI literacy             | 응답자(평가 대상자)의 AI 리터러시 | 통제변수 확정 (V5 참조) — [V9] 평가 대상자 시점 통일로 명칭 갱신 |
+| Role | Variable | Korean label | Current status |
+|------|---------|-------------|----------------|
+| 배경 | Human-AI collaborative context | 인간-AI 협업 환경 | ✅ IT 개발직 한정 샘플링으로 통제 — 별도 조작·측정 없음 |
+| IV | Performance attribution ambiguity | 성과 기여 귀속 모호성 | ✅ [V12] 시나리오 직접 조작 (귀속 명확 vs 모호) |
+| MV | Psychological powerlessness | 심리적 무력감 | ✅ [V13] 신규 매개변수 — 자원보존이론 기반 |
+| DV | Procedural justice perception | 성과평가 절차공정성 지각 | 메인 DV — Colquitt(2001) 4문항 척도 |
+| MOD | Appraisal procedure clarity | AI 활용 성과평가 절차 명확성 | [V9] B안 정의 유지 — 6단계에서 문항 재설계 |
+| Secondary DV | Evaluation acceptance | 평가 수용성 | 보조 결과 — [V6] 강건성 검정 활용 예정 |
+| Control | Respondent AI literacy | 응답자(평가 대상자)의 AI 리터러시 | 통제변수 (V5, V9 명칭 갱신) |
+| Control | Demographic variables | 직무 경력, 직급, AI 사용 경험 | 인구통계 통제 |
 
 **[V5] AI Literacy 통제변수 정당화:**
-AI Literacy는 응답자의 개인 특성으로 협업 결합도(IV)와 독립적으로 작동하며, 본 연구의 가설은 협업 환경의 구조적 특성에 초점을 두므로 개인 특성은 통제변수로 처리한다. 단, 강건성 검정 단계에서 AI Literacy를 조절변수로 추가 분석하여 결과의 강건성을 확인한다.
+AI Literacy는 응답자의 개인 특성으로 본 연구의 핵심 인과 경로(IV→MV→DV)와 독립적으로 작동한다. 강건성 검정 단계에서 조절변수로 추가 분석.
 
-**[V9] MOD 재정의 — B안 확정:**
-조절변수(MOD)를 "평가자가 인간/AI 기여를 분리하는 기준 제시"(A안)에서 "조직이 AI 활용 성과평가 절차를 명확히 설명하는 정도"(B안)로 재정의한다.
+**[V12] IV 재배치 근거:**
+기존 모델은 IV(협업 결합도) → MV(귀속 모호성) → DV(절차공정성) 구조로 "협업 결합도가 모호성을 유발한다"와 "모호성이 공정성을 훼손한다"를 모두 증명해야 했음. 이는 석사 논문 수준의 비약 위험. 본 연구는 협업 결합도를 IT 개발직 한정 샘플링으로 전제하고, 귀속 모호성을 IV로 시나리오 조작하여 핵심 인과 경로만 검증.
 
-A안은 MV(성과 기여 귀속 모호성)와 개념적으로 근접하여 Model 14 매개조절 분석의 정당성을 훼손할 위험이 있다. B안은 MV(평가 대상자의 인지 상태)와 MOD(평가 대상자가 지각하는 조직의 절차적 구조)를 차원적으로 분리함으로써 매개조절 모형의 통계적 정당성을 확보한다.
+**[V13] MV 신규 설정 근거:**
+기존 모델은 귀속 모호성 → 절차공정성의 심리적 경로 설명이 약했음. 평가자 시점 기준(Colquitt 3기준 훼손)이 아닌 평가 대상자의 인지적·정서적 반응을 매개로 설정. 자원보존이론(Hobfoll, 1989)에 따라 "자기 기여를 설명할 수 없는 인지 상태 → 심리적 자원 위협 → 무력감 → 공정성 지각 저하"의 명확한 경로 구성.
 
-응답자(평가 대상자) 시점에서 B안은 "조직이 AI 활용 성과를 어떻게 평가하는지 절차를 명확히 알려주는가"를 묻는 것으로, 시스템 신뢰의 직접 선행요인으로 작동한다. 문항 수준 재설계는 6단계(설문 설계)에서 처리한다.
+---
 
 ## Hypotheses
 
-### H1. 인간-AI 협업 결합도 → 성과 기여 귀속 모호성
-인간-AI 협업 결합도가 높을수록 성과 기여 귀속 모호성은 높아질 것이다.
+### H1. 귀속 모호성 → 심리적 무력감
+
+**귀속 모호성이 높은 시나리오 조건에 노출된 응답자는 낮은 조건의 응답자보다 심리적 무력감을 더 높게 경험할 것이다.**
+
+**이론적 근거 (자원보존이론, Hobfoll, 1989):**
+- COR 이론은 개인이 심리적 자원(자기효능감, 통제감, 기여 식별 능력 등)을 보존하려 하며, 자원 위협 상황에서 심리적 무력감이 발생한다고 본다.
+- AI 협업에서 자기 기여를 식별·설명할 수 없는 상태는 자기 통제감과 자기 기여 인식이라는 핵심 심리적 자원을 위협한다.
+- 이 자원 위협이 직접적으로 심리적 무력감(통제 불가능감, 영향력 상실감)으로 발현된다.
+
+**이론적 근거 (귀인이론, Weiner, 1985):**
+- 사람들은 성과의 원인을 소재성·안정성·통제가능성 차원으로 귀속한다.
+- AI 협업은 이 중 소재성(원인이 자기 내부인가 외부 도구인가)과 통제가능성을 흐린다.
+- 귀인 불가 상태는 자기 통제감을 약화시키며 무력감의 직접 선행조건이 된다.
+
+**선행연구 근거:**
+- Maasland & Weißmüller(2022): HRM 맥락에서 AI 알고리즘 개입 시 책임 귀속 모호성 실증 (N=288)
+- Douer & Meyer(2021): AI 보조 의사결정에서 귀속 모호성 발생 이론+실증
+- Khan et al.: 역할 모호성 → 불공정 지각 경로를 COR 이론으로 설명한 선례 (비교군)
+
+---
+
+### H2. 심리적 무력감 → 절차공정성 지각 저하
+
+**심리적 무력감이 높을수록 평가 대상자의 절차공정성 지각이 낮아질 것이다.**
+
+**이론적 근거 (불확실성 관리 이론, Van den Bos, 2001):**
+- UMT는 불확실성이 현저해질수록 사람들이 공정성 판단에 더 민감하게 반응한다고 본다.
+- 심리적 무력감은 자기 통제 불가능감을 동반하는 불확실성 상태이며, 이는 공정성 판단의 민감도를 높이고 부정적 평가로 이어진다.
+- Van den Bos는 3개 실험으로 불확실성 → 절차공정성 지각 강화/저하 경로를 실증.
+
+**이론적 근거 (절차공정성 이론, Colquitt, 2001):**
+- 절차공정성은 평가가 정확하고 일관되며 편향 없이 이루어진다는 지각에서 형성된다.
+- 무력감 상태의 평가 대상자는 "내가 어떻게 할 수 없는 평가 절차"라는 인지를 강화하여 절차의 정확성·일관성·편향 통제에 대한 신뢰를 잃는다.
+
+**선행연구 근거:**
+- Hartmann & Slapničar(2012): 성과평가 맥락에서 불확실성이 절차공정성 지각에 미치는 영향 직접 실증 (은행업 178명)
+- Salter(1998 박사): 성과 모호성·절차공정성·무력감 관련성 실증 (비교군)
+
+---
+
+### H3. 심리적 무력감의 매개 효과
+
+**심리적 무력감은 귀속 모호성이 절차공정성 지각에 미치는 부정적 영향을 매개할 것이다.**
 
 **이론적 근거:**
-- Orlikowski(2007): 사회물질적 얽힘 — 인간과 AI의 기여는 구조적으로 분리 불가능
-- Leonardi(2011): 임브리케이션 — 협업이 반복될수록 인간 행위성과 AI 물질성이 경로의존적으로 깊어져 기여 원천 식별이 어려워짐
-- Maasland & Weißmüller(2022): HRM 맥락 실증 — AI 알고리즘 개입↑ → 인간의 책임 귀속 모호성↑ (N=288 실험)
-- Douer & Meyer(2021): AI 보조 의사결정에서 귀속 모호성 이론+실증 — 협업 결합도가 높을수록 주관적 책임 귀속이 달라짐
-- He et al.(2025): 실증적 근거 — 기여 유형·량·주도성이 복합될수록 귀속 판단이 더 어려워짐 (⚠️ 창작 맥락, 선행연구 언급 수준 — [V7] 의존도 분산 위해 보조 근거로만 사용)
+- H1 + H2의 논리적 연쇄: 귀속 모호성(자원 위협) → 무력감(자원 손실 반응) → 절차공정성 지각 저하(평가 시스템 신뢰 약화)
+- 자원보존이론(Hobfoll)이 자원 위협 → 심리적 반응 → 행동/판단 변화의 연쇄 구조 제공
+- logic-architecture Layer 1→2→3→4의 전체 흐름
 
-**측정 근거:**
-- Van der Vegt et al.(2001): Task Interdependence 척도 — 구조적 상호의존 측정 방식 차용, 인간-AI 맥락으로 수정
-- Morgeson & Humphrey(2006): WDQ Received Interdependence 척도 — "AI 없이는 업무 완수 불가" 구조적 결합 측정
+**검정 방법:**
+- PROCESS Model 4 (단순 매개)
+- 부트스트래핑 95% 신뢰구간으로 간접효과 유의성 검증
 
-### H2. 성과 기여 귀속 모호성 → 절차공정성 지각
-성과 기여 귀속 모호성이 높을수록 성과평가 절차공정성 지각은 낮아질 것이다.
-
-**이론적 근거:**
-- Weiner(1985): 귀인이론 — 귀속 불가 시 평가자의 판단 연쇄 전체가 작동하지 않음
-- Van den Bos(2001): Uncertainty Management Theory — 불확실성이 현저해질수록 공정성 판단에 더 민감하게 반응하며, 절차공정성 지각이 강화된 영향을 받음 (JPSP, 3개 실험 실증)
-- Hartmann & Slapničar(2012): 성과평가 맥락 실증 — 과업불확실성이 절차공정성 지각에 미치는 영향을 HR 맥락에서 직접 실증 (은행업 178명)
-- Colquitt(2001): 절차공정성 기준 — 귀속 모호성이 accuracy, consistency, bias suppression을 직접 훼손
-  - Accuracy: 기여 원천 불분명 → 정확한 정보 확보 불가
-  - Consistency: 귀속 기준 부재 → 평가자마다 다른 판단
-  - Bias suppression: 식별 불가 → 주관·추측 개입 여지 확대
-- He et al.(2025): 귀속 기준의 개인 간 불일치 실증 — consistency 훼손의 실증적 근거 (⚠️ 창작 맥락 — [V7] 보조 근거)
-
-### H3. 성과 기여 귀속 모호성의 매개 효과
-성과 기여 귀속 모호성은 인간-AI 협업 결합도와 성과평가 절차공정성 지각 간의 관계를 매개할 것이다.
-
-**이론적 근거:**
-- H1 + H2의 논리적 연쇄
-- Weiner(1985): 귀인 연쇄 구조 — 결과→귀인→차원분류→기대+감정→행동의 연쇄에서 귀속 불가 시 전체 연쇄 붕괴
-- logic-architecture Layer 1→2→3의 전체 흐름
+---
 
 ### H4. AI 활용 성과평가 절차 명확성의 조절 효과
-AI 활용 성과평가 절차 명확성은 성과 기여 귀속 모호성이 성과평가 절차공정성 지각에 미치는 부정적 영향을 완화할 것이다.
+
+**AI 활용 성과평가 절차 명확성은 심리적 무력감이 절차공정성 지각에 미치는 부정적 영향을 완화할 것이다.**
 
 **[V4] 대안 가설 가능성 인정:**
-평가기준이 매우 명확할 때 기준 위반이 더 두드러져 보여 공정성 지각이 오히려 하락할 가능성(양면 효과)도 이론적으로 가능하다. 그러나 Erdogan(2002), Kim(2016), Wang(2023)의 실증 결과가 일관되게 "평가기준 명확성↑ → 공정성 지각↑" 방향을 지지하므로, 본 연구는 완화 효과를 가설로 채택한다.
+평가절차가 매우 명확할 때 그 절차에 미치지 못함이 더 두드러져 보여 공정성 지각이 오히려 하락할 가능성(양면 효과)도 이론적으로 가능하다. 그러나 Erdogan(2002), Kim(2016), Wang(2023)의 실증 결과가 일관되게 "평가절차 명확성↑ → 공정성 지각↑" 방향을 지지하므로 본 연구는 완화 효과를 가설로 채택한다.
 
-**[V9] MOD 개념적 분리:**
-B안으로 재정의된 MOD는 MV(평가 대상자의 인지 상태)와 차원이 다르다.
-- MV: "나의 기여를 식별하기 어렵다" — 평가 대상자의 인지 상태
-- MOD: "조직이 AI 활용 성과평가 절차를 명확히 설명한다" — 평가 대상자가 지각하는 조직의 절차적 구조
+**[V9] MOD 개념적 분리 (B안 확정):**
+MOD는 "조직이 AI 활용 성과평가 절차를 명확히 설명하는 정도"로 정의되며, MV(평가 대상자의 인지 상태)와 차원이 다르다.
+- MV: 개인의 인지 상태 ("나는 내가 어떻게 할 수 없다고 느낀다")
+- MOD: 조직의 절차적 구조에 대한 지각 ("조직이 평가 절차를 명확히 설명한다")
 
-이 분리로 MOD가 MV를 직접 낮추는 변수가 아니라 MV→DV 경로의 강도를 조절하는 변수임이 명확해진다.
+이 분리로 MOD가 MV→DV 경로의 강도를 조절하는 변수임이 명확해진다.
 
 **이론적 근거:**
-- Leventhal(1980): 절차공정성 6기준 — consistency와 accuracy는 명확한 기준이 전제되어야 작동 가능 (Colquitt 통해 간접 인용)
+- Leventhal(1980): consistency와 accuracy는 명확한 기준이 전제되어야 작동 가능
 - Colquitt(2001): accuracy와 consistency는 명확한 기준이 있을 때 회복 가능
-- Erdogan(2002): 평가기준(시스템 특성)이 절차공정성 지각의 핵심 선행요인 — HR 맥락 이론 정립
-- Kim(2016): 평가기준 명확성→절차공정성 지각 정적 관계를 공공부문 HR 맥락에서 직접 실증
-- Wang(2023) Formality: 형식성이 역할 명확성을 매개로 절차공정성을 높인다 — 평가절차 명확성이 공정성 지각을 높이는 직접 근거
-- He et al.(2025): 이분법적 접근의 한계 — 스펙트럼 접근(기준 명확화)이 귀속 판단을 개선할 수 있음 (⚠️ 창작 맥락 — [V7] 보조 근거)
-- logic-architecture Layer 4: 평가절차 명확성이 accuracy·consistency 훼손 경로를 완화하는 메커니즘
+- Erdogan(2002): 평가기준 명확성이 절차공정성 지각의 핵심 선행요인 — HR 맥락 이론 정립
+- Kim(2016): 평가기준 명확성→절차공정성 지각 정적 관계 실증
+- Wang(2023) Formality: 형식적 평가절차가 역할 명확성을 통해 절차공정성 향상
+
+**검정 방법:**
+- PROCESS Model 14 (조건부 매개)
+- 무력감 → 공정성 경로의 조절 효과 검증
+
+---
 
 ## Recommended Analysis
 
 **Primary analysis:**
-- Scenario-based experiment
-- Mediation and moderated mediation
-- PROCESS Model 14 or equivalent regression model (Hayes, 2018)
+- Scenario-based experiment (IT 개발직 한정)
+- Mediation analysis: PROCESS Model 4 (H3)
+- Moderated mediation: PROCESS Model 14 (H4)
+- 부트스트래핑 5,000회 95% 신뢰구간
 
-**Alternative analysis:**
-- If moderator is placed on IV → MV path, use PROCESS Model 7.
-- If using SEM, test measurement model first and then structural path.
-
-**Robustness checks ([V5], [V6]):**
-- AI Literacy를 통제변수가 아닌 조절변수로 추가 분석
-- 보조 DV(평가 수용성)를 활용한 결과 강건성 확인
-- Colquitt(2001) 4요인(분배·대인·정보 공정성) 비교 측정으로 본 효과가 절차공정성에 특정함을 확인 (선택적)
+**Robustness checks:**
+- AI Literacy를 통제변수가 아닌 조절변수로 추가 분석 ([V5])
+- 보조 DV(평가 수용성)를 활용한 결과 강건성 확인 ([V6])
+- Manipulation check: 기존 협업 결합도 5문항으로 시나리오 조작 효과 확인
 
 **방법론 근거:**
 - Hayes(2018): PROCESS macro — 조건부 매개효과 검증 표준 방법론
-- MacKenzie et al.(2011): Attribution Ambiguity 신규 construct 개발 및 척도 적응 절차 정당화
+- MacKenzie et al.(2011): 척도 적응 절차 정당화
 
-## Model Decision
+---
 
-현재 초안에서는 `AI 활용 성과평가 절차 명확성`을 조절변수로 두는 것이 가장 방어 가능하다. 이유는 다음과 같다.
+## Model Decision Justification
 
-- 실험에서 직접 조작할 수 있다.
-- HRM 실무 시사점으로 연결하기 쉽다.
-- AI 리터러시보다 응답자 개인차 문제가 작다.
-- "모호성이 생기더라도 절차가 명확하면 공정성 훼손이 줄어든다"는 논리가 자연스럽다.
-- MV(인지 상태)와 차원이 달라 매개조절 모형의 통계적 정당성이 확보된다. [V9]
+본 연구의 모델 구조는 다음 4가지 결정의 산물이다:
 
-## [V8] IV 측정 방식 결정 완료
+**[V12] IV: 협업 결합도 → 귀속 모호성으로 교체**
+- 협업 결합도를 IV로 두면 3단계 새 주장 모두 증명 부담
+- 귀속 모호성을 직접 조작하면 핵심 인과 경로만 검증
+- IT 개발직 샘플링으로 협업 결합도는 맥락 전제로 통제
 
-**결정: Option A (단일시점 시나리오 실험) 채택**
+**[V13] MV: 귀속 모호성 → 심리적 무력감으로 교체**
+- 평가자 시점 기준(Colquitt 3기준) 대신 평가 대상자의 심리적 경로 명시
+- 자원보존이론(COR)이 한상진 발제 및 다수 AI+HRM 선행연구에서 채택된 자연스러운 프레임
+- 한국 직장인 연구(Behavioural & IT, 2025)에서도 유사 이론 활용
 
-> 근거 1 (학문적 공헌): 본 연구의 기여는 "귀속 모호성 → 절차공정성 저하" 인과 메커니즘 규명에 있다. Option B(측정)는 상관에 머물러 역인과·제3변수 반박에 취약하나, 시나리오 조작 + 무선할당은 이를 차단한다.
-> 근거 2 (모델 정합성): PROCESS Model 14의 IV→MV 경로 인과 해석은 IV 조작 시 깨끗하게 성립한다.
-> 근거 3 (실증가능성): 단일시점 1회 설문으로 종료 — 종단 시간 장벽 없음, 조직 데이터 섭외 부담 없음. 석사 일정 내 통제 가능.
-> 근거 4 (선행연구 정합): Maasland & Weißmüller(2022)가 N=288 실험설계로 AI 개입→귀속 모호성을 실증함. 본 연구는 이 실험 패러다임을 성과평가·절차공정성 맥락으로 확장한다.
+**[V14] 연구 포지셔닝**
+- 기존 연구가 다루지 않은 세 가지 조합: AI 협업 도구 + 사후적 귀속 모호성 + 절차공정성 지각
+- 기존 연구는 시스템 변수 중심, 본 연구는 인식 조건 변수 중심
 
-→ 확정 영향:
-- IV = 더미변수 (고결합 vs 저결합 시나리오 조작)
-- 기존 5문항 = IV 측정 아님, **manipulation check**로 역할 전환 → measurement-items.md IV 섹션 수정 필요
-- MV(귀속 모호성) = 조작 대상 아님, 독립 측정 척도 유지
-- 조절(AI 활용 성과평가 절차 명확성) = 시나리오 내 동반 조작 시 2×2 요인설계 가능 (Step 4에서 확정)
+**[V15] 대전제와 본 연구 범위 분리**
+- 대전제: 기여 경계 불명확 → 인지적 의심 → 무력감 → 공정성 → 처우개선 의도
+- 본 연구: 핵심 경로(귀속 모호성 → 무력감 → 공정성)만 실증
+- 인지적 의심·발언 의도는 future research
 
-→ 한계 선언: 가상 시나리오 기반 → 외적 타당도 제약을 limitation에 명시. 박사 단계 종단 설계(Leonardi 2011 임브리케이션의 시간적·경로의존적 축적)로 확장 예정.
+---
 
 ## 연결 파일
 
 | 가설 | 핵심 근거 논문 | 파일 경로 |
 |---|---|---|
-| H1 | Orlikowski(2007), Leonardi(2011), Maasland & Weißmüller(2022), Douer & Meyer(2021), Van der Vegt et al.(2001), Morgeson & Humphrey(2006), He et al.(2025) ⚠️ | Sources/Papers/ |
-| H2 | Weiner(1985), Van den Bos(2001), Hartmann & Slapničar(2012), Colquitt(2001), He et al.(2025) ⚠️ | Sources/Papers/ |
-| H3 | Weiner(1985) — 귀인 연쇄 구조 | Sources/Papers/ |
-| H4 | Leventhal(1980), Colquitt(2001), Erdogan(2002), Kim(2016), Wang(2023) Formality, He et al.(2025) ⚠️ | Sources/Papers/ |
+| H1 | Hobfoll(1989), Weiner(1985), Maasland & Weißmüller(2022), Douer & Meyer(2021), Khan et al. | Sources/Papers/ |
+| H2 | Van den Bos(2001), Hartmann & Slapničar(2012), Colquitt(2001), Salter(1998) | Sources/Papers/ |
+| H3 | Hobfoll(1989) — 자원 위협-반응 연쇄 | Sources/Papers/ |
+| H4 | Leventhal(1980), Colquitt(2001), Erdogan(2002), Kim(2016), Wang(2023) Formality | Sources/Papers/ |
 | 방법론 | Hayes(2018), MacKenzie et al.(2011), Heggestad et al.(2019) | Sources/Papers/ |
+| 비교군 | Jiang et al.(2023), Tang et al.(2022), Hunter(2025) | Sources/Papers/ |
 
 - 구성개념 정의: `Analysis/construct-definition_attribution-ambiguity.md`
 - 논리 뼈대: `Analysis/logic-architecture.md`
 - 측정 항목: `Analysis/measurement-items.md`
-- 구조 리뷰: `progress/review-2026-06-04.md`
+- 구조 리뷰: `progress/review-2026-06-15.md`
+
+---
 
 ## 변경 이력
 - [V2] IV 결정 완료 — Option A 시나리오 실험 확정
-- [V8] IV 측정 방식 결정 완료 섹션 추가
-- [V9] MOD 재정의 — B안(AI 활용 성과평가 절차 명확성) 확정, Variables 테이블 갱신, H4 표현 수정, Control 명칭 변경(Evaluator → Respondent), Model Decision에 V9 근거 추가
+- [V8] IV 측정 방식 결정 — manipulation check 전환
+- [V9] MOD 재정의 — B안(AI 활용 성과평가 절차 명확성) 확정
+- [V12] IV 재배치 — 협업 결합도(샘플링 통제) → 귀속 모호성(시나리오 조작)
+- [V13] MV 신규 설정 — 심리적 무력감(Psychological Powerlessness), COR 이론 기반
+- [V14] 기존 연구와의 차별점 재정립 — 세 축(협업 도구·사후적 모호성·인식 조건)
+- [V15] 대전제와 본 연구 범위 분리 — 큰 그림 유지, 좁은 실증
+- [V16] 비교군 선행연구 확보 — Khan et al., Salter, Hunter, Jiang et al., Tang et al.
