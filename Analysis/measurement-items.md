@@ -1,20 +1,20 @@
 ---
-last-updated: 2026-06-15
-version: V12~V13 — IV 시나리오 조작 + manipulation check, MV 무력감 척도 신규
-related-review: progress/review-2026-06-15.md
+last-updated: 2026-07-28
+version: V17 — MV 무력감 문항 → 평가 불확실성으로 틀 교체(문항 잠정), DV accuracy 제거·consistency+bias suppression 재작성
+related-review: progress/review-2026-07-28.md
 ---
 
 # Measurement Items
 
 All items are draft items. They need translation refinement, pilot testing, and reliability/validity checks.
 
-[V13 신규] 본 측정 문항은 6단계(설문 설계 구체화)에서 최종 확정. 특히 MV(심리적 무력감) 척도는 신규 변수이므로 척도 확보가 우선.
+> [V17 상태] 이번 갱신은 구조 정렬까지다. **MV(지각된 평가 불확실성) 최종 문항은 척도 확보 후(2단계) 확정한다.** DV는 accuracy 제거·consistency·bias suppression 중심으로 재작성했다. 척도 anchor(7점 vs 5점)는 척도 확보 시 최종 통일한다(하단 참조).
 
 ---
 
 ## I. 시나리오 (IV — 성과 기여 귀속 모호성)
 
-[V12] IV는 시나리오 직접 조작이다. 기존 협업 결합도 5문항은 manipulation check로 활용.
+[V12] IV는 시나리오 직접 조작이다.
 
 ### 시나리오 설계 방향 (6단계 확정 예정)
 
@@ -27,76 +27,71 @@ All items are draft items. They need translation refinement, pilot testing, and 
 **저결합/명확 조건:**
 > "당신은 최근 3개월간 신규 서비스 개발 프로젝트를 진행했습니다. 핵심 아이디어, 의사결정, 주요 작업은 본인이 직접 수행했고, AI 도구는 단순 검색이나 문법 점검 등 보조적 용도로만 일부 활용했습니다. 본인의 기여와 AI의 기여가 명확히 구분되는 상황입니다. 이제 이 프로젝트 성과에 대한 평가가 이루어집니다."
 
-### Manipulation Check (4문항, 7점 척도)
+> ⚠️ [V17 교란 통제 — 문제 3] 위 두 조건은 현재 **AI 사용량 자체가 동반 변동**한다(거의 모든 단계 vs 보조적). 이 경우 결과가 귀속 모호성 때문인지 AI 사용량 때문인지 구분되지 않는다. 6단계 시나리오 확정 시, 과업 난이도·성과 수준·AI 사용량을 최대한 동일하게 두고 **'기여 식별 가능성'만** 달라지도록 재설계할 것.
 
-응답자가 시나리오를 어떻게 지각했는지 확인하는 용도. 기존 협업 결합도 척도를 manipulation check로 전환.
+### Manipulation Check (4문항)
+
+응답자가 시나리오를 어떻게 지각했는지 확인하는 용도(IV 조작 점검).
 
 | 번호 | 문항 | 출처 |
 |---|---|---|
-| MC1 | 나는 이 성과가 나의 역량에서 비롯된 것인지 AI의 기여에서 비롯된 것인지 구분하기 어렵다고 느낀다. | 기존 MV 1번 (Weiner 근거) |
-| MC2 | 나는 이 결과물에서 나의 순수 기여분을 식별하기 어렵다고 느낀다. | 기존 MV 2번 (Orlikowski 근거) |
-| MC3 | 나는 이 성과의 실제 기여 주체를 명확히 판단하기 어렵다고 느낀다. | 기존 MV 4번 (Weiner, Maasland 근거) |
-| MC4 | 나는 AI의 개입 정도 때문에 나의 개인 기여도를 명확히 평가하기 어렵다고 느낀다. | 기존 MV 6번 (He et al. 근거) |
+| MC1 | 나는 이 성과가 나의 역량에서 비롯된 것인지 AI의 기여에서 비롯된 것인지 구분하기 어렵다고 느낀다. | 귀속 모호성 (Weiner 근거) |
+| MC2 | 나는 이 결과물에서 나의 순수 기여분을 식별하기 어렵다고 느낀다. | 귀속 모호성 (Orlikowski 근거) |
+| MC3 | 나는 이 성과가 나의 기여와 AI의 기여가 분리하기 어렵게 결합되어 있다고 느낀다. | 귀속 모호성 |
+| MC4 | 나는 이 성과의 실제 기여 주체를 명확히 판단하기 어렵다고 느낀다. | 귀속 모호성 |
 
-⚠️ 기존 협업 결합도 5문항(Van der Vegt + Morgeson)은 본 모델에서 IV 측정 아님. 시나리오 강도 보조 점검용으로 활용 가능.
-
-Scale anchor: 1 = 전혀 그렇지 않다, 7 = 매우 그렇다
+> ⚠️ MC는 IV(귀속 모호성) 조작 점검이다. DV(절차공정성)와는 대상이 다르므로 순환 아님. 단 MC 문항이 MV(평가 불확실성) 문항과 섞이지 않도록 척도 확정 시 판별 점검.
 
 ---
 
-## II. Psychological Powerlessness (MV — 심리적 무력감) [V13 신규]
+## II. Perceived Evaluation Uncertainty (MV — 지각된 평가 불확실성) [V17 전면 교체]
+
+> ⚠️ **척도 미확보 — 실행 블로커.** (구) 무력감·임파워먼트(Spreitzer) 계열 척도는 폐기되었다. '불확실성 지각(uncertainty perception)' 계열에서 타당화 척도를 탐색해야 하며, 아래 문항은 **방향 예시일 뿐 확정이 아니다.** 척도 확정은 2단계.
 
 ### 척도 확보 방향
 
-**Option A (1순위):** Spreitzer (1995) Psychological Empowerment 척도의 역방향 활용
-- 원 척도 4차원: Meaning, Competence, Self-determination, Impact
-- 본 연구는 Self-determination(자기결정성)과 Impact(영향력)의 역방향 측정으로 무력감 조작화
+- 평가 **결과의 예측 가능성**에 초점을 둔 불확실성 지각 척도
+- 역코딩 지양(방법요인 방지): "예측할 수 있다"의 역방향이 아니라 불확실성의 존재를 직접 묻는 문항 우선
+- IV(기여 식별)와 겹치지 않도록 '평가 결과의 예측'에만 초점
+- 한국 직장 맥락에서 검증된 척도 우선, 4문항 내외 단축형 목표
+- 척도 확정 시 IV 문항과의 판별타당도(discriminant validity) 반드시 확인
 
-**Option B:** Powerlessness 단일 척도 탐색
-- Geis & Christie (1970) Mach IV의 일부 항목
-- Bandura의 무력감 관련 척도
+### 후보 문항 (잠정 — 확정 아님)
 
-**6단계 결정 사항:**
-- 한국 직장 맥락에서 검증된 척도 우선
-- 4문항 내외 단축형 목표
-
-### 후보 문항 (잠정, 7점 척도)
-
-| 번호 | 문항 | 차원 (Spreitzer 역방향) | 이론적 근거 |
+| 번호 | 문항 | 초점 | 이론적 근거 |
 |---|---|---|---|
-| 1 | 이 평가 상황에서 나는 내 입장을 설명할 영향력이 없다고 느낀다. | Impact(역) | Hobfoll(1989) — 영향력 자원 위협 |
-| 2 | 이 평가 결과는 내가 통제할 수 없는 요인에 의해 좌우된다고 느낀다. | Self-determination(역) | Weiner(1985) — 통제가능성 차원 |
-| 3 | 나는 이 평가에 영향을 미칠 방법이 없다고 느낀다. | Impact(역) | Van den Bos(2001) — 통제 불가능감 |
-| 4 | 나는 내 기여를 설명하고 인정받을 능력이 없다고 느낀다. | Self-determination(역) | Hobfoll(1989) — 자기 기여 인식 자원 위협 |
+| 1 | 나는 이 성과가 평가에서 어떻게 반영될지 예측하기 어렵다. | 평가 결과 예측 | UMT (Van den Bos 2001); 귀인 기대원리 |
+| 2 | 나는 이 성과에 대해 내가 어떤 평가를 받을지 확신할 수 없다. | 평가 결과 확신 | UMT |
+| 3 | 이 성과에 대한 평가 결과가 어떻게 나올지 가늠하기 어렵다. | 평가 결과 예측 | UMT |
+| 4 | 나는 내 기여가 평가에 어떻게 고려될지 예상하기 어렵다. | 평가 반영 예측 | 귀인 기대원리 |
 
-⚠️ 6단계에서 척도 확정 후 문항 재조정 예정
+> 위 문항은 '통제할 수 없다'(무력감)가 아니라 '예측할 수 없다'(불확실성)에 초점을 둔다.
 
 ---
 
-## III. Procedural Justice (DV — 절차공정성 지각)
+## III. Procedural Justice (DV — 절차공정성 지각) [V17 재작성 — accuracy 제거]
 
-Adapted from Colquitt(2001). Scale anchor: 1 = 전혀 그렇지 않다, 7 = 매우 그렇다.
-
-[V13] 기존 모델에서 유지. 무력감(MV)에서 절차공정성(DV)으로 이어지는 인과 경로의 종속변수.
+Adapted from Colquitt(2001) / Leventhal(1980). [V17] consistency(사람 간 동일 기준) + bias suppression(평가자 중립성) 중심. **accuracy 기준은 IV(기여 식별)와 순환 위험으로 제외.** 문항은 AI를 언급하지 않고 일반적 절차 속성만 묻는다(순환 차단).
 
 | 번호 | 문항 | Colquitt 기준 | 이론적 근거 |
 | --- | --- | --- | --- |
-| 1 | 이 성과평가 절차는 정확한 정보에 근거한다고 느껴진다. | Accuracy | Colquitt(2001) — Leventhal(1980); Van den Bos(2001) |
-| 2 | 이 성과평가 절차는 일관된 기준에 따라 이루어진다고 느껴진다. | Consistency | Colquitt(2001) — Leventhal(1980); Hartmann & Slapničar(2012) |
-| 3 | 이 성과평가 절차는 편향을 최소화한다고 느껴진다. | Bias suppression | Colquitt(2001) — Leventhal(1980) |
-| 4 | 이 성과평가 절차는 구성원의 실제 기여에 대한 충분한 정보를 바탕으로 이루어진다고 느껴진다. | Accuracy | Colquitt(2001) — "Have those procedures been based on accurate information?" |
+| 1 | 이 성과평가 절차는 모든 구성원에게 동일한 기준으로 적용된다. | Consistency (사람 간) | Leventhal(1980); Colquitt(2001) |
+| 2 | 이 평가에서 나는 다른 사람과 같은 방식으로 평가받는다. | Consistency (사람 간) | Leventhal(1980); UMT 연결 |
+| 3 | 이 성과평가 절차는 특정인에게 유리하거나 불리하게 편향되지 않는다. | Bias suppression | Colquitt(2001); Leventhal(1980) |
+| 4 | 이 평가는 평가자의 개인적 편견 없이 이루어진다. | Bias suppression | Colquitt(2001) |
 
-⚠️ [V10] 기존 5문항에서 4문항으로 정리 — DV 3번(이중성 우려) 제외. 6단계에서 재검토.
+> ⚠️ [V17] 제외된 기준: **accuracy**("평가가 내 실제 기여를 정확히 반영") — IV와 동어반복 위험. representativeness·correctability — 연구 범위 밖. 제외 사유는 한계 절에 명시하고, "AI가 평가 정확성을 위협한다"는 문제의식은 discussion/future research로 보존.
+> ⚠️ 두 기준(consistency·bias suppression)은 **단일 절차공정성 점수로 합산**하여 분석한다(각각 별도 DV로 나누지 않음 — 가설 배증·검정력 부담 회피).
 
 ---
 
-## IV. Appraisal Procedure Clarity (MOD — AI 활용 성과평가 절차 명확성)
+## IV. Appraisal Procedure Clarity (MOD — 평가 절차 명확성)
 
-Moderator measure. Scale anchor: 1 = 전혀 그렇지 않다, 7 = 매우 그렇다
+Moderator measure (측정 조절변수). MV→DV 경로를 조절하며 상호작용항(MV×MOD)으로 검증(Model 14).
 
-[V9 B안 정의 유지]: "조직이 AI 활용 성과평가 절차를 명확히 설명하는 정도"
+[V9 계승 정의]: "조직이 AI 활용 성과평가 절차를 명확히 설명하는 정도"
 
-⚠️ 6단계에서 문항 전면 재설계 예정. 현재 문항은 잠정.
+⚠️ 6단계에서 문항 재설계 예정. 현재 문항은 잠정.
 
 | 번호 | 문항 (⚠️ 6단계 재설계) | 이론적 근거 |
 | --- | --- | --- |
@@ -105,11 +100,11 @@ Moderator measure. Scale anchor: 1 = 전혀 그렇지 않다, 7 = 매우 그렇�
 | 3 | 이 조직은 AI 활용 여부가 성과평가에서 어떻게 고려되는지 명확한 절차를 제공한다. | Wang(2023) Formality |
 | 4 | 이 조직의 AI 활용 성과평가 절차는 구성원이 이해할 수 있도록 안내된다. | Erdogan(2002) — system PJ |
 
+> ⚠️ [V17 측정 대상 확정 필요] 시나리오 실험에서 MOD가 가리키는 조직이 '시나리오 속 가상 조직'인지 '응답자 실제 소속 조직'인지 6단계에서 확정. 내적 타당도상 가상 조직 기준 권장(응답자 실제 조직 특성의 개입 방지).
+
 ---
 
 ## V. Secondary DV — Evaluation Acceptance (평가 수용성)
-
-Scale anchor: 1 = 전혀 그렇지 않다, 7 = 매우 그렇다
 
 [V6] 강건성 검정 활용 — 본 모형의 효과가 단일 DV에 한정되지 않음을 보여주는 보조 측정.
 
@@ -125,7 +120,7 @@ Scale anchor: 1 = 전혀 그렇지 않다, 7 = 매우 그렇다
 
 ### VI-1. Respondent AI Literacy [V9 명칭 갱신]
 
-Wang et al. (2022) adapted. Scale anchor: 1 = 전혀 그렇지 않다, 7 = 매우 그렇다.
+Wang et al. (2022) adapted.
 
 | 번호 | 문항 | Wang et al.(2022) 차원 |
 |---|---|---|
@@ -146,15 +141,19 @@ Wang et al. (2022) adapted. Scale anchor: 1 = 전혀 그렇지 않다, 7 = 매�
 
 ---
 
+## 척도 Anchor [V17 미결]
+
+- 현행 초안: 7점 Likert (1 = 전혀 그렇지 않다 ~ 7 = 매우 그렇다)
+- ⚠️ 국내 KCI 계열 척도(예: 절차공정성 국문 번안본)는 다수 5점 척도 → 저널 트랙 고려 시 5점 통일 검토
+- 결정 시점: 평가 불확실성 척도 확보 시 전체 문항 anchor 최종 통일
+
+---
+
 ## 변경 이력
-- 절차공정성 5번 → 교체 (정보공정성 → Accuracy 기준)
-- 평가기준 명확성 3번 → 교체
-- AI Literacy 3번 → 교체
-- AI Literacy → 통제변수 확정 (Wang et al., 2022)
 - [V1] 응답자 시점 통일 (평가 대상자)
 - [V2] IV → manipulation check 전환 (시나리오 조작 결정)
 - [V6] Evaluation Acceptance 강건성 검정 활용 계획 명시
 - [V9] MOD B안 정의 확정, AI Literacy 명칭 Respondent로 갱신
-- [V12] IV가 시나리오 직접 조작으로 변경 — 기존 협업 결합도 척도는 본 모델에서 IV 측정 아님 (보조 점검용)
-- [V13] MV 신규 — 심리적 무력감(Powerlessness) 후보 문항 4개 추가, 척도 확보는 6단계
-- [V14] What It Is Not 비교군 반영
+- [V12] IV가 시나리오 직접 조작으로 변경
+- [V13] MV 신규 — 심리적 무력감 후보 문항 [V17에서 폐기]
+- [V17] MV를 지각된 평가 불확실성으로 틀 교체(문항 잠정, 척도 미확보) / DV에서 accuracy(1·4번) 제거, consistency·bias suppression으로 재작성(AI 미언급, 합산 단일 DV) / 시나리오 교란 통제 과제 명시 / MOD 측정 대상 확정 과제 / 척도 anchor 5점 검토 과제
