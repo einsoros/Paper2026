@@ -1,5 +1,5 @@
 ---
-last-updated: 2026-07-28
+last-updated: 2026-07-31
 version: V17 — COR(Hobfoll)·Spreitzer 제거, Van den Bos(UMT) 주이론 격상, Weiner 역할 확장(기대원리), MV 평가 불확실성 반영
 related-review: progress/review-2026-07-28.md
 ---
@@ -21,6 +21,7 @@ related-review: progress/review-2026-07-28.md
 | --- | --- | --- | --- | --- |
 | **Weiner (1985)** | Psychological Review | **IV 정당화 + IV→MV(기대원리) — 귀인이론 [V17 역할 확장]** | 2. 이론적 배경 / 3. 가설 H1 | Layer 2 |
 | **Van den Bos (2001)** | JPSP | **MV→DV 주 이론 — UMT [V17 격상]** | 2. 이론적 배경 / 3. 가설 H2 | Layer 3 |
+| **Lind & van den Bos (2002)** | ROB Vol.24 | **UMT 정본 이론서 — 불확실성↔공정성 통합 이론 [07-31 확보]** | 2. 이론적 배경 (UMT 정초) | Layer 3 |
 | Colquitt (2001) | JAP | DV 정의+측정 — 절차공정성(consistency·bias suppression 중심) | 2. 이론적 배경 / 3. 가설 H2 / 4. 방법론 | Layer 3 |
 | Orlikowski (2007) | Organization Science | 사회물질성 — 귀속 모호성 존재론 근거 | 2. 이론적 배경 / 3. 가설 H1 | Layer 1·2 |
 | Leonardi (2011) | MIS Quarterly | 임브리케이션 — 귀속 모호성 발생 근거 | 2. 이론적 배경 / 3. 가설 H1 | Layer 2 |
@@ -81,7 +82,7 @@ related-review: progress/review-2026-07-28.md
 | Khan et al. | Personality Journal Commerce | Role ambiguity → unfair appraisal | 역할 모호성(사전적) → 본 연구는 사후적 귀속 모호성 |
 | Salter (1998 박사) | Purdue Univ. | Performance ambiguity × Procedural justice → Job insecurity | 두 변수를 IV로 둠 → 본 연구는 귀속 모호성→공정성 경로 검증 |
 | Hunter (2025 박사) | Univ. of Glasgow | 고기술 맥락 성과평가 공정성 (UMT, 정성) | 정성연구 → 본 연구는 시나리오 실험 |
-| Jiang et al. (2023) | PLOS One | AI-Human 의사결정 순서 → 절차공정성 | AI가 의사결정자 → 본 연구는 AI가 협업 도구 |
+| Jiang et al. (2023) | PLOS One | AI-Human 의사결정 순서 → 절차공정성 | **AI가 '평가 시스템 쪽'(의사결정자) → 본 연구는 AI가 '업무 수행 쪽'(협업 도구). AI 결합 위치가 다름** [07-31 확보·심화] |
 | Tang et al. (2022) | (Journal) | AI 자율성 → 역할 모호성 + 자기효능감↓ → 성과 | IV가 AI 자율성 → 본 연구는 기여 귀속 모호성, DV는 공정성 |
 | Frontiers Psychology (2025) | Frontiers | AI 도입 → 직무 불안정성 → 성과 | DV가 성과 → 본 연구는 절차공정성 지각 |
 
@@ -122,7 +123,7 @@ related-review: progress/review-2026-07-28.md
 - Douer & Meyer (2021), Maasland & Weißmüller (2022)
 
 **2.3 불확실성 관리 이론과 절차공정성 (MV→DV) [V17 재편]**
-- Van den Bos (2001) — UMT 핵심(주 이론)
+- Van den Bos (2001) — UMT 핵심(주 이론) / Lind & van den Bos (2002) — UMT 정본 이론서 [07-31 확보]
 - Hartmann & Slapničar (2012) — 성과평가 맥락 실증
 - Colquitt (2001) — 절차공정성(consistency·bias suppression)
 - Leventhal (1980), Levy & Williams (2004), Lyu et al. (2023)
@@ -137,7 +138,7 @@ related-review: progress/review-2026-07-28.md
 ### 3. 연구모델 및 가설 (Hypotheses)
 
 - **H1 (귀속 모호성 → 평가 불확실성)**: Weiner(1985) 기대원리, Orlikowski(2007), Leonardi(2011), Maasland & Weißmüller(2022), Douer & Meyer(2021)
-- **H2 (평가 불확실성 → 절차공정성 저하)**: Van den Bos(2001), Hartmann & Slapničar(2012), Colquitt(2001)
+- **H2 (평가 불확실성 → 절차공정성 저하)**: Van den Bos(2001, 실험), Lind & van den Bos(2002, UMT 정본), Hartmann & Slapničar(2012), Colquitt(2001)
 - **H3 (매개)**: H1+H2 연쇄 (별도 이론 불필요)
 - **H4 (조절: 절차 명확성)**: Leventhal(1980), Colquitt(2001), Erdogan(2002), Kim(2016), Wang(2023) Formality
 

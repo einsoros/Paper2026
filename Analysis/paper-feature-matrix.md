@@ -1,5 +1,5 @@
 ---
-last-updated: 2026-07-28
+last-updated: 2026-07-31
 version: V17 — Hobfoll·Spreitzer 행 제거, Weiner(기대원리)·Van den Bos 설명 갱신, "무력감 매개" → "평가 불확실성 매개"
 related-review: progress/review-2026-07-28.md
 ---
@@ -14,6 +14,7 @@ Use this matrix to compare papers before writing prose. 비교군 선행연구�
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | **Weiner (1985)** | 성과 원인 귀속과 그 귀속이 기대·감정에 미치는 영향 | 이론적 통합 및 문헌 검토 | 다수 실증 연구 메타 검토 | 귀인의 3차원(Locus, Stability, Controllability)이 기대와 감정을 결정한다 (**기대원리**) | 귀인-기대 연쇄 견고. AI는 3차원 모두에서 분류 불가능한 원인 | 귀인-기대 연결이 절대적이지 않음을 저자도 인정 | **IV 정당화 + IV→MV(기대원리) 근거. Layer 2. H1** | high |
 | **Van den Bos (2001)** | 불확실성이 공정성 판단에 미치는 영향 | 3개 실험 | JPSP 게재, 실험 N=각 100~200 | 불확실성이 현저할수록 공정성 판단에 더 민감하게 반응한다 (UMT) | 불확실성 → 공정성 지각 영향 실증 | 실험 맥락 한정 | **MV→DV 주 이론. Layer 3. H2** | high |
+| **Lind & van den Bos (2002)** | 공정성과 불확실성의 이론적 통합 | 이론 (통합) | ROB Vol.24, 181–223 | 공정성과 불확실성은 분리해 이해할 수 없으며, 사람은 공정성 판단으로 불확실성을 관리한다 | UMT 정본 — MV→DV의 이론적 정초 | 실증 데이터는 인용 연구에 의존 | **MV→DV 이론 근거(정본). Layer 3. H2** [07-31 확보] | high |
 | Colquitt (2001) | 조직공정성의 차원 구조와 측정 도구 부재 | CFA, SEM, 2개 표본 | 대학생 301명, 제조업 직원 337명 | 조직공정성은 4요인으로 구분되며 각각 독립적 예측타당도를 가진다 | 4요인 구조 우수. 절차공정성 척도 검증 | 자기보고식 단일출처 편향 | DV(절차공정성) 측정 — consistency·bias suppression 사용(accuracy 제외). Layer 3 | high |
 | Orlikowski (2007) | 조직 연구가 물질성을 무시해온 문제 | 이론 + 사례 연구 | Google, BlackBerry 사례 | 모든 조직 실천은 사회물질적이며 사회·물질은 분리 불가능 | 인간-인공물 분리는 분석적 편의일 뿐 | 실증 데이터 없음 | IV 정당화. 귀속 모호성의 존재론적 근거. Layer 1·2 | high |
 | Leonardi (2011) | 유연한 루틴·기술이 공존하는 조직의 의사결정 | 이론 + 민족지학 (자동차회사 2년) | Autoworks 5개 임브리케이션 연쇄 | 인간 행위성과 물질 행위성이 반복적으로 맞물린다 | 임브리케이션 경로의존적 누적 | 단일 조직·기술 한정 | IV(귀속 모호성) 발생 근거. Layer 2 | high |
@@ -70,7 +71,8 @@ Use this matrix to compare papers before writing prose. 비교군 선행연구�
 | 이 matrix 항목 | 연결 파일 |
 |---|---|
 | Weiner (1985) 이론적 근거 | Sources/Papers/Weiner (1985) Attribution Theory.md |
-| Van den Bos (2001) UMT 근거 | Sources/Papers/ — 확보 필요 |
+| Van den Bos (2001) UMT 근거 | ✅ Zotero 확보 |
+| Lind & van den Bos (2002) UMT 정본 | ✅ Zotero 확보 [07-31] |
 | Colquitt (2001) 측정 근거 | Sources/Papers/Colquitt (2001).md |
 | 평가 불확실성 척도 | Sources/Papers/ — 신규 확보 필요 (uncertainty 지각 계열) |
 | 기대원리 확장 근거 | Sources/Papers/ — 신규 확보 필요 (attribution + appraisal + expectancy) |
@@ -88,4 +90,5 @@ Use this matrix to compare papers before writing prose. 비교군 선행연구�
 - [V14] 비교군 선행연구 5편 행 추가, 별도 테이블
 - [V12] Van der Vegt, Morgeson manipulation check 전환 명시
 - [V15] Comparison Notes 갱신
+- [V17.1 · 07-31] Lind & van den Bos(2002, UMT 정본) 행 추가 / Van den Bos·Lind&vdB 확보 완료 표기 / Jiang "AI 결합 위치 차이" 심화
 - [V17] Hobfoll·Spreitzer 행 삭제 / Weiner를 IV+IV→MV(기대원리)로, Van den Bos를 MV→DV 주이론으로 설명 갱신 / Colquitt·Leventhal을 consistency·bias suppression 중심으로 / Khan·Frontiers를 COR 기반 → 비교군 전용 표기 / Research Gap을 '평가 불확실성 매개'로 교체 / 평가 불확실성 척도·기대원리 문헌 자리 신설
