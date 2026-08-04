@@ -2,7 +2,7 @@
 date: 2026-08-01
 type: action-items
 project: Paper2026
-status: 예정 — B라운드(측정 설계) 착수
+status: 진행중 — B1 원전·방향 확정(08-03), 국내KCI·문항초안 남음
 related: ["[[action-items-260731]]", "[[review-2026-07-31]]", "[[analysis-plan]]", "[[measurement-items]]"]
 tags: [실행목록, 측정설계, 척도, 시나리오, 체크리스트]
 ---
@@ -18,15 +18,30 @@ tags: [실행목록, 측정설계, 척도, 시나리오, 체크리스트]
 
 ## 우선순위 B — 측정 설계
 
-### B1. 평가 불확실성 척도 발굴 ⬜  ★최우선·실행 블로커
-- **Done =** 번안 후보 척도 1~2개 확보(출처 명시) / 없으면 신규개발(MacKenzie 2011) 방향 확정
-- **세 갈래 :**
-  - A. 기존 '불확실성 지각(uncertainty perception)' 척도 번안 (1순위)
-  - B. 인접 개념 문항 차용 — 역할 모호성(Rizzo 1970), 예측가능성, 평가 우려
-  - C. 신규 개발 (최후, MacKenzie 절차 — 라이브러리 보유)
-- **선택 기준(오늘 정의 준수) :** ① 역코딩 지양(불확실성 직접 측정) ② IV와 판별('기여 식별' 아닌 '평가 결과 예측 불가'에 초점 → 순환 차단)
-- **검색어 :** perceived uncertainty scale + performance appraisal / uncertainty perception measure workplace / role ambiguity scale Rizzo / evaluation apprehension
-- 메모:
+### B1. 평가 불확실성 척도 발굴 🟡 진행중 (08-03: 원전·방향 확정 / 국내 KCI 도서관 과제 이월)
+- **Done =** 번안 후보 척도 1~2개 확보(출처 명시) / 없으면 신규개발 방향 확정 → **충족(Rizzo 뿌리 확정)**
+
+**[08-03 결과 — 1단계 원전 확인]**
+- "평가 불확실성" 직접 측정 완성 척도는 **없음**. → 인접 척도 **번안**으로 확정(신규 완전개발 불필요).
+- **뿌리 척도 = Rizzo, House & Lirtzman (1970) 역할 모호성** (ASQ 15:150–163). 하위요소에 "결과의 예측가능성(predictability of outcomes)"·"성과 기준 불확실"이 이미 포함. OB 표준·다표본 검증. 메타분석 다수가 이 척도 사용.
+- **중요 발견(성준 원칙의 정당성) :** Rizzo 역할 모호성 6문항은 **전부 역채점(reverse-scored)** — "나는 ~을 안다/확신한다"(명확성)를 뒤집어 모호성 측정. 이 역채점 구조가 "구성개념과 문항 방향을 혼재"시킨다는 **학계 비판**(Harris 1991; McGee 1989; King&King 1990; Bowling et al.)이 있음. → 성준의 "역코딩 지양·불확실성 직접 측정" 원칙이 **이 결함을 피하는 방법론적 진일보**임. 심사 방어: "Rizzo 역채점 결함 비판을 반영해 정방향 직접 측정으로 재작성".
+- **개선 척도 참고 :** Bowling et al. "Building better measures of role ambiguity and role conflict" — Rizzo 역채점 문제를 고쳐 정/역 문항 균형. 정방향 문항 작성 시 참고.
+
+**[번안 3원칙 — 필수]**
+1. 초점 이동: "역할·기대 불명확"(Rizzo) → "**평가 결과 예측 불가**"(본 MV). Rizzo의 예측가능성 요소만 취함.
+2. 역코딩 지양: Rizzo 명확성 문항을 뒤집지 말고, "불확실하다"를 **정방향 직접** 측정으로 재작성.
+3. IV 판별: "정보 결여/기여 식별"(IV 근접) 배제, "평가 결과 예측"에만 초점 → 순환 차단.
+
+**[2단계 — 국내 KCI, 도서관 과제로 이월]**
+- 웹 검색 한계(KCI/DBpia 로그인 벽)로 "Rizzo 명시 번안·타당화" 국내 논문 특정 못 함. 역할 모호성 국내 실증은 존재(한은경·배병룡 2012 등).
+- **성준 도서관 과제(RISS/DBpia/KCI) :** 검색어 「역할 모호성 척도 Rizzo」「역할 모호성 번안/타당화」. 확인 체크리스트: ①Rizzo 인용 ②한국어 문항 제시 ③신뢰도(α)·타당도 보고 ④인사조직/조직행동 분야. 1~2편 확보 → Zotero.
+- 용도: 문항 복사 아님. **번안의 정당성·형식·한국어 표현 참고**용(성준 MV는 '평가 예측 불가'로 재작성).
+
+**[확보 논문]**
+- ⬜ Rizzo, House & Lirtzman (1970) 원전 — Zotero 확보 필요 (ASQ, 고전, 접근 쉬움)
+- ⬜ 국내 Rizzo 번안 KCI 1~2편 — 도서관 확보
+
+**[다음]** 위 3원칙으로 MV 4문항 초안 작성(B2 DV문항과 병행) → measurement-items 반영.
 
 ### B2. DV 문항 초안 ⬜  (지금도 가능)
 - **Done =** Colquitt 기반 consistency 2 + bias suppression 2 = 4문항 (accuracy 제외, AI 미언급으로 순환 차단)
