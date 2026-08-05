@@ -1,7 +1,7 @@
 ---
-last-updated: 2026-07-31
-version: V17 — COR(Hobfoll)·Spreitzer 제거, Van den Bos(UMT) 주이론 격상, Weiner 역할 확장(기대원리), MV 평가 불확실성 반영
-related-review: progress/review-2026-07-28.md
+last-updated: 2026-08-04
+version: V17.1 — B1 측정도구 근거 절 신설(MV 척도 번안 문헌 7편), 논증 사슬 6단 명시, 🔲 placeholder 2건 해소, Heggestad·MacKenzie 역할 확정
+related-review: progress/review-2026-08-04.md
 ---
 
 # Literature Map — 논문 섹션별 인용 지도
@@ -10,6 +10,8 @@ related-review: progress/review-2026-07-28.md
 각 논문이 논문의 어느 섹션에서 어떤 역할로 쓰이는지 정리한다. 본문 작성 시 이 파일을 보고 섹션별 인용 논문을 바로 확인할 수 있다.
 
 > [V17 변경] ① Hobfoll(1989, 2018) 삭제 — COR 폐기. ② Spreitzer(1995) 삭제 — 무력감 척도 후보 무용. ③ Van den Bos(2001, UMT)를 MV→DV 주 이론으로 격상. ④ Weiner(1985)를 IV 발생 + IV→MV(기대원리)로 역할 확장. ⑤ "심리적 무력감" → "지각된 평가 불확실성"으로 전면 교체. ⑥ AI+HRM 배경 문헌(Brynjolfsson·Dell'Acqua·Pan·Maasland 등)은 그대로 유지.
+
+> [V17.1 변경 · 08-04] ① **측정도구 근거 절 신설** — MV 척도 번안 문헌 7편(Rizzo 원전, 국내 번안 선례 2편, 역채점 비판 2편, 정의 근거 1편, 대조군 2편). ② **논증 사슬 6단 명시** — 각 단의 담당 문헌과 공백 표시. ③ 🔲 placeholder 2건 해소(H1 기대원리 문헌 / MV 척도). ④ Heggestad et al.(2019)·MacKenzie et al.(2011)의 역할을 B1 논증에 명시적으로 배정.
 
 ---
 
@@ -35,7 +37,9 @@ related-review: progress/review-2026-07-28.md
 | --- | --- | --- |
 | Maasland & Weißmüller (2022) | Frontiers in Psychology | HRM 맥락 AI→책임 귀속 모호성 실증 (N=288) |
 | Douer & Meyer (2021) | ACM TIIS | AI 보조 의사결정→귀속 모호성 이론+실증 |
-| 🔲 [V17 신규 확보 필요] | (탐색) | '성과 기대 → 평가 기대' 확장 근거: attribution + performance appraisal + expectancy. 미확보 시 논리 논증 |
+
+> ✅ **[V17.1 / 08-04 해소]** 옛 🔲 항목("'성과 기대 → 평가 기대' 확장 근거 탐색")은 **A2(07-31)에서 논리 논증 대체로 확정**되었다. 직접 문헌이 없음을 확인했고, 범위 설정(성과 기반 평가 맥락 한정)으로 전제를 확보하는 방식으로 대체한다. → **신규 문헌 확보 불필요.** 이 확장은 본 연구의 이론적 기여로 서술한다.
+> ⚠️ 주의: 이 '확장'은 MV 측정에서의 '특화'(→측정도구 근거 절)와 성격이 다르다. **논문에서 두 논증을 분리 서술**할 것. 뭉뚱그리면 쉬운 쪽(특화)이 어려운 쪽(확장)에 끌려가 같이 공격받는다.
 
 ### H2 실증 보강 (UMT + 성과평가 공정성)
 
@@ -55,6 +59,45 @@ related-review: progress/review-2026-07-28.md
 | Wang et al. (2023) Formality | Accounting & Finance | 형식성→공정성 실증 ⚠️ 제조업 |
 
 > ⚠️ H4 근거는 '명확성→공정성' 주효과를 지지하나 '조절(상호작용) 형식'을 직접 실증한 것은 아님 → 한계 명시.
+> ⚠️ **[08-04] H4 유지 여부 미확정** — 면담 안건. 3안(A 유지·가설 / B 측정만·탐색적 / C 완전 제외) → [[scale-development_MV]] §9. 이 절의 문헌은 A·B안에서만 본문 인용, C안에서는 future research 서술용으로 격하.
+
+### 측정도구 근거 — MV 척도 번안 (B1) [V17.1 / 08-04 신설]
+
+MV(지각된 평가 불확실성)는 **이론적 뿌리(UMT)와 측정 뿌리(Rizzo 역할 모호성)가 다르다.** 그 불일치를 정당화하는 문헌을 별도 관리한다. 측정도구 근거는 "무엇을 담보하는가"만큼 **"무엇을 담보하지 않는가"**가 중요하므로 열을 분리했다.
+
+| 논문 | 저널·형태 | 담보하는 것 | 담보하지 않는 것 | 논문 섹션 |
+| --- | --- | --- | --- | --- |
+| **Rizzo, House & Lirtzman (1970)** 🔲 | Administrative Science Quarterly 15(2) | **측정 뿌리** — 척도 원전 지위 / **facet 구조**(결과 예측가능성 · 요구 명확성) / 역채점이 원전 특성임 | 평가 맥락 타당성 (Rizzo는 '평가'를 다루지 않음) | 4. 방법론(측정도구 MV) · 2. 이론적 배경(간략) |
+| **박지훈·정승철 (2017)** ✅ | 한국심리학회지: 산업 및 조직 30(2) | ★ **번안 절차 선례** — "Rizzo를 뿌리로 문항을 신규 제작"이 국내 KCI 등재지에서 통과 / α=.90 / 5점 | 본 연구 문항의 타당성 / **판별타당도** (이 논문 자체가 역할갈등 문항 혼입 결함 보유) | 4. 방법론(측정도구 MV) |
+| **류수민·유태용 (2015)** ✅ | 한국심리학회지: 산업 및 조직 28(4) | **정방향 표현 선례** — 국내 번안에서 모호성 직접 진술이 통용 / α=.90 / 5점 | 초점 이동(평가 결과)의 정당성 — 이 연구는 역할모호성 그대로 측정 | 4. 방법론(측정도구 MV) |
+| **Kelloway & Barling (1990)** ✅ | Journal of Applied Psychology 75(6) | **역채점 회피 근거** — 요인구조가 문항 *내용*이 아니라 *표현(정/역)*에 의해 갈릴 수 있음 / 역할모호·갈등·과부하 독립 3요인 | "역채점이 틀렸다"는 결론 (표현이 **교란 요인**이라고 말할 뿐) | 4. 방법론(측정도구 MV) · 5. 한계 |
+| **Smith et al. (1993)** ✅ | Journal of Organizational Behavior 14(1) | **논쟁 리뷰 + 균형** — 비판 두 축(구성개념 미분리·방법변량) 정리 + 척도 계속 사용 가능하다는 반론 | 어느 한쪽 손을 들어주지 않음 | 4. 방법론(측정도구 MV) |
+| **Brief & Aldag (1976)** ⚠️재인용 | Journal of Applied Psychology 61(4) | **MV 정의 근거** — 역할모호 정의에 "역할수행 **결과의 불확실성**" 명시 → 특화 논증의 정면 근거 | (원문 미확보 — 정의 인용으로 쓰려면 확보 필요) | 4. 방법론(측정도구 MV) · 2. 이론적 배경 |
+| 김현우 (2014) / 신채미 (2017) ✅ | 석사학위논문 (부산대 / 한양대) | **대조군** — 역채점 구조를 보존한 번안 계열의 존재 / 국내 번안 문항 표현 실물 확인 | 인용 지위 (학위논문 · 김현우는 원문 미열람) | 각주 또는 한 줄 병렬 |
+
+**범례**: ✅ 확보 · 🔲 확보 필요 · ⚠️ 재인용 상태
+
+> **인용 시 주의**
+> - `Rizzo, House, & Lirtzman (1970)` — **House 누락 주의.** 신채미(2017)는 "Rizzo & Litzman", "Lizzo & Lirtzman"으로 오기하고 문항 수도 5/10으로 혼재 표기함.
+> - 역채점 비판 문헌으로 handoff에 나열된 `Harris(1991); McGee(1989); King & King(1990)`은 **원문·서지 미확정(검색 스니펫 확인)**. 그대로 나열하면 미열람 인용 문제 발생 → **Kelloway & Barling(1990) + Smith et al.(1993) 2편으로 압축.** 논쟁 전반은 Smith et al.(1993)이 리뷰하므로 대체 가능.
+> - 문항 단위 설계(판별 좌표·어휘 경계·근거 추적)는 [[scale-development_MV]]에서 관리.
+
+### 논증 사슬 — MV 척도 정당화 6단 [V17.1 / 08-04 신설]
+
+측정도구 절은 아래 순서로 서술한다. **순서가 곧 논증이다.** 각 단에 담당 문헌이 배정되며, 비어 있으면 그 단이 취약점이다.
+
+| 단 | 주장 | 담당 | 상태 |
+| --- | --- | --- | --- |
+| S1 | MV 구성개념 정의 | Van den Bos(2001) · Lind & van den Bos(2002) · Brief & Aldag(1976) | ⚠️ Brief & Aldag 재인용 |
+| S2 | 평가 불확실성 직접 측정 완성 척도 부재 | **A3 결과**(UMT 출처 지형: 실존·외부 상황 기반, 다수가 조작으로 처리) + B1 1단계 탐색 | ✅ 단 "확인 범위 내"로 겸손하게 |
+| S3 | 인접 척도로 Rizzo 선택 + **facet B만** 차용 | **Rizzo(1970) 원전** / 절차 정당화: **Heggestad et al.(2019)** | 🔲 **원전 필수** |
+| S4 | 원척도 역채점 결함과 대응 | Kelloway & Barling(1990) · Smith et al.(1993) | ✅ |
+| S5 | 국내 번안 지형(2계열) + 본 연구 노선 | 박지훈·정승철(2017) · 류수민·유태용(2015) / 대조: 김현우(2014) | ✅ |
+| S6 | 재작성 문항 자체 검증 | **본 연구 설계** — EFA/CFA · AVE · HTMT (analysis-plan §1 ②) / 절차 정당화: **MacKenzie et al.(2011)** | 설계 완료 |
+
+> **S2는 문헌으로 막을 수 없다** (부재 증명은 원리상 불가) → "확인 범위 내에서 완성 척도를 발견하지 못했다"로 서술하고, A3의 UMT 출처 지형 조사를 간접 근거로 제시한다.
+> **A3–B1 연결 [08-04 발견]**: A3는 지금까지 "차별화 담당"으로만 배치되어 있었으나, 실제로는 **S2의 근거**이기도 하다. 두 작업이 연결된다.
+> **Heggestad·MacKenzie의 위치 [08-04 확정]**: 두 문헌은 이미 방법론 절에 있었으나 역할이 일반적이었다. B1에서 배정이 확정된다 — **Heggestad et al.(2019)=기존 척도 적응(S3·S5), MacKenzie et al.(2011)=신규 문항 개발·타당화 절차(S6·내용타당도).** 본 연구는 "완전 신규 개발"이 아니라 "적응 + 부분 신규 작성"이므로 **두 문헌을 함께** 인용한다.
 
 ### Layer 1 배경 문헌 (AI+HRM — 유지)
 
@@ -87,17 +130,18 @@ related-review: progress/review-2026-07-28.md
 | Frontiers Psychology (2025) | Frontiers | AI 도입 → 직무 불안정성 → 성과 | DV가 성과 → 본 연구는 절차공정성 지각 |
 
 > [V17 주의] Khan et al. / Frontiers(2025)는 COR 기반 선행연구다. 본 연구가 COR을 쓰지 않으므로, 이들은 '이론 근거'가 아니라 **비교군(차별점 제시용)**으로만 인용한다.
+> ⚠️ **[08-04] Khan et al. 재점검 필요** — 이 비교군은 '역할 모호성 → 불공정 평가'를 다룬다. 본 연구가 **Rizzo 역할 모호성 척도를 측정 뿌리로 차용**하게 되었으므로, "역할 모호성과 다르다"는 차별점 서술과 "역할 모호성 척도를 쓴다"는 측정 서술이 **동시에 등장한다.** 두 서술이 충돌해 보이지 않도록 정리할 것: *차별점은 구성개념 수준(사전적 역할 모호성 vs 사후적 귀속 모호성)이고, 차용은 측정 수준(facet B만)이다.*
 
 ### 방법론
 
 | 논문 | 저널 | 역할 |
 | --- | --- | --- |
 | Wang et al. (2022) AI Literacy | BIT | AI Literacy 척도 — 통제변수 |
-| Heggestad et al. (2019) | Journal of Management | 척도 적응 방법론 정당화 |
+| **Heggestad et al. (2019)** | Journal of Management | **척도 적응(scale adaptation) 방법론 정당화 — [08-04] B1 논증 S3·S5 담당으로 역할 확정** |
 | Hayes (2018) | Guilford Press | PROCESS Model 4·14 매개·조건부매개 검증 |
-| MacKenzie et al. (2011) | MIS Quarterly | 신규 construct 개발 절차 정당화 |
-| 🔲 [V17 신규 확보 필요] | (탐색) | 지각된 평가 불확실성 척도 — uncertainty 지각 계열. 역코딩 지양, IV와 판별타당도 확인 |
+| **MacKenzie et al. (2011)** | MIS Quarterly | **신규 construct·문항 개발 및 타당화 절차 — [08-04] B1 논증 S6·내용타당도 절차 담당으로 역할 확정** |
 
+> ✅ **[V17.1 / 08-04 해소]** 옛 🔲 항목("지각된 평가 불확실성 척도 탐색")은 **B1(08-03·08-04)에서 해소**되었다. 결과: 직접 측정 완성 척도는 확인 범위 내 부재 → **Rizzo(1970) facet B 차용 + 정방향 재작성**으로 확정. 근거 문헌은 위 "측정도구 근거" 절 참조.
 > [V17 삭제] Spreitzer(1995) — 무력감 척도(임파워먼트 역방향) 후보. 무력감 폐기로 무용.
 
 ---
@@ -127,34 +171,38 @@ related-review: progress/review-2026-07-28.md
 - Hartmann & Slapničar (2012) — 성과평가 맥락 실증
 - Colquitt (2001) — 절차공정성(consistency·bias suppression)
 - Leventhal (1980), Levy & Williams (2004), Lyu et al. (2023)
+- [08-04 추가] Brief & Aldag (1976) — MV 정의 시 '결과의 불확실성' 요소 근거 (간략)
 
 **2.4 선행연구와의 차별점 [V7 핵심]**
 - He et al. (2025) ⚠️ — 핵심 인용 (창작 맥락 한계 → 본 연구의 차별점)
 - Pan et al. (2026), Starke et al. (2022)
 - Jiang et al. (2023), Khan et al., Salter (1998), Hunter (2025), Tang et al. (2022)
+- ⚠️ [08-04] Khan et al. 서술 시 "구성개념 차별 vs 측정 차용" 구분 명시 (위 Layer 5 주의 참조)
 
 > [V17] 옛 "2.3 자원보존이론과 심리적 무력감" 섹션은 삭제. 그 자리를 2.2(귀인이론 기대원리)와 2.3(UMT)이 나눠 대체.
 
 ### 3. 연구모델 및 가설 (Hypotheses)
 
 - **H1 (귀속 모호성 → 평가 불확실성)**: Weiner(1985) 기대원리, Orlikowski(2007), Leonardi(2011), Maasland & Weißmüller(2022), Douer & Meyer(2021)
+  - ⚠️ [08-04] '성과 기대 → 평가 기대' **확장**은 논리 논증으로 처리(직접 문헌 없음, A2 확정). MV 측정의 **특화**와 분리 서술.
 - **H2 (평가 불확실성 → 절차공정성 저하)**: Van den Bos(2001, 실험), Lind & van den Bos(2002, UMT 정본), Hartmann & Slapničar(2012), Colquitt(2001)
 - **H3 (매개)**: H1+H2 연쇄 (별도 이론 불필요)
 - **H4 (조절: 절차 명확성)**: Leventhal(1980), Colquitt(2001), Erdogan(2002), Kim(2016), Wang(2023) Formality
+  - ⚠️ [08-04] H4 유지 여부 미확정 (면담 안건 3안)
 
 ### 4. 방법론 (Methodology)
 
 **시나리오 조작 및 측정 문항:**
 - IV (시나리오 조작 + manipulation check)
-- MV (지각된 평가 불확실성): 🔲 척도 확보 후 확정 (uncertainty 지각 계열) — [V17]
+- **MV (지각된 평가 불확실성)**: [08-04 확정] Rizzo, House & Lirtzman(1970) **facet B(결과 예측가능성)만** 차용 → '평가 결과 예측'으로 특화 → **정방향 재작성**. 번안 선례 박지훈·정승철(2017)·류수민·유태용(2015), 역채점 회피 근거 Kelloway & Barling(1990)·Smith et al.(1993), 절차 정당화 Heggestad et al.(2019)·MacKenzie et al.(2011). 문항 설계는 [[scale-development_MV]]
 - DV (절차공정성): Colquitt(2001) 기반, consistency·bias suppression (accuracy 제외) — [V17]
-- MOD (절차 명확성): Erdogan(2002), Kim(2016) 기반 — 6단계 재설계
+- MOD (절차 명확성): Erdogan(2002), Kim(2016) 기반 — 6단계 재설계 / ⚠️ H4 결정 대기
 - Control: Wang et al. (2022) AI Literacy (Respondent)
 
 **분석 방법:**
 - Hayes (2018) — PROCESS Model 4 (매개), Model 14 (조건부 매개)
-- MacKenzie et al. (2011), Heggestad et al. (2019)
-- 🔲 [V17] 사전 검정력 분석
+- MacKenzie et al. (2011) — 문항 개발·타당화 절차 / Heggestad et al. (2019) — 척도 적응 정당화
+- 🔲 [V17] 사전 검정력 분석 — Monte Carlo (analysis-plan §4·§6)
 
 ---
 
@@ -167,3 +215,4 @@ related-review: progress/review-2026-07-28.md
 - [V15] 이론적 배경 2.3 COR, 2.4 UMT [V17에서 재편]
 - [V16] 비교군별 차별 포인트 명시
 - [V17] Hobfoll(1989,2018)·Spreitzer(1995) 삭제 / Van den Bos 주이론 격상 / Weiner 역할 확장(기대원리) / MV 평가 불확실성 반영 / §2.3(자원보존이론) 삭제·재편 / Khan·Frontiers를 비교군 전용으로 강등 / 평가 불확실성 척도·기대원리 문헌 자리 신설 / AI+HRM 배경 문헌 유지
+- [V17.1 / 08-04] **측정도구 근거 절 신설**(MV 척도 번안 7편, 담보/비담보 분리) / **논증 사슬 6단 신설**(S1~S6, 담당 문헌·공백 표시) / 🔲 **placeholder 2건 해소**(H1 기대원리=논리논증 대체 확정, MV 척도=Rizzo facet B 차용 확정) / **Heggestad(2019)·MacKenzie(2011) 역할 B1 논증에 배정** / A3–B1 연결 명시 / Khan et al. 서술 충돌 주의 추가 / H4 미확정 주석 추가
