@@ -1,6 +1,6 @@
 ---
 last-updated: 2026-08-09
-version: V17 / B1.5 — §II MV 정의문 정밀화(Core Logic 화살표·What It Is 1행), 이론뿌리·측정뿌리 절 신설
+version: V17 / B1.5 — §II MV 정의문 정밀화(Working Definition·Core Logic 화살표·What It Is 1행), 이론뿌리·측정뿌리 절 신설
 related-review: progress/review-2026-07-28.md, progress/review-2026-08-04.md
 ---
 
@@ -79,7 +79,7 @@ AI와의 반복적 협업으로 아이디어·초안·수정 단계가 얽혀 �
 
 ### Working Definition
 
-지각된 평가 불확실성(perceived evaluation uncertainty)은 평가 대상자가 자신의 AI-협업 성과가 성과평가에서 **어떻게 판정될지 예측하거나 확신할 수 없다고 지각하는 인지 상태**를 의미한다.
+지각된 평가 불확실성(perceived evaluation uncertainty)은 평가 대상자가 자신의 AI-협업 성과에 대해 **향후 어떠한 평가를 받을지 예측하거나 확신할 수 없다고 지각하는 인지 상태**를 의미한다.
 
 본 변수는 측정 변수이며, 시나리오 노출 후 응답자가 보고한다. 이론적으로는 불확실성 관리 이론(UMT, Van den Bos, 2001)의 핵심 개념인 '불확실성'을 성과평가 맥락으로 특정한 것이다. 다만 그 불확실성이 **발생하는 경로(IV→MV)** 는 UMT가 아니라 귀인이론의 기대원리가 설명한다(III장 참조).
 
@@ -187,4 +187,4 @@ AI와의 반복적 협업으로 아이디어·초안·수정 단계가 얽혀 �
 - [V14] What It Is Not 테이블에 비교군 차별점 명시
 - [V15] 본문 구조를 두 변수(IV, MV) 정의 + 인과 경로 정리로 재구성
 - [V17] MV를 '심리적 무력감' → '지각된 평가 불확실성'으로 전면 교체 / COR 제거 / IV→MV를 귀인이론 기대원리로 재정립 / MV→DV는 UMT / IV의 귀인이론 기반 유지·확장 / What It Is Not에 IV-MV 순환 방어 최상단 배치 / 순환 차단 섹션 신설(IV-MV, MV-DV, DV accuracy 제외) / 교란 통제·H1 논증·척도 미확보를 과제로 명시
-- [B1.5 08-09] §II 정의문 정밀화 — Core Logic 2번째 화살표에서 과정 동사("어떻게 이루어질지") 제거 / What It Is 1행에서 "반영"(제외한 accuracy 재유입)·"어떻게"(MOD 어휘) 제거, 인칭을 "평가 대상자"로 통일 / `이론적 뿌리와 측정 뿌리` 절 신설(review-2026-08-04 §3). ⏸️ Working Definition "판정·예측/확신"과 What It Is 3행은 Rizzo 원전 확보 후 재판단
+- [B1.5 08-09] §II 정의문 정밀화 — Core Logic 2번째 화살표에서 과정 동사("어떻게 이루어질지") 제거 / What It Is 1행에서 "반영"(제외한 accuracy 재유입)·"어떻게"(MOD 어휘) 제거, 인칭을 "평가 대상자"로 통일 / `이론적 뿌리와 측정 뿌리` 절 신설(review-2026-08-04 §3). / Working Definition을 "어떻게 판정될지"→"향후 어떠한 평가를 받을지"로 교체(시간 표지 명시로 IV-MV 시점 판별 강화). ⏸️ Working Definition의 "예측하거나 확신할"(병렬 술어)과 What It Is 3행은 Rizzo 원전 확보 후 재판단
