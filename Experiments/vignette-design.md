@@ -1,3 +1,20 @@
+> [!danger] ⚠️ 05월 설계 — **V17과 충돌. 그대로 쓰지 말 것**
+> 이 파일은 **2026-05월 시점 설계**이며 현행 모델(V17)과 **6곳에서 충돌**한다. 정정 전까지 참조 금지.
+>
+> | # | 이 파일 | 현행 (V17) |
+> |---|---|---|
+> | **1** | **"응답자는 평가자 역할을 맡는다"** | ❌ **평가 대상자 본인** (V1) |
+> | 2 | 2×2 between-subject | ❌ **1요인 2조건** |
+> | 3 | Manipulation 1 = 협업 결합도 | ❌ **IV = 성과 기여 귀속 모호성** (V12) |
+> | 4 | Manipulation 2 = 평가기준 명확성 **조작** | ❌ **MOD는 측정** (V9) |
+> | 5 | "직원 A"를 3인칭 관찰 | ❌ **1인칭** |
+> | 6 | Dependent Measures 목록 | ❌ 옛 구조 |
+>
+> ✅ **살릴 것**: Base Scenario Skeleton(신규 서비스 제안서) · "품질 동일" 원칙 · Design Warnings 4건
+> 정정 작업지: [[action-items-260810]] §A5-0
+
+---
+
 # Vignette Experiment Design
 
 ## Recommended Design

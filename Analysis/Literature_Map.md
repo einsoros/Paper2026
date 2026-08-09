@@ -1,6 +1,6 @@
 ---
 last-updated: 2026-08-09
-version: V17.2 [08-09] — Rizzo 원전 확보로 S3 해소·facet 라벨 (1)(2) 정정·Khan 논거 강화 / V17.1 — B1 측정도구 근거 절 신설(MV 척도 번안 문헌 7편), 논증 사슬 6단 명시, 🔲 placeholder 2건 해소, Heggestad·MacKenzie 역할 확정
+version: V17.3 [08-09] — DV 문항 확정·Colquitt 인용 표기 주의 추가 / V17.2 — Rizzo 원전 확보로 S3 해소·facet 라벨 (1)(2) 정정·Khan 논거 강화 / V17.1 — B1 측정도구 근거 절 신설(MV 척도 번안 문헌 7편), 논증 사슬 6단 명시, 🔲 placeholder 2건 해소, Heggestad·MacKenzie 역할 확정
 related-review: progress/review-2026-08-04.md
 ---
 
@@ -24,7 +24,7 @@ related-review: progress/review-2026-08-04.md
 | **Weiner (1985)** | Psychological Review | **IV 정당화 + IV→MV(기대원리) — 귀인이론 [V17 역할 확장]** | 2. 이론적 배경 / 3. 가설 H1 | Layer 2 |
 | **Van den Bos (2001)** | JPSP | **MV→DV 주 이론 — UMT [V17 격상]** | 2. 이론적 배경 / 3. 가설 H2 | Layer 3 |
 | **Lind & van den Bos (2002)** | ROB Vol.24 | **UMT 정본 이론서 — 불확실성↔공정성 통합 이론 [07-31 확보]** | 2. 이론적 배경 (UMT 정초) | Layer 3 |
-| Colquitt (2001) | JAP | DV 정의+측정 — 절차공정성(consistency·bias suppression 중심) | 2. 이론적 배경 / 3. 가설 H2 / 4. 방법론 | Layer 3 |
+| Colquitt (2001) | JAP | DV 정의+측정 — 절차공정성(consistency·bias suppression 중심). **[08-09] 문항 확정 — 원문항 번역이 아니라 두 기준을 본 연구 맥락에 맞게 재작성**. 인용 표기 주의 | 2. 이론적 배경 / 3. 가설 H2 / 4. 방법론 | Layer 3 |
 | Orlikowski (2007) | Organization Science | 사회물질성 — 귀속 모호성 존재론 근거 | 2. 이론적 배경 / 3. 가설 H1 | Layer 1·2 |
 | Leonardi (2011) | MIS Quarterly | 임브리케이션 — 귀속 모호성 발생 근거 | 2. 이론적 배경 / 3. 가설 H1 | Layer 2 |
 | He et al. (2025) ⚠️ | CSCW | [V7] 선행연구 차별점 핵심 / 타 Layer 보조 | 2. 선행연구 gap (핵심) | Layer 5 (핵심) |
@@ -218,3 +218,4 @@ MV(지각된 평가 불확실성)는 **이론적 뿌리(UMT)와 측정 뿌리(Ri
 - [V17] Hobfoll(1989,2018)·Spreitzer(1995) 삭제 / Van den Bos 주이론 격상 / Weiner 역할 확장(기대원리) / MV 평가 불확실성 반영 / §2.3(자원보존이론) 삭제·재편 / Khan·Frontiers를 비교군 전용으로 강등 / 평가 불확실성 척도·기대원리 문헌 자리 신설 / AI+HRM 배경 문헌 유지
 - [V17.1 / 08-04] **측정도구 근거 절 신설**(MV 척도 번안 7편, 담보/비담보 분리) / **논증 사슬 6단 신설**(S1~S6, 담당 문헌·공백 표시) / 🔲 **placeholder 2건 해소**(H1 기대원리=논리논증 대체 확정, MV 척도=Rizzo facet B 차용 확정) / **Heggestad(2019)·MacKenzie(2011) 역할 B1 논증에 배정** / A3–B1 연결 명시 / Khan et al. 서술 충돌 주의 추가 / H4 미확정 주석 추가
 - [V17.2 / 08-09] **Rizzo 원전 확보** → 논증 사슬 **S3의 🔲 해소**. facet A/B 라벨을 원전 (1)·(2)로 정정. S3 논거를 "facet 차용"에서 **"원전이 정의했으나 측정되지 못한 구성요소의 복원"**으로 격상(item 16 근거 추가). Khan et al. 서술 충돌 주의에 **측정 수준에서도 겹치지 않는다**는 해소 논거 추가. 측정도구 근거 표의 Rizzo 행에 "비담보" 항목 추가((1)의 심리측정 근거는 본 연구가 자체 확보)
+- [V17.3 / 08-09] **DV 4문항 확정 반영** — Colquitt 행에 "원문항 번역이 아니라 기준 재작성"임을 명시. MV(Rizzo)와 동일하게 **인용 표기를 "척도 사용"이 아니라 "기준을 본 연구 맥락에 맞게 재작성"**으로 통일한다.

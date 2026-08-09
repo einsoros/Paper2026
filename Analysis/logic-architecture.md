@@ -1,6 +1,6 @@
 ---
 last-updated: 2026-08-09
-version: V17 / B1.6 [08-09] — MV 정의문 일치·Rizzo 원전 반영 / V17 — Layer 2 재구성(기대원리로 평가 불확실성 유발, COR 제거), Layer 3 accuracy 언급 제거, Layer 4 불확실성 기준 조절
+version: V17 / B1.6 [08-09] — MV 정의문 일치·Rizzo 원전 반영 · **MV·DV 문항 확정** / V17 — Layer 2 재구성(기대원리로 평가 불확실성 유발, COR 제거), Layer 3 accuracy 언급 제거, Layer 4 불확실성 기준 조절
 related-review: progress/review-2026-07-28.md
 ---
 
@@ -76,7 +76,11 @@ Van den Bos(2001)의 Uncertainty Management Theory는 불확실성이 현저해�
 
 ### (b) 절차공정성 이론 (Colquitt, 2001) — DV 측정
 
-절차공정성은 평가 절차가 일관되며(consistency) 편향 없이(bias suppression) 적용된다는 지각에서 형성된다 (Leventhal, 1980; Colquitt, 2001). 본 연구의 DV는 이 두 기준을 중심으로 한 절차공정성 척도로 측정한다.
+절차공정성은 평가 절차가 일관되며(consistency) 편향 없이(bias suppression) 적용된다는 지각에서 형성된다 (Leventhal, 1980; Colquitt, 2001). 본 연구의 DV는 이 두 기준을 중심으로 측정한다.
+
+> ✅ **[08-09] DV 4문항 확정** (consistency 2 + bias suppression 2). 원문항 번역이 아니라 **두 기준을 본 연구 맥락에 맞게 재작성**한 것이므로, 논문에서는 "Colquitt 척도를 사용했다"가 아니라 **"기준을 재작성했다"**로 표기한다. → [[measurement-items]] §III
+> ⚠️ accuracy 기준은 IV(기여 식별)와 순환 위험으로 제외. 문항은 **AI를 언급하지 않고** 일반 절차 속성만 묻는다.
+> ⚠️ 지시 대상 = **시나리오 속 가상 조직** (MV·MOD와 통일).
 
 Hartmann & Slapničar(2012)는 성과평가 맥락에서 불확실성이 절차공정성 지각에 미치는 부정적 영향을 은행업 178명 대상으로 직접 실증하였다.
 

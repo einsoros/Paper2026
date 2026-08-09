@@ -6,7 +6,7 @@
 - Working question: AI와 공동 생성한 성과에서 인간의 기여를 명확히 식별하기 어려울 때, 기존 개인 중심 성과평가는 얼마나 공정하게 지각되는가?
 - Target output: 실증 논문 구조, 연구모형, 설문/시나리오 실험 설계
 - Target venue or style:
-- Current stage: **B2 — DV 문항 확정** (MV 척도 개발 종료). 작업 기준: `Analysis/action-items-260809.md`
+- Current stage: **B3 — 시나리오 본문** (MV·DV 측정 확정). 작업 기준: `Analysis/action-items-260810.md`
 
 ## Next Actions
 
@@ -20,7 +20,9 @@
 - [x] B1.5 ③ — Working Definition "어떻게 판정될지" → "향후 어떠한 평가를 받을지"
 - [x] MV 4문항 확정 (D1 2 + D2 2) — 08-09
 - [x] B1.5 정의문 잔여 ③ㄷ·⑤ 처리 — What It Is에 D1·D2 각 1행
-- [ ] **B2 — DV 4문항 확정 + MV↔DV 판별 점검** ← 현재 병목
+- [x] B2 — DV 4문항 확정 + MV↔DV 판별 점검 (08-09)
+- [ ] **`Experiments/vignette-design.md` 전면 정정** ← 선행 (응답자 역할이 05월 "평가자"로 남아 있음)
+- [ ] **B3 — 시나리오 본문** ← 현재 병목
 - [x] Rizzo 원전 확보·독해 — facet (1) 문항이 최종 척도에서 전원 탈락한 사실 확인
 - [ ] **B1.6 — ④ 절 수정 + facet 라벨 (1)·(2)로 통일**
 - [ ] B2 — DV 4문항 확정 + MV 판별 점검
@@ -57,6 +59,10 @@
 | 2026-08-09 | 문항 금지어 확장 — 나타날지·영향을 미칠지·행위/행동·이해·업무 결과·긍정적 | `action-items-260809` §A3 | DV 문항에도 적용 |
 | 2026-08-09 | ③ㄷ — Working Definition 술어를 `예측할`로 단일화 (확신 삭제) | Rizzo(1970) p.156·160·162 | — |
 | 2026-08-09 | ⑤ — What It Is 3행을 D2 내용으로 교체, 중복 해소 + D2 근거 확보 | `construct-definition` §II | MV3·MV4 근거 |
+| 2026-08-09 | **DV 4문항 확정** — 잠정안 그대로. MV↔DV 판별 무충돌, DV1↔DV2·DV3↔DV4 각도 분화 확인 | `measurement-items` §III V18 | 내용타당도 검토 |
+| 2026-08-09 | **DV·MV·MOD 지시 대상 = 시나리오 속 가상 조직** | `measurement-items` §III A4 검토 | 외적 타당도 한계 명시 |
+| 2026-08-09 | 한계 절 관점 정립 — "학술 연구는 현실을 미세하게 설명하려는 과정이지 전부를 설명하려는 것이 아니다" | `action-items-260809` §D2-1 | 한계 절 도입 문단 |
+| 2026-08-09 | ⚠️ **`vignette-design.md`가 05월 상태로 V17과 6곳 충돌** 발견 — 특히 응답자 역할이 "평가자" | `Experiments/vignette-design.md` | A5-0에서 정정 |
 
 ## Open Questions
 

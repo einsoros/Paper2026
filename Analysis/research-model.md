@@ -1,6 +1,6 @@
 ---
 last-updated: 2026-08-09
-version: V17 / B1.6 [08-09] — MV 정의문 일치·측정 뿌리 확정 / V17 — 3이론 재편(COR 제거), MV 교체(평가 불확실성), H1 기대원리·H2 UMT 재정립, H4 표기 정정
+version: V17 / B1.6 [08-09] — MV 정의문 일치·측정 뿌리 확정 · **MV·DV 문항 확정, 지시 대상=가상 조직** / V17 — 3이론 재편(COR 제거), MV 교체(평가 불확실성), H1 기대원리·H2 UMT 재정립, H4 표기 정정
 related-review: progress/review-2026-07-28.md
 ---
 
@@ -61,8 +61,8 @@ AI-인간 협업 환경
 | 배경 | Human-AI collaborative context | 인간-AI 협업 환경 | ✅ IT 개발직 한정 샘플링으로 통제 — 별도 조작·측정 없음 |
 | IV | Performance attribution ambiguity | 성과 기여 귀속 모호성 | ✅ [V12] 시나리오 직접 조작 (귀속 명확 vs 모호). 귀인이론 기반 |
 | MV | Perceived evaluation uncertainty | 지각된 평가 불확실성 | ✅ [V17] 매개변수 — 이론=UMT / 측정=Rizzo(1970) 정의 (1) 계승. **[08-09] 정의문·측정 뿌리 확정, 문항 4개 작성 대기** |
-| DV | Procedural justice perception | 성과평가 절차공정성 지각 | Colquitt(2001) — [V17] consistency + bias suppression 중심(accuracy 제외) |
-| MOD | Appraisal procedure clarity | 평가 절차 명확성 | [V9 계승] 측정 조절변수. MV→DV 경로 조절(Model 14) |
+| DV | Procedural justice perception | 성과평가 절차공정성 지각 | Colquitt(2001)/Leventhal(1980) — consistency + bias suppression (accuracy 제외). **[08-09] 4문항 확정, 지시 대상=시나리오 속 가상 조직** |
+| MOD | Appraisal procedure clarity | 평가 절차 명확성 | [V9 계승] 측정 조절변수. MV→DV 경로 조절(Model 14). ⚠️ H4 존치 미확정 / 문항 재설계 예정 / **[08-09] 측정 대상=가상 조직 확정** |
 | Secondary DV | Evaluation acceptance | 평가 수용성 | 보조 결과 — [V6] 강건성 검정 활용 예정 |
 | Control | Respondent AI literacy | 응답자(평가 대상자)의 AI 리터러시 | 통제변수 (V5, V9 명칭 갱신) |
 | Control | Demographic variables | 직무 경력, 직급, AI 사용 경험 | 인구통계 통제 |
@@ -237,3 +237,4 @@ MOD는 "조직이 AI 활용 성과평가 절차를 명확히 설명하는 정도
 - [V16] 비교군 선행연구 확보
 - [V17] MV를 지각된 평가 불확실성으로 교체 / COR 제거, 3이론 재편 / H1 근거를 귀인이론 기대원리로 / H2 UMT 강화 / H4 화살표 정정(MV→DV 경로 조절, 상호작용항) / 검정력·인과식별 방법 과제 추가 / H1 확장 논증 명시
 - [B1.6 08-09] H1 이론적 근거 산문의 "어떻게 판정될지"를 정의문("향후 어떠한 평가를 받을지")과 일치시킴 — MV가 과정 층위로 읽혀 MOD와 겹쳐 보이는 위험 차단 / MV 행에 측정 뿌리 확정 상태 반영
+- [08-09 A4] DV 4문항 확정(잠정안 유지) — MV↔DV 판별 무충돌 확인 / **MV·DV·MOD 지시 대상을 시나리오 속 가상 조직으로 통일**. 실제 소속 조직이면 IV와 DV가 다른 대상을 가리켜 H2·H3 인과 사슬이 끊긴다. 외적 타당도 제한은 한계 절 명시.
