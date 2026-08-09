@@ -6,3 +6,4 @@
 .obsidian/
 .obsidian/workspace*
 .obsidian/cache/
+*.patch
