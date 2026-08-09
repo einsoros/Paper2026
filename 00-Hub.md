@@ -2,42 +2,90 @@
 
 ## Project
 
-인간-AI 협업 환경에서의 성과 기여 귀속 모호성과 성과평가 공정성 지각
+**생성형 AI 협업 환경에서 성과 기여 귀속 모호성이 절차공정성 지각에 미치는 영향**
+— 지각된 평가 불확실성의 매개효과와 평가 절차 명확성의 조절효과 (IT 개발직 시나리오 실험)
 
-## Today Goal
+이성준 / 고려대 기술경영전문대학원 석사 / 지도교수 윤지환 / 학번 2025631141
 
-오늘의 목표는 도구 설치를 끝내는 것이 아니라, 연구가 바로 굴러가도록 작업 구조를 완성하는 것이다.
+---
 
-완성 기준:
+## ▶ 지금 여기서 시작
 
-- 연구 질문이 한 문장으로 고정되어 있다.
-- 핵심 construct인 `성과 기여 귀속 모호성`이 정의되어 있다.
-- IV-MV-DV-MOD 연구모형이 하나로 정리되어 있다.
-- 가설 초안이 있다.
-- 측정 문항 초안이 있다.
-- vignette 실험 시나리오 초안이 있다.
-- 관련 파일들이 Obsidian에서 바로 열리는 구조로 연결되어 있다.
+| | 파일 | 역할 |
+|---|---|---|
+| **1** | [[action-items-260809]] | **현행 작업 기준.** 무엇을 하고 있고 다음이 무엇인지 |
+| **2** | [[01-Dashboard]] | 단계·결정 이력·미해결 질문 |
+| **3** | [[HANDOFF-2026-08-09]] | 새 대화창에 올릴 인수인계 |
 
-## Start Here
+> ⚠️ **작업 시작 = `git pull`, 종료 = 반드시 `push`.** 3기기(`wp` 주 / `mp` / `ma`) 동기 규칙: [[multi-machine-sync]]
 
-1. [Dashboard](01-Dashboard.md)
-2. [Today Completion Plan](Workflow/today-completion-plan_260522.md)
-3. [Zotero-Obsidian Setup](Workflow/zotero-obsidian-setup.md)
-4. [Zotero Collection Structure](Zotero/collection-structure.md)
-5. [Literature Paper Workflow](Methodology/literature-paper-workflow.md)
-6. [Research Workflow](Workflow/research-workflow.md)
-7. [Construct Definition](Analysis/construct-definition_attribution-ambiguity.md)
-8. [Research Model](Analysis/research-model.md)
-9. [Vignette Design](Experiments/vignette-design.md)
-10. [Literature Review Draft](Writing/literature-review.md)
+---
 
-## Source Files Reviewed
+## 현행 모델 (V17)
 
-- [Initial Review](Review/initial_review_260522.md)
-- [Research Workflow Guide Extract](Review/source_extracts/research-workflow-guide.txt)
-- [Research Structure Summary Extract](Review/source_extracts/연구_구조_요약서_260522.md)
-- [Structure and Supporting Theory Extract](Review/source_extracts/논문_구조_및_지지이론_260519.md)
+| | 변수 | 이론 | 상태 |
+|---|---|---|---|
+| **IV** | 성과 기여 귀속 모호성 (시나리오 조작) | 귀인이론 (Weiner 1985) | 정의 ✅ / 시나리오 ⬜ |
+| **MV** | 지각된 평가 불확실성 (측정) | 이론=UMT · 측정=Rizzo(1970) 정의 (1) | 정의 ✅ / **문항 ✅ 4개** |
+| **DV** | 절차공정성 지각 (측정) | Colquitt(2001) — consistency + bias suppression | 범위 ✅ / 문항 ⬜ |
+| **MOD** | 평가 절차 명확성 (측정 조절) | PROCESS Model 14 | ⚠️ **H4 존치 미확정 — 면담 안건** |
+
+가설: H1 모호성→불확실성 / H2 불확실성→공정성↓ / H3 매개(Model 4) / H4 조절(Model 14)
+
+---
+
+## 핵심 분석 파일
+
+| 파일 | 내용 |
+|---|---|
+| [[construct-definition_attribution-ambiguity]] | IV·MV 정의, 경계, 순환 차단 |
+| [[research-model]] | 모형·가설·이론 배정 |
+| [[logic-architecture]] | Layer 1~5 논리 뼈대 |
+| [[scale-development_MV]] | MV 척도 개발 — 판별 좌표·어휘 경계·관문 6개 |
+| [[measurement-items]] | 확정 문항 등록부 (MC·MV·DV·MOD) |
+| [[Literature_Map]] | 문헌 배정·논증 사슬 S1~S6 |
+| [[analysis-plan]] | 통계 방법·검정력·표본 |
+| [[paper-feature-matrix]] | 논문별 특징 매트릭스 |
+
+---
+
+## 진행 기록
+
+| 파일 | 시점 |
+|---|---|
+| [[review-2026-08-09]] | 정의문 정밀화 · Rizzo 원전 · MV 문항 |
+| [[review-2026-08-04]] | 판별 3축 좌표 · 척도 뿌리 확정 |
+| [[review-2026-07-31]] | 방어 스트레스 테스트 5개 공격축 |
+| [[review-2026-07-28]] | V17 재설계 |
+| [[action-items-260801]] | ⏭ 종료 — 미완은 260809로 이월 |
+
+---
+
+## 도구·워크플로
+
+- [[multi-machine-sync]] — 3기기 git 동기 규칙
+- [[research-workflow]] · [[literature-paper-workflow]]
+- [[zotero-obsidian-setup]] · [[collection-structure]] · [[citation-keys]]
+
+---
+
+## 📦 아카이브 — 05월 원자료 (V17 이전, 갱신하지 않음)
+
+> ⚠️ **아래 파일들은 초기 모델(IV=협업 결합도, MV=귀속 모호성)을 담고 있어 현행과 다르다.** 각 파일 상단 배너 참조.
+
+- [[initial-review-followup_260809]] ← **먼저 이걸 보십시오.** 05-22 지적 8건이 지금 어떻게 됐는지 대조표
+- [[initial_review_260522]] — 05-22 초기 리뷰
+- [[연구_구조_요약서_260522]] · [[논문_구조_및_지지이론_260519]] · [[논문_구조_및_키워드]] · [[논문_목차_260512]]
+
+---
 
 ## Working Rule
 
-Zotero is for bibliography. Obsidian is for knowledge. Claude is for structuring, drafting, and checking. LaTeX is for the final manuscript. Marp is optional for presentation.
+Zotero는 서지, Obsidian은 지식, Claude는 구조화·검증, LaTeX는 최종 원고.
+
+**Claude 진행 원칙** (`action-items-260809` §9)
+- **정의문 → 문항** 순서. 정의가 흔들리면 문항이 흔들린다
+- 문장에 **구성개념 이름을 넣지 않는다**
+- 정의문·구성개념이 바뀌면 **Analysis 폴더 전수 grep**
+- Claude는 **파일·절을 명시**하고 말할 것. 부재 주장은 문서 전체 확인 후. **근거 없이 편들지 말 것**
+- 정의문·핵심 문장은 **성준님이 직접 작성**, Claude는 3축으로 검증만

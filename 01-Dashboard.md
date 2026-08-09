@@ -39,7 +39,7 @@
 | Date | Decision | Evidence | Follow-up |
 |---|---|---|---|
 | 2026-05-22 | Project scaffold created | Initial workspace | Add papers |
-| 2026-05-22 | Initial research structure reviewed | `Review/initial_review_260522.md` | Refine construct and model |
+| 2026-05-22 | Initial research structure reviewed | `Review/initial_review_260522.md` | ✅ 지적 8건 대조 완료 → `Review/initial-review-followup_260809.md` |
 | 2026-05-22 | Research workflow guide adapted | `Workflow/research-workflow.md` | Add Zotero references and paper notes |
 | 2026-06-15 | V16→V17 재설계 — 4구성개념·4이론 확정 | `progress/review-2026-06-15.md` | MV 후속 교체 |
 | 2026-07-28 | MV 교체: 심리적 무력감 → 지각된 평가 불확실성 / COR 제거 | `Analysis/research-model.md` [V17] | 척도 확보 |
