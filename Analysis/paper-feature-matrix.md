@@ -1,6 +1,6 @@
 ---
-last-updated: 2026-07-31
-version: V17 — Hobfoll·Spreitzer 행 제거, Weiner(기대원리)·Van den Bos 설명 갱신, "무력감 매개" → "평가 불확실성 매개"
+last-updated: 2026-08-09
+version: V17.1 [08-09] — MV 척도 자리 해소(Rizzo 확보) / V17 — Hobfoll·Spreitzer 행 제거, Weiner(기대원리)·Van den Bos 설명 갱신, "무력감 매개" → "평가 불확실성 매개"
 related-review: progress/review-2026-07-28.md
 ---
 
@@ -74,7 +74,7 @@ Use this matrix to compare papers before writing prose. 비교군 선행연구�
 | Van den Bos (2001) UMT 근거 | ✅ Zotero 확보 |
 | Lind & van den Bos (2002) UMT 정본 | ✅ Zotero 확보 [07-31] |
 | Colquitt (2001) 측정 근거 | Sources/Papers/Colquitt (2001).md |
-| 평가 불확실성 척도 | Sources/Papers/ — 신규 확보 필요 (uncertainty 지각 계열) |
+| 평가 불확실성 척도 | ✅ **[08-09 해소]** Rizzo, House & Lirtzman(1970) ASQ 15(2) — 정의 (1) 계승 + 정방향 신규 제작. 번안 선례 박지훈·정승철(2017)·류수민·유태용(2015), 역채점 회피 Kelloway & Barling(1990)·Smith et al.(1993). 상세 [[scale-development_MV]] |
 | 기대원리 확장 근거 | Sources/Papers/ — 신규 확보 필요 (attribution + appraisal + expectancy) |
 | 비교군 선행연구 | Sources/Papers/ (Khan, Salter, Hunter, Jiang, Tang, Frontiers) |
 | 구성개념 정의 | Analysis/construct-definition_attribution-ambiguity.md |

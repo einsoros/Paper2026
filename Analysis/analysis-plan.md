@@ -1,8 +1,8 @@
 ---
-last-updated: 2026-07-29
-version: V17
+last-updated: 2026-08-09
+version: V17.1 [08-09] — MVr·판별타당도 쌍을 6단계 과제에 명시
 related-review: progress/review-2026-07-28.md
-related: ["[[research-model]]", "[[measurement-items]]"]
+related: ["[[research-model]]", "[[measurement-items]]", "[[scale-development_MV]]", "[[action-items-260809]]"]
 tags: [통계분석, 검정력, 표본크기, PROCESS, 방법선택근거]
 ---
 
@@ -10,6 +10,7 @@ tags: [통계분석, 검정력, 표본크기, PROCESS, 방법선택근거]
 
 > 본 문서는 "무엇을 측정하나(measurement-items)"·"모델·가설(research-model)"과 구분되는 **"측정한 것을 어떻게 검정하나"**를 정리한다.
 > 정밀 수치(검정력·효과크기)는 척도 확정 후(6단계)에 확정한다. 현재는 방법 세트·선택 근거·표본 방향까지.
+> **[08-09 상태]** MV 척도의 뿌리·정의는 확정됐고 문항 4개 작성이 남았다. 문항 확정 후 §6의 정밀 산출로 넘어간다. → [[action-items-260809]] §A3
 
 ## 1. 분석 흐름 (순서)
 
@@ -83,6 +84,8 @@ tags: [통계분석, 검정력, 표본크기, PROCESS, 방법선택근거]
 - [ ] CMV 점검 방법 확정 (marker variable 채택 시 marker 문항 설계)
 - [ ] 판별타당도 기준 확정 (AVE>0.5, HTMT<0.85 등)
 - [ ] H4 유지 여부 (지도교수 면담) → 표본 목표 확정(250 vs 150)
+- [ ] **MVr(역방향 점검문항) 채택 여부** — 채택 시 CMV 점검(§1 ③)과 함께 보고하되 **α·요인분석에서는 제외**. 근거 Kelloway & Barling(1990). 결정은 면담 후. ([[scale-development_MV]] §5)
+- [ ] **판별타당도 대상 쌍 확정** — H4 유지 시 IV–MV / MV–DV / **MV–MOD** 3쌍, 제외 시 2쌍
 
 ---
 

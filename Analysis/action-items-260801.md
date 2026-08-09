@@ -2,13 +2,16 @@
 date: 2026-08-01
 type: action-items
 project: Paper2026
-status: B1 완료(08-04) — 다음 병목은 B1.5(MV 정의 정밀화) → 3단계(문항 확정)
+status: ⏭ 종료(08-09) — 미완 항목은 [[action-items-260809]]로 이월. 이 파일은 08-04 시점 기록으로 보존
 related: ["[[action-items-260731]]", "[[review-2026-07-31]]", "[[review-2026-08-04]]", "[[analysis-plan]]", "[[measurement-items]]", "[[scale-development_MV]]", "[[Literature_Map]]"]
 tags: [실행목록, 측정설계, 척도, 시나리오, 체크리스트]
 ---
 
 # Action Items — 2026-08-01
 
+> ⏭ **이 파일은 종료됐다. 현행 작업 기준은 [[action-items-260809]].**
+> ⚠️ 아래 B1 항목의 Rizzo facet 이해는 **08-09 원전 확인으로 정정됨** — 최종 내용은 [[action-items-260809]] §A1 참조. 당시 기록으로 보존한다.
+>
 > 규칙: 항목마다 Done 기준 / 상태 ⬜🟡✅⏭ / 미완은 이월.
 > 앞선 맥락: [[action-items-260731]](A1·A2·A3 완료), [[review-2026-07-31]] §1 이슈 마스터 목록.
 > 통찰·약점은 리뷰에, 여기는 작업 로그만. → 08-04 통찰은 [[review-2026-08-04]]

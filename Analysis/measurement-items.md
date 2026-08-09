@@ -1,6 +1,6 @@
 ---
-last-updated: 2026-07-28
-version: V17 — MV 무력감 문항 → 평가 불확실성으로 틀 교체(문항 잠정), DV accuracy 제거·consistency+bias suppression 재작성
+last-updated: 2026-08-09
+version: V17 / [08-09] MV 후보문항 진단 결과·척도 뿌리 확정 반영 (확정 문항은 A3에서) / V17 — MV 무력감 문항 → 평가 불확실성으로 틀 교체(문항 잠정), DV accuracy 제거·consistency+bias suppression 재작성
 related-review: progress/review-2026-07-28.md
 ---
 
@@ -46,7 +46,18 @@ All items are draft items. They need translation refinement, pilot testing, and 
 
 ## II. Perceived Evaluation Uncertainty (MV — 지각된 평가 불확실성) [V17 전면 교체]
 
-> ⚠️ **척도 미확보 — 실행 블로커.** (구) 무력감·임파워먼트(Spreitzer) 계열 척도는 폐기되었다. '불확실성 지각(uncertainty perception)' 계열에서 타당화 척도를 탐색해야 하며, 아래 문항은 **방향 예시일 뿐 확정이 아니다.** 척도 확정은 2단계.
+> ✅ **[08-09] 척도 뿌리 확보 완료 — 남은 것은 문항 작성.** 직접 측정 완성 척도는 확인 범위 내 부재. **Rizzo, House & Lirtzman(1970)이 정의한 (1) 행동 결과 예측가능성을 계승**하고 평가 맥락으로 특화해 **정방향 신규 제작**한다. 상세: [[scale-development_MV]], [[action-items-260809]] §A1·§A3.
+>
+> ⚠️ **아래 후보 4문항은 진단 완료 상태이며 확정 문항이 아니다** — [[scale-development_MV]] §4 판정: **유지 1 / 수정 2 / 폐기 1**.
+>
+> | 번호 | 판정 | 사유 |
+> |---|---|---|
+> | 1 | ⚠️ 수정 | "어떻게"(→MOD) · "반영"(→제외한 accuracy 재유입) |
+> | 2 | ✅ 유지 | **D1 정본** |
+> | 3 | 🟡 경미 수정 | "어떻게 나올지" → "어느 수준일지" |
+> | 4 | ❌ **폐기** | "내 기여가"가 MC2와 직접 충돌 → H1 동어반복 |
+>
+> → D2(노력–평가 연결) 영역이 비므로 **신규 문항 필요.** 최종 4문항은 D1 2 + D2 2.
 
 ### 척도 확보 방향
 
