@@ -28,13 +28,9 @@
 
 ## Participant Role
 
-응답자는 평가자 역할을 맡는다.
+응답자 시점: 평가 대상자(target). 응답자는 협업 환경에서 평가를 받는 구성원이며, 본인의 성과에서 자신의 기여와 AI의 기여를 분리 식별할 수 있는지에 대한 주관적 지각을 보고한다.
 
-이 설정을 쓰는 이유:
-
-- 조절변수로 평가기준 명확성 또는 AI 리터러시를 쓰기 쉽다.
-- 절차공정성 판단을 평가 절차 관점에서 측정할 수 있다.
-- 평가자가 기여 원천을 식별하기 어려운 상황을 직접 판단하게 만들 수 있다.
+> 출처: `Analysis/construct-definition_attribution-ambiguity.md` §I [V1]
 
 ## Base Scenario Skeleton
 
