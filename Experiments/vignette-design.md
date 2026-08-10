@@ -48,16 +48,6 @@
 
 직원 A는 생성형 AI와 반복적으로 상호작용하며 제안서를 작성했다. AI는 시장 분석 관점 제안, 고객 문제 재구성, 해결 아이디어 생성, 문장 초안 작성, 대안 비교, 실행 계획 보완에 지속적으로 관여했다. 직원 A는 AI가 제안한 내용을 선택, 수정, 조합하여 최종 제안서를 완성했다.
 
-## Manipulation 2: Evaluation Criteria Clarity
-
-### Low Criteria Clarity
-
-조직에는 AI를 활용한 성과물을 평가하는 별도 기준이 없다. 평가자는 최종 결과물의 품질을 중심으로 평가하라는 안내만 받았으며, AI가 기여한 부분을 어떻게 반영해야 하는지는 명확히 제시되지 않았다.
-
-### High Criteria Clarity
-
-조직은 AI 활용 성과물 평가 기준을 제공한다. 평가자는 최종 결과물의 품질뿐 아니라 직원의 문제 정의, AI 프롬프트 설계, 대안 판단, 결과 검증, 최종 의사결정 기여도를 함께 평가하도록 안내받았다.
-
 ## Dependent Measures
 
 After reading the scenario, participants answer:
