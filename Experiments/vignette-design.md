@@ -38,15 +38,21 @@
 
 모든 조건에서 결과물의 품질은 동일하게 우수한 것으로 제시한다.
 
-## Manipulation 1: Human-AI Collaborative Integration
+## Manipulation: 성과 기여 귀속 모호성 (IV)
 
-### Low AI Integration
+조작 대상은 **기여 식별 가능성** 하나다 — 내 몫과 AI 몫을 분리할 수 있는가.
+협업 결합도는 조작하지 않는다 — IT 개발직 한정 샘플링으로 통제한다.
 
-직원 A는 기존 자료 검색, 사내 문서, 엑셀, 문서 편집 도구를 활용하여 제안서를 작성했다. 일부 문장 교정 도구를 사용했지만, 핵심 아이디어와 분석, 구성, 결론은 직원 A가 직접 수행했다.
+> 근거: `Analysis/construct-definition_attribution-ambiguity.md` §I [V12]
+> 결합도를 IV로 두지 않은 사유: `Review/initial-review-followup_260809.md` R6
 
-### High AI Integration
+### 귀속 명확 조건
 
-직원 A는 생성형 AI와 반복적으로 상호작용하며 제안서를 작성했다. AI는 시장 분석 관점 제안, 고객 문제 재구성, 해결 아이디어 생성, 문장 초안 작성, 대안 비교, 실행 계획 보완에 지속적으로 관여했다. 직원 A는 AI가 제안한 내용을 선택, 수정, 조합하여 최종 제안서를 완성했다.
+(A5에서 작성)
+
+### 귀속 모호 조건
+
+(A5에서 작성)
 
 ## Dependent Measures
 
