@@ -5,34 +5,43 @@ project: Paper2026
 tags: [워크플로우, git, 다중기기, 동기화]
 ---
 
-# Multi-Machine Sync — mp / ma
+# Multi-Machine Sync — wp / mp / ma
 
-> 2대 병행 작업 규칙. **작업 시작 = pull, 작업 종료 = push.** 예외 없음.
+> 3대 병행 작업 규칙. **작업 시작 = pull, 작업 종료 = push.** 예외 없음.
+> **주 작업 기기는 `wp`(Windows PC).** mp·ma는 보조로 쓰되 읽기 전용에 가깝게 운용한다.
 
 ## 1. 기기 식별자
 
-| 코드 | 기기 |
-|---|---|
-`mp` | MacBook **P**ro |
-`ma` | MacBook **A**ir |
+| 코드 | 기기 | 역할 |
+|---|---|---|
+| **`wp`** | **Windows PC** | **주 작업 기기** |
+| `mp` | MacBook **P**ro (회사) | 보조 |
+| `ma` | MacBook **A**ir (회사) | 거의 미사용 |
 
 각 기기에서 **한 번만** 설정한다. (`--local`이므로 push되지 않고 기기별로 유지됨)
 
 ```bash
-# mp에서
-git config --local paper.machine mp
-# ma에서
-git config --local paper.machine ma
+git config --local paper.machine wp    # wp에서
+git config --local paper.machine mp    # mp에서
+git config --local paper.machine ma    # ma에서
 ```
+
+**리포 경로**
+
+| 기기 | 경로 |
+|---|---|
+| `wp` | `C:\Users\einso\Desktop\Research\Paper2026` |
+| `mp`·`ma` | (각 기기 실제 경로) |
 
 ## 2. 커밋 메시지 규칙
 
 ```
+[wp] A4 완료 — DV 4문항 확정
 [mp] B1 2단계 완료: 국내 번안 선례 확보
 [ma] WIP 08-05 14:30
 ```
 
-접두 `[mp]`/`[ma]`의 목적은 **어느 기기가 마지막으로 작업했는지 즉시 아는 것**이다. 작업 시작 시 `git log -1`만 보면 "지난번에 어디서 뭘 했는지"가 나온다. 이게 다중 기기 사고를 막는 핵심 장치다.
+접두 `[wp]`/`[mp]`/`[ma]`의 목적은 **어느 기기가 마지막으로 작업했는지 즉시 아는 것**이다. 작업 시작 시 `git log -1`만 보면 "지난번에 어디서 뭘 했는지"가 나온다. 이게 다중 기기 사고를 막는 핵심 장치다.
 
 ## 3. 작업 시작 프로토콜
 
@@ -61,6 +70,8 @@ git push origin main
 > 원칙: **기기에서 일어서기 전에 push.** 노트북 덮기 전 30초.
 
 ## 5. 셸 함수 (권장)
+
+### 5-1. macOS (mp / ma) — zsh
 
 `~/.zshrc`에 붙여넣고 `REPO` 경로만 각 기기에 맞게 수정.
 
@@ -97,6 +108,51 @@ p26 end "B1.5 정의문 수정"
 p26 end                       # 미완이면 인자 없이 → WIP 커밋
 ```
 
+### 5-2. Windows (wp) — PowerShell [08-09 추가]
+
+⚠️ **CMD에는 alias가 없다.** wp에서는 PowerShell을 쓴다.
+
+**최초 1회 — 실행 정책**
+
+```powershell
+Get-ExecutionPolicy
+# Restricted면:
+Set-ExecutionPolicy -Scope CurrentUser RemoteSigned
+```
+
+**프로필 생성·편집**
+
+```powershell
+if (!(Test-Path $PROFILE)) { New-Item -ItemType File -Path $PROFILE -Force }
+notepad $PROFILE
+```
+
+**함수 붙여넣고 저장 후 PowerShell 재시작**
+
+```powershell
+function p26 {
+    Set-Location C:\Users\einso\Desktop\Research\Paper2026
+    git pull
+    git log --oneline -1
+}
+
+function p26end {
+    param([string]$msg = "WIP")
+    Set-Location C:\Users\einso\Desktop\Research\Paper2026
+    git status -s
+    git add -A
+    git commit -m "[wp] $msg"
+    git push
+}
+```
+
+| 명령 | 하는 일 |
+|---|---|
+| `p26` | 이동 + pull + 최신 커밋 표시 |
+| `p26end "A5 시나리오 초안"` | status 확인 + add + commit(`[wp]` 자동) + push |
+
+> ⚠️ `p26end`는 변경분을 **전부** 커밋한다. `.patch` 같은 임시 파일이 섞이지 않았는지 출력되는 `git status -s`를 확인할 것. (`.gitignore`에 `*.patch` 추가돼 있음)
+
 ## 6. 충돌이 났을 때
 
 같은 파일을 양쪽에서 고쳤을 때만 난다. `--no-rebase` 병합이므로 충돌 표시가 파일에 들어온다.
@@ -111,9 +167,11 @@ git push origin main
 
 **충돌이 잦은 파일** — `action-items-*.md`, `measurement-items.md`처럼 자주 고치는 파일. 종료 프로토콜만 지키면 대부분 발생하지 않는다.
 
-## 7. ⚠️ 1회 정리 작업 — `.obsidian` 추적 해제
+## 7. ✅ [완료 08-05] 1회 정리 작업 — `.obsidian` 추적 해제
 
-`.gitignore`에 `.obsidian/`이 있으나, **그 규칙 이전에 커밋된 4개 파일이 아직 추적되고 있다.** `.gitignore`는 이미 추적 중인 파일을 무시하지 않는다.
+> ✅ **이 작업은 08-05에 완료됐다.** 아래는 기록으로 남긴다. 새 기기를 추가할 때 참고.
+
+`.gitignore`에 `.obsidian/`이 있었으나, **그 규칙 이전에 커밋된 4개 파일이 추적되고 있었다.** `.gitignore`는 이미 추적 중인 파일을 무시하지 않는다.
 
 ```
 .obsidian/app.json
@@ -153,9 +211,13 @@ Obsidian 설정 | 동기화 안 함 (§7) |
 |---|---|---|
 저쪽 작업이 사라진 것 같다 | 저쪽에서 push 안 함 | 종료 프로토콜 (§4) |
 같은 파일이 두 벌로 갈라짐 | 파일명 불일치 (예: `Literature Map.md` vs `Literature_Map.md`) | 새 파일 추가 시 `git status`로 이름 확인 |
-`.obsidian` 충돌 반복 | 설정 파일 추적 중 | §7 1회 정리 |
+`.obsidian` 충돌 반복 | 설정 파일 추적 중 | ✅ §7에서 해결됨 |
+**`cd <리포>`가 실패해 `&&` 뒤가 통째로 건너뛰어짐** | 이미 리포 안인데 상대경로로 `cd` 시도 | **셸 함수 사용(§5).** 이미 안에 있으면 `git pull`만 따로 실행 |
+**파일이 엉뚱한 폴더로 들어가 중복 생성** | 다운로드 파일 배치 시 경로 미확인 | 파일 받을 때 **소속 폴더 확인.** `Analysis/` `progress/` `Review/` `Experiments/` `Workflow/` 루트 구분 |
+**임시 파일(`.patch`)이 리포에 커밋됨** | `git add -A`가 전부 집음 | `.gitignore`에 `*.patch` 추가 완료. 커밋 전 `git status` 확인 |
 
 ---
 
 ## 변경 이력
 - [08-04 / mp] 신설. 기기 식별자·커밋 규칙·시작·종료 프로토콜·셸 함수·`.obsidian` 추적 해제 과제
+- [08-09 / wp] **wp 추가 — 2대 → 3대 구성.** 주 작업 기기를 wp로 명시. §1에 wp 식별자·리포 경로 추가. §2 커밋 예시에 `[wp]` 추가. **§5-2 PowerShell 함수(`p26`/`p26end`) 신설** — CMD에는 alias가 없어 wp는 PowerShell을 쓴다. §7을 ✅완료로 전환(08-05 처리분). §9에 08-09에 실제로 겪은 사고 3건 추가 — `cd` 실패로 `&&` 체인 중단 / 파일이 다른 폴더로 배치되어 중복 / `.patch` 임시파일 커밋
