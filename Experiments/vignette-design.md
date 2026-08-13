@@ -19,13 +19,20 @@
 
 ## Recommended Design
 
-2x2 between-subject experiment.
+1요인 2조건 between-subject 시나리오 실험.
 
-| Factor | Low condition | High condition |
-|---|---|---|
-| Human-AI collaborative integration | 전통적 도구 또는 낮은 AI 개입 | 생성형 AI와 반복적 상호작용을 통한 공동 생성 |
-| Evaluation criteria clarity | AI 활용 성과평가 기준 불명확 | AI 활용 및 기여 판단 기준 명확 |
+| 조작 요인 | 조건 |
+|---|---|
+| 성과 기여 귀속 모호성 (IV) | 귀속 명확 / 귀속 모호 |
 
+응답자는 두 조건 중 하나에 **무선배정**되며, 한 응답자는 한 조건만 열람한다.
+
+**이 절의 전제**
+- 조작 요인은 하나다 — 협업 결합도·평가 절차 명확성은 조작하지 않는다
+- 평가 절차 명확성은 **측정 변수**다 (V9)
+- 표본 크기는 H4 존치 여부에 따라 결정한다 — **미확정**
+
+> 상세: 조작 대상·통제 범위 `## Manipulation` · 통제 목록 `## Design Warnings`
 ## Participant Role
 
 응답자 시점: 평가 대상자(target). 응답자는 협업 환경에서 평가를 받는 구성원이며, 본인의 성과에서 자신의 기여와 AI의 기여를 분리 식별할 수 있는지에 대한 주관적 지각을 보고한다.
