@@ -2,14 +2,17 @@
 date: 2026-08-10
 type: action-items
 project: Paper2026
-status: 다음 세션 계획 — A5(시나리오) 단일 트랙. 선행으로 vignette-design 전면 정정 필요
+status: ⏭ 종료(08-10) — A5-0 4/8 완료. 잔여는 [[action-items-260813]]로 이월
 related: ["[[action-items-260809]]", "[[review-2026-08-09]]", "[[vignette-design]]", "[[construct-definition_attribution-ambiguity]]", "[[measurement-items]]", "[[research-model]]"]
 tags: [실행목록, 시나리오, 조작설계, 체크리스트]
 ---
 
 # Action Items — 2026-08-10 (다음 세션)
 
-> **이 파일이 다음 세션의 작업 기준.** 직전 세션은 [[action-items-260809]] (종료 — 미완 항목은 여기로 이월).
+> ⏭ **이 파일은 종료됐다(08-10 세션). 현행 작업 기준은 [[action-items-260813]].**
+> A5-0 8항목 중 **1·2·3·4 완료**, 5·6·7·8은 260813으로 이월.
+>
+> ~~이 파일이 다음 세션의 작업 기준.~~ 직전 세션은 [[action-items-260809]].
 > 통찰·약점은 리뷰에, 여기는 작업 로그만.
 > ⚠️ **시작 = `git pull`.** 08-09 세션에서 `cd` 실패로 pull이 여러 번 건너뛰어졌다.
 

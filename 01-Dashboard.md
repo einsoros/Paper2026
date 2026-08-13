@@ -6,7 +6,7 @@
 - Working question: AI와 공동 생성한 성과에서 인간의 기여를 명확히 식별하기 어려울 때, 기존 개인 중심 성과평가는 얼마나 공정하게 지각되는가?
 - Target output: 실증 논문 구조, 연구모형, 설문/시나리오 실험 설계
 - Target venue or style:
-- Current stage: **B3 — 시나리오 본문** (MV·DV 측정 확정). 작업 기준: `Analysis/action-items-260810.md`
+- Current stage: **B3 — 시나리오 본문** (MV·DV 측정 확정). 작업 기준: `Analysis/action-items-260813.md`
 
 ## Next Actions
 
@@ -21,7 +21,8 @@
 - [x] MV 4문항 확정 (D1 2 + D2 2) — 08-09
 - [x] B1.5 정의문 잔여 ③ㄷ·⑤ 처리 — What It Is에 D1·D2 각 1행
 - [x] B2 — DV 4문항 확정 + MV↔DV 판별 점검 (08-09)
-- [ ] **`Experiments/vignette-design.md` 전면 정정** ← 선행 (응답자 역할이 05월 "평가자"로 남아 있음)
+- [~] `Experiments/vignette-design.md` 정정 — **4/8 완료**(응답자 역할·Base Scenario·Manipulation 절·Manipulation 2 삭제)
+- [ ] **A5-0 잔여 5·6·7·8** ← 현재 병목 (Recommended Design 2×2 · Dependent Measures MV 누락 · 통제 목록 통합 · danger 배너)
 - [ ] **B3 — 시나리오 본문** ← 현재 병목
 - [x] Rizzo 원전 확보·독해 — facet (1) 문항이 최종 척도에서 전원 탈락한 사실 확인
 - [ ] **B1.6 — ④ 절 수정 + facet 라벨 (1)·(2)로 통일**
@@ -63,6 +64,11 @@
 | 2026-08-09 | **DV·MV·MOD 지시 대상 = 시나리오 속 가상 조직** | `measurement-items` §III A4 검토 | 외적 타당도 한계 명시 |
 | 2026-08-09 | 한계 절 관점 정립 — "학술 연구는 현실을 미세하게 설명하려는 과정이지 전부를 설명하려는 것이 아니다" | `action-items-260809` §D2-1 | 한계 절 도입 문단 |
 | 2026-08-09 | ⚠️ **`vignette-design.md`가 05월 상태로 V17과 6곳 충돌** 발견 — 특히 응답자 역할이 "평가자" | `Experiments/vignette-design.md` | A5-0에서 정정 |
+| 2026-08-10 | 하한 ① — 시나리오에서 **평가 발생은 단정형**으로 확정 | `action-items-260813` §M1 | A5 본문 |
+| 2026-08-10 | 평가자는 **역할로만 존재**(익명화 ≠ 제거) — 제거 시 DV4 무력화 | `action-items-260813` §M2 | 반영됨 |
+| 2026-08-10 | **산출물 품질 ≠ 평가 결과** — 평가 결과 명시는 분배 결과·MV 전망성 훼손으로 금지 | `action-items-260813` §M3 | 통제 1번 구현 |
+| 2026-08-10 | MOD **측정/존치 구분** — 측정변수는 V9 확정, H4 존치만 미정 | `action-items-260813` §M4 | 문구 정정 |
+| 2026-08-10 | 통제 항목이 4개 문서에 분산 — **상위→하위 경로 부재** 확인 | `action-items-260813` §M7 | A5-0-7 |
 
 ## Open Questions
 
