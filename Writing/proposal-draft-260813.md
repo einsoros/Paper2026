@@ -2,7 +2,7 @@
 date: 2026-08-13
 type: proposal-draft
 project: Paper2026
-status: 초안 v1.2 — **A0-1 반영: H4 위상 재배치·MOD 조절 경로 도식 정정** / 시나리오 확정 반영 / §01·§02 공백 축 정정 (C8)
+status 초안 v1.2 — **A0-1 반영: H4 위상 재배치·MOD 조절 경로 도식 정정** / 시나리오 확정 반영 / §01·§02 공백 축 정정 (C8)
 related: ["[[proposal-guide]]", "[[research-model]]", "[[construct-definition_attribution-ambiguity]]", "[[measurement-items]]", "[[analysis-plan]]", "[[action-items-260813]]"]
 tags: [프로포절, 발표, 심사]
 ---
