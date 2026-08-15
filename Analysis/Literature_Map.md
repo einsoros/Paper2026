@@ -59,7 +59,7 @@ related-review: progress/review-2026-08-04.md
 | Wang et al. (2023) Formality | Accounting & Finance | 형식성→공정성 실증 ⚠️ 제조업 |
 
 > ⚠️ H4 근거는 '명확성→공정성' 주효과를 지지하나 '조절(상호작용) 형식'을 직접 실증한 것은 아님 → 한계 명시.
-> ⚠️ **[08-04] H4 유지 여부 미확정** — 면담 안건. 3안(A 유지·가설 / B 측정만·탐색적 / C 완전 제외) → [[scale-development_MV]] §9. 이 절의 문헌은 A·B안에서만 본문 인용, C안에서는 future research 서술용으로 격하.
+> ✅ **[08-13] H4 존치 확정 (A안 — 가설로 유지).** 이 절의 문헌은 **본문 인용**한다. ~~3안(A/B/C) 면담 안건~~ → 검토 이력은 [[scale-development_MV]] §9.
 
 ### 측정도구 근거 — MV 척도 번안 (B1) [V17.1 / 08-04 신설]
 
@@ -139,7 +139,8 @@ MV(지각된 평가 불확실성)는 **이론적 뿌리(UMT)와 측정 뿌리(Ri
 | --- | --- | --- |
 | Wang et al. (2022) AI Literacy | BIT | AI Literacy 척도 — 통제변수 |
 | **Heggestad et al. (2019)** | Journal of Management | **척도 적응(scale adaptation) 방법론 정당화 — [08-04] B1 논증 S3·S5 담당으로 역할 확정** |
-| Hayes (2018) | Guilford Press | PROCESS Model 4·14 매개·조건부매개 검증 |
+| **Hayes (2022)** | Guilford Press | **PROCESS Model 4·14 매개·조건부매개 검증** — 3판. `hayesIntroductionMediationModeration2022` [08-15 등록] |
+| **Hayes (2009)** | Communication Monographs | **Baron & Kenny 인과단계 접근 배제 논거** — 검정력 문제 지적, 간접효과 직접 검정 권고. `hayesBaronKennyStatistical2009` [08-15 등록] |
 | **MacKenzie et al. (2011)** | MIS Quarterly | **신규 construct·문항 개발 및 타당화 절차 — [08-04] B1 논증 S6·내용타당도 절차 담당으로 역할 확정** |
 
 > ✅ **[V17.1 / 08-04 해소]** 옛 🔲 항목("지각된 평가 불확실성 척도 탐색")은 **B1(08-03·08-04)에서 해소**되었다. 결과: 직접 측정 완성 척도는 확인 범위 내 부재 → **Rizzo(1970) 정의 (1) 계승 + 정방향 신규 제작**으로 확정. [08-09 원전 확인으로 "번안"→"복원"으로 표현 정정] 근거 문헌은 위 "측정도구 근거" 절 참조.
@@ -189,7 +190,7 @@ MV(지각된 평가 불확실성)는 **이론적 뿌리(UMT)와 측정 뿌리(Ri
 - **H2 (평가 불확실성 → 절차공정성 저하)**: Van den Bos(2001, 실험), Lind & van den Bos(2002, UMT 정본), Hartmann & Slapničar(2012), Colquitt(2001)
 - **H3 (매개)**: H1+H2 연쇄 (별도 이론 불필요)
 - **H4 (조절: 절차 명확성)**: Leventhal(1980), Colquitt(2001), Erdogan(2002), Kim(2016), Wang(2023) Formality
-  - ⚠️ [08-04] H4 유지 여부 미확정 (면담 안건 3안)
+  - ✅ **[08-13] H4 존치 확정** — 가설로 유지, 본문 인용
 
 ### 4. 방법론 (Methodology)
 
@@ -197,17 +198,18 @@ MV(지각된 평가 불확실성)는 **이론적 뿌리(UMT)와 측정 뿌리(Ri
 - IV (시나리오 조작 + manipulation check)
 - **MV (지각된 평가 불확실성)**: [08-09 원전 확인] Rizzo, House & Lirtzman(1970)이 정의한 **(1) 행동 결과 예측가능성만** 계승 → '평가 결과 예측'으로 특화 → **정방향 신규 제작**(번안 아님 — (1) 계열 문항은 원전 최종 척도에서 탈락). 번안 선례 박지훈·정승철(2017)·류수민·유태용(2015), 역채점 회피 근거 Kelloway & Barling(1990)·Smith et al.(1993), 절차 정당화 Heggestad et al.(2019)·MacKenzie et al.(2011). 문항 설계는 [[scale-development_MV]]
 - DV (절차공정성): Colquitt(2001) 기반, consistency·bias suppression (accuracy 제외) — [V17]
-- MOD (절차 명확성): Erdogan(2002), Kim(2016) 기반 — 6단계 재설계 / ⚠️ H4 결정 대기
+- MOD (절차 명확성): Erdogan(2002), Kim(2016) 기반 — ✅ **[08-13] H4 존치 확정** / ⚠️ 문항 재설계는 진행 중 (`action-items` §A2)
 - Control: Wang et al. (2022) AI Literacy (Respondent)
 
 **분석 방법:**
-- Hayes (2018) — PROCESS Model 4 (매개), Model 14 (조건부 매개)
+- **Hayes (2022)** — PROCESS Model 4 (매개), Model 14 (조건부 매개) / **Hayes (2009)** — Baron & Kenny 배제 논거
 - MacKenzie et al. (2011) — 문항 개발·타당화 절차 / Heggestad et al. (2019) — 척도 적응 정당화
-- 🔲 [V17] 사전 검정력 분석 — Monte Carlo (analysis-plan §4·§6)
+- 🔲 [V17] 사전 검정력 분석 — Monte Carlo (analysis-plan §4·§6). ⚠️ **[08-15] 우선순위 승격** — H4가 논증 핵심이 되면서 상호작용 검정력이 최대 위험
 
 ---
 
 ## 변경 이력
+- [08-15] **H4 존치 확정 반영 + 서지 정정.** ① §H4 조절변수 근거·§3 가설·§4 방법론의 「H4 유지 여부 미확정」 3곳을 **존치 확정(08-13, A안)**으로 정정 — 해당 문헌은 본문 인용. ② **`Hayes(2018)` → `Hayes(2022)` 판본 오기 정정** (3판은 2022년) 2곳. ③ **Hayes(2009) 신규 등재** — Baron & Kenny 배제 논거. citation key는 `Zotero/citation-keys.md`. ④ 사전 검정력 분석 우선순위 승격 표기.
 - [V7] He et al.(2025) 인용 전략 명시
 - [V9] 방법론 MOD 항목 갱신, Control 명칭 Respondent
 - [V12] IV 시나리오 조작, 협업 결합도 척도는 manipulation check
