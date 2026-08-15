@@ -62,7 +62,7 @@ AI-인간 협업 환경
 | IV | Performance attribution ambiguity | 성과 기여 귀속 모호성 | ✅ [V12] 시나리오 직접 조작 (귀속 명확 vs 모호). 귀인이론 기반 |
 | MV | Perceived evaluation uncertainty | 지각된 평가 불확실성 | ✅ [V17] 매개변수 — 이론=UMT / 측정=Rizzo(1970) 정의 (1) 계승. **[08-09] 정의문·측정 뿌리 확정, 문항 4개 작성 대기** |
 | DV | Procedural justice perception | 성과평가 절차공정성 지각 | Colquitt(2001)/Leventhal(1980) — consistency + bias suppression (accuracy 제외). **[08-09] 4문항 확정, 지시 대상=시나리오 속 가상 조직** |
-| MOD | Appraisal procedure clarity | 평가 절차 명확성 | [V9 계승] 측정 조절변수. MV→DV 경로 조절(Model 14). ⚠️ H4 존치 미확정 / 문항 재설계 예정 / **[08-09] 측정 대상=가상 조직 확정** |
+| MOD | Appraisal procedure clarity | 평가 절차 명확성 | [V9 계승] 측정 조절변수. MV→DV 경로 조절(Model 14). ✅ **[08-13] H4 존치 확정** / ⚠️ 문항 재설계 예정 / **[08-09] 측정 대상=가상 조직 확정** |
 | Secondary DV | Evaluation acceptance | 평가 수용성 | 보조 결과 — [V6] 강건성 검정 활용 예정 |
 | Control | Respondent AI literacy | 응답자(평가 대상자)의 AI 리터러시 | 통제변수 (V5, V9 명칭 갱신) |
 | Control | Demographic variables | 직무 경력, 직급, AI 사용 경험 | 인구통계 통제 |
