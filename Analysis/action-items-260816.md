@@ -2,7 +2,7 @@
 date: 2026-08-16
 type: action-items
 project: Paper2026
-status: 현행 작업 기준 — A0 완료 / A0-3 착수 / ★척도 절차 이슈 8건 발생(I1·I2 치명). 병목은 **G1 논증 · MOD 문항 · 사전 검정력 · 발표자료 실물**
+status: 현행 작업 기준 — A0 완료 / A0-3 착수 / 척도 절차 이슈 8건 중 I2 대조 완료(DV2만 미결). 병목은 **G1 논증 · MOD 문항 · 사전 검정력 · 발표자료 실물**
 related: ["[[action-items-260815]]", "[[proposal-draft-260813]]", "[[research-model]]", "[[analysis-plan]]", "[[Literature_Map]]", "[[construct-definition_attribution-ambiguity]]", "[[measurement-items]]"]
 tags: [실행목록, 프로포절, 면담, 논증]
 ---
@@ -91,7 +91,7 @@ tags: [실행목록, 프로포절, 면담, 논증]
 | # | 이슈 | 판정 |
 |---|---|---|
 | **I1** | MV 측정모형 형식(reflective/formative) 미명세 | 🔴 치명 → 해결 방향 확인됨 |
-| **I2** | DV(Colquitt) 재작성이 Heggestad「문항 표현 변경」에 해당 | 🔴 **치명 · 미해결** |
+| **I2** | DV 재작성이 Heggestad「문항 표현 변경」에 해당 | 🟡 **[08-16 오후] 대조 완료 — 원문항 대응 3 / 신규 1(DV2). DV2만 미결** |
 | I3 | Heggestad 역할 배정 오류 (S3·S5 → DV로) | 🟢 |
 | I4 | 내용타당도가「계획」 → Hinkin & Tracey 절차로 | 🟢 |
 | I5 | 절차 진행 단계 미표시 → 10단계 대응표 | 🟢 |
@@ -108,26 +108,89 @@ tags: [실행목록, 프로포절, 면담, 논증]
 - ⬜ **성준님 판단 필요** — 판단 질문 3개에 직접 답할 것
 - ⬜ **2차 결정** — D1·D2를 2차 요인(Panel C)으로 둘지 1요인 4문항으로 둘지. ⚠️ 하위 요인당 2문항이라 2차 요인은 CFA 식별 불안정 → **1요인 권고**, D1·D2는 내용영역 구분으로만
 
-### 🔴 I2. DV(Colquitt) 재작성 — 미해결
+### 🟡 I2. DV 재작성 — [08-16 오후] 대조 완료 · DV2만 미결
 
-- **현재** `Literature_Map` 223행 — *"원문항 번역이 아니라 기준 재작성"*
-- **원문** Heggestad Table 6「Changes to item wording」 — 가장 엄격한 범주
-  - 가능하면 하지 말 것 / 변경 내용을 부록에 원문항과 병기 / **실질적 변경이면 타당도 증거 필수**(T1-T2 분할 투여 후 상관 비교, ME/I 등)
-- **Study 2 실측** — Colquitt 척도 실제 변경 90.9%, **문항 표현 변경 49.1%**(그중 48.1%가 실질적), 타당도 증거 제시 **5.9%**
-- ⚠️ *"기준 재작성"*은 문제를 피한 게 아니라 **가장 엄격한 범주로 자기를 분류한 것**
-- ⬜ **판정 미완** — DV 4문항과 Colquitt(2001) 원문항 대조 필요
-  - **minor** (명확성·가독성) → 추가 증거 불필요 → 해결
-  - **substantive** → T1-T2 설계 필요 → **현 타임라인 밖** → 문제
-- ⬜ Colquitt(2001) 원문 확보 → `03_Model_Hypotheses/DV_Procedural_Justice` 확인
-- ⚠️ **MOD도 같은 판정 필요** — Erdogan 기반 재설계가「표현 변경」인지「신규 개발」인지 → §A2 선행 결정에 추가
+**제기 시점 상태** — `Literature_Map` 223행이 DV를 *"원문항 번역이 아니라 기준 재작성"*으로 규정. Heggestad Table 6「Changes to item wording」(가장 엄격한 범주)에 자기를 분류한 것으로 읽혔다.
+> Heggestad 요구: 가능하면 하지 말 것 / 변경 내용을 부록에 원문항과 병기 / **실질적 변경이면 타당도 증거 필수**(T1-T2 분할 투여 후 상관 비교, ME/I 등)
+> Study 2 실측: Colquitt 척도 실제 변경 90.9%, 문항 표현 변경 49.1%(그중 48.1%가 실질적), 타당도 증거 제시 5.9%
+
+#### ✅ 대조 결과 — 원문항 대응 3 / 신규 1
+
+| DV | 대응 원문항 | 판정 |
+|---|---|---|
+| **DV1** 이 성과평가 절차는 모든 구성원에게 동일한 기준으로 적용된다 | **Niehoff & Moorman(1993) Table 1(p.541) item 5** — 모든 해당 직원에게 일관되게 적용되는가 (λ=.901) | ✅ 거의 직역. 차이는 `job decisions`→`성과평가 절차` (맥락) |
+| **DV2** 이 평가에서 나는 다른 사람과 같은 방식으로 평가받는다 | ❌ **없음** | 🔴 **유일한 신규 문항** |
+| **DV3** 이 성과평가 절차는 특정인에게 유리하거나 불리하게 편향되지 않는다 | **Colquitt(2001) Table 1(p.389) item 4** — 절차가 편향에서 자유로운가 | ✅ 대응. 주어=절차 |
+| **DV4** 이 평가는 평가자의 개인적 편견 없이 이루어진다 | **N&M(1993) item 1** — 총괄관리자가 편향 없는 방식으로 결정하는가 (λ=.897) | ✅ 대응. 주어=평가자 |
+
+> ⚠️ **어제 판정 철회** — DV4를 *"Leventhal 정의문에서 파생한 신규 문항"*으로 본 것은 오류였다. **검증된 원문항에 대응**한다. `measurement-items` §III 「A4 검토 기록 B」의 *"DV3=절차 / DV4=평가자로 갈라 둔다"*는 설계 판단은 **두 척도가 실제로 그렇게 나뉘어 있다는 사실과 일치**한다. 직관이 맞았고 출처만 없었다.
+
+#### 계보 확정 — 인용 표기가 바뀐다
+
+```
+Leventhal(1980) 6규칙 정의           ← 원전 확보 완료 (leventhalPcWHATSHOULD)
+   → Moorman(1991) JAP 76: 845-855   ← ⬜ 미확보. N&M p.537이 "based on one used by Moorman (1991)"
+      → Niehoff & Moorman(1993) AMJ 36(3): 527-556   ← 확보. Table 1 · α=.85
+   → Colquitt(2001) JAP 86: 386-400                  ← 확보. Table 1
+```
+
+**→ 「Colquitt 기준 재작성」이 아니라 「Leventhal 6규칙을 조작화한 두 척도에서 규칙별로 문항 채택」이다.** 두 척도 혼용이 임의 조합이 아닌 근거는 N&M p.532 — 두 척도 모두 Leventhal(1980)·Leventhal, Karuza & Fry(1980)의 6규칙을 출발점으로 삼는다.
+
+#### 부수 확보 — 「6규칙 중 2개만」의 원전 근거
+
+**N&M(1993) p.532** — 6규칙 나열 직후: *"If a procedure helps to satisfy even one of these rules, a subordinate will consider it fair."*
+→ 절차공정성 판단이 6규칙 전부를 요구하지 않는다는 원전 진술. `measurement-items` §III의 accuracy·representativeness·correctability 제외 결정과 `logic-architecture` Layer 3의 「왜 2개인가」에 **직접 인용 가능**. 지금까지 순환 위험(accuracy)과 연구 범위로만 방어하던 것에 원전 근거가 붙는다.
+
+#### 구조적 제약 — DV2가 신규일 수밖에 없었던 이유
+
+```
+Colquitt(2001) Table 1 : consistency = item 3        (1문항)
+N&M(1993)     Table 1 : consistency = item 5        (1문항)
+```
+N&M 6문항은 Leventhal 6규칙에 **규칙당 1문항씩** 배정된 구조다. 따라서 **consistency에 2문항을 쓰려는 순간 어느 원척도에도 없는 구조**가 된다.
+반면 **bias suppression은 2문항이 가능** — Colquitt item 4(주어=절차)와 N&M item 1(주어=평가자)이 서로 다른 각도로 존재하므로 DV3·DV4는 각각 다른 척도에서 정당하게 조달된다.
+
+#### ⬜ DV2 처리 — 3안, 결정 보류(탐색 중)
+
+| | 내용 | 얻는 것 | 잃는 것 |
+|---|---|---|---|
+| **가** 폐기 → 3문항 | consistency 1(DV1) + bias 2(DV3·DV4) | **신규 문항 0. G1 방어 완전 복구** | 3문항 DV. α 하락 우려. 기준 간 문항 수 1:2 |
+| **나** 유지 + 위상 분리 서술 | *"원척도 3문항 + 내용영역 보강 1문항"*. CFA 동일 요인 적재 별도 보고 | 4문항 유지. **I8(Rizzo item 16)과 동일 전략이라 서술 일관** | 신규 1문항 잔존 |
+| **다** 탐색 계속 | Moorman(1991)·Greenberg(1986) 확인 후 재판정 | 성공 시 **신규 0 + 4문항** 동시 달성 | 문헌 확보 시간 |
+
+**→ 「다」 진행 중. 실패 시 「가」 권고** (DV2 하나 때문에 G1 방어선 전체를 내줄 이유가 없다)
+
+#### ⬜ 잔여 탐색 2건
+
+- **Moorman(1991)** *JAP* 76: 845-855 — N&M 원척도. **consistency 문항이 2개였을 가능성.** N&M p.537이 *"we added items… and deleted items that seemed to stray"*로 문항 가감을 명시 → Rizzo「탈락 문항 복원」과 같은 구조가 반복될 수 있다
+- **Greenberg(1986)** *JAP* 71: 340-342 — consistency 계보의 종착점. Erdogan(2002) p.561과 Erdogan et al.(2001) p.211이 **둘 다 같은 문헌을 가리킨다**. ⚠️ 2쪽 연구노트라 척도가 아니라 순위 데이터일 가능성 → 그러면 「가」로 기움
+
+#### ✅ 절차공정성 2차원 쟁점 — 본 연구 설계에서 미발생
+
+`erdoganProceduralJusticeTwodimensional2001`(JABS 37(2): 205-222) 확인 결과. 08-16 중간에 *"System/Rater가 별개 구성개념이면 DV1·DV3(절차)와 DV4(평가자) 합산이 문제"*라는 우려가 제기됐으나 **철회한다.**
+
+- 두 차원은 주어가 절차냐 평가자냐로 갈리는 게 아니라 **「조직이 만든 제도」 vs 「상사가 그 제도를 어떻게 굴리느냐」**로 갈린다 (p.208 정의)
+- Rater 차원이 성립하는 조건은 **응답자가 실재하는 자기 상사를 떠올릴 수 있을 때**다. 예측변수가 fair hearing·performance feedback 같은 상호작용 경험인 것이 그 증거(p.217 Table 3)
+- **본 연구 DV의 지시대상은 시나리오 속 가상 조직**(`measurement-items` §III ④, 08-09 확정)이라 특정 상사와의 관계 이력이 없다 → **2차원 분화의 변량이 생기지 않는다**
+- **→ 단일 절차공정성 점수 합산 방침 유지**
+- ⬜ **단, 한계 절에 기록** — *"현장 조사로 확장하면 절차공정성이 system/rater로 분화될 수 있으며(Erdogan et al., 2001), 본 연구는 시나리오 설계상 이를 단일 차원으로 다룬다"*
+
+#### ⚠️ Erdogan et al.(2001) 척도는 문항 공급원이 아니다
+
+- **consistency 문항이 9문항 중 하나도 없다.** Rater 6문항은 평가자의 의도·편애·자의성을 묻는 bias suppression 계열
+- **System α = .64** (p.213). 저자들이 한계 절에서 *"system procedural justice에 대해 더 신뢰할 수 있는 측정도구 개발이 필요"*라고 명시(p.219)
+- 9문항 중 6문항이 **역채점** → `scale-development_MV` §5 역채점 회피 원칙(Kelloway & Barling, 1990)과 충돌
+- Rater 문항이 **적대적 의도**를 전제 → 본 연구 시나리오(익명·비인격 평가자, §III A5)와 불일치
+- **→ 문항 채택 불가. 2차원 논거와 MOD 계보 근거로만 인용**
 
 ### 🟢 I3~I5, I7
 
 **I3 재배정**
 ```
 MV  → MacKenzie(2011) 10단계        (Heggestad Table 6: "새 문항 추가는 신규 척도 개발에 해당")
-DV  → Heggestad(2019) Table 6       (문항 표현 변경)
-MOD → 판정 후 배정
+DV  → Heggestad(2019) Table 6       (척도 적응 — 문항 3개는 원문항 대응)
+      ⚠️ [08-16 오후] DV2를 「나」로 유지할 경우 그 1문항만 MacKenzie 관할 병기
+MOD → 판정 후 배정 (§A2)
 ```
 
 **I4 내용타당도** — Hinkin & Tracey(1999) 절차. 행=문항 / 열=**MV-D1·MV-D2·MOD·DV 정의문** / 1~5 평정 → **일원 반복측정 ANOVA**(일반 ANOVA는 오답) + 계획된 대조. 3축 좌표 판별을 수치로 검증하게 됨. 평정자 영역 8~10개 상한
@@ -282,7 +345,23 @@ Heggestad et al.(2019)            → DV 재작성(I2)
 ❌ 다른 것 : AI를 활용해서 평가한다            (평가 주체가 AI)
 ```
 
-**② 영역 구분** — Erdogan(2002) 원전 확인 → 없으면 단일 차원(B안)
+**② 영역 구분** — ✅ **[08-16 오후] Erdogan(2002)·Erdogan et al.(2001) 원전 확인 완료**
+
+Erdogan(2002) HRMR은 이론 리뷰이므로 문항을 제시하지 않는다. 대신 **MOD의 이론적 위치가 실증으로 확정**됐다.
+
+| 근거 | 내용 |
+|---|---|
+| Erdogan(2002) p.561 **Proposition 1a** | 평가기준의 전달·기준 개발 참여 = **system** 절차공정성 / 평가기간 중 피드백 = rater |
+| Erdogan et al.(2001) p.217 **Table 3** | `Knowing appraisal criteria` → system 절차공정성 **β=.27, p<.01** (통제 후) |
+| 〃 p.213 측정 | **단일 문항** — 평가 전에 자신이 어떤 기준으로 평가받을지 알고 있었는지 |
+
+- ✅ **MOD는 system 층위**임이 확정 → DV(본 연구는 단일 차원)와 층위가 어긋나지 않는다. **H4 조절 논거가 강화된다**
+- ⚠️ **측정 방식 쟁점 신규** — 현행 MOD 4문항은 *"조직이 …명확히 설명한다"*로 **조직 행위**를 묻는데, Erdogan et al.은 **응답자의 지식 상태**로 묻는다. 어느 쪽인지가 J4 판정의 일부
+- ⚠️ Erdogan et al.의 문항은 **단일 문항**이라 그대로 쓸 수 없다(저자도 p.219에서 한계로 인정). **계보 근거로만** 쓰고 문항은 별도 조달
+- ⬜ **문항 조달 후보 2편** (Erdogan et al. p.210이 지목) — 둘 다 *perceived system knowledge* 척도
+  - **Levy & Williams (1998)** *Journal of Organizational Behavior* 19: 53-65 ⚠️ 보유 중인 것은 **2004년 리뷰**로 다른 논문
+  - **Williams & Levy (2000)** *Journal of Business and Psychology* 14: 501-513
+- ⬜ **I2와 같은 판정 필요** — MOD 재설계가 「표현 변경」인지 「신규 개발」인지
 
 > ⚠️ **DV와의 판별이 핵심.** 둘 다 과정 층위이므로 **주체(조직 vs 나→시스템)**와 **양상(명확성 vs 규범적 공정성)**으로 갈라야 한다.
 
@@ -373,17 +452,19 @@ Heggestad et al.(2019)            → DV 재작성(I2)
 
 ## 다음 순서
 
-1. **I2 — DV(Colquitt) minor/substantive 판정** 🔴 타임라인에 영향. Colquitt 원문 대조가 선행
-2. **I1 — MV 측정모형 형식 확정** 🔴 판단 질문 3개 → 문서화
-3. **A0-3 잔여 — 기여 4개 절** ⬜ 셋째 목적은 08-16 정정 완료
-2. **A — G1 3단 논거** ★★ 면담 최대 쟁점. 재료는 다 있고 배열만
-3. **A2 — MOD 문항 재설계** ★ 선행 결정 2건 먼저 (표현 통일 · Erdogan 원전)
-4. **사전 검정력 대략치** ★★ 면담 안건 1번 근거
-7. **C — 면담 안건 정리** (H4 존치 전제)
-8. **B — 발표자료 제작** ⚠️ **실물 0장.** 도식 2개가 최대 작업
-9. D·E — 설문 구성·파일럿 설계 (프로포절 후)
+> [08-16 오후 갱신] I2 대조가 끝나 1번이 내려가고 I1이 올라왔다.
 
-> ⚠️ **6번이 실질 마감 위험이다.** 1~5는 문서 작업이고 발표자료는 실물이다. 심사가 2주 앞이므로 1~3을 마치는 대로 착수해야 한다.
+1. **I1 — MV 측정모형 형식 확정** 🔴 판단 질문 3개 → 문서화. **가장 오래 막혀 있는 판단**
+2. **A0-3 잔여 — 기여 4개 절** ⬜ 셋째 목적은 08-16 정정 완료
+3. **A — G1 3단 논거** ★★ 면담 최대 쟁점. 재료는 다 있고 배열만
+4. **사전 검정력 대략치** ★★ 면담 안건 1번 근거
+5. **A2 — MOD 문항 재설계** ★ 선행 결정 ②는 08-16 해소. 문항 조달 문헌 2편 확보 필요
+6. **C — 면담 안건 정리** (H4 존치 전제)
+7. **B — 발표자료 제작** ⚠️ **실물 0장.** 도식 2개가 최대 작업
+8. D·E — 설문 구성·파일럿 설계 (프로포절 후)
+
+> ⚠️ **7번이 실질 마감 위험이다.** 1~6은 문서 작업이고 발표자료는 실물이다. 심사가 2주 앞이므로 1~3을 마치는 대로 착수해야 한다.
+> ⬜ **I2 잔여(DV2·Moorman 1991·Greenberg 1986)는 위 순서와 병행.** 문헌 확보 대기이므로 다른 항목을 막지 않는다.
 
 ## 하지 않을 것 (프로포절 전)
 
@@ -395,6 +476,16 @@ Heggestad et al.(2019)            → DV 재작성(I2)
 - [ ] **`related-review` 5개 파일이 07-28에 정지** — `research-model`·`logic-architecture`·`measurement-items`·`analysis-plan`·`construct-definition`. 이후 `progress/review-2026-08-09`·`review-2026-08-13`이 나왔다. ⚠️ **리뷰 폴더는 `progress/`이고 후속 정리만 `Review/`**. 표기도 경로 문자열 vs 위키링크로 갈려 있음
 - [ ] ⚠️ **리포 폴더는 `Zotero/`(대문자)** — macOS는 대소문자를 구분하지 않아 로컬에서 `zotero/`로도 열리지만 `wp`에서 깨진다
 - [ ] Zotero 컬렉션명이 구모델 기준 — `IV_Human_AI_Collaboration`(현행 IV는 귀속 모호성), `MV_Attribution_Ambiguity`(현행 MV는 평가 불확실성). 논문에 안 나가므로 급하지 않음
+- [ ] ⚠️ **[08-16 신규] Zotero 위생 — BibTeX 내보내기 시 깨지는 항목 3건**
+  - `leventhalPcWHATSHOULD` — ① 제목 오기(`pc\ …DUNE…` → *What should be done with equity theory?*) ② 항목 종류가 「저널 기사」인데 실제는 **단행본 챕터**(Gergen, Greenberg & Willis 편, *Social Exchange: Advances in Theory and Research*, pp. 27–55, Plenum) ③ 간행·출판사·쪽·날짜 공란
+  - `niehoffJUSTICEMEDIATOR…` — **중복 2건**(서지 완전본 + PDF 보유본). 수동 병합 필요, 마스터는 서지 완전본. citation key를 `niehoffJusticeMediatorRelationship1993`으로 통일 · 제목 전부 대문자 · 언어 `ko`→`en` · 날짜 `19930601` 미파싱 · DOI는 출판사 DOI(`10.5465/256591`) 권장 · 교내 프록시 URL 제거
+  - Hartmann & Slapničar(2012) — citation key가 **`zotero-item-219`** 플레이스홀더. → `hartmannRoleInformalControls2012`
+  - ⚠️ **citation key는 `Writing/` 인용이 시작되기 전에 확정할 것.** 이후 변경은 전수 수정 비용
+- [ ] ⚠️ **[08-16 신규] 서지 인벤토리 분산 — 08-16 사고의 근본 원인**
+  - 실제 서지 정보가 `paper-feature-matrix.md`·`Sources/Papers/`·`progress/candidate-sources.md` **세 곳에 흩어져** 있고, 셋 중 어느 것도 HANDOFF §7 파일 지도에 없었다
+  - 그 결과 ① Colquitt 원문항이 `Sources/Papers/` 「인용 6」에 **이미 있었는데** 못 찾음 ② DV 척도를 N&M(1993)으로 쓰기로 한 결정이 `candidate-sources.md` 46행에 **이미 있었는데** 반영 안 됨 ③ Leventhal 원전을 「미확보」로 오판
+  - **조치** — HANDOFF §7 파일 지도에 3행 추가 · 작업 원칙에 *"측정 관련 결정을 다룰 때 `candidate-sources.md`를 먼저 열 것"* 추가
+  - ⬜ **Zotero 컬렉션 export(.bib 또는 CSV)로 리포 인벤토리 일괄 대조** — 개별 확인보다 빠르고 재발을 막는다
 - [ ] `proposal-draft` §04 경로 도식 — 텍스트본은 전각폭 기준으로 맞춰뒀으나 **임시**. §B 실물 도식으로 대체
 
 ## 작업 원칙

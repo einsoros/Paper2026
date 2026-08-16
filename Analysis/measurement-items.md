@@ -1,6 +1,6 @@
 ---
-last-updated: 2026-08-09
-version: V18 [08-09] — **MV 4문항 확정 등재**(D1 2 + D2 2) + **DV 4문항 확정**(A4 검토 완료, 지시대상=가상 조직) / 척도 뿌리 Rizzo(1970) 정의 (1) / V17 — MV 무력감 문항 → 평가 불확실성으로 틀 교체(문항 잠정), DV accuracy 제거·consistency+bias suppression 재작성
+last-updated: 2026-08-16
+version: V19 [08-16] — **DV 문항 출처 대조 완료**(원문항 대응 3 / 신규 1=DV2) · 계보 Leventhal→Moorman(1991)→N&M(1993)/Colquitt(2001) · 2차원 쟁점 미발생 확인 / V18 [08-09] — **MV 4문항 확정 등재**(D1 2 + D2 2) + **DV 4문항 확정**(A4 검토 완료, 지시대상=가상 조직) / 척도 뿌리 Rizzo(1970) 정의 (1) / V17 — MV 무력감 문항 → 평가 불확실성으로 틀 교체(문항 잠정), DV accuracy 제거·consistency+bias suppression 재작성
 related-review: progress/review-2026-07-28.md
 ---
 
@@ -97,19 +97,34 @@ All items are draft items. They need translation refinement, pilot testing, and 
 
 ---
 
-## III. Procedural Justice (DV — 절차공정성 지각) [V18 / 08-09 확정]
+## III. Procedural Justice (DV — 절차공정성 지각) [V19 / 08-16 출처 대조]
 
-> ✅ **[08-09 A4 완료] 4문항 확정 — 잠정안 그대로 유지.** 신규 작성 없음. 검토 결과는 아래 「A4 검토 기록」 참조.
+> ✅ **[08-09 A4 완료] 4문항 확정 — 잠정안 그대로 유지.** 검토 결과는 아래 「A4 검토 기록」 참조.
+> ✅ **[08-16] 원문항 대조 완료** — 3문항 원문항 대응 / DV2 1문항 신규(처리 미결).
 > ⚠️ **지시 대상 = 시나리오 속 가상 조직** (08-09 확정). MV·MOD와 통일. 응답자 실제 소속 조직이 아니다.
 
-Adapted from Colquitt(2001) / Leventhal(1980). [V17] consistency(사람 간 동일 기준) + bias suppression(평가자 중립성) 중심. **accuracy 기준은 IV(기여 식별)와 순환 위험으로 제외.** 문항은 AI를 언급하지 않고 일반적 절차 속성만 묻는다(순환 차단).
+[V17] consistency(사람 간 동일 기준) + bias suppression(평가자 중립성) 중심. **accuracy 기준은 IV(기여 식별)와 순환 위험으로 제외.** 문항은 AI를 언급하지 않고 일반적 절차 속성만 묻는다(순환 차단).
 
-| 번호 | 문항 | Colquitt 기준 | 이론적 근거 |
-| --- | --- | --- | --- |
-| 1 | 이 성과평가 절차는 모든 구성원에게 동일한 기준으로 적용된다. | Consistency (사람 간) | Leventhal(1980); Colquitt(2001) |
-| 2 | 이 평가에서 나는 다른 사람과 같은 방식으로 평가받는다. | Consistency (사람 간) | Leventhal(1980); UMT 연결 |
-| 3 | 이 성과평가 절차는 특정인에게 유리하거나 불리하게 편향되지 않는다. | Bias suppression | Colquitt(2001); Leventhal(1980) |
-| 4 | 이 평가는 평가자의 개인적 편견 없이 이루어진다. | Bias suppression | Colquitt(2001) |
+> ✅ **[V19 / 08-16] 문항 출처 대조 완료.** 4문항 중 **3문항이 검증된 원문항에 대응**하고 **DV2 1문항만 신규**다. 종전 「Colquitt 기준 재작성」 표기는 부정확했다. 상세 근거는 [[action-items-260816]] §I2.
+>
+> **계보** — Leventhal(1980) 6규칙 정의 → Moorman(1991) → Niehoff & Moorman(1993) / Colquitt(2001). 두 척도 모두 동일한 Leventhal 6규칙의 조작화이므로(N&M p.532) 규칙별 문항 채택은 임의 조합이 아니다.
+
+| 번호 | 문항 | Leventhal 기준 | **대응 원문항** | 판정 |
+| --- | --- | --- | --- | --- |
+| **DV1** | 이 성과평가 절차는 모든 구성원에게 동일한 기준으로 적용된다. | Consistency (사람 간) | **N&M(1993) Table 1(p.541) item 5** (λ=.901) | ✅ 거의 직역 |
+| **DV2** | 이 평가에서 나는 다른 사람과 같은 방식으로 평가받는다. | Consistency (사람 간) | ❌ **없음** | 🔴 **신규 — 처리 미결** |
+| **DV3** | 이 성과평가 절차는 특정인에게 유리하거나 불리하게 편향되지 않는다. | Bias suppression (절차) | **Colquitt(2001) Table 1(p.389) item 4** | ✅ 대응 |
+| **DV4** | 이 평가는 평가자의 개인적 편견 없이 이루어진다. | Bias suppression (평가자) | **N&M(1993) Table 1(p.541) item 1** (λ=.897) | ✅ 대응 |
+
+**원척도 정보** — N&M formal procedures 6문항, **α=.85**(M=4.77, SD=1.03, N=213), 7점 평서문, 지시대상 `my general manager` / `job decisions`.
+
+> ⚠️ **DV2가 신규일 수밖에 없었던 구조적 이유.** Colquitt·N&M 모두 consistency를 **1문항**으로만 측정한다(N&M은 Leventhal 6규칙에 규칙당 1문항 배정). 따라서 consistency에 2문항을 쓰는 순간 어느 원척도에도 없는 구조가 된다. 반면 bias suppression은 주어가 절차(Colquitt)와 평가자(N&M)로 갈려 2문항 조달이 가능하다.
+
+> ⬜ **DV2 처리 3안** — 가) 폐기·3문항 / 나) 유지 + 위상 분리 서술 / 다) Moorman(1991)·Greenberg(1986) 확인 후 재판정. **현재 「다」 진행 중, 실패 시 「가」 권고.** [[action-items-260816]] §I2 참조
+
+> ✅ **[08-16] 「6규칙 중 2개만 쓰는 이유」 원전 근거 확보.** N&M(1993) p.532 — 절차가 6규칙 중 하나만 충족해도 피평가자는 공정하다고 여긴다는 진술. 종전에는 순환 위험(accuracy)과 연구 범위로만 방어했다.
+
+> ✅ **[08-16] 절차공정성 2차원(system/rater) 쟁점 — 본 연구 설계에서 미발생.** Erdogan, Kraimer & Liden(2001)은 절차공정성을 system(조직이 만든 제도) / rater(상사가 그 제도를 운용하는 방식)로 나누고 판별타당도를 실증했다. 그러나 rater 차원은 **응답자가 실재하는 자기 상사를 떠올릴 수 있을 때** 성립하며(예측변수가 fair hearing·performance feedback 같은 상호작용 경험), 본 연구 DV의 지시대상은 시나리오 속 가상 조직이라 해당 변량이 생기지 않는다. **→ 단일 절차공정성 점수 합산 유지.** 단 한계 절에 *"현장 조사로 확장하면 분화될 수 있다"*고 명시한다.
 
 ### A4 검토 기록 [08-09]
 
@@ -156,7 +171,7 @@ Adapted from Colquitt(2001) / Leventhal(1980). [V17] consistency(사람 간 동�
 |---|---|---|
 | 1 | DV1의 「기준·일관」이 MOD 후보 2번(*"기준을 일관되게 제시"*)과 겹침. 주어(절차 vs 조직)로만 갈림 | **MOD 재설계(6단계) 시 DV와 대조** |
 | 2 | 시나리오에 평가자 캐릭터가 등장하면 DV4가 *"그 평가자가 편견 있는 사람인가"*라는 **대인 판단으로 오독**될 수 있음 | **A5 — 평가자를 익명·비인격 처리** |
-| 3 | DV 4문항은 Colquitt 원문항 번역이 아니라 재작성 | **인용 표기를 "Colquitt 척도 사용"이 아니라 "consistency·bias suppression 기준을 본 연구 맥락에 맞게 재작성"으로** |
+| 3 | ~~DV 4문항은 Colquitt 원문항 번역이 아니라 재작성~~ | ✅ **[08-16 정정] 대조 결과 3문항은 원문항 대응, DV2만 신규.** 인용 표기는 **"Leventhal(1980) 6규칙을 조작화한 Colquitt(2001)·Niehoff & Moorman(1993)에서 기준별로 문항을 채택하고 본 연구 맥락으로 조정"** 으로 한다 |
 
 > ⚠️ **A5 주의**: 시나리오가 평가 절차의 최소 골격을 제공해야 응답자가 빈칸을 자기 회사로 채우지 않는다. **단 너무 자세히 쓰면 MOD(평가 절차 명확성)를 시나리오가 미리 높여줘 측정 조절변수의 변량이 줄어든다.** "평가가 있다"는 사실 정도만 제시하고 명확성 수준은 응답자 지각에 맡긴다.
 
@@ -235,6 +250,7 @@ Wang et al. (2022) adapted.
 ---
 
 ## 변경 이력
+- [V19 / 08-16] **DV 문항 출처 대조** — DV1·DV4는 Niehoff & Moorman(1993) Table 1 item 5·1에, DV3은 Colquitt(2001) Table 1 item 4에 대응. **DV2만 신규**로 확인되어 처리 3안 등재. 계보를 Leventhal(1980)→Moorman(1991)→N&M(1993)으로 확정(Moorman 원전 미확보). 「6규칙 중 2개만」 원전 근거 확보(N&M p.532). 절차공정성 2차원(Erdogan et al., 2001) 쟁점은 시나리오 설계상 미발생으로 판정하고 단일 합산 유지. A4 과제 3 정정
 - [V1] 응답자 시점 통일 (평가 대상자)
 - [V2] IV → manipulation check 전환 (시나리오 조작 결정)
 - [V6] Evaluation Acceptance 강건성 검정 활용 계획 명시

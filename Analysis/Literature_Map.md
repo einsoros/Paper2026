@@ -1,6 +1,6 @@
 ---
 last-updated: 2026-08-09
-version: V17.3 [08-09] — DV 문항 확정·Colquitt 인용 표기 주의 추가 / V17.2 — Rizzo 원전 확보로 S3 해소·facet 라벨 (1)(2) 정정·Khan 논거 강화 / V17.1 — B1 측정도구 근거 절 신설(MV 척도 번안 문헌 7편), 논증 사슬 6단 명시, 🔲 placeholder 2건 해소, Heggestad·MacKenzie 역할 확정
+version: V18 [08-16] — DV 측정도구 근거 절 신설(N&M 1993 문항 출처 · 계보 · 2차원 쟁점) / V17.3 [08-09] — DV 문항 확정·Colquitt 인용 표기 주의 추가 / V17.2 — Rizzo 원전 확보로 S3 해소·facet 라벨 (1)(2) 정정·Khan 논거 강화 / V17.1 — B1 측정도구 근거 절 신설(MV 척도 번안 문헌 7편), 논증 사슬 6단 명시, 🔲 placeholder 2건 해소, Heggestad·MacKenzie 역할 확정
 related-review: progress/review-2026-08-04.md
 ---
 
@@ -24,7 +24,7 @@ related-review: progress/review-2026-08-04.md
 | **Weiner (1985)** | Psychological Review | **IV 정당화 + IV→MV(기대원리) — 귀인이론 [V17 역할 확장]** | 2. 이론적 배경 / 3. 가설 H1 | Layer 2 |
 | **Van den Bos (2001)** | JPSP | **MV→DV 주 이론 — UMT [V17 격상]** | 2. 이론적 배경 / 3. 가설 H2 | Layer 3 |
 | **Lind & van den Bos (2002)** | ROB Vol.24 | **UMT 정본 이론서 — 불확실성↔공정성 통합 이론 [07-31 확보]** | 2. 이론적 배경 (UMT 정초) | Layer 3 |
-| Colquitt (2001) | JAP | DV 정의+측정 — 절차공정성(consistency·bias suppression 중심). **[08-09] 문항 확정 — 원문항 번역이 아니라 두 기준을 본 연구 맥락에 맞게 재작성**. 인용 표기 주의 | 2. 이론적 배경 / 3. 가설 H2 / 4. 방법론 | Layer 3 |
+| Colquitt (2001) | JAP | DV 정의+측정 — 절차공정성(consistency·bias suppression 중심). ✅ **[08-16 정정] 대조 결과 DV3이 Table 1 item 4에 대응.** 종전 「전면 재작성」 표기는 부정확 | 2. 이론적 배경 / 3. 가설 H2 / 4. 방법론 | Layer 3 |
 | Orlikowski (2007) | Organization Science | 사회물질성 — 귀속 모호성 존재론 근거 | 2. 이론적 배경 / 3. 가설 H1 | Layer 1·2 |
 | Leonardi (2011) | MIS Quarterly | 임브리케이션 — 귀속 모호성 발생 근거 | 2. 이론적 배경 / 3. 가설 H1 | Layer 2 |
 | He et al. (2025) ⚠️ | CSCW | [V7] 선행연구 차별점 핵심 / 타 Layer 보조 | 2. 선행연구 gap (핵심) | Layer 5 (핵심) |
@@ -45,16 +45,19 @@ related-review: progress/review-2026-08-04.md
 
 | 논문 | 저널 | 역할 |
 | --- | --- | --- |
-| Hartmann & Slapničar (2012) | Management Accounting Research | 성과평가 맥락 불확실성→공정성 실증 (은행업 178명) |
-| Levy & Williams (2004) | Journal of Management | 성과평가-공정성 리뷰 |
-| Lyu et al. (2023) | SAGE Open | 성과평가 공정성 최신 실증 |
+| Hartmann & Slapničar (2012) | Management Accounting Research | 성과평가 맥락 불확실성→공정성 실증 (은행업 178명). ⚠️ citation key가 `zotero-item-219` 플레이스홀더 — 정정 필요 |
+| Levy & Williams (2004) | Journal of Management | 성과평가-공정성 리뷰. ⬜ **[08-16] 역할 미배정 상태** — `paper-feature-matrix` 등재 필요 |
+| Lyu et al. (2023) | SAGE Open | 성과평가 공정성 최신 실증. ⬜ 동일 |
+| **Niehoff & Moorman (1993)** | AMJ | ★ **[08-16 신규] DV 문항 직접 출처** — formal procedures 6문항, α=.85. DV1·DV4 대응 |
+| **Erdogan, Kraimer & Liden (2001)** | JABS | **[08-16 신규] 절차공정성 2차원(system/rater) 실증.** 본 연구는 미발생 판정 → 한계 절 근거. **MOD의 system 층위 확정 근거**(`Knowing appraisal criteria` → system β=.27, p<.01) |
 
 ### H4 조절변수 근거 (평가절차 명확성)
 
 | 논문 | 저널 | 역할 |
 | --- | --- | --- |
 | Leventhal (1980) | Book Chapter | 절차공정성 기준 (consistency·bias suppression) |
-| Erdogan (2002) | HRMR | 평가기준→공정성 선행요인 HR 맥락 이론 |
+| Erdogan (2002) | HRMR | 평가기준→공정성 선행요인 HR 맥락 이론. **[08-16] Proposition 1a — 평가기준 전달=system 층위** |
+| **Erdogan, Kraimer & Liden (2001)** | JABS | ★ **[08-16 신규] MOD 실증 근거** — 평가기준 지식 → system 절차공정성 β=.27(p<.01). ⚠️ 단일 문항이라 문항 조달은 별도(Levy & Williams 1998 · Williams & Levy 2000) |
 | Kim (2016) | Public Personnel Management | 평가기준 명확성→공정성 직접 실증 |
 | Wang et al. (2023) Formality | Accounting & Finance | 형식성→공정성 실증 ⚠️ 제조업 |
 
@@ -197,7 +200,15 @@ MV(지각된 평가 불확실성)는 **이론적 뿌리(UMT)와 측정 뿌리(Ri
 **시나리오 조작 및 측정 문항:**
 - IV (시나리오 조작 + manipulation check)
 - **MV (지각된 평가 불확실성)**: [08-09 원전 확인] Rizzo, House & Lirtzman(1970)이 정의한 **(1) 행동 결과 예측가능성만** 계승 → '평가 결과 예측'으로 특화 → **정방향 신규 제작**(번안 아님 — (1) 계열 문항은 원전 최종 척도에서 탈락). 번안 선례 박지훈·정승철(2017)·류수민·유태용(2015), 역채점 회피 근거 Kelloway & Barling(1990)·Smith et al.(1993), 절차 정당화 Heggestad et al.(2019)·MacKenzie et al.(2011). 문항 설계는 [[scale-development_MV]]
-- DV (절차공정성): Colquitt(2001) 기반, consistency·bias suppression (accuracy 제외) — [V17]
+- **DV (절차공정성)**: [08-16 출처 대조 완료] 기준 체계는 **Leventhal(1980) 6규칙**(원전 확보) → 이를 조작화한 두 척도에서 기준별로 문항 채택. consistency·bias suppression만 사용(accuracy·representativeness·correctability 제외).
+  - **Niehoff & Moorman(1993)** *AMJ* 36(3): 527-556 — formal procedures 6문항(α=.85, N=213). **DV1 ← item 5**(λ=.901) · **DV4 ← item 1**(λ=.897)
+  - **Colquitt(2001)** *JAP* — Table 1(p.389). **DV3 ← item 4**
+  - ⬜ **Moorman(1991)** *JAP* 76: 845-855 — N&M 원척도(N&M p.537 명시). **미확보** — consistency 문항 수 확인 필요
+  - ⬜ **Greenberg(1986)** *JAP* 71: 340-342 — consistency 계보 종착점. Erdogan(2002) p.561·Erdogan et al.(2001) p.211이 모두 지목. **미확보**
+  - **제외 정당화 근거**: N&M(1993) p.532 — 6규칙 중 하나만 충족해도 절차를 공정하다고 지각한다
+  - **2차원 쟁점**: Erdogan, Kraimer & Liden(2001) *JABS* 37(2): 205-222 — system/rater 분화. **본 연구는 시나리오 설계상 미발생 → 단일 합산 유지**, 한계 절에 명시. ⚠️ 이 척도의 문항은 채택 불가(consistency 문항 없음 · system α=.64 · 6/9 역채점)
+  - 적응 절차 정당화: **Heggestad et al.(2019)**. 문항 대조 기록은 [[measurement-items]] §III · [[action-items-260816]] §I2
+  - 🔴 **DV2 1문항은 신규** — 처리 3안 미결
 - MOD (절차 명확성): Erdogan(2002), Kim(2016) 기반 — ✅ **[08-13] H4 존치 확정** / ⚠️ 문항 재설계는 진행 중 (`action-items` §A2)
 - Control: Wang et al. (2022) AI Literacy (Respondent)
 
@@ -209,6 +220,7 @@ MV(지각된 평가 불확실성)는 **이론적 뿌리(UMT)와 측정 뿌리(Ri
 ---
 
 ## 변경 이력
+- [08-16] **DV 측정도구 근거 절 신설 + 성과평가 공정성 문헌 역할 배정.** ① 종전 1줄이던 DV 항목을 MV(199행)와 동일한 층으로 확장 — 계보·대응 원문항·제외 근거·2차원 쟁점·미확보 문헌 명시. ② **Niehoff & Moorman(1993)** 신규 등재 — DV 문항 직접 출처. ③ **Erdogan, Kraimer & Liden(2001)** 신규 등재 — 2차원 논거 + MOD system 층위 확정. ④ Colquitt 행의 「전면 재작성」 표기 정정. ⑤ Levy & Williams(2004)·Lyu et al.(2023)의 역할 미배정 상태 표시. ⑥ Hartmann citation key 플레이스홀더 경고.
 - [08-15] **H4 존치 확정 반영 + 서지 정정.** ① §H4 조절변수 근거·§3 가설·§4 방법론의 「H4 유지 여부 미확정」 3곳을 **존치 확정(08-13, A안)**으로 정정 — 해당 문헌은 본문 인용. ② **`Hayes(2018)` → `Hayes(2022)` 판본 오기 정정** (3판은 2022년) 2곳. ③ **Hayes(2009) 신규 등재** — Baron & Kenny 배제 논거. citation key는 `Zotero/citation-keys.md`. ④ 사전 검정력 분석 우선순위 승격 표기.
 - [V7] He et al.(2025) 인용 전략 명시
 - [V9] 방법론 MOD 항목 갱신, Control 명칭 Respondent
@@ -220,4 +232,4 @@ MV(지각된 평가 불확실성)는 **이론적 뿌리(UMT)와 측정 뿌리(Ri
 - [V17] Hobfoll(1989,2018)·Spreitzer(1995) 삭제 / Van den Bos 주이론 격상 / Weiner 역할 확장(기대원리) / MV 평가 불확실성 반영 / §2.3(자원보존이론) 삭제·재편 / Khan·Frontiers를 비교군 전용으로 강등 / 평가 불확실성 척도·기대원리 문헌 자리 신설 / AI+HRM 배경 문헌 유지
 - [V17.1 / 08-04] **측정도구 근거 절 신설**(MV 척도 번안 7편, 담보/비담보 분리) / **논증 사슬 6단 신설**(S1~S6, 담당 문헌·공백 표시) / 🔲 **placeholder 2건 해소**(H1 기대원리=논리논증 대체 확정, MV 척도=Rizzo facet B 차용 확정) / **Heggestad(2019)·MacKenzie(2011) 역할 B1 논증에 배정** / A3–B1 연결 명시 / Khan et al. 서술 충돌 주의 추가 / H4 미확정 주석 추가
 - [V17.2 / 08-09] **Rizzo 원전 확보** → 논증 사슬 **S3의 🔲 해소**. facet A/B 라벨을 원전 (1)·(2)로 정정. S3 논거를 "facet 차용"에서 **"원전이 정의했으나 측정되지 못한 구성요소의 복원"**으로 격상(item 16 근거 추가). Khan et al. 서술 충돌 주의에 **측정 수준에서도 겹치지 않는다**는 해소 논거 추가. 측정도구 근거 표의 Rizzo 행에 "비담보" 항목 추가((1)의 심리측정 근거는 본 연구가 자체 확보)
-- [V17.3 / 08-09] **DV 4문항 확정 반영** — Colquitt 행에 "원문항 번역이 아니라 기준 재작성"임을 명시. MV(Rizzo)와 동일하게 **인용 표기를 "척도 사용"이 아니라 "기준을 본 연구 맥락에 맞게 재작성"**으로 통일한다.
+- [V17.3 / 08-09] ⚠️ **[08-16 폐기 — V18로 대체]** DV 4문항 확정 반영 — Colquitt 행에 "원문항 번역이 아니라 기준 재작성"임을 명시. MV(Rizzo)와 동일하게 **인용 표기를 "척도 사용"이 아니라 "기준을 본 연구 맥락에 맞게 재작성"**으로 통일한다.

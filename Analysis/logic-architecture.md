@@ -78,7 +78,10 @@ Van den Bos(2001)의 Uncertainty Management Theory는 불확실성이 현저해�
 
 절차공정성은 평가 절차가 일관되며(consistency) 편향 없이(bias suppression) 적용된다는 지각에서 형성된다 (Leventhal, 1980; Colquitt, 2001). 본 연구의 DV는 이 두 기준을 중심으로 측정한다.
 
-> ✅ **[08-09] DV 4문항 확정** (consistency 2 + bias suppression 2). 원문항 번역이 아니라 **두 기준을 본 연구 맥락에 맞게 재작성**한 것이므로, 논문에서는 "Colquitt 척도를 사용했다"가 아니라 **"기준을 재작성했다"**로 표기한다. → [[measurement-items]] §III
+> ✅ **[08-09] DV 4문항 확정** (consistency 2 + bias suppression 2).
+> ✅ **[08-16 정정] 출처 대조 결과 3문항이 검증된 원문항에 대응한다.** 종전 「전면 재작성」 표기는 부정확했다. 논문 표기는 **"Leventhal(1980) 6규칙을 조작화한 Colquitt(2001)·Niehoff & Moorman(1993)에서 기준별로 문항을 채택하고 본 연구 맥락으로 조정했다"**로 한다. DV2 1문항만 신규이며 처리 미결. → [[measurement-items]] §III · [[action-items-260816]] §I2
+
+> ✅ **[08-16] 「왜 6규칙 중 2개인가」 원전 근거.** Niehoff & Moorman(1993) p.532는 절차가 6규칙 중 하나만 충족해도 피평가자가 공정하다고 여긴다고 진술한다. 기준 선별이 자의적이지 않다는 직접 근거다.
 > ⚠️ accuracy 기준은 IV(기여 식별)와 순환 위험으로 제외. 문항은 **AI를 언급하지 않고** 일반 절차 속성만 묻는다.
 > ⚠️ 지시 대상 = **시나리오 속 가상 조직** (MV·MOD와 통일).
 
@@ -180,7 +183,7 @@ He et al.(2025)는 지식 노동자들이 인간-AI 공동 창작물에서 기�
 
 ### Layer 3 — UMT + 절차공정성 이론
 상태: ✅ 2라운드 보강 완료
-- Colquitt (2001), Levy & Williams (2004), Lyu et al. (2023)
+- Colquitt (2001), Niehoff & Moorman (1993), Leventhal (1980), Levy & Williams (2004), Lyu et al. (2023), Erdogan et al. (2001)
 - Van den Bos (2001) — UMT 핵심(주 이론 격상), Hartmann & Slapničar (2012)
 
 ### Layer 4 — 조절변수 근거
