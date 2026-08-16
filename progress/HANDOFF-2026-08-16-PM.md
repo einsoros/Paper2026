@@ -158,6 +158,48 @@ purpose: 스레드 전환용 인수인계 (오후 2차)
 - [ ] Weiner 간행·권·호·쪽 (잔여 위생 1건)
 - [ ] Moorman·Greenberg 서지 입력
 
+### ⬜ `progress/` 폴더 정리 — 08-16 제기, 미결
+
+**문제** — Obsidian에서 시야가 산만하다. 원인은 review 편수가 아니라 **성격이 다른 4종류가 한 폴더에 섞인 것**이다.
+
+```
+progress/
+├── review-*.md ×10        시점별 기록 (누적)
+├── HANDOFF-*.md ×3        스레드 전환용 (일회성)
+├── context-summary.md     ⚠️ last-updated 2026-06-15 — 3개월 낡음
+└── candidate-sources.md   ★ 문헌 채택 결정. 08-16 사고의 원인
+```
+
+**참조 실태 조사 결과** (08-16)
+
+| 파일 | 현행 파일에서의 참조 |
+|---|---|
+| `review-2026-06-04` · `06-09` | `context-summary.md` 82·83행에 **존재 언급 한 줄뿐** |
+| `review-2026-06-15` | `context-summary.md` 84·157행. **V12~V16 모델 전면 재정립 기록** |
+| `review-2026-07-13` | `action-items-260809`에서 *"과거 기록이므로 수정하지 않는다"*로만 |
+| **`review-2026-07-28`** | ⚠️ **`Analysis/` 5개 파일 frontmatter `related-review:`가 가리킴** — 옮기면 링크가 깨진다 |
+
+**⬜ 방침 — 삭제가 아니라 아카이브 권고**
+
+`review-2026-06-15`는 IV 시나리오 직접 조작(V12)·MOD B안 정의(V9) 등 **현행 설계의 근거**다. 심사에서 *"왜 이렇게 설계했나"*가 나오면 여기 있다. 삭제하면 복구 불가.
+
+```bash
+mkdir -p progress/archive
+git mv progress/review-2026-06-04.md progress/review-2026-06-09.md \
+       progress/review-2026-06-15.md progress/review-2026-07-13.md \
+       progress/review-2026-07-31.md progress/HANDOFF-2026-08-09.md \
+       progress/archive/
+```
+Obsidian은 하위 폴더를 접을 수 있어 시야에서 사라지고, git 이력·위키링크는 살아남는다.
+
+**⬜ 별건 — `context-summary.md` 처리 판단 필요**
+
+`last-updated: 2026-06-15`로 **3개월 낡았다.** V12~V16 시절 기준이고 현재는 V17~V18이라 MV·DV·MOD가 전부 바뀌었다.
+- **가) 폐기 → `archive/`** ← 권고. 역할은 `HANDOFF` §2 연구 개요가 대신한다
+- 나) V17~V18로 갱신
+
+⚠️ **낡은 요약이 두 개 있는 것은 없는 것보다 나쁘다.** `paper-feature-matrix`가 낡아 08-16에 세 번 오판한 것과 같은 위험 구조.
+
 ---
 
 ## ▶ 시작 메시지 (새 스레드에 붙여넣기)
