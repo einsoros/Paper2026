@@ -517,16 +517,18 @@ Erdogan(2002) HRMR은 이론 리뷰이므로 문항을 제시하지 않는다. �
 - [ ] **`related-review` 5개 파일이 07-28에 정지** — `research-model`·`logic-architecture`·`measurement-items`·`analysis-plan`·`construct-definition`. 이후 `progress/review-2026-08-09`·`review-2026-08-13`이 나왔다. ⚠️ **리뷰 폴더는 `progress/`이고 후속 정리만 `Review/`**. 표기도 경로 문자열 vs 위키링크로 갈려 있음
 - [ ] ⚠️ **리포 폴더는 `Zotero/`(대문자)** — macOS는 대소문자를 구분하지 않아 로컬에서 `zotero/`로도 열리지만 `wp`에서 깨진다
 - [ ] Zotero 컬렉션명이 구모델 기준 — `IV_Human_AI_Collaboration`(현행 IV는 귀속 모호성), `MV_Attribution_Ambiguity`(현행 MV는 평가 불확실성). 논문에 안 나가므로 급하지 않음
-- [ ] ⚠️ **[08-16 신규] Zotero 위생 — BibTeX 내보내기 시 깨지는 항목 3건**
-  - `leventhalPcWHATSHOULD` — ① 제목 오기(`pc\ …DUNE…` → *What should be done with equity theory?*) ② 항목 종류가 「저널 기사」인데 실제는 **단행본 챕터**(Gergen, Greenberg & Willis 편, *Social Exchange: Advances in Theory and Research*, pp. 27–55, Plenum) ③ 간행·출판사·쪽·날짜 공란
-  - `niehoffJUSTICEMEDIATOR…` — **중복 2건**(서지 완전본 + PDF 보유본). 수동 병합 필요, 마스터는 서지 완전본. citation key를 `niehoffJusticeMediatorRelationship1993`으로 통일 · 제목 전부 대문자 · 언어 `ko`→`en` · 날짜 `19930601` 미파싱 · DOI는 출판사 DOI(`10.5465/256591`) 권장 · 교내 프록시 URL 제거
-  - Hartmann & Slapničar(2012) — citation key가 **`zotero-item-219`** 플레이스홀더. → `hartmannRoleInformalControls2012`
-  - ⚠️ **citation key는 `Writing/` 인용이 시작되기 전에 확정할 것.** 이후 변경은 전수 수정 비용
+- [x] ✅ **[08-16] Zotero 위생 처리 완료** — N&M 중복 병합 · Leventhal 항목 종류/서지 · Hartmann 키 · Hayes(2018) 삭제 · Mitchell ×2 삭제 · Weiner 날짜 · 언어 4건 · Pan 짧은제목 HTML. 전문은 `Zotero/citation-keys.md` §「Zotero 위생 — [08-16] 처리 기록」
+  - ⚠️ **잔여 2건** — ① `maaslandBlameMachineInsights2022` 언어 공란 ② ★ **`weinerAttributionalTheoryAchievement` 키에 연도 없음** + 간행 공란. Weiner는 IV·H1 핵심 이론이라 인용 시 `(Weiner, n.d.)`로 나올 위험
+  - ⚠️ **키 변경 2건 리포 반영 완료** — `leventhalPcWHATSHOULD`→`leventhalWhatShouldBeDone1980` · `zotero-item-219`→`hartmannRoleInformalControls2012`
+  - 🔴 **키 오기 발견·정정** — `erdoganProceduralJusticeTwo**d**imensional2001`(리포) → `Two**D**imensional`(실물). 대소문자 차이로 LaTeX에서 깨질 뻔했다
 - [ ] ⚠️ **[08-16 신규] 서지 인벤토리 분산 — 08-16 사고의 근본 원인**
   - 실제 서지 정보가 `paper-feature-matrix.md`·`Sources/Papers/`·`progress/candidate-sources.md` **세 곳에 흩어져** 있고, 셋 중 어느 것도 HANDOFF §7 파일 지도에 없었다
   - 그 결과 ① Colquitt 원문항이 `Sources/Papers/` 「인용 6」에 **이미 있었는데** 못 찾음 ② DV 척도를 N&M(1993)으로 쓰기로 한 결정이 `candidate-sources.md` 46행에 **이미 있었는데** 반영 안 됨 ③ Leventhal 원전을 「미확보」로 오판
   - **조치** — HANDOFF §7 파일 지도에 3행 추가 · 작업 원칙에 *"측정 관련 결정을 다룰 때 `candidate-sources.md`를 먼저 열 것"* 추가
-  - ⬜ **Zotero 컬렉션 export(.bib 또는 CSV)로 리포 인벤토리 일괄 대조** — 개별 확인보다 빠르고 재발을 막는다
+  - ✅ **[08-16] Zotero export(JSON) 전수 대조 완료.** 결과: 실물 **36편** / 그중 `paper-feature-matrix` 미등재 **16편**(Van den Bos·MacKenzie·Heggestad·Hayes 등 핵심 포함) / 리포에 등장하나 **미확보 15편**
+  - ⬜ **미확보 15편 목록은 `Zotero/citation-keys.md` §「⬜ 미확보」** — A급 3(Moorman·Greenberg·Hinkin&Tracey) / B급 6 / MV 논거 4 / C급 6
+  - ⬜ **`paper-feature-matrix` 미등재 16편 처리** — 등재할지, `Literature_Map`만으로 둘지 방침 결정 필요
+  - 📌 **주기적 export 대조를 관행화할 것.** 08-16 사고의 재발 방지 수단
 - [ ] `proposal-draft` §04 경로 도식 — 텍스트본은 전각폭 기준으로 맞춰뒀으나 **임시**. §B 실물 도식으로 대체
 
 ## 작업 원칙

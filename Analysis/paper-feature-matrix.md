@@ -40,6 +40,13 @@ Use this matrix to compare papers before writing prose. 비교군 선행연구�
 
 ---
 
+> ⚠️ **[08-16] Zotero 실물 대조 결과 — 이 표에 미등재된 문헌이 16편 있다.**
+> Van den Bos(2001)·MacKenzie(2011)·Heggestad(2019)·Hayes(2009/2022)처럼 **핵심 문헌인데 서지 인벤토리에 없는 경우**가 포함된다. `Literature_Map`에는 있으나 이 표에 없어, 08-16에 「확보 필요」로 오판하는 원인이 됐다.
+> ⬜ **처리 방침 결정 필요** — 전부 등재할지, 이 표를 「Layer 2~5 실증 비교용」으로 한정하고 서지 인벤토리 역할은 `Zotero/citation-keys.md`로 넘길지.
+> 미등재 목록·서지는 `Zotero/citation-keys.md` §「실물 보유 36편」.
+
+---
+
 ## 비교군 선행연구
 
 | Citation key | 본 연구와 가장 가까운 측면 | 결정적 차이 |
