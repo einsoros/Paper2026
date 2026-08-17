@@ -1,6 +1,6 @@
 ---
 last-updated: 2026-08-16
-version: V18 [08-16] — DV 측정 문헌 6편 등재·Leventhal 확보 상태 정정 / V17.2 [08-09] — MV 척도 자리 해소(Rizzo) + DV 문항 확정 표기 / V17.1 / V17 — Hobfoll·Spreitzer 행 제거, Weiner(기대원리)·Van den Bos 설명 갱신, "무력감 매개" → "평가 불확실성 매개"
+version: V19 [08-17] — **Moorman(1991)·Greenberg(1986) 확보 반영**(미확보 → 대조 완료) · paper note 3편 연결 · DV 3문항 확정 / V18 [08-16] — DV 측정 문헌 6편 등재·Leventhal 확보 상태 정정 / V17.2 [08-09] — MV 척도 자리 해소(Rizzo) + DV 문항 확정 표기 / V17.1 / V17 — Hobfoll·Spreitzer 행 제거, Weiner(기대원리)·Van den Bos 설명 갱신, "무력감 매개" → "평가 불확실성 매개"
 related-review: progress/review-2026-07-28.md
 ---
 
@@ -27,8 +27,8 @@ Use this matrix to compare papers before writing prose. 비교군 선행연구�
 | Wang (2023) Formality | 형식성이 절차공정성에 미치는 경로 | SEM | 호주 제조업 | 형식성 → 역할 명확성 → 절차공정성 | 매개 경로 실증 | 단면, 제조업 ⚠️ | H4 조절 근거. Layer 4 | medium |
 | Leventhal (1980) | 공정한 절차의 조건 | 이론적 논문 (단행본 챕터) | 기존 공정성 연구 검토 | 절차공정성 6규칙(consistency, bias suppression, accuracy, correctability, representativeness, ethicality) | 기준 제시 | 단행본 챕터 — Gergen·Greenberg·Willis 편 *Social Exchange* pp.27–55. ⚠️ Zotero 항목이 「저널 기사」로 잘못 등록됨 | DV 기준 체계의 원전. **✅ [08-16] 원전 확보 확인** (`leventhalPcWHATSHOULD`) — 종전 「PDF 미확보·간접 인용」 표기는 낡은 기록이었다. Layer 3·4 | **high** |
 | **Niehoff & Moorman (1993)** | 감시 방식이 조직시민행동에 미치는 영향에서 공정성의 매개 역할 | 설문 실증 + LISREL 7 SEM | 미국 영화관 체인 11개 지점 종업원 213명 (응답률 81%) | 조직공정성이 감시–OCB 관계를 매개한다 | 절차공정성 formal procedures 6문항 **α=.85**, CFI=.92 (3요인) | ⚠️ 10대 파트타임 중심 표본, 횡단, OCB 맥락(성과평가 전용 아님) | ★ **[08-16] DV 문항 직접 출처** — Table 1(p.541) item 5→DV1, item 1→DV4. 「6규칙 중 하나만 충족해도 공정」 근거(p.532). 원척도는 Moorman(1991). Layer 3 | high |
-| ⬜ Moorman (1991) | 조직공정성과 조직시민행동의 관계 | 설문 실증 | — | 절차공정성이 OCB를 예측(분배공정성은 아님) | — | **미확보** | ⬜ **N&M(1993) 척도의 원전** (N&M p.537 명시). consistency 문항 수 확인 → DV2 처리에 직결. *JAP* 76: 845–855. Layer 3 | — |
-| ⬜ Greenberg (1986) | 공정한 성과평가의 결정요인 | 실증 (요인 도출) | — | 기준의 일관된 적용이 절차공정성의 주요 결정요인 | — | **미확보.** 2쪽 연구노트라 척도가 아닐 수 있음 | ⬜ **consistency 계보 종착점.** Erdogan(2002) p.561·Erdogan et al.(2001) p.211이 모두 지목. *JAP* 71: 340–342. Layer 3 | — |
+| **Moorman (1991)** | 조직공정성과 조직시민행동의 관계 | 설문 실증 + LISREL 7 SEM | 미국 중서부 화학 관련 2개사 종업원 225명(매칭) | 절차공정성이 OCB를 예측(분배공정성은 아님) | 절차공정성 2요인(formal procedures 7문항 **α=.94** / interactional justice 6문항). 척도는 본 연구용 자체 제작(p.847) | ⚠️ 횡단·OCB 맥락. 응답 형식 본문 미명시. 실증 결과는 인용하지 않고 **척도 계보 서술에만** 사용 | ★ **[08-16] 확보·대조.** Table 1(p.850) consistency **1문항(M4)** 확인 → DV2 폐기 근거. Moorman 7 ↔ N&M 6 대사표 복원(deleted 2/added 1). *JAP* 76: 845–855. Layer 3 | **high** |
+| **Greenberg (1986)** | 공정한 성과평가의 결정요인 | Q분류 + 중요도 평정, 요인분석 | 3개 산업군 중간관리자 217명(평정 단계 75명) | 절차·분배 2요인. 절차 요인에 「기준의 일관된 적용」 포함 | **문항 척도 아님** — 결정요인 범주의 중요도 평정(9점) | ⚠️ **문항 공급 불가.** 절차 5요인 간 중요도 차이 **유의하지 않음** F(4,296)<1 → 「가장 중요」 표기 금지. bias suppression은 7개 결정요인에 **없음**(반대 증거로 기록) | ★ **[08-16] 확보.** consistency를 **성과평가 맥락**에서 실증한 근거(Table 1 p.341). 계보 종착점이 아니라 맥락 근거로 위치 재조정. *JAP* 71: 340–342. Layer 3 | **high** |
 | **Erdogan, Kraimer & Liden (2001)** | 성과평가 맥락에서 절차공정성이 단일 차원인가 | 설문 + 위계적 회귀 | 터키 민간 상업은행 종업원 84–93명 | 절차공정성은 system/rater 2차원으로 분화된다 | 요인분석으로 2차원 지지. **평가기준 지식 → system β=.27(p<.01)**, fair hearing·피드백 → rater | ⚠️ 터키 단일 조직, 소표본, **system α=.64**, 9문항 중 6문항 역채점, 단일문항 측정 다수(저자도 p.219에서 한계 인정) | ★ **[08-16] 두 용도** ① 2차원 쟁점 — 본 연구는 시나리오 설계상 미발생 → 한계 절 근거 ② **MOD의 system 층위 확정**. ⚠️ **문항은 채택 불가.** Layer 3·4 | high |
 | **Levy & Williams (2004)** | 성과평가의 사회적 맥락 | 리뷰 | *Journal of Management* 30(6): 881–905 | — | — | ⬜ 내용 검토 미완 | ⬜ **[08-16] 역할 미배정 상태로 발견.** `Literature_Map` 49행에 이름만 있었음. H2 실증 보강 / MOD 문항 조달 후보와 구분 필요(문항 후보는 **Levy & Williams 1998** *JOB* 19: 53–65로 다른 논문) | — |
 | **Lyu et al. (2023)** | 성과평가 공정성이 직무성과에 미치는 이중 경로 | 실증 | *Sage Open* 13(3) | — | — | ⬜ 내용 검토 미완 | ⬜ **[08-16] 역할 미배정 상태로 발견.** Layer 3 | — |
@@ -88,6 +88,9 @@ Use this matrix to compare papers before writing prose. 비교군 선행연구�
 | Lind & van den Bos (2002) UMT 정본 | ✅ Zotero 확보 [07-31] |
 | Colquitt (2001) 측정 근거 | Sources/Papers/Colquitt (2001) - On the Dimensionality of Organizational Justice.md |
 | **Niehoff & Moorman (1993) DV 문항** | Sources/Papers/Niehoff & Moorman (1993).md ✅ [08-16 신설] |
+| **Moorman (1991) 원척도** | Sources/Papers/Moorman (1991).md ✅ [08-16 신설] |
+| **Greenberg (1986) 성과평가 맥락** | Sources/Papers/Greenberg (1986).md ✅ [08-16 신설] |
+| **Leventhal (1980) 6규칙 원전** | Sources/Papers/Leventhal (1980).md ✅ [08-16 신설] |
 | **DV 척도 채택 결정 기록** | ⚠️ `progress/candidate-sources.md` 46행 — **측정 관련 결정을 다룰 때 반드시 먼저 열 것** |
 | 평가 불확실성 척도 | ✅ **[08-09 해소]** Rizzo, House & Lirtzman(1970) ASQ 15(2) — 정의 (1) 계승 + 정방향 신규 제작. 번안 선례 박지훈·정승철(2017)·류수민·유태용(2015), 역채점 회피 Kelloway & Barling(1990)·Smith et al.(1993). 상세 [[scale-development_MV]] |
 | 기대원리 확장 근거 | Sources/Papers/ — 신규 확보 필요 (attribution + appraisal + expectancy) |
@@ -101,6 +104,7 @@ Use this matrix to compare papers before writing prose. 비교군 선행연구�
 ---
 
 ## 변경 이력
+- [V19 / 08-17] **Moorman(1991)·Greenberg(1986) 확보 반영.** 두 행을 「미확보」에서 대조 완료로 갱신하고 confidence를 high로. Moorman은 consistency 1문항(M4) 확인 → DV2 폐기 근거. Greenberg는 문항 척도가 아님이 확정되어 「계보 종착점」에서 「성과평가 맥락 근거」로 위치 재조정. paper note 3편(Moorman·Greenberg·Leventhal) 연결 추가
 - [V18 / 08-16] **DV 측정 문헌 정비.** ① **Leventhal(1980) 비고 정정** — 「PDF 미확보·간접 인용」은 낡은 기록. 원전 확보 확인, confidence medium→high. ② **Niehoff & Moorman(1993) 신규 등재** — DV 문항 직접 출처. ③ **Erdogan, Kraimer & Liden(2001) 신규 등재** — 2차원 쟁점 + MOD system 층위. ④ **Moorman(1991)·Greenberg(1986)** 미확보 상태로 자리 신설. ⑤ **Levy & Williams(2004)·Lyu et al.(2023)** 등재 — 종전 `Literature_Map`에 이름만 있고 matrix 미등재였음. ⑥ Colquitt 행의 「기준 재작성」 표기 정정. ⑦ 파일 연결에 `candidate-sources.md` 추가
 - [V13] Hobfoll(1989, 2018)·Spreitzer(1995) 행 추가 [V17에서 삭제]
 - [V14] 비교군 선행연구 5편 행 추가, 별도 테이블

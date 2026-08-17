@@ -6,7 +6,8 @@
 - Working question: AI와 공동 생성한 성과에서 인간의 기여를 명확히 식별하기 어려울 때, 기존 개인 중심 성과평가는 얼마나 공정하게 지각되는가?
 - Target output: 실증 논문 구조, 연구모형, 설문/시나리오 실험 설계
 - Target venue or style:
-- Current stage: **B3 — 시나리오 본문** (MV·DV 측정 확정). 작업 기준: `Analysis/action-items-260814.md`
+- Current stage: **A0-3 기여 서술 · I1 MV 측정모형** (MV 4문항 · **DV 3문항** 확정). 작업 기준: `Analysis/action-items-260817.md`
+- ⚠️ 심사: **8월 말 프로포절 — 약 2주.** 최대 마감 위험은 **발표자료 실물 0장**
 
 ## Next Actions
 
@@ -89,6 +90,14 @@
 | 2026-08-13 | **H4 존치 확정** — 차별점 논거 2번의 검증 장치이며, 지도교수는 조절을 기여 요소로 본다 | `research-model` H4 주석 | MOD 문항 재설계·표본 250 |
 | 2026-08-13 | 조작 축 **「작업 구간 분할」·「코드」 2안 폐기** → 「검토·수정의 밀도」 확정 | `review-2026-08-13` §2 | — |
 | 2026-08-13 | 후속 연구 16건 정리 — 잘라낸 것 6·발견 4·방법론 3·실무 3 | `Knowledge/research-ideas.md` | 상시 갱신 |
+| 2026-08-16 | **DV 문항 출처 대조** — DV1·DV4는 N&M(1993) Table 1 item 5·1, DV3은 Colquitt(2001) item 4에 대응. **DV2만 신규**로 확인 | `action-items-260816` §I2 | DV2 처리 판정 |
+| 2026-08-16 | **Zotero 실물 전수 대조** — citation-keys 36편 전량 등재, 위생 9건 처리 | `Zotero/citation-keys.md` | 미확보 목록 관리 |
+| 2026-08-16 | **Moorman(1991) 확보·대조** — formal procedures 7문항 중 consistency **1문항**. 척도는 자체 제작(p.847)이라 **계보 상류 소진** | `Sources/Papers/Moorman (1991).md` | DV2 폐기 근거 |
+| 2026-08-16 | **Greenberg(1986)는 문항 척도가 아님** — Q분류 중요도 평정. 계보 종착점 → **성과평가 맥락 근거**로 위치 재조정 | `Sources/Papers/Greenberg (1986).md` | consistency 맥락 근거 |
+| 2026-08-16 | **Leventhal consistency 두 축 확인** — 사람 간 / 시점 간. 세 척도는 앞의 축만 조작화 | `Sources/Papers/Leventhal (1980).md` | 축 범위 명시 |
+| 2026-08-17 | ★ **DV 3문항 확정 — 신규 0.** DV2 폐기, G1 방어 *"완전한 신규는 IV 하나"* 복구. consistency는 **사람 간 축에 한정** | `measurement-items` §III V20 · `action-items-260817` §1 | 보강은 A2에서 재검토 |
+| 2026-08-17 | 철회 논거 2건 — **CFA 정확식별**(다요인 모형에서 비해당) · **1인칭 시점 고정**(원척도 전량 3인칭) | `action-items-260817` §1 | 재론 금지 |
+| 2026-08-17 | **시나리오에 시점 축 도입 검토·기각** — 신규 문항이 그대로 남고 IV 조작·MOD 변량을 침해 | `action-items-260817` §3 | 후속연구로 이월 |
 
 ## Open Questions
 

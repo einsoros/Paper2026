@@ -203,12 +203,13 @@ MV(지각된 평가 불확실성)는 **이론적 뿌리(UMT)와 측정 뿌리(Ri
 - **DV (절차공정성)**: [08-16 출처 대조 완료] 기준 체계는 **Leventhal(1980) 6규칙**(원전 확보) → 이를 조작화한 두 척도에서 기준별로 문항 채택. consistency·bias suppression만 사용(accuracy·representativeness·correctability 제외).
   - **Niehoff & Moorman(1993)** *AMJ* 36(3): 527-556 — formal procedures 6문항(α=.85, N=213). **DV1 ← item 5**(λ=.901) · **DV4 ← item 1**(λ=.897)
   - **Colquitt(2001)** *JAP* — Table 1(p.389). **DV3 ← item 4**
-  - ⬜ **Moorman(1991)** *JAP* 76: 845-855 — N&M 원척도(N&M p.537 명시). **미확보** — consistency 문항 수 확인 필요
-  - ⬜ **Greenberg(1986)** *JAP* 71: 340-342 — consistency 계보 종착점. Erdogan(2002) p.561·Erdogan et al.(2001) p.211이 모두 지목. **미확보**
+  - ✅ **Moorman(1991)** *JAP* 76: 845–855 — N&M 원척도. **[08-16 확보·대조]** Table 1(p.541 → p.850) formal procedures 7문항 중 **consistency 1문항(M4)**. 척도는 이 연구를 위해 자체 제작(p.847)이므로 **문항 척도 계보의 상류 소진.** → [[Moorman (1991)]]
+  - ✅ **Greenberg(1986)** *JAP* 71: 340–342 — **[08-16 확보]** Q분류 + 중요도 평정 연구로 **문항 척도가 아님.** consistency 계보 종착점이 아니라 **성과평가 맥락 근거**로 위치 재조정. → [[Greenberg (1986)]]
+  - ✅ **Leventhal(1980)** — **[08-16 원문 대조]** consistency 규칙은 **사람 간(across persons) · 시점 간(over time) 두 축**. 세 척도가 조작화한 것은 앞의 축뿐이며, 본 연구는 **사람 간 축에 한정**하여 측정한다. 규칙의 **선택적 적용**을 원전이 직접 규정(「6규칙 중 2개만」 근거의 원전). ⚠️ 보유본은 ERIC 판본이라 쪽 표기 전 출판본 확인 필요. → [[Leventhal (1980)]]
   - **제외 정당화 근거**: N&M(1993) p.532 — 6규칙 중 하나만 충족해도 절차를 공정하다고 지각한다
   - **2차원 쟁점**: Erdogan, Kraimer & Liden(2001) *JABS* 37(2): 205-222 — system/rater 분화. **본 연구는 시나리오 설계상 미발생 → 단일 합산 유지**, 한계 절에 명시. ⚠️ 이 척도의 문항은 채택 불가(consistency 문항 없음 · system α=.64 · 6/9 역채점)
   - 적응 절차 정당화: **Heggestad et al.(2019)**. 문항 대조 기록은 [[measurement-items]] §III · [[action-items-260816]] §I2
-  - 🔴 **DV2 1문항은 신규** — 처리 3안 미결
+  - ✅ **[08-17] DV 3문항 확정 — 신규 0.** DV2(유일한 신규 문항) 폐기. 대응 원문항이 계보 전체에서 확인되지 않았고 시나리오 변경안·이론 도출 재설계안도 기각. 문항 수 비대칭(consistency 1 : bias suppression 2)은 원척도 구조에서 비롯하며, DV가 단일 잠재변수이므로 결함이 아니다. → [[action-items-260817]] §1
 - MOD (절차 명확성): Erdogan(2002), Kim(2016) 기반 — ✅ **[08-13] H4 존치 확정** / ⚠️ 문항 재설계는 진행 중 (`action-items` §A2)
 - Control: Wang et al. (2022) AI Literacy (Respondent)
 
