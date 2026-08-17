@@ -78,10 +78,10 @@ Van den Bos(2001)의 Uncertainty Management Theory는 불확실성이 현저해�
 
 절차공정성은 평가 절차가 일관되며(consistency) 편향 없이(bias suppression) 적용된다는 지각에서 형성된다 (Leventhal, 1980; Colquitt, 2001). 본 연구의 DV는 이 두 기준을 중심으로 측정한다.
 
-> ✅ **[08-09] DV 4문항 확정** (consistency 2 + bias suppression 2).
-> ✅ **[08-16 정정] 출처 대조 결과 3문항이 검증된 원문항에 대응한다.** 종전 「전면 재작성」 표기는 부정확했다. 논문 표기는 **"Leventhal(1980) 6규칙을 조작화한 Colquitt(2001)·Niehoff & Moorman(1993)에서 기준별로 문항을 채택하고 본 연구 맥락으로 조정했다"**로 한다. DV2 1문항만 신규이며 처리 미결. → [[measurement-items]] §III · [[action-items-260816]] §I2
+> ✅ **[08-17] DV 3문항 확정** (consistency 1 + bias suppression 2). **전 문항이 검증된 원문항에 대응하며 신규 문항은 없다.** 논문 표기는 **"Leventhal(1980) 6규칙을 조작화한 Colquitt(2001)·Niehoff & Moorman(1993)에서 기준별로 문항을 채택하고 본 연구 맥락으로 조정했다"**로 한다. 종전 「전면 재작성」·「DV2 신규」 표기는 해소됐다. → [[measurement-items]] §III · [[action-items-260817]] §1
+> ⚠️ **consistency는 사람 간(across persons) 축에 한정하여 측정한다.** Leventhal의 consistency 규칙은 사람 간·시점 간 두 축을 요구하나, 본 연구가 문항을 조달한 세 척도(Moorman 1991 · N&M 1993 · Colquitt 2001)에 시점 간 축 문항이 포함되어 있지 않고, 단일 시점 시나리오에서는 그 축의 변량이 생기지 않는다. 시점 간 축은 한계·후속연구로 이월. → [[Leventhal (1980)]]
 
-> ✅ **[08-16] 「왜 6규칙 중 2개인가」 원전 근거.** Niehoff & Moorman(1993) p.532는 절차가 6규칙 중 하나만 충족해도 피평가자가 공정하다고 여긴다고 진술한다. 기준 선별이 자의적이지 않다는 직접 근거다.
+> ✅ **[08-17] 「왜 6규칙 중 2개인가」 근거가 원전으로 상향.** Leventhal(1980)은 개인이 절차 규칙을 **선택적으로** 적용하며 상황에 따라 특정 규칙이 공정성 판단을 지배할 수 있다고 직접 규정한다. 종전 근거인 Niehoff & Moorman(1993) p.532(6규칙 중 하나만 충족해도 공정하다고 여긴다)는 그 파생 진술이다. ⚠️ Leventhal 쪽수는 출판본 확인 후 기입. → [[Leventhal (1980)]]
 > ⚠️ accuracy 기준은 IV(기여 식별)와 순환 위험으로 제외. 문항은 **AI를 언급하지 않고** 일반 절차 속성만 묻는다.
 > ⚠️ 지시 대상 = **시나리오 속 가상 조직** (MV·MOD와 통일).
 
