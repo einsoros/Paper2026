@@ -2,7 +2,7 @@
 last-updated: 2026-08-18
 type: reference
 project: Paper2026
-status: Zotero 실물 export 전수 대조 재작성 — 53편 등재. 미확보 A·B급 0편. 위생 잔여는 하단
+status: Zotero 실물 export 전수 대조 재작성 — 53편 등재. 미확보 A·B급 0편. [08-18 오후] Heggestad·Colquitt·Leventhal 역할 갱신
 ---
 
 # Citation Keys
@@ -44,10 +44,10 @@ status: Zotero 실물 export 전수 대조 재작성 — 53편 등재. 미확보
 
 | Citation key | 서지 | 역할 |
 |---|---|---|
-| `leventhalWhatShouldBeDone1980` | Leventhal, Gerald S (1980). What should be done with equity theory? New approaches to the study of fairness in social relationships. *Social Exchange: Advances in Theory and Research, 27-55* | **기준 체계 원전** — 6규칙 |
-| `colquittDimensionalityOrganizationalJustice2001` | Colquitt, Jason A. (2001). On the dimensionality of organizational justice: A construct validation of a measure.. *Journal of Applied Psychology, 86(3), 386-400* | DV 정의 + Table 1(p.389) item 4 → **DV3** |
+| `leventhalWhatShouldBeDone1980` | Leventhal, Gerald S (1980). What should be done with equity theory? New approaches to the study of fairness in social relationships. *Social Exchange: Advances in Theory and Research, 27-55* | **기준 체계 원전** — 6규칙. ★ **[08-18] 새 역할** — Colquitt(2001)과 N&M(1993)→Moorman(1991)이 **공통으로 딛는 상류.** DV 문항 결합의 **개념적 이유**(서로 다른 구성개념 혼합이 아니라 같은 기준 체계의 조작화) 근거  `action-items-260818` §3-4 |
+| `colquittDimensionalityOrganizationalJustice2001` | Colquitt, Jason A. (2001). On the dimensionality of organizational justice: A construct validation of a measure.. *Journal of Applied Psychology, 86(3), 386-400* | DV 정의 + Table 1(p.389) item 4 → **DV3**. 🔴 **[08-18] 원문 대조 대기 — 다음 1순위**: ⓐ 7문항의 **Leventhal 기준 대응 표기** 유무 ⓑ **consistency 해당 문항 수**(DV 4문항 확장 가능성을 가름)  `action-items-260818` §3-6 |
 | `niehoffJusticeMediatorRelationship1993` | Niehoff, Brian P., Moorman, Robert H. (1993). Justice as a mediator of the relationship between methods of monitoring and organizational citizenship behavior. *Academy of Management Journal, 36(3), 527-556* | **DV 문항 직접 출처** — Table 1(p.541) item 5→DV1, item 1→DV4. α=.85 |
-| `moormanRelationshipOrganizationalJustice1991` | Moorman, Robert H (1991). Relationship Between Organizational Justice and Organizational Citizenship Behaviors: Do Fairness Perceptions Influence Employee Citizenship?. *Journal of Applied Psychology, 76(6), 845-855* | **[08-16 확보·대조]** N&M 원척도. Table 1(p.850) formal procedures 7문항 중 **consistency 1문항.** 자체 제작(p.847) → **계보 상류 소진** |
+| `moormanRelationshipOrganizationalJustice1991` | Moorman, Robert H (1991). Relationship Between Organizational Justice and Organizational Citizenship Behaviors: Do Fairness Perceptions Influence Employee Citizenship?. *Journal of Applied Psychology, 76(6), 845-855* | **[08-16 확보·대조]** N&M 원척도. Table 1(p.850) formal procedures 7문항 중 **consistency 1문항.** 자체 제작(p.847) → **계보 상류 소진.** ★ [08-18] 단 **문항 출발점으로 Leventhal(1980)·Leventhal, Karuza & Fry(1980)를 명시** — DV 결합의 공통 상류 논거 |
 | `greenbergDeterminantsPerceivedFairness1986` | Greenberg, Jerald (1986). Determinants of Perceived Fairness of Performance Evaluations. *Journal of Applied Psychology, 71(2), 340-342* | **[08-16 확보·대조]** Q분류 연구로 **문항 척도가 아님.** 성과평가 맥락 근거로 위치 재조정 |
 | `folgerEffectsProceduralDistributive1989` | Folger, Robert, Konovsky, Mary A (1989). Effects of procedural and distributive justice on reactions to pay raise decisions. *Academy of Management Journal, 32(1), 115-130* | **[08-18 확보]** Moorman(1991)이 문항 일부 출처로 지목(대응 미표기). DV 계보 추적 미확인 건 해소용. ⬜ **대조 미실시** |
 | `folgerDueProcessMetaphor1992` | Folger, Robert, Konovsky, Mary A, Cropanzano, Russell (1992). A due process metaphor for performance appraisal. *Research in Organizational Behavior, 14, 129-177* | **[08-18 확보]** due process 3원칙 **원전.** Erdogan 두 편이 파생. ⬜ 대조 미실시 |
@@ -79,7 +79,7 @@ status: Zotero 실물 export 전수 대조 재작성 — 53편 등재. 미확보
 | Citation key | 서지 | 역할 |
 |---|---|---|
 | `mackenzieConstructMeasurementValidation2011` | MacKenzie, Scott B., Podsakoff, Philip M., Podsakoff, Nathan P. (0601). Construct Measurement and Validation Procedures in MIS and Behavioral Research: Integrating New and Existing Techniques. *MIS Quarterly, 35(2), 293-A5* | **신규 문항 개발·타당화 10단계.** `Construct Dimensionality`는 **Step 1** 하위(p.300~302) · Step 9·10 제외 근거 **p.329** · 시나리오 조작 준용 **p.318** |
-| `heggestadScaleAdaptationOrganizational2019` | Heggestad, Eric D., Scheaf, David J., Banks, George C., Monroe Hausfeld, Mary, Tonidandel, Scott, Williams, Eleanor B. (2019). Scale Adaptation in Organizational Science Research: A Review and Best-Practice Recommendations. *Journal of Management, 45(6), 2596-2627* | 척도 적응 정당화 Table 6. ⬜ **대응표 미작성** |
+| `heggestadScaleAdaptationOrganizational2019` | Heggestad, Eric D., Scheaf, David J., Banks, George C., Monroe Hausfeld, Mary, Tonidandel, Scott, Williams, Eleanor B. (2019). Scale Adaptation in Organizational Science Research: A Review and Best-Practice Recommendations. *Journal of Management, 45(6), 2596-2627* | ★ **[08-18 원문 대조]** 척도 적응 12유형 + Table 6 요구 근거. 🔴 **적용 대상이 MV가 아니라 DV·MOD다** — MV는 원문항이 없어 적응 유형에 미해당(대응표 불필요). DV는 Study 2가 직접 검토한 Colquitt 척도이며 **문항 결합·맥락 변경** 2유형에 해당. Table 5 단축이 최대 우려 · Tepper 사례  상세 `action-items-260818` §3 |
 | `churchillParadigmDevelopingBetter1979` | Churchill, Gilbert A., Jr (1979). A Paradigm for Developing Better Measures of Marketing Constructs.. *Journal of Marketing Research, 16(1), 64-73* | **[08-18 확보]** 척도 개발 절차 원형. MacKenzie가 계승을 명시 → G1 2층 계보. ✅ 저자 `Jr.` 오인 정정 |
 | `hinkinReviewScaleDevelopment1995` | Hinkin, Timothy R (1995). A Review of Scale Development Practices in the Study of Organizations. *Journal of Management, 21(5), 967-988* | **[08-18 확보]** 조직연구 척도 개발 관행 리뷰. G1 2층 |
 | `hinkinAnalysisVarianceApproach1999` | Hinkin, Timothy R., Tracey, J. Bruce (1999). An Analysis of Variance Approach to Content Validation. *Organizational Research Methods, 2(2), 175-186* | ★ **[08-18 확보]** 내용타당도 ANOVA 절차. `scale-development_MV` §7 ②의 근거 |
