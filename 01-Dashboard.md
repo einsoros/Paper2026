@@ -6,7 +6,7 @@
 - Working question: AI와 공동 생성한 성과에서 인간의 기여를 명확히 식별하기 어려울 때, 기존 개인 중심 성과평가는 얼마나 공정하게 지각되는가?
 - Target output: 실증 논문 구조, 연구모형, 설문/시나리오 실험 설계
 - Target venue or style:
-- Current stage: **A0-3 기여 서술 · I1 MV 측정모형** (MV 4문항 · **DV 3문항** 확정). 작업 기준: `Analysis/action-items-260817.md`
+- Current stage: 🔴 **MOD 변수 재검토 · MV→DV 매개 방향의 이론 근거 확인** (MV 4문항 **단일차원 확정** · **DV 3문항** 확정). 작업 기준: `Analysis/action-items-260818.md` · 인수인계: `progress/HANDOFF.md`
 - ⚠️ 심사: **8월 말 프로포절 — 약 2주.** 최대 마감 위험은 **발표자료 실물 0장**
 
 ## Next Actions

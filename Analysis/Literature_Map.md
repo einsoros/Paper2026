@@ -45,7 +45,7 @@ related-review: progress/review-2026-08-04.md
 
 | 논문 | 저널 | 역할 |
 | --- | --- | --- |
-| Hartmann & Slapničar (2012) | Management Accounting Research | 성과평가 맥락 불확실성→공정성 실증 (은행업 178명). ⚠️ citation key가 `zotero-item-219` 플레이스홀더 — 정정 필요 |
+| Hartmann & Slapničar (2012) | Management Accounting Research | 성과평가 맥락 불확실성→공정성 실증 (은행업 178명). ✅ citation key `hartmannRoleInformalControls2012` 확정(08-16 반영) · 🔴 **원문 미대조** — H2의 유일한 직접 실증 근거. ⚠️ `paper-feature-matrix`는 이 문헌의 불확실성을 **과업불확실성**으로 적는다 — 구성개념 정합 미확인 |
 | Levy & Williams (2004) | Journal of Management | 성과평가-공정성 리뷰. ⬜ **[08-16] 역할 미배정 상태** — `paper-feature-matrix` 등재 필요 |
 | Lyu et al. (2023) | SAGE Open | 성과평가 공정성 최신 실증. ⬜ 동일 |
 | **Niehoff & Moorman (1993)** | AMJ | ★ **[08-16 신규] DV 문항 직접 출처** — formal procedures 6문항, α=.85. DV1·DV4 대응 |
