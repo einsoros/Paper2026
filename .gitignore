@@ -7,3 +7,4 @@
 .obsidian/workspace*
 .obsidian/cache/
 *.patch
+.claude/
