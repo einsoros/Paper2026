@@ -45,7 +45,7 @@ related-review: progress/review-2026-08-04.md
 
 | 논문 | 저널 | 역할 |
 | --- | --- | --- |
-| Hartmann & Slapničar (2012) | Management Accounting Research | 성과평가 맥락 불확실성→공정성 실증 (은행업 178명). ✅ citation key `hartmannRoleInformalControls2012` 확정(08-16 반영) · 🔴 **원문 미대조** — H2의 유일한 직접 실증 근거. ⚠️ `paper-feature-matrix`는 이 문헌의 불확실성을 **과업불확실성**으로 적는다 — 구성개념 정합 미확인 |
+| Hartmann & Slapničar (2012) | Management Accounting Research | 성과평가 맥락 불확실성→공정성 실증 (은행업 178명). ✅ citation key `hartmannRoleInformalControls2012` 확정(08-16 반영) · ✅ **[08-22] 원문 대조 완료** — 🔴 **H2 앵커가 아니다.** ① 측정한 것은 **과업불확실성(직무 요구의 변동성)**으로 본 연구 MV(사후적 식별 불확실성)와 **구성개념이 다르다** ② **매개를 검증하지 않았다.** 상세는 `paper-feature-matrix` Hartmann 행. **역할 재배치** — H1의 TU 정의 보강과 맥락 근거로만 쓴다 |
 | Levy & Williams (2004) | Journal of Management | 성과평가-공정성 리뷰. ⬜ **[08-16] 역할 미배정 상태** — `paper-feature-matrix` 등재 필요 |
 | Lyu et al. (2023) | SAGE Open | 성과평가 공정성 최신 실증. ⬜ 동일 |
 | **Niehoff & Moorman (1993)** | AMJ | ★ **[08-16 신규] DV 문항 직접 출처** — formal procedures 6문항, α=.85. DV1·DV4 대응 |
@@ -191,7 +191,9 @@ MV(지각된 평가 불확실성)는 **이론적 뿌리(UMT)와 측정 뿌리(Ri
 
 - **H1 (귀속 모호성 → 평가 불확실성)**: Weiner(1985) 기대원리, Orlikowski(2007), Leonardi(2011), Maasland & Weißmüller(2022), Douer & Meyer(2021)
   - ⚠️ [08-04] '성과 기대 → 평가 기대' **확장**은 논리 논증으로 처리(직접 문헌 없음, A2 확정). MV 측정의 **특화**와 분리 서술.
-- **H2 (평가 불확실성 → 절차공정성 저하)**: Van den Bos(2001, 실험), Lind & van den Bos(2002, UMT 정본), Hartmann & Slapničar(2012), Colquitt(2001)
+- **H2 (평가 불확실성 → 절차공정성 저하)**: 🔴 **[08-22 방향 C] 이론 층을 Leventhal(1980) 절차 규칙 층으로 교체했다.** consistency·accuracy 규칙이 근거이며, **직접 실증 앵커는 0이다.**
+  - ⚠️ **종전 근거 3편의 위상이 바뀌었다** — Van den Bos(2001)·Lind & van den Bos(2002)는 **UMT가 조절 이론**이므로 매개 지지로 쓸 수 없고(인용 5편 전수 조절 배치), Hartmann(2012)은 **구성개념·배치가 모두 다르다.** 셋 다 **메커니즘 보조**로 내린다. Colquitt(2001)은 DV 측정·정의 근거로 유지.
+  - 📌 **앵커 0은 결함이 아니라 공백이다** — 기여 후보 1번(위상 전환)의 근거다. `action-items-260822` §6.
 - **H3 (매개)**: H1+H2 연쇄 (별도 이론 불필요)
 - **H4 (조절: 절차 명확성)**: Leventhal(1980), Colquitt(2001), Erdogan(2002), Kim(2016), Wang(2023) Formality
   - ✅ **[08-13] H4 존치 확정** — 가설로 유지, 본문 인용
