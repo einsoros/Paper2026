@@ -1,16 +1,16 @@
 ---
-date: 2026-09-04
+date: 2026-09-07
 type: handoff
 project: Paper2026 / PlanC
 status: 스레드 인수인계 문서. 새 스레드를 열면 이 파일을 가장 먼저 읽는다
-related: ["[[00-CONSTITUTION]]", "[[01-phenomenon]]", "[[02-working-rules]]", "[[03-stages]]", "[[04-open-items]]", "[[05-corrections-log]]", "[[10-stage1-log]]", "[[11-proposition-map]]", "[[12-midpoint-260904]]"]
+related: ["[[00-CONSTITUTION]]", "[[01-phenomenon]]", "[[02-working-rules]]", "[[03-stages]]", "[[04-open-items]]", "[[05-corrections-log]]", "[[10-stage1-log]]", "[[11-proposition-map]]", "[[12-midpoint-260904]]", "[[13-humanai-landscape-260907]]"]
 tags: [PlanC, Handoff, 인수인계]
 ---
 
 # HANDOFF — Plan C
 
 > 🔴 **새 스레드를 열면 이 파일 → `00-CONSTITUTION` → `02-working-rules` 순으로 먼저 읽는다.**
-> 📌 **마지막 갱신: 2026-09-04** (직전 2026-09-01)
+> 📌 **마지막 갱신: 2026-09-07** (직전 2026-09-04)
 > ⚠️ 이 파일은 요약이다. **인용이 필요하면 원 파일을 열어라.** 이 파일을 근거로 논문 문장을 쓰지 않는다.
 
 ---
@@ -185,160 +185,95 @@ observable / inferential information  I  →  judgment about latent individual c
 
 ---
 
-## 6. Human-AI 문헌지형 — 09-04 1차 (⬜ 파일 미반영)
+## 6·7. Human-AI 문헌지형과 원전 검증 3편 — 🟢 **`13-humanai-landscape-260907`에 정리됨**
 
-### 🔴 두 계보가 갈라져 있고 서로를 인용하지 않는다
+🔴 **상세는 그 파일을 열어라.** 아래는 결론만이다.
+
+### 두 계보가 갈라져 있고 서로를 인용하지 않는다
 
 | 계보 | 무엇을 묻는가 | 학문 |
 |---|---|---|
-| **S1 · 사회적 평가 페널티** | AI 사용을 알았을 때 평가자가 그 사람을 어떻게 보는가 | OB · 사회심리 |
-| **S2 · 신호 정보성** | AI 사용으로 산출물이 능력을 얼마나 반영하는가가 달라지는가 | 노동경제 · 정보경제 |
+| **S1 · 사회적 평가 페널티** | AI 사용을 알았을 때 **평가자가 그 사람을 어떻게 보는가** | OB · 사회심리 |
+| **S2 · 신호 정보성** | AI 사용으로 **산출물이 능력을 얼마나 반영하는가**가 달라지는가 | 노동경제 · 정보경제 |
 
-### ⭐ 발견된 학문적 언어
+⭐ **발견된 학문적 언어** — signal informativeness · signal dilution · diagnostic variance · information obfuscator · screening degradation · social evaluation penalty · effort laundering
 
-**signal informativeness · signal dilution · diagnostic variance · information obfuscator · screening degradation · social evaluation penalty · effort laundering**
+🔴 **`12-midpoint`까지 확인한 성과평가·팀 문헌에는 이 용어가 하나도 없었다.**
 
-🔴 **우리가 앞서 판 성과평가·팀 문헌에는 이 용어가 하나도 없었다. 언어가 다른 학문에 있다.**
+### T1 / T2
 
-### 후보 판정 현황
-
-| 문헌 | 판정 | 확인 수준 |
-|---|---|---|
-| ⭐ **Almog (2025)** | 🔴 **Direct-structural** | 🟢 **전문 정독(B)** |
-| ⭐ **Wu 등 (2026)** HCOMP | ⬜ **미판정 — 원문 대기** | 🔴 초록·발췌(C) |
-| **Caplin 등 (2025)** | 🟡 **Direct 후보이나 방향 반대** | ⬜ 보도자료(C) |
-| **Cui 등 (2025)** | 🟡 Structural precedent | 🟢 전문 정독(B) |
-| **Kim 등 (2026)** | 🟡 Adjacent | 🟢🟢 **A** |
-| **Lee 등 (2026)** · **Fisher 등 (2015)** · **Reif 등 (2025)** | 🟡 Adjacent | ⬜ C |
-| **arXiv:2603.05565** | 🟡 Structural precedent · **저자가 「AI 특정적 증거 없음」 명시** | ⬜ C |
-
----
-
-## 7. ⭐ Almog (2025) 원문 검증 — 09-04 (⬜ 파일 미반영)
-
-> **Almog, D. (2025).** Barriers to AI Adoption: Image Concerns at Work. **Job Market Paper**, Nov 25 2025. arXiv:2511.18582. Kellogg, Northwestern. 🟢 사전등록 aspredicted #239005, #242197 · IRB STU00223689
-
-⚠️ **프리프린트. 게재 정보 없음.**
-📌 🔴 **저자가 §3.1에서 θ를 실제로 쓴다** — 「기저 유형 θ ∈ [1/n,1] — 평균 무보조 정확도」. **우리 표기와 우연히 같은 자리.**
-
-### 설계
-
-**Upwork 449명** · 이미지 분류 50라운드 · AI 권고(VGG-19, 85% 고지) · **실제 HR 전문가 1명이 0~100점** · 상위 30% 재계약($10→$20) · **실제 135명 재고용**
-
-| 조건 | HR이 본 것 | N |
-|---|---|---|
-| **Private (통제)** | 🔴 **최종 정확도만** | 150 |
-| **Public** | 정확도 + **AI 의존율** | 150 |
-| **Public w/ info** | 위 + 「사전심사·실적 보증」 고지 | 149 |
-
-🔴 **AI 의존율은 자기보고가 아니라 행동 로그다.** 초기 선택 → AI 권고 제시 → 바꿨는지 기록.
-
-### 주요 결과 (Table 2, N=22,398)
-
-| | 처치효과 | 통제 평균 |
-|---|---|---|
-| **AI 의존(전체)** | **−0.043\*\*\*** | 0.305 → **14% 감소** |
-| **최종 정확도** | **−0.027\*\*\*** | 0.791 → **3.4% 감소** |
-| 초기 정확도 | 0.008 **n.s.** | 0.553 |
-| 초기 응답시간 | **+2.10\*** (10%↑) | 21.3초 |
-
-🔴 **대안 채널 셋 배제** — 노력 증가(응답시간↑이나 초기 정확도 불변) · 선별적 채택(Fig A.4에서 **오히려 악화**) · **반사실 시뮬레이션**(통제군 채택 14%를 무작위 기각 → 23.8pp→20.4pp로 처치군 20.3pp와 사실상 동일)
-
-**협업 손실** — AI 단독 85% 초과 비율 **24.7% → 18.5%.** 「성공적 협업자 넷 중 하나를 잃는다」
-
-### ★ 기제 (§4.3)
-
-| 공개 피드백에 넣을 특성 | 통제 | 처치 |
-|---|---|---|
-| 노력 | 57.3% | 48.7% |
-| ★ **자기 판단에 대한 자신감** | 11.9% | **25.8%** — 🔴 **117% 증가** |
-
-**설문 검증(284명)** — 일반은 노력>숙련>자신감이나 🔴 **AI 과업에서 순위 역전.**
-
-### ⭐ §5.2 — 평가자 판단 실측 (Table 3, N=1,860)
-
-**재고용 노동자 93명이 20개 프로필 평가.** 프로필은 **정확도 60/70/80/90 × AI사용 10~60의 설계된 격자.** 0~100점 직접 입력.
-
-| | 점수 계수 |
+| 유형 | 누가 θ를 추론하는가 |
 |---|---|
-| **정확도 (pp)** | **1.00\*\*\*** |
-| ★ **AI 의존 (pp)** | 🔴 **−0.36\*\*\*** |
+| **T1** | **연구자·계량모형**이 관측 성과에서 잠재능력을 추정 |
+| **T2** | **평가자·고용주·HR**가 산출물에서 판단 |
 
-> **평가자는 AI 권고 3개를 더 채택한 것(−1.08점)을 오답 한 개보다 더 무겁게 처벌한다**
+🔴 **T1을 조직 성과평가(T2)로 번역하지 않는다.**
 
-**개인 수준** — 93명 중 **70명이 p<0.10에서 유의**, 🔴 **그중 69명이 음(−).**
+### 원전 검증 3편 — 판정
 
-⚠️ **결정적** — 보수는 **오직 짝지어진 노동자의 2차 세션 정확도에만 연동**됐고 🔴 **감점 규칙도 가중치 표도 지시되지 않았다.** 아무도 시키지 않았는데 69명이 깎았다.
-
-📌 저자 결론 — 「노동자의 믿음은 **자기 자신의 평가자로서의 행동을 반영**한다」
-
-### 명제 판정
-
-| | 명제 | 판정 |
+| 문헌 | 판정 | 등급 |
 |---|---|---|
-| **A** | 가시성이 AI 사용행동을 변화시킨다 | 🟢 **Supported** |
-| **B** | 노동자는 AI 의존이 능력·판단력 signal로 쓰인다고 인식 | 🟢 **Supported** — ⚠️ 「자기 판단 자신감」이지 능력 전반이 아님 |
-| **C** | 평가자가 실제로 그 signal을 사용 | 🟡 **Partially** — 실측은 있으나 **평가자가 HR이 아니라 노동자**이고 판단대상이 **「짝지어지고 싶은 정도」** |
-| **D** | 관찰이 평가 **정확도**를 바꾼다 | 🔴 **Not supported — 검증 자체가 없다** |
-| **E** | I→θ 관계가 **약화**된다 | 🔴 **Not supported** — I→θ의 강도·정확도를 측정하지 않았다 |
+| **Barriers to AI Adoption: Image Concerns at Work** — Almog (2025) arXiv:2511.18582 | 🔴 **Direct-structural** | 🟢 B |
+| **How AI Assistance Affects Human Skill Development** — Wu 등 (2026) HCOMP | 🔴 **Direct-structural** | 🟢🟢 A |
+| **The Impact of AI Usage and Informativeness** — Wu 등 (2026) HHAI | 🟡 **Adjacent** | 🟢🟢 A |
 
-### 🔴 Not established
+### ⭐ 가장 중요한 결론 — Almog–Wu의 공백이 맞물린다
 
-**HR 전문가의 실제 판단 근거** · **평가 정확도**(🔴 데이터셋에 ground truth가 있고 θ도 관측되는데 저자가 그 분석을 하지 않았다) · AI 의존이 실제로 유효한 신호인지 · 조직 내부 재현성
+| | 있는 것 | 없는 것 |
+|---|---|---|
+| **Almog** | 🟢 **평가자가 관측 정보를 실제로 사용** (AI 의존 계수 **−0.36\*\*\***) | 🔴 **그 판단의 정확도** |
+| **Wu HCOMP** | 🟢 **연구자가 θ를 실제로 추정** (베이지안 잠재능력) | 🔴 **평가자** |
 
-### Plan C inference
+🔴 **따라서 둘을 합쳐도 「Human-AI 환경에서 조직평가가 틀린다」는 결론은 낼 수 없다.**
 
-⚠️ **I에 항목이 하나 늘면 θ 판단과 피평가자 행동이 둘 다 바뀐다** · ⚠️ **관측 가능성 자체가 관측 대상을 바꾼다** · ⚠️ **AI 협업에서 신호되는 개인특성이 재편될 수 있다**
+### 반드시 승계할 정정 셋
 
----
-
-## 8. 🔴 진행 중 — Wu 등 (2026) 검증 미완
-
-> **Wu, S., Belem, C. G., Fu, S., Steyvers, M., & Smyth, P. (2026).** How AI Assistance Affects Human Skill Development: A Study of Learning with Logic Puzzles. *HCOMP 2026*, Sept 27–30, Alexandria VA. **DOI 10.1145/3834580.3838741** · arXiv:2608.23543v1 · 전원 **UC Irvine**
-
-🟢 **HCOMP 2026 채택본이다** — 프리프린트가 아니다.
-⚠️ HTML 판본에 템플릿 미기입 흔적(「Woodstock, NY」·「2018」)이 있으니 **게재지로 인용하면 안 된다.**
-📌 **Mark Steyvers가 공저자이고, Almog가 쓴 이미지 데이터셋(Steyvers 등 2022)의 저자와 동일인이다.**
-
-### 🔴 상태 — **원문 미확보. 페치 한도로 두 번 실패.**
-
-### 미완 미션 4항목
-
-| # | 확인할 것 |
+| # | |
 |---|---|
-| **1** | 🔴 **`observed performance = noisy proxy for ability`가 저자의 명시적 주장인지** — 절 위치와 맥락 |
-| **2** | **accuracy / response time / AI usage / solo-share**가 각각 무엇이며 잠재능력 추정에 어떻게 들어가는지 |
-| **3** | 🔴 **「AI 보조 수행으로 이후 무보조 수행을 예측하면 overestimate된다」의 정확한 의미** — **예측오차인지 잠재능력 추정오차인지**, 수치와 criterion |
-| **4** | 🔴 **AI를 많이 쓴 사람이 원래 능력이 낮아서 생긴 selection/confounding을 어떻게 처리했는지** |
+| **1** | 🔴 **Wu HCOMP는 AI 보조 성과 → 잠재능력을 추정하지 않는다.** 모형이 쓰는 신호는 **Phase 1·3의 무보조 성과**이고 Phase 2 성과는 **명시적으로 제외**된다 |
+| **2** | 🔴 **「과대추정(−0.22)」은 예측오차이지 잠재능력 추정오차가 아니다.** Phase 2 reward rate로 Phase 3를 예측한 별도 회귀의 잔차다 |
+| **3** | 🔴 **Wu HHAI의 `informativeness`는 AI가 드러내는 객체 개수(1개 vs 3개)다.** 우리 「평가정보가 θ에 대해 갖는 정보성」과 **방향이 반대**다 — 이쪽은 AI→인간, 우리 것은 인간→평가자 |
 
-**추가** — evaluator 존재 여부(없으면 **T1로 명확히 기록**) · 저자가 `collaboration`이라 부르는지 · N · θ 표기 사용 여부
+### 🟢🟢 기계 검증으로 확정된 부재
 
-**별도 판정할 넷** — ① AI 보조 성과와 기저 능력이 동일한가 ② AI 보조 성과가 능력 추정 정보로 사용되는가 ③ 그 정보의 accuracy/validity를 검증하는가 ④ 이후 무보조 성과 예측만 검증하는가
-
-**받는 즉시 grep할 문자열** — `noisy proxy` · `evaluator` · `collaboration` · `solo share` · `overestimat` · `informativeness` · `diagnostic` · `signal`
-
-### 초록·발췌 수준 (Level C — provisional)
-
-| | |
+| 논문 | 0회로 확인된 문자열 |
 |---|---|
-| 구조 | 🟢 **AI 이전 / AI 사용 가능 / AI 제거 후 3단계** · on-demand AI assistance |
-| 조작 | **AI 요청 비용** 변동 → 낮은 비용이 더 빈번한 사용 유도 |
-| 결과 1 | AI를 요청한 참가자가 **지원 제거 후 더 나쁨** |
-| 결과 2 | 🔴 **이후 무보조 수행이 앞선 AI 보조 수행으로부터 예측될 때 과대추정** |
-| 모형 | **베이지안 잠재능력 모형**으로 **초기 능력 · AI 이후 능력 · 참가자별 숙련 변화** 분리 |
-| Table 1 | **solo-share 모형이 최고 예측** (5-fold held-out) |
-| Figure 5 잔차 | 비AI 사용자 **+0.15** · AI 사용자 **−0.22** — 🔴 **부호 반대** |
-| 사전분포 | 약한 정보 사전분포 · **모형 적합 전 표준화** |
+| **Wu HCOMP** | `evaluator`·`manager`·`HR`·`supervisor`·`employer` · `validity` |
+| **Wu HHAI** | 위와 동일 + `proxy` · `causal` · `associational` · `Bayesian`(본문) |
 
-⚠️ **초록에 `collaboration`이 없다.** 본문 확인 필요.
+📌 **즉 「평가자가 없다」와 「타당도를 검증하지 않았다」가 정독 판단이 아니라 기계 확정이다.**
 
-### ⭐ 선행논문 — 후속 확보 대상
+## 8. 🔴 다음 작업 — Steyvers 등 (2022) 원전 검증
 
-> **Wu, S., Yao, H., Belém, C., Fu, S., Steyvers, M., & Smyth, P. (2026).** The impact of AI usage and informativeness on skill development in logical reasoning. *HHAI 2026*, pp. 145–159.
+> **Bayesian modeling of human–AI complementarity** — Steyvers, M., Tejeda, H., Kerrigan, G., & Smyth, P. (2022). *PNAS* **119**(11), e2111547119
+> 🟢 **PDF 확보됨** (2026-09-07)
 
-🔴 본 논문 §1·§2·§3.1에서 인용. **제목의 `informativeness`를 우리 평가정보 informativeness와 동일시하지 않는다.**
+🔴 **Wu HHAI · Wu HCOMP · Almog의 공통 상류다.** Almog는 이 논문의 **이미지 80장과 VGG-19 예측**을 썼고, Wu 둘은 **complementarity 문헌군 대표**로 인용한다.
 
----
+### 작업 목적
+
+🔴 **「Human-AI collaboration 이론」으로 채택하려는 것이 아니다.** **human ability · AI performance · reliance/advice use · combined joint performance를 어떤 구조로 구분하고 모델링하는지** 확인하는 것이다.
+
+### 확인 항목
+
+| # | |
+|---|---|
+| **1** | 서지 확정 — DOI · article number · publication status · 🟢🟢 **Level A 기계검증** |
+| **2** | **구조 특정** — 과업 · 인간이 먼저 독립 판단하는가 · AI 권고를 언제 보는가 · 최종 판단 주체 · 저자가 자기 구조를 **collaboration / complementarity / team / decision-making / advice 중 무엇으로 부르는가**. 🔴 **우리 임의의 정의를 씌우지 않는다** |
+| **3** | **complementarity의 정확한 정의** — 단순히 human+AI > human-alone/AI-alone인가 · **수학적·통계적 정의가 있는가** · individual human ability와의 관계 · 발생 조건 |
+| **4** | **observable과 latent 분리** — human-alone accuracy · AI accuracy/confidence · agreement/disagreement · advice taking · response time. 🔴 **`observable human performance → latent human ability` 구조를 실제로 갖는지** |
+| **5** | **Bayesian model 구조** — 무엇을 latent로 추정 · observable inputs · **human ability와 AI ability를 어떻게 분리** · joint performance의 생성 모형 · individual differences 처리. 🔴 **수식과 저자 용어 그대로, Plan C 용어로 번역하지 않는다** |
+| **6** | ⭐ **A~E 별도 판정** — A) AI 보조·최종 성과가 human-alone ability와 구별되는가 B) **동일한 joint performance가 서로 다른 ability 수준에서 나올 수 있는가** C) AI 활용능력·reliance·calibration이 joint performance에 독립적으로 영향을 주는가 D) **저자가 joint performance로 human ability를 추론하려 하는가** E) **joint performance가 ability의 좋은/나쁜 signal인지 검증하는가** |
+| **7** | **Wu와의 계보** — 🔴 **citation context 기준으로 판정.** HCOMP의 잠재능력 모형이 여기서 직접 이어지는가, 아니면 별도 심리측정 계보인가. 📌 **현재 확인된 것: HCOMP는 Lord & Novick(2008)·Embretson & Reise(2025)를 인용하고 Steyvers는 complementarity 문헌군 대표로만 인용한다** |
+| **8** | **Almog과의 관계** — 어떤 dataset/task component를 가져왔는가 · Almog의 **human-first → AI recommendation → human-final** 구조가 Steyvers와 같은가. 🔴 **저자 중복이 아니라 연구구조의 계보를 본다** |
+| **9** | **평가/HR 여부** — manager·supervisor·HR·employer·evaluator 존재 확인. 🔴 **없으면 organizational appraisal 근거로 번역하지 않는다** |
+| **10** | **세 층 판정** + 네 축: **Direct to Human-AI complementarity?** / **Direct to I→θ estimation?** / **Direct to joint-performance → human-ability inference?** / **Direct to organizational appraisal?** |
+
+### 핵심 질문
+
+> **Steyvers 등은 Human과 AI가 함께 수행할 때 인간의 능력, AI의 능력, AI 사용행동, 최종 공동성과를 어떤 관계로 분리해서 모델링하며, 공동성과로부터 인간 개인을 판단하는 문제까지 실제로 다루는가?**
+
+⚠️ **받는 즉시 grep할 문자열** — `evaluator` · `manager` · `supervisor` · `employer` · `latent` · `validity` · `proxy` · `complementarity` · `collaboration` · `ability`
 
 ## 9. 작업규칙 — 위반이 가장 비싼 것
 
@@ -366,47 +301,38 @@ observable / inferential information  I  →  judgment about latent individual c
 
 ## 10. 🔴 확보 필요 논문
 
-### 1순위
+> 🔴 **문헌을 요청하거나 언급할 때는 항상 제목을 함께 쓴다.** 저자만 쓰면 동일 저자의 다른 논문과 구별되지 않는다 — 실제로 Wu 논문이 둘이었다. **연구자 지시(2026-09-07).**
 
-| # | 서지 | 접근 |
-|---|---|---|
-| **1** | **Wu 등 (2026)** HCOMP · arXiv:2608.23543 | 🟢 arXiv 무료 |
+### 🟢 확보 완료 — 2026-09-07 기준
 
-### 2순위 — I→θ 계보
-
-| # | 서지 |
+| 제목 · 서지 | 검증 |
 |---|---|
-| **2** | **Caplin, A., Deming, D. J., Li, S., Martin, D. J., Marx, P., Weidmann, B., & Ye, K. J. (2025).** The ABC's of Who Benefits From Working With AI: Ability, Beliefs, and Calibration. *Management Science* (forthcoming) |
-| **3** | **Wu, S., Yao, H., Belém, C., Fu, S., Steyvers, M., & Smyth, P. (2026).** *HHAI 2026*, pp. 145–159 |
-| **4** | **Almog, D. (2025).** AI Recommendations and Non-Instrumental Image Concerns. SSRN WP 5232232 |
+| **How AI Assistance Affects Human Skill Development: A Study of Learning with Logic Puzzles** — Wu, S., Belem, C. G., Fu, S., Steyvers, M., & Smyth, P. (2026). *HCOMP 2026*. DOI 10.1145/3834580.3838741 | 🟢🟢 **A · 검증 완료** |
+| **The Impact of AI Usage and Informativeness on Skill Development in Logical Reasoning** — Wu, S., Yao, H., Belém, C., Fu, S., Steyvers, M., & Smyth, P. (2026). *HHAI 2026*, pp. 145–159. DOI 10.3233/FAIA260500 | 🟢🟢 **A · 검증 완료** |
+| **Bayesian modeling of human–AI complementarity** — Steyvers, M., Tejeda, H., Kerrigan, G., & Smyth, P. (2022). *PNAS* 119(11), e2111547119 | 🔴 **다음 대상 — §8** |
+| **The ABC's of Who Benefits From Working With AI: Ability, Beliefs, and Calibration** — Caplin, A., Deming, D. J., Li, S., Martin, D. J., Marx, P., Weidmann, B., & Ye, K. J. (2025). *Management Science* | ⬜ 미검증 |
+| **Evidence of a social evaluation penalty for using AI** — Reif, J. A., Larrick, R. P., & Soll, J. B. (2025). *PNAS* 122(6). DOI 10.1073/pnas.2426766122 | ⬜ 미검증 |
+| **Peer perceptions of clinicians using generative AI in medical decision-making** — Yang, H., Dai, T., Mathioudakis, N., Knight, A. M., Nakayasu, Y., & Wolf, R. M. (2025). *npj Digital Medicine* 8(530) | ⬜ 미검증 |
+| **AI Recommendations and Non-Instrumental Image Concerns** — Almog, D. (2025). SSRN WP 5232232 | ⬜ 미검증 |
+| **Moral hazard and observability** — Holmström, B. (1979). *Bell Journal of Economics* 10, 74–91 | ⬜ 미검증 |
+| **Sensitivity, precision, and linear aggregation of signals for performance evaluation** — Banker, R. D., & Datar, S. M. (1989). *Journal of Accounting Research* | ⬜ 미검증 · ⬜ 권·호·쪽 미확인 |
+| **Incentive contracts and performance measurement** — Baker, G. (1992). *JPE* 100(3), 598–614 | ⬜ 미검증 |
+| **The relationship between perceived appraisal accuracy, appraisal-related behavior, and instrumentality beliefs** — Vest 등 (1995) *JBP* 10(2), 207–220 | 🟢 기존 검증분 |
 
-### 3순위 — Almog 검증에서 파생
+### 🔴 미확보
 
-| # | 서지 |
+| 제목 · 서지 | 비고 |
 |---|---|
-| **5** | **Reif, J. A., Larrick, R. P., & Soll, J. B. (2025).** Evidence of a social evaluation penalty for using AI. *PNAS* 122(6). DOI 10.1073/pnas.2426766122 |
-| **6** | **Yang, H., Dai, T., Mathioudakis, N., Knight, A. M., Nakayasu, Y., & Wolf, R. M. (2025).** Peer perceptions of clinicians using generative AI in medical decision-making. *npj Digital Medicine* 8(530) |
-| **7** | **Steyvers, M., Tejeda, H., Kerrigan, G., & Smyth, P. (2022).** Bayesian modeling of human–AI complementarity. *PNAS* 119(11) — 🔴 **Wu와 Almog 둘 다의 상류** |
-
-### 4순위 — 정보성 계보
-
-| # | 서지 |
-|---|---|
-| **8** | **Holmström, B. (1979).** Moral hazard and observability. *Bell Journal of Economics* 10, 74–91 |
-| **9** | **Banker, R. D., & Datar, S. M. (1989).** Sensitivity, precision, and linear aggregation of signals for performance evaluation. *Journal of Accounting Research*. ⬜ 권·호·쪽 미확인 |
-| **10** | **Baker, G. (1992).** Incentive contracts and performance measurement. *JPE* 100(3), 598–614 |
-
-### 5순위 — 평가문헌
-
-| # | 서지 |
-|---|---|
-| **11** | **Landy, F. J., & Farr, J. L. (1980).** Performance rating. *Psychological Bulletin* 87(1), 72–107 |
-| **12** | **Jacobs, R., Kafry, D., & Zedeck, S. (1980).** *Personnel Psychology* 33(3), 595–640. DOI 10.1111/j.1744-6570.1980.tb00486.x |
-| **13** | **Borman, W. C. (1974).** *Organizational Behavior and Human Performance*. 🔴 **제목·권·쪽 미확인 — 조회 불가** |
-
-### ⬜ 서지 미확정
-
-**Lee 등 (2026)** *Sci Rep* 16, 13583 · **Qin 등 (2025)** *CHI '25* Art.25 DOI 10.1145/3706598.3713146 · **Otis 등** HBS WP 24-042 (🔴 2025-10 개정본) · **Harris & Schaubroeck (1988)** *Pers Psych* 41(1), 43–62 (⚠️ 대상 적합성 재확인 후) · **Prendergast & Topel (1992)** · **Farr & Newman (2001)**
+| **Subjective Performance Measures in Optimal Incentive Contracts** — Baker, G., Gibbons, R., & Murphy, K. J. (1994). *QJE* 109(4), 1125–1156 | 🟢 **이미 Level B 정독.** PDF는 부재 판정 확정용 |
+| **Production, Information Costs, and Economic Organization** — Alchian, A. A., & Demsetz, H. (1972). *AER* 62(5), 777–795 | 🟢 **이미 Level B 정독.** 동일 |
+| **Performance rating** — Landy, F. J., & Farr, J. L. (1980). *Psychological Bulletin* 87(1), 72–107 | 5순위 |
+| **Expectations of behaviorally anchored rating scales** — Jacobs, R., Kafry, D., & Zedeck, S. (1980). *Personnel Psychology* 33(3), 595–640. DOI 10.1111/j.1744-6570.1980.tb00486.x | 5순위 |
+| **Relying on AI at work reduces self-efficacy, ownership, and meaning while active collaboration mitigates the effects** — Lee, E. H., Yin, Y., Jia, N., & Wakslak, C. (2026). *Scientific Reports* 16, 13583 | |
+| **Timing Matters: How Using LLMs at Different Timings Influences Writers' Perceptions and Ideation Outcomes in AI-Assisted Ideation** — Qin, P., Yang, C.-L., Li, J., Wen, J., & Lee, Y.-C. (2025). *CHI '25*, Article 25. DOI 10.1145/3706598.3713146 | |
+| **The Uneven Impact of Generative AI on Entrepreneurial Performance** — Otis, N., Clarke, R., Delecourt, S., Holtz, D., & Koning, R. HBS WP 24-042 | 🔴 **2025-10 개정본** |
+| **The rating of individuals in organizations: An alternate approach** — Borman, W. C. (1974). *OBHP* | 🔴 **제목 추정. 권·쪽 미확인 — 조회 불가** |
+| **A meta-analysis of self-supervisor, self-peer, and peer-supervisor ratings** — Harris, M. M., & Schaubroeck, J. (1988). *Personnel Psychology* 41(1), 43–62 | ⚠️ **대상 적합성 재확인 후** |
+| **Prendergast & Topel (1992)** · **Farr & Newman (2001)** | 🔴 서지 미확정 |
 
 ---
 
@@ -420,7 +346,7 @@ observable / inferential information  I  →  judgment about latent individual c
 | **4** | **Claude 정정** — 게재상태·저자순서·Cui 하향·Almog 하향 | `05-corrections-log` |
 | **5** | **Stage 2 설계** — O-1/O-2/O-3 · 8축 격자 · 4라운드 | 새 파일 |
 | **6** | **평가문헌 지형** — 관찰 기회 · 다면평가 · BARS/BOS · accuracy 용어 판정 | 새 파일 |
-| **7** | **Human-AI 지형 + Almog 검증** — S1/S2 · 신호 정보성 계보 | 새 파일 (`13-`) |
+| ~~**7**~~ | ~~Human-AI 지형 + Almog 검증~~ | 🟢 **완료 — `13-humanai-landscape-260907`** |
 | **8** | **Level A/B/C를 `02-working-rules` §4에 반영** | `02-working-rules` |
 | **9** | 🆕 **I→θ 정리** — θ의 성격 · 접근을 막는 것 셋 · observable≠verifiable · 세 갈래 질문 | `11-proposition-map` 또는 새 파일 |
 
@@ -457,6 +383,7 @@ observable / inferential information  I  →  judgment about latent individual c
   10-stage1-log.md        Stage 1 라운드 기록
   11-proposition-map.md   명제 분해 P0~P6
   12-midpoint-260904.md   ⭐ Human-Human baseline 확정
+  13-humanai-landscape-260907.md  ⭐ Human-AI 지형 + 원전 검증 3편
   99-HANDOFF.md           ← 이 파일
   _archive-v1/            ⬛ 폐기된 Plan C 초기본
 9-FutureResearch/         작업선과 독립. 역량 가지·D vs E 보관
@@ -487,8 +414,9 @@ observable / inferential information  I  →  judgment about latent individual c
 | **1** | `00-CONSTITUTION` · `02-working-rules` 정독. **역할과 다섯 층 구분을 먼저 내재화** |
 | **2** | 🔴 **`05-corrections-log` 정독** — 같은 오류를 반복하지 않기 위해 |
 | **3** | `12-midpoint-260904` 정독 — Human-Human baseline이 확정된 상태 |
-| **4** | §8의 **Wu 검증 미완 미션** 이어받기 (PDF 필요) |
-| **5** | §11의 미반영 9건을 파일로 옮기고 커밋 |
+| **4** | `13-humanai-landscape-260907` 정독 — Almog·Wu 둘의 검증이 끝난 상태 |
+| **5** | §8의 **Steyvers 등 (2022) 검증** 착수 — 🟢 **PDF 확보됨** |
+| **6** | §11의 미반영 항목을 파일로 옮기고 커밋 |
 
 ⚠️ **모형·가설·construct·gap을 제안하지 않는다.** 그건 GPT 몫이고, 지금은 그 단계가 아니다.
 
