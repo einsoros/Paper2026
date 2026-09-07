@@ -3,7 +3,7 @@ date: 2026-09-07
 type: handoff
 project: Paper2026 / PlanC
 status: 스레드 인수인계 문서. 새 스레드를 열면 이 파일을 가장 먼저 읽는다
-related: ["[[00-CONSTITUTION]]", "[[01-phenomenon]]", "[[02-working-rules]]", "[[03-stages]]", "[[04-open-items]]", "[[05-corrections-log]]", "[[10-stage1-log]]", "[[11-proposition-map]]", "[[12-midpoint-260904]]", "[[13-humanai-landscape-260907]]"]
+related: ["[[00-CONSTITUTION]]", "[[01-phenomenon]]", "[[02-working-rules]]", "[[03-stages]]", "[[04-open-items]]", "[[05-corrections-log]]", "[[10-stage1-log]]", "[[11-proposition-map]]", "[[12-midpoint-260904]]", "[[13-humanai-landscape-260907]]", "[[14-reading-principles-260907]]", "[[15-mapping-H-I-theta]]"]
 tags: [PlanC, Handoff, 인수인계]
 ---
 
@@ -131,7 +131,24 @@ observable / inferential information  I  →  judgment about latent individual c
 
 ⚠️ **③④는 Plan C inference다. 어느 문헌도 AI에 대해 이 구분을 하지 않았다.**
 
-### 문헌 유형 구분 — 검색·분류용
+### 🔴 09-07 관점 교정 — `14-reading-principles-260907`이 기준이다
+
+| # | 원칙 |
+|---|---|
+| **1** | 🔴 **목적은 critique가 아니라 differentiation / positioning.** 「실패했다」·「해결하지 못했다」·「한계는 ○○다」를 쓰지 않는다. **`우회로`·`작동을 멈추는 조건` 같은 함축 표현도 금지** |
+| **2** | 🔴 **I→θ를 단일 화살표로 자동 해석하지 않는다.** 다섯 관계 구분 — ① information formation / observability ② information → evaluator judgment ③ observed information → researcher-estimated latent target ④ **evaluator judgment → underlying target accuracy / validity** ⑤ rating reliability 등 measurement property. **한 관계 검증이 나머지를 검증하지 않는다** |
+| **3** | 🔴 **H를 두 칸으로 분리** — **H-A**(work/production) · **H-B**(evaluation/inference/research) |
+| **4** | 🔴 **θ는 placeholder.** 관측값을 θ 칸에 넣지 않는다. 서로 다른 θ를 「개인성과」로 합치지 않는다. **rating의 측정속성은 θ가 아니다** |
+| **5** | 🔴 **논문 전체 단일 판정을 하지 않는다.** 「무엇에 대해 Direct인가」를 관계별로 |
+| **6** | 🔴 **Human-AI를 하나의 H로 묶지 않는다.** 반복 상호작용만을 포함조건으로 삼지 않는다. **output과 process를 모두 열어둔다** |
+| **7** | 🔴 **오류 A(너무 빨리 논문화)와 오류 B(끝없이 근본으로)를 동시에 경계.** 판단 기준 — **「이 문제를 확인하지 않으면 최초 질문을 학문적으로 설명할 수 없는가?」** |
+| **8** | 🔴 **시간은 epistemic stopping rule이 아니다.** 「몇 라운드 뒤 확정」을 쓰지 않는다. **「어떤 불확실성을 판별하면 의사결정이 가능해지는가」**를 정한다 |
+| **9** | 🔴 **research → meeting content.** 교수 의견은 중요한 입력이나 최초 문제 구조의 최고위 전제가 아니다 |
+| **10** | 🔴 **문헌 언급 시 항상 제목을 쓴다** |
+
+📌 **관계별 매핑은 `15-mapping-H-I-theta`(열 편 H-A/H-B/I/θ/관계종류).**
+
+### 문헌 유형 구분 — 보조
 
 | 유형 | 누가 θ를 추론하는가 |
 |---|---|
@@ -243,37 +260,43 @@ observable / inferential information  I  →  judgment about latent individual c
 
 📌 **즉 「평가자가 없다」와 「타당도를 검증하지 않았다」가 정독 판단이 아니라 기계 확정이다.**
 
-## 8. 🔴 다음 작업 — Steyvers 등 (2022) 원전 검증
+## 8. 🟢 원전 검증 완료 — 열 편 · 다음 단계
 
-> **Bayesian modeling of human–AI complementarity** — Steyvers, M., Tejeda, H., Kerrigan, G., & Smyth, P. (2022). *PNAS* **119**(11), e2111547119
-> 🟢 **PDF 확보됨** (2026-09-07)
+### 검증 완료
 
-🔴 **Wu HHAI · Wu HCOMP · Almog의 공통 상류다.** Almog는 이 논문의 **이미지 80장과 VGG-19 예측**을 썼고, Wu 둘은 **complementarity 문헌군 대표**로 인용한다.
+| 문헌 | 등급 | 기록 |
+|---|---|---|
+| **Production, Information Costs, and Economic Organization** — Alchian & Demsetz (1972) | 🟢 B | `12-midpoint` · `15-mapping` ① |
+| **Behavioral Observation Scales for Performance Appraisal Purposes** — Latham & Wexley (1977) | 🟢🟢 A | `15-mapping` ② |
+| **Interrater Reliability of Job Performance Ratings** — Rothstein (1990) | 🟢🟢 A | `15-mapping` ③ |
+| **Subjective Performance Measures in Optimal Incentive Contracts** — Baker, Gibbons & Murphy (1994) | 🟢 B | `12-midpoint` · `15-mapping` ④ |
+| **How do managers evaluate individual contributions to team production?** — Uribe 등 (2022) | 🟢🟢 A | `12-midpoint` · `15-mapping` ⑤ |
+| **Bayesian modeling of human–AI complementarity** — Steyvers 등 (2022) | 🟢🟢 A | `13-` §8 · `15-mapping` ⑥ |
+| **Barriers to AI Adoption: Image Concerns at Work** — Almog (2025) | 🟢 B | `13-` §2 · `15-mapping` ⑦ |
+| **How AI Assistance Affects Human Skill Development** — Wu 등 (2026) HCOMP | 🟢🟢 A | `13-` §3 · `15-mapping` ⑧ |
+| **The Impact of AI Usage and Informativeness** — Wu 등 (2026) HHAI | 🟢🟢 A | `13-` §4 · `15-mapping` ⑨ |
+| **"I Didn't Make the Micro Decisions"** — Kim 등 (2026) | 🟢🟢 A | `15-mapping` ⑩ |
 
-### 작업 목적
+### 🔴 다음 단계 — 검색 방향
 
-🔴 **「Human-AI collaboration 이론」으로 채택하려는 것이 아니다.** **human ability · AI performance · reliance/advice use · combined joint performance를 어떤 구조로 구분하고 모델링하는지** 확인하는 것이다.
+**GPT 지령(09-07)** — 다음 문헌탐색의 목적은 **최초에 관찰한 Human-AI 업무현상을 설명하기 위해 필요한 `production structure → output/process information → individual judgment`의 연결관계를 기존 Human-AI 및 HRM/OB 문헌이 어디까지 설명하고 있는지 확인**하는 것
 
-### 확인 항목
-
-| # | |
+| 원칙 | |
 |---|---|
-| **1** | 서지 확정 — DOI · article number · publication status · 🟢🟢 **Level A 기계검증** |
-| **2** | **구조 특정** — 과업 · 인간이 먼저 독립 판단하는가 · AI 권고를 언제 보는가 · 최종 판단 주체 · 저자가 자기 구조를 **collaboration / complementarity / team / decision-making / advice 중 무엇으로 부르는가**. 🔴 **우리 임의의 정의를 씌우지 않는다** |
-| **3** | **complementarity의 정확한 정의** — 단순히 human+AI > human-alone/AI-alone인가 · **수학적·통계적 정의가 있는가** · individual human ability와의 관계 · 발생 조건 |
-| **4** | **observable과 latent 분리** — human-alone accuracy · AI accuracy/confidence · agreement/disagreement · advice taking · response time. 🔴 **`observable human performance → latent human ability` 구조를 실제로 갖는지** |
-| **5** | **Bayesian model 구조** — 무엇을 latent로 추정 · observable inputs · **human ability와 AI ability를 어떻게 분리** · joint performance의 생성 모형 · individual differences 처리. 🔴 **수식과 저자 용어 그대로, Plan C 용어로 번역하지 않는다** |
-| **6** | ⭐ **A~E 별도 판정** — A) AI 보조·최종 성과가 human-alone ability와 구별되는가 B) **동일한 joint performance가 서로 다른 ability 수준에서 나올 수 있는가** C) AI 활용능력·reliance·calibration이 joint performance에 독립적으로 영향을 주는가 D) **저자가 joint performance로 human ability를 추론하려 하는가** E) **joint performance가 ability의 좋은/나쁜 signal인지 검증하는가** |
-| **7** | **Wu와의 계보** — 🔴 **citation context 기준으로 판정.** HCOMP의 잠재능력 모형이 여기서 직접 이어지는가, 아니면 별도 심리측정 계보인가. 📌 **현재 확인된 것: HCOMP는 Lord & Novick(2008)·Embretson & Reise(2025)를 인용하고 Steyvers는 complementarity 문헌군 대표로만 인용한다** |
-| **8** | **Almog과의 관계** — 어떤 dataset/task component를 가져왔는가 · Almog의 **human-first → AI recommendation → human-final** 구조가 Steyvers와 같은가. 🔴 **저자 중복이 아니라 연구구조의 계보를 본다** |
-| **9** | **평가/HR 여부** — manager·supervisor·HR·employer·evaluator 존재 확인. 🔴 **없으면 organizational appraisal 근거로 번역하지 않는다** |
-| **10** | **세 층 판정** + 네 축: **Direct to Human-AI complementarity?** / **Direct to I→θ estimation?** / **Direct to joint-performance → human-ability inference?** / **Direct to organizational appraisal?** |
+| 🔴 | **반복적 joint production 문헌만으로 검색범위를 제한하지 않는다** |
+| ⭕ | **Human-AI 결합 산출물의 형성방식 · AI-assisted/joint performance의 의미 · interaction 구조 · 그것이 human individual performance/ability/contribution과 어떻게 구분 또는 연결되는지**를 폭넓게 후보화 |
 
-### 핵심 질문
+### ⬜ 미검증 확보분
 
-> **Steyvers 등은 Human과 AI가 함께 수행할 때 인간의 능력, AI의 능력, AI 사용행동, 최종 공동성과를 어떤 관계로 분리해서 모델링하며, 공동성과로부터 인간 개인을 판단하는 문제까지 실제로 다루는가?**
-
-⚠️ **받는 즉시 grep할 문자열** — `evaluator` · `manager` · `supervisor` · `employer` · `latent` · `validity` · `proxy` · `complementarity` · `collaboration` · `ability`
+| 제목 · 서지 | 왜 |
+|---|---|
+| **The ABC's of Who Benefits From Working With AI: Ability, Beliefs, and Calibration** — Caplin, A., Deming, D. J., Li, S., Martin, D. J., Marx, P., Weidmann, B., & Ye, K. J. (2025). *Management Science* | ⭐ **능력·신념·보정을 개인 수준에서 분리 측정.** 🔴 **Steyvers가 개인차를 모형화하지 않았음이 확정됐으므로, 개인차를 다룬 유일한 확보분** |
+| **Evidence of a social evaluation penalty for using AI** — Reif, J. A., Larrick, R. P., & Soll, J. B. (2025). *PNAS* 122(6). DOI 10.1073/pnas.2426766122 | S1 계보의 유일한 정식 게재 실증. 사전등록 4건 N=4,439 |
+| **Peer perceptions of clinicians using generative AI in medical decision-making** — Yang, H., Dai, T., Mathioudakis, N., Knight, A. M., Nakayasu, Y., & Wolf, R. M. (2025). *npj Digital Medicine* 8(530) | 동료가 AI 사용자를 임상역량 약하다고 평가 |
+| **AI Recommendations and Non-Instrumental Image Concerns** — Almog, D. (2025). SSRN WP 5232232 | Almog 동반 논문. 비금전적 이미지 우려 |
+| **Moral hazard and observability** — Holmström, B. (1979). *Bell Journal of Economics* 10, 74–91 | 정보성 원리 원전 |
+| **Sensitivity, precision, and linear aggregation of signals for performance evaluation** — Banker, R. D., & Datar, S. M. (1989). *Journal of Accounting Research* ⬜ 권·호·쪽 미확인 | 민감도·정밀도 분해 |
+| **Incentive contracts and performance measurement** — Baker, G. (1992). *JPE* 100(3), 598–614 | BGM의 명시계약 벤치마크 |
 
 ## 9. 작업규칙 — 위반이 가장 비싼 것
 
@@ -346,9 +369,10 @@ observable / inferential information  I  →  judgment about latent individual c
 | **4** | **Claude 정정** — 게재상태·저자순서·Cui 하향·Almog 하향 | `05-corrections-log` |
 | **5** | **Stage 2 설계** — O-1/O-2/O-3 · 8축 격자 · 4라운드 | 새 파일 |
 | **6** | **평가문헌 지형** — 관찰 기회 · 다면평가 · BARS/BOS · accuracy 용어 판정 | 새 파일 |
-| ~~**7**~~ | ~~Human-AI 지형 + Almog 검증~~ | 🟢 **완료 — `13-humanai-landscape-260907`** |
-| **8** | **Level A/B/C를 `02-working-rules` §4에 반영** | `02-working-rules` |
-| **9** | 🆕 **I→θ 정리** — θ의 성격 · 접근을 막는 것 셋 · observable≠verifiable · 세 갈래 질문 | `11-proposition-map` 또는 새 파일 |
+| ~~**7**~~ | ~~Human-AI 지형 + 원전 검증~~ | 🟢 **완료 — `13-humanai-landscape-260907`** |
+| ~~**8**~~ | ~~Level A/B/C 반영~~ | 🟢 **완료 — `14-reading-principles-260907` §9** |
+| **9** | **I→θ 정리** — θ의 성격 · 접근을 막는 것 셋(비용·관찰기회·검증가능성) · observable≠verifiable | `11-proposition-map` |
+| ~~**10**~~ | ~~관점 교정 원칙 · 독해원칙 · 매핑~~ | 🟢 **완료 — `14-` · `15-`** |
 
 🔴 **1·2·3이 09-08 면담 자료의 핵심이다.**
 
@@ -383,7 +407,9 @@ observable / inferential information  I  →  judgment about latent individual c
   10-stage1-log.md        Stage 1 라운드 기록
   11-proposition-map.md   명제 분해 P0~P6
   12-midpoint-260904.md   ⭐ Human-Human baseline 확정
-  13-humanai-landscape-260907.md  ⭐ Human-AI 지형 + 원전 검증 3편
+  13-humanai-landscape-260907.md  ⭐ Human-AI 지형 + 원전 검증 4편
+  14-reading-principles-260907.md ⭐ 독해원칙 — differentiation · 다섯 관계 · H 분리
+  15-mapping-H-I-theta.md         ⭐ H-I-θ 매핑 v2 — 열 편 분류
   99-HANDOFF.md           ← 이 파일
   _archive-v1/            ⬛ 폐기된 Plan C 초기본
 9-FutureResearch/         작업선과 독립. 역량 가지·D vs E 보관
@@ -414,9 +440,10 @@ observable / inferential information  I  →  judgment about latent individual c
 | **1** | `00-CONSTITUTION` · `02-working-rules` 정독. **역할과 다섯 층 구분을 먼저 내재화** |
 | **2** | 🔴 **`05-corrections-log` 정독** — 같은 오류를 반복하지 않기 위해 |
 | **3** | `12-midpoint-260904` 정독 — Human-Human baseline이 확정된 상태 |
-| **4** | `13-humanai-landscape-260907` 정독 — Almog·Wu 둘의 검증이 끝난 상태 |
-| **5** | §8의 **Steyvers 등 (2022) 검증** 착수 — 🟢 **PDF 확보됨** |
-| **6** | §11의 미반영 항목을 파일로 옮기고 커밋 |
+| **4** | 🔴 **`14-reading-principles-260907` 정독 — 판정 방식이 여기서 정해진다** |
+| **5** | `15-mapping-H-I-theta` 정독 — 열 편이 서로 다른 관계를 다룬다는 것 |
+| **6** | `13-humanai-landscape-260907` — Human-AI 원전 검증 4편 |
+| **7** | §11의 미반영 항목을 파일로 옮기고 커밋 |
 
 ⚠️ **모형·가설·construct·gap을 제안하지 않는다.** 그건 GPT 몫이고, 지금은 그 단계가 아니다.
 

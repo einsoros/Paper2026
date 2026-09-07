@@ -611,3 +611,184 @@ Phase 3:  A_i3 | θ_i3 ~ 𝒩(μ_A + θ_i3, σ_A)
 | **6** | 정보성 계보 셋 — **Moral hazard and observability**(1979) · **Sensitivity, precision, and linear aggregation of signals**(1989) · **Incentive contracts and performance measurement**(1992) | 🟢 확보 |
 
 ⚠️ **미확보** — **Subjective Performance Measures in Optimal Incentive Contracts**(BGM 1994) · **Production, Information Costs, and Economic Organization**(A&D 1972). 🔴 **둘은 이미 Level B로 정독했으므로 PDF는 부재 판정 확정용이다.**
+
+
+---
+
+## 8. ⭐ Steyvers 등 (2022) 원문 검증 — 09-07
+
+> **Bayesian modeling of human–AI complementarity** — Steyvers, M., Tejeda, H., Kerrigan, G., & Smyth, P. (2022). *PNAS* **119**(11), e2111547119. DOI 10.1073/pnas.2111547119
+> **7 pages** · 참고문헌 71편 · **Edited by Terrence Sejnowski** · 접수 2021-06-24 · 게재확정 2022-01-17 · 공개 2022-03-11 · 🟢 **CC BY 4.0** · **PNAS Direct Submission**
+> 소속 — **a: UC Irvine 인지과학과**(Steyvers, Tejeda) · **b: UC Irvine 컴퓨터과학과**(Kerrigan, Smyth)
+> 저자 기여 — M.S. & P.S. 연구설계 · M.S. & H.T. 수행 · M.S., H.T., G.K. 분석 · **G.K. 이론분석** · M.S. & P.S. 집필
+> 🟢 **데이터·코드 OSF 공개** · 🟢🟢 **Level A**
+
+### 🟢🟢 기계 검증
+
+| 문자열 | 횟수 | 함의 |
+|---|---|---|
+| `complementarit` | **34** | 🟢 핵심 개념 |
+| `latent` | **19** | 🟢 잠재변수 사용 |
+| `ability` | **19** | ⚠️ 대부분 `abilities`·`variability` |
+| `team` | 10 | 🔴 **전부 참고문헌 제목** |
+| `collaborat` | 3 | 🔴 **JSTOR 문구 1 · Discussion 1 · 참고문헌 1** |
+| `calibrat` | 2 | — |
+| `advice` | 1 | Discussion |
+| 🔴 `evaluator`·`manager`·`supervisor`·`employer` | **0** | **평가자 없음 — 확정** |
+| 🔴 `validity` | **0** | **타당도 검증 없음 — 확정** |
+| 🔴 `proxy` | **0** | **noisy proxy 진술 없음 — 확정** |
+| 🔴 `reliance` | **0** | **의존 개념 없음 — 확정** |
+
+### 🔴 구조 — 동시 독립 예측의 사후 통계 결합
+
+| | |
+|---|---|
+| **인간 자료** | **145명이 각 200장 분류 → 28,997건.** 16범주. 각 분류마다 **이산 확신도**(low/medium/high). 🔴 **이미지당 최소 6명** |
+| **기계 자료** | **5개 CNN**(AlexNet·DenseNet161·GoogleNet·ResNet152·VGG-19) × **잡음 적응 4단계 재학습**(0 / 0~1 / 1 / 10 epoch). 각 이미지에 **16범주 확률벡터** |
+| **이미지** | **고유 1,200장 × 위상잡음 4수준**(ω=80/95/110/125) = **4,800장.** ImageNet ILSRVR 2012 부분집합, 원 레이블을 ground truth로 |
+| **결합** | 🔴 **연구자가 베이지안 모형으로 사후 결합.** MCMC로 시험 사례의 참 레이블 사후분포 추정 |
+| IRB | UC Irvine · 사전 동의 취득 |
+
+⭕ 🔴 **AI 정보가 인간에게 들어오지 않는다.** 인간과 기계가 같은 과업을 **각자 따로** 수행했다. `reliance` 0회가 이를 확정한다.
+
+📌 **사람이 최종 판단을 내리지 않는다.** 추정 목표가 **참 레이블**이다.
+
+### 저자의 용어 — classifier
+
+> 우리는 **「분류기(classifier)」라는 용어를 인간 또는 기계 분류기 어느 쪽이든 지칭하는 데 쓴다**
+
+⭕ **인간과 AI를 동일 범주의 요소로 취급한다.** 조합 표기가 **HM / HH / MM**이다.
+
+🔴 **계보가 앙상블·집단지성이다** — 「선행 연구는 다양한 기계 분류기 또는 사람들의 집단을 **각각** 결합하는 이득을 보였다. 이 연구는 **양쪽의 하이브리드 결합**에 영향을 주는 요인으로 확장한다」
+
+| 용어 | 사용 |
+|---|---|
+| 🟢 **hybrid · combination · classifier · complementarity** | **주력** |
+| ⚠️ **collaboration** | 🔴 **Discussion 한 곳** — 「이 결과는 알고리즘이 의사결정 보조로 쓰이는 human–AI 협업 세팅에 함의를 갖는다」. **자기 구조가 아니라 함의** |
+| 🔴 **team · advice · decision-making** | **자기 구조 서술에 안 씀** |
+
+### Complementarity — 수학적 정의
+
+> **complementarity란 인간과 기계 예측의 하이브리드 결합이 인간 단독 또는 기계 단독의 결합보다 더 나은 성능을 내는 경우**
+
+**형식 조건** (§Theoretical Limits, G.K. 담당)
+
+```
+complementarity  ⟺  r_H,M  >  max{ r_H1,H2 ,  r_M1,M2 }
+```
+
+📌 **A_C1,C2 > A_C1',C2' 는 r_C1,C2 > r_C1',C2' 와 필요충분이다.**
+
+**무엇이 complementarity를 만드는가 — 상관이다**
+
+> **complementarity의 핵심 제약 요인은 인간과 기계 분류기 예측 간 상관의 정도다.** 큰 상관은 complementarity를 지지할 수 있는 분류기 간 정확도 차이에 한계를 만든다
+
+| 관계 | 방향 |
+|---|---|
+| ρ_MM · ρ_HH 증가 | 🟢 비하이브리드 쌍 정확도 하락 → **complementarity 달성이 쉬워짐** |
+| r_HM 증가 | 🟢 하이브리드 정확도 상승 |
+| ρ_HM 증가 | ⚠️ **min(a_H/a_M, a_M/a_H) > ρ_HM 일 때만** A_HM 하락 |
+
+⭕ **저자 결론** — 「인간과 기계 분류기가 **서로 크게 다른 성능 수준**을 가지면 **높은 인간-모형 상관이 오히려 유익할 수 있다**」
+
+**포함되지 않는 것** — 🔴 `reliance`·`advice taking` 0회 · **개인 보정 개념 없음** · **상호작용은 구조상 불가**
+
+### 🔴 개인차를 모형화하지 않는다 — 저자 명시
+
+> **단순화를 위해 현재 모형 틀은 개별 인간 분류기 각각에 단일 파라미터 집합(a_H, b_H, σ_H, c, δ, τ)이 적용된다고 가정하며, 이는 고려 대상 데이터셋에 동일인의 관찰이 소수만 존재하기 때문이다.** 다만 이 틀은 이 파라미터들의 개인차를 반영하도록 확장될 수 있다
+
+🔴 **145명이 하나의 「평균적 인간 분류기」로 모형화된다.**
+
+### 잠재변수 — 🔴 개인 특성이 아니다
+
+| 잠재변수 | 정체 |
+|---|---|
+| **λ_H,i,j · λ_M,i,j** | **이미지×레이블별 로짓 점수** |
+| **ρ_HM** | 인간-기계 확신도 점수 간 **잠재 상관** |
+| **z_i** | 🔴 **시험 사례의 참 레이블 — 추정의 최종 목표** |
+
+### 주요 결과
+
+| | |
+|---|---|
+| **오류 유형** | 동등한 정확도에서도 **인간과 기계는 서로 다른 유형의 오류**를 낸다 |
+| **하이브리드 우위** | 🟢 **인간이 기계를 능가해도 기계 예측을 더하는 것이 인간 둘을 결합하는 것보다 나을 수 있다.** 역도 성립 |
+| **확신도 효과** | 인간 확신 **0.104** [0.094, 0.114] · 기계 확신 **0.257** [0.247, 0.266], 둘 다 **p<0.001** (N=1,152,000) |
+| **오류 모형** | 범주별 오류를 구분하는 오류 모형이 성능을 높임 |
+
+### 관계별 판정
+
+| 무엇에 대해 | 판정 |
+|---|---|
+| **Human-AI output combination** | 🟢 **Direct** |
+| interactive joint production | 🔴 **No** |
+| individual contribution attribution | 🔴 **No** |
+| individual ability inference | 🔴 **No** |
+| organizational appraisal | 🔴 **No** |
+| production-structure 비교 | 🟡 **Structural relevance** |
+
+⭕ **공식 기록** — **Direct to Human-AI output combination; No direct evidence for combined-output → individual judgment.**
+
+🔴 **논문 전체를 Plan C에서 탈락시키지 않는다.** 결합 산출물이 어떻게 형성될 수 있는가라는 **output-formation 측면에서는 직접적인 구조적 관련성이 있다.**
+
+### 🔴 Not established
+
+**인간 개인의 능력 추정** — 잠재변수가 개인 특성이 아니다 · **joint performance → human ability 추론** — 추정 목표는 참 레이블 · **AI 조언·의존·상호작용** — `reliance` 0회 · **평가자·조직 평가** — 관련 용어 0회 · **관측 성과의 타당도** — `validity`·`proxy` 0회
+
+📌 **저자도 complementarity가 항상 성립하지 않는다고 명시한다** — 선행 연구(33, 54, 55) 인용
+
+### ⚠️ Plan C inference — 최소한으로만
+
+| |
+|---|
+| ⚠️ **Steyvers의 independence는 human/machine classifier의 prediction/error correlation에 관한 것이다.** 우리가 관심 가진 Human-AI entanglement는 **production 과정에서 역할·판단·실행·기여가 결합되는 현상**이다. 🔴 **서로 다른 차원의 independence일 수 있으므로 「서로 반대다」라고 단정하지 않는다** |
+| ⚠️ 저자가 자연지능 모형화와의 긴장을 지적한다 — 「인간-알고리즘 예측 간 상관을 **줄이려는** 목표는 인간 내부 처리를 모방하려는 자연지능 모형화의 목표와 **대비된다**」 |
+
+### 계보 확인 — 제목 명시
+
+**데이터셋 계보** — 🟢 **Almog에만 이어진다**
+
+| 논문 | 가져온 것 |
+|---|---|
+| **Barriers to AI Adoption: Image Concerns at Work** — Almog (2025) | 🟢 **이미지 80장 + VGG-19 예측.** 🔴 **잡음 수준 110·125만 사용** — 4수준 중 상위 둘 |
+| **How AI Assistance Affects Human Skill Development** — Wu 등 (2026) HCOMP | 🔴 **없음.** 과업이 논리 퍼즐 |
+| **The Impact of AI Usage and Informativeness** — Wu 등 (2026) HHAI | 🔴 **없음** |
+
+**🔴 과업 구조 계보 — Almog가 구조를 바꿨다**
+
+| | **Steyvers (2022)** | **Almog (2025)** |
+|---|---|---|
+| 인간이 AI를 보는가 | 🔴 **안 봄** | 🟢 **초기 선택 후 봄** |
+| 최종 판단 주체 | 🔴 **모형(MCMC)** | 🟢 **인간** |
+| AI 정확도 | 5개 CNN, 변이 다수 | VGG-19, 85%로 고지 |
+
+🔴 **`human-first → AI recommendation → human-final` 구조는 Steyvers에 없다.**
+
+**🔴 모형 계보 — Wu HCOMP는 Steyvers를 잇지 않는다**
+
+| | Steyvers (2022) | Wu HCOMP (2026) |
+|---|---|---|
+| 잠재변수 | λ(로짓) · ρ(상관) · z(참 레이블) | **θ_i1, θ_i3, δ_i — 개인 능력** |
+| 개인차 | 🔴 **모형화 안 함** | 🟢 **참가자별 추정** |
+| 계보 인용 | 로짓-정규 · 베이지안 분류기 결합(Kim & Ghahramani 2012) | 🔴 **Lord & Novick(2008) · Embretson & Reise(2025) — IRT·심리측정** |
+| noisy proxy | 🔴 **0회** | 🟢 §4.2 명시 |
+
+⭕ **베이지안이라는 방법만 공통이고 잠재변수의 정체와 계보가 다르다.**
+
+📌 **Wu 둘이 Steyvers를 인용하는 문맥은 「complementarity 문헌군 대표」뿐이다** — HHAI §1·§2, HCOMP §2. **모형이나 측정을 이어받았다는 진술이 없다.**
+
+---
+
+## 9. ⭐ 다섯 편 대비 — 서로의 공백이 맞물린다
+
+| | 있는 것 | 없는 것 |
+|---|---|---|
+| **Almog (2025)** | 🟢 **평가자가 관측 정보를 실제로 사용** (AI 의존 −0.36\*\*\*) | 🔴 **그 판단의 정확도** |
+| **Wu HCOMP (2026)** | 🟢 **연구자가 latent ability를 실제로 추정** | 🔴 **평가자** |
+| **Steyvers (2022)** | 🟢 **결합 산출물 형성의 형식 모형** | 🔴 **개인차·개인 target** |
+| **Kim 등 (2026)** | 🟢 **반복 상호작용 · 기여 측정 도구** | 🔴 **ground truth · validated construct** |
+| **Wu HHAI (2026)** | 🟢 **정보량 무작위 조작** | 🔴 **latent target** |
+
+🔴 **따라서 이들을 합쳐도 「Human-AI 환경에서 조직평가가 틀린다」는 결론은 낼 수 없다.**
+
+📌 **관계별 상세 매핑은 `15-mapping-H-I-theta`에 있다.**
