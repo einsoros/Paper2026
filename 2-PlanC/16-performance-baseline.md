@@ -3,14 +3,14 @@ date: 2026-09-07
 type: baseline
 project: Paper2026 / PlanC
 status: individual job performance의 I-O 기준선 + A/B/C 후보 재판정
-related: ["[[14-reading-principles-260907]]", "[[15-mapping-H-I-theta]]", "[[13-humanai-landscape-260907]]", "[[12-midpoint-260904]]"]
+related: ["[[14-reading-principles]]", "[[15-mapping-H-I-theta]]", "[[13-humanai-landscape]]", "[[12-humanhuman-baseline]]"]
 tags: [PlanC, performance기준선, ABC후보, 원전검증]
 ---
 
 # 개인성과 기준선과 A/B/C 후보 재판정 — 2026-09-07
 
 > 🔴 **gap · RQ · IV/DV · theory · 방법론을 확정하지 않는다.**
-> 📌 독해원칙은 `14-reading-principles-260907`을 따른다.
+> 📌 독해원칙은 `14-reading-principles`을 따른다.
 
 ---
 

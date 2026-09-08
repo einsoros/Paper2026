@@ -3,14 +3,14 @@ date: 2026-09-07
 type: landscape
 project: Paper2026 / PlanC
 status: Human-AI 문헌지형과 원전 검증 3편. Almog · Wu HCOMP · Wu HHAI
-related: ["[[00-CONSTITUTION]]", "[[02-working-rules]]", "[[11-proposition-map]]", "[[12-midpoint-260904]]", "[[99-HANDOFF]]"]
+related: ["[[00-CONSTITUTION]]", "[[02-working-rules]]", "[[11-proposition-map]]", "[[12-humanhuman-baseline]]", "[[99-HANDOFF]]"]
 tags: [PlanC, HumanAI, 원전검증, 신호정보성]
 ---
 
 # Human-AI 문헌지형과 원전 검증 — 2026-09-07
 
 > 🔴 **이 문서는 원전 검증 기록이다.** 모형·가설·construct·gap 선언을 포함하지 않는다.
-> 📌 확보 등급은 `12-midpoint-260904` §7의 Level A/B/C를 따른다.
+> 📌 확보 등급은 `12-humanhuman-baseline` §7의 Level A/B/C를 따른다.
 
 ---
 

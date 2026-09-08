@@ -3,14 +3,14 @@ date: 2026-09-07
 type: mapping
 project: Paper2026 / PlanC
 status: H-I-θ 매핑 v2. 문헌을 같은 것으로 잘못 묶고 있는지 확인하는 분류 도구
-related: ["[[14-reading-principles-260907]]", "[[12-midpoint-260904]]", "[[13-humanai-landscape-260907]]", "[[11-proposition-map]]"]
+related: ["[[14-reading-principles]]", "[[12-humanhuman-baseline]]", "[[13-humanai-landscape]]", "[[11-proposition-map]]"]
 tags: [PlanC, 매핑, 분류도구, 원전검증]
 ---
 
 # H–I–θ 매핑 v2 — 2026-09-07
 
 > 🔴 **이것은 연구모형이나 theory가 아니다.** 논문들을 같은 것으로 잘못 묶고 있는지 확인하기 위한 **분류 도구**다.
-> 📌 독해원칙은 `14-reading-principles-260907`을 따른다.
+> 📌 독해원칙은 `14-reading-principles`을 따른다.
 
 ## 임시 독해틀
 
