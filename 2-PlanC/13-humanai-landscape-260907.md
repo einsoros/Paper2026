@@ -62,6 +62,17 @@ tags: [PlanC, HumanAI, 원전검증, 신호정보성]
 > 🟢 **사전등록 aspredicted.org #239005, #242197** · IRB Northwestern **STU00223689**
 
 ⚠️ **프리프린트. 게재 정보 없음.**
+
+### 🔴 주의 — Almog의 논문이 둘이다
+
+| | 제목 |
+|---|---|
+| ⭐ **① 검증한 것** | **Barriers to AI Adoption: Image Concerns at Work** — arXiv:2511.18582 · Job Market Paper (2025-11-25) |
+| ⬜ **② 미검증** | **AI Recommendations and Non-Instrumental Image Concerns** — SSRN WP 5232232 |
+
+🔴 **아래 검증 내용은 전부 ①이다.** 둘의 관계(같은 실험의 다른 판본인지, 별개 논문인지)는 **미확인**.
+📌 **②를 검증할 때 대조할 문자열** — `449` · `Upwork` · `BuildingAI` · `239005` · `242197` · `STU00223689` · `0.305` · `−0.36` · `non-instrumental`
+
 📌 🔴 **저자가 §3.1에서 θ 기호를 실제로 쓴다** — 「노동자의 기저 유형 θ ∈ [1/n, 1] — 평균 무보조 정확도」. **우리 작업용 표기와 우연히 같은 자리.**
 
 ### 설계

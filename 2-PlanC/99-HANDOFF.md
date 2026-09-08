@@ -3,7 +3,7 @@ date: 2026-09-07
 type: handoff
 project: Paper2026 / PlanC
 status: 스레드 인수인계 문서. 새 스레드를 열면 이 파일을 가장 먼저 읽는다
-related: ["[[00-CONSTITUTION]]", "[[01-phenomenon]]", "[[02-working-rules]]", "[[03-stages]]", "[[04-open-items]]", "[[05-corrections-log]]", "[[10-stage1-log]]", "[[11-proposition-map]]", "[[12-midpoint-260904]]", "[[13-humanai-landscape-260907]]", "[[14-reading-principles-260907]]", "[[15-mapping-H-I-theta]]"]
+related: ["[[00-CONSTITUTION]]", "[[01-phenomenon]]", "[[02-working-rules]]", "[[03-stages]]", "[[04-open-items]]", "[[05-corrections-log]]", "[[10-stage1-log]]", "[[11-proposition-map]]", "[[12-midpoint-260904]]", "[[13-humanai-landscape-260907]]", "[[14-reading-principles-260907]]", "[[15-mapping-H-I-theta]]", "[[16-performance-baseline-260907]]"]
 tags: [PlanC, Handoff, 인수인계]
 ---
 
@@ -276,8 +276,40 @@ observable / inferential information  I  →  judgment about latent individual c
 | **How AI Assistance Affects Human Skill Development** — Wu 등 (2026) HCOMP | 🟢🟢 A | `13-` §3 · `15-mapping` ⑧ |
 | **The Impact of AI Usage and Informativeness** — Wu 등 (2026) HHAI | 🟢🟢 A | `13-` §4 · `15-mapping` ⑨ |
 | **"I Didn't Make the Micro Decisions"** — Kim 등 (2026) | 🟢🟢 A | `15-mapping` ⑩ |
+| ⭐ **A Theory of Individual Differences in Task and Contextual Performance** — Motowidlo, Borman & Schmit (1997) | 🟢🟢 A | `16-` §1 |
 
-### 🔴 다음 단계 — 검색 방향
+### 🔴 09-07 A/B/C 후보 재판정 — `16-performance-baseline-260907` §2~§8
+
+**상위 프레임 후보 A** — 「Human-AI 공동생산 환경에서 관찰되는 산출 및 생산과정 정보는 개인의 성과를 판단하기 위한 정보로서 어떤 의미를 갖는가」 🟢 **유지 가능.** 🔴 **논문 제목·RQ 아님**
+
+| 후보 | 내용 | 근거 강도 | 최초 현상 근접성 |
+|---|---|---|---|
+| **B** | AI 사용/생산과정 정보 → **evaluator의 개인 performance 판단** | 🟢 **강함** — Almog 두 relation 직접 검증 | 🔴 **(a) 외부 판단만** |
+| **C** | AI-assisted performance → 이후 independent performance 또는 **개인 capability 추론** | 🟡 **약함** — Structural precedent 하나, 유의성 미확인 | 🟡 **(b)의 세 번째 물음에 닿음** |
+
+🔴 **두 판정이 엇갈린다.** 근거는 B, 최초 현상은 B도 C도 아니고 **(b-2)**. 그 자리의 확보 원전은 **Kim 등 하나이고 표본 10명·검정 없음·ground truth 아님**.
+
+⚠️ **이것이 오류 A와 오류 B가 부딪히는 지점이다** (`14-reading-principles` §7).
+
+### 🔴 반드시 승계할 정정 넷 — 09-07
+
+| # | |
+|---|---|
+| **1** | 🔴 **Behavior · performance · results는 서로 다르다** (Motowidlo 등 1997, p.72). **`performance = behavior`로 단순화하지 않는다.** 그리고 🟢🟢 **`outcome`은 원문 0회 — `results`를 쓴다** |
+| **2** | 🔴 **performance ≠ contribution을 단정하지 않는다.** 그 원전에서 **contribution value가 performance를 정의하는 척도**다(`contribution` 19회). ⚠️ **동시에 Human-AI 문헌의 contribution과 자동 동일시하지 않는다** |
+| **3** | 🔴 **ability · knowledge/skill/work habits · performance를 한 층으로 묶지 않는다.** 매개 두 단계이며 **직접 경로가 없다**(McCrae & Costa 1996 인용) |
+| **4** | 🔴 **Wu HCOMP를 「AI-assisted performance → capability」의 직접 근거로 쓰지 않는다.** Phase 2 성과는 모형에서 제외되고, §4.1 residual의 예측 대상은 **이후 independent performance**이며 **유의성 미확인** |
+
+### 🔴 다음 검증 대상 — 확보 완료, 미검증
+
+| 제목 · 서지 | 어느 후보에 |
+|---|---|
+| **Evidence of a social evaluation penalty for using AI** — Reif, J. A., Larrick, R. P., & Soll, J. B. (2025). *PNAS* 122(6) | **B** |
+| **Peer perceptions of clinicians using generative AI in medical decision-making** — Yang, H., Dai, T., Mathioudakis, N., Knight, A. M., Nakayasu, Y., & Wolf, R. M. (2025). *npj Digital Medicine* 8(530) | **B** |
+| **The ABC's of Who Benefits From Working With AI: Ability, Beliefs, and Calibration** — Caplin, A., Deming, D. J., Li, S., Martin, D. J., Marx, P., Weidmann, B., & Ye, K. J. (2025). *Management Science* | ⭐ **C** — 능력·신념·보정을 개인 수준에서 분리 측정 |
+| **AI Recommendations and Non-Instrumental Image Concerns** — Almog, D. (2025). SSRN WP 5232232 | 🔴 **Barriers to AI Adoption과의 관계 확인 필요** |
+
+### 🔴 이전 검색 방향 지령 (09-07, 유효)
 
 **GPT 지령(09-07)** — 다음 문헌탐색의 목적은 **최초에 관찰한 Human-AI 업무현상을 설명하기 위해 필요한 `production structure → output/process information → individual judgment`의 연결관계를 기존 Human-AI 및 HRM/OB 문헌이 어디까지 설명하고 있는지 확인**하는 것
 
@@ -410,6 +442,7 @@ observable / inferential information  I  →  judgment about latent individual c
   13-humanai-landscape-260907.md  ⭐ Human-AI 지형 + 원전 검증 4편
   14-reading-principles-260907.md ⭐ 독해원칙 — differentiation · 다섯 관계 · H 분리
   15-mapping-H-I-theta.md         ⭐ H-I-θ 매핑 v2 — 열 편 분류
+  16-performance-baseline-260907.md ⭐ performance 기준선 + A/B/C 재판정
   99-HANDOFF.md           ← 이 파일
   _archive-v1/            ⬛ 폐기된 Plan C 초기본
 9-FutureResearch/         작업선과 독립. 역량 가지·D vs E 보관
@@ -443,7 +476,8 @@ observable / inferential information  I  →  judgment about latent individual c
 | **4** | 🔴 **`14-reading-principles-260907` 정독 — 판정 방식이 여기서 정해진다** |
 | **5** | `15-mapping-H-I-theta` 정독 — 열 편이 서로 다른 관계를 다룬다는 것 |
 | **6** | `13-humanai-landscape-260907` — Human-AI 원전 검증 4편 |
-| **7** | §11의 미반영 항목을 파일로 옮기고 커밋 |
+| **7** | 🔴 **`16-performance-baseline-260907` — performance 기준선과 A/B/C 판정. 다음 결정의 근거** |
+| **8** | §11의 미반영 항목을 파일로 옮기고 커밋 |
 
 ⚠️ **모형·가설·construct·gap을 제안하지 않는다.** 그건 GPT 몫이고, 지금은 그 단계가 아니다.
 
