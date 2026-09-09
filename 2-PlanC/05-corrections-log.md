@@ -1,9 +1,9 @@
 ---
-date: 2026-08-31
+date: 2026-09-07
 type: log
 project: Paper2026 / PlanC
 status: 정정 이력. 지우지 않고 쌓는다. 같은 오류를 막는 것이 목적이다
-related: ["[[00-CONSTITUTION]]", "[[02-working-rules]]"]
+related: ["[[00-CONSTITUTION]]", "[[02-working-rules]]", "[[99-HANDOFF]]"]
 tags: [PlanC, 정정, 오류이력]
 ---
 
@@ -95,6 +95,127 @@ tags: [PlanC, 정정, 오류이력]
 
 ---
 
+## C-10 · Cui 등 (2025) *Signaling in the Age of AI*를 Direct evidence로 판정 — 09-04
+
+| | |
+|---|---|
+| 🔴 정정 | **Structural precedent로 하향.** ① **능력과 산출물의 관계를 측정하지 않았다** — 그 고리는 §4의 모형 **가정**이다 ② 맥락이 **채용 선별**이지 조직 내부 성과평가가 아니다 ③ **평가자가 AI 사용을 관측할 수 없는 조건**이 설계의 핵심이다 |
+| 유형 | ③을 과대판정 · 검색 단계 판정 유지 |
+
+## C-11 · Qin 등 (2026)의 게재상태와 저자순서 오판 — 09-04
+
+| | |
+|---|---|
+| 🔴 정정 | **CHI 2026 승인본**이고 저자순서는 **Qin, Yang, Boonprakong, Chen, Tan, Lee**다. 🔴 **HTML 변환본만 보고 「게재 여부 표기 없음」·저자순서를 잘못 적었다** |
+| ⚠️ 원인 | **표지 각주·러닝 푸터는 PDF 원본에만 남는다** |
+| 유형 | 확보 등급 위반 |
+
+## C-12 · 개발자 연구 인용에서 유의성 누락 — 09-01
+
+| | |
+|---|---|
+| 🔴 정정 | Cui 등의 GitHub Copilot 3사 실험에서 **「단기근속 27~39% vs 장기근속 8~13%」**를 인용할 때 **집단 간 차이가 통상 유의수준에서 유의하지 않다는 저자 진술**을 누락했다 (p=0.13~0.69) |
+| 유형 | ③을 왜곡 |
+
+## C-13 · Almog (2025) *Barriers to AI Adoption*을 Direct로 판정 — 09-04
+
+| | |
+|---|---|
+| 🔴 정정 | **Direct-structural로 하향.** 그리고 「평가자 판단을 측정하지 않았다」고 한 것이 **틀렸다** — **§5.2 Table 3이 평가자 점수를 실측한다** |
+| ⚠️ 원인 | **초록만 보고 판정한 뒤 원문에서 뒤집혔다** |
+| 유형 | 확보 등급 위반 |
+
+## C-14 · Kim 등 (2026) CoTrace를 「실제 기여와 지각의 불일치 실증」으로 서술 — 09-04
+
+| | |
+|---|---|
+| 🔴 정정 | **저자가 Limitations에서 「기여 점수는 ground-truth 측정치가 아니라 분석적 추정치」라고 명시한다.** 그리고 miscalibration의 실체는 **도구 노출 전/후 지각 변화**이며, 저자가 **앵커링 가능성**을 한계로 적었다 |
+| 유형 | ⑤를 ③으로 |
+
+## C-15 · Steyvers 등 (2022)의 independence를 우리 문제와 「방향이 반대」라고 단정 — 09-07
+
+| | |
+|---|---|
+| 🔴 정정 | **철회.** Steyvers의 independence는 **human/machine classifier의 prediction/error correlation**이고, 우리가 관심 가진 entanglement는 **production 과정에서 역할·판단·실행이 결합되는 현상**이다. **서로 다른 차원일 수 있다** |
+| 유형 | 인접 개념을 동일 개념으로 취급 |
+
+## C-16 · 다섯 원전을 「비분리성에 대한 우회로」로 묶은 것 — 09-07
+
+| | |
+|---|---|
+| 🔴 정정 | **`우회로`는 「정면 해결 실패」를 함축하는 표현이다.** 그리고 **BGM은 팀 산출 지분이 아니라 제3자 검증 불가능성과 지표 왜곡**을, **Rothstein은 관찰 기간과 평가자 간 신뢰도**를 다룬다. 🔴 **둘을 비분리성 문헌으로 재해석하지 않는다** |
+| 유형 | differentiation 원칙 위반 |
+
+## C-17 · Campbell (1990)의 정의를 2차 자료에서 옮겨 적은 것 — 09-07
+
+| | |
+|---|---|
+| 🔴 정정 | **폐기.** 백과 항목·학위논문급 2차 자료에서 옮긴 정의를 원저자 정의로 썼다 |
+| ⭕ 규칙 | **후속 논문이 원전 정의를 재진술하면 「그 원전이 그렇게 말했다」고 쓰지 않고 해당 후속 논문의 정의·정리로 기록한다** (`02-working-rules` §1) |
+| 유형 | 🆕 **2차 인용을 원저자 정의로 쓰기** |
+
+## C-18 · 스캔본에 pdftotext를 돌려 부재를 잘못 판정 — 09-07
+
+| | |
+|---|---|
+| 🔴 정정 | Motowidlo 등 (1997) 스캔본에서 **`contribution`·`outcome` 등이 전부 0회로 나왔으나 이는 부재가 아니라 추출 실패였다.** `pdffonts` 폰트 0개 · `pdftotext` 14바이트 |
+| ⭕ 절차 | **`pdffonts`로 먼저 확인 → 폰트 0개면 `pdftoppm -r 300` + `tesseract`** (`02-working-rules` §5) |
+| 유형 | 확보 등급 위반 |
+
+## C-19 · 검색 단계 서지를 그대로 옮겨 권·호·연도 오류 — 09-07
+
+| 문헌 | 오류 → 확정 |
+|---|---|
+| **Evidence of a social evaluation penalty for using AI** — Reif, Larrick & Soll | *PNAS* **122(6)** → 🔴 ***PNAS* 122(19), e2426766122** |
+| **The ABCs of Who Benefits from Working with AI** — Caplin 등 | **(2025)** → 🔴 **(2026) *Management Science* 72(7), 5843–5852.** 선출판 2025-10-24 |
+| **Peer perceptions of clinicians using generative AI** — Yang 등 | *npj Digital Medicine* **8(530)** → ⬜ **권·호 미확인.** DOI 10.1038/s41746-025-01901-x |
+
+| | |
+|---|---|
+| 유형 | **서지를 기억·검색 결과로 쓰기** (`02-working-rules` §5) |
+
+## C-20 · 문헌을 저자만으로 지칭 — 09-07
+
+| | |
+|---|---|
+| 🔴 정정 | **Shang Wu의 논문이 둘, David Almog의 논문이 둘이다.** 저자만 쓰면 구별되지 않는다 |
+| ⭕ 규칙 | **문헌 언급 시 항상 제목을 쓴다** (`02-working-rules` §7-7). 🔴 **이 규칙을 만들어놓고 같은 실수를 반복했다** |
+| 유형 | 문서 규칙 위반 |
+
+## C-21 · 원문 확보를 Claude가 시도한 것 — 09-07
+
+| | |
+|---|---|
+| 🔴 정정 | 연구자가 **「확보는 내가 할 테니 논문 정보를 보여달라」**고 지시했는데, 이후에도 검색을 돌리고 「못 찾았습니다」로 답했다 |
+| ⭕ 규칙 | **Claude는 서지 정보와 확인 항목만 제시한다** (`02-working-rules` §6) |
+| 유형 | 역할 위반 |
+
+## C-22 · 「관계 4가 열 편 모두에 없다」를 Rothstein과 인과적으로 연결 — 09-07
+
+| | |
+|---|---|
+| 🔴 정정 | **두 문장을 분리한다.** ① **현재 확보 문헌 집합에서 evaluator judgment → underlying target accuracy를 직접 검증한 연구가 확인되지 않았다** — 기술적 관찰이며 gap 판정이 아니다 ② **별도로 Rothstein(1990)은 자신의 현장자료에서 true performance를 알기 어려워 accuracy가 아니라 interrater reliability를 분석했다고 설명한다** |
+| ⚠️ | **Rothstein이 다른 아홉 논문의 연구 범위 선택까지 설명한 것으로 확대하지 않는다** |
+| 유형 | ⑤를 ④로 |
+
+## C-23 · 면담 결과를 탐색의 상위 조건으로 놓은 것 — 09-07
+
+| | |
+|---|---|
+| 🔴 정정 | 「심사위원이 말한 배분의 정체가 갈림길보다 상위」라고 썼다. **`research → meeting content`이며 그 반대가 아니다** (`00-CONSTITUTION` §1-b) |
+| ⚠️ | 그리고 같은 답변에서 **면담 날짜를 하루 앞당겨 잘못 말했다** |
+| 유형 | 원칙 위반 + 사실 오류 |
+
+## C-24 · 갈림길을 하나로 압축한 것 — 09-07
+
+| | |
+|---|---|
+| 🔴 정정 | 「기존 평가 논리가 분리 전제 위에 서 있는가」로 갈림길을 압축했다. **그것은 아직 확인되지 않은 separability/nonseparability를 다시 중심 문제로 선점하는 것이었다** |
+| ⭕ | **Human-AI에서 발생할 수 있는 문제는 비분리성 하나로 환원되지 않는다** — Steyvers는 결합 산출물의 개인적 의미, Almog는 process information의 평가 진입, Wu는 assisted와 이후 독립수행의 관계 |
+| 유형 | 중심화 |
+
+---
+
 ## ⬜ 아직 정정도 검증도 안 된 것
 
 | | |
@@ -102,5 +223,9 @@ tags: [PlanC, 정정, 오류이력]
 | ⬜ | Weiner (1985) · Bandura · Pierce 등 (2001) · Cawley 등 (1998) 서지 — **Claude 기억에서 나온 것** |
 | ⬜ | Anderson (1985) 제목의 `of` / `or` 불일치 |
 | ⬜ | *Scientific Reports* 논문과 Draxler 등의 서지 — **GPT 제공, Claude 미검증** |
+| ⬜ | **Campbell & Wiernik (2015)** — 🔴 **제목·게재지·권호·쪽수 전부 미확인** |
+| ⬜ | **Campbell (1990)** *Modeling the performance prediction problem…* — 🔴 **쪽수 687–732 / 39–74 병존** |
+| ⬜ | **Peer perceptions of clinicians using generative AI in medical decision-making** — Yang 등 (2025) 권·호 |
+| ⬜ | **Almog의 두 논문**(*Barriers to AI Adoption* / *AI Recommendations and Non-Instrumental Image Concerns*)의 관계 |
 
 🔴 **이 목록이 비어야 인용을 시작할 수 있다.**

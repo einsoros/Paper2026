@@ -1,8 +1,13 @@
+> ⬛ **ARCHIVED — 2026-09-07.** 이 파일은 Stage 1 탐색 과정의 역사적 기록이다. 현행 진행 논리는 Stage 번호를 쓰지 않는다.
+> 📌 **최종 판정은 아래 「Stage 1 최종 종료 판정」 절에 있다.** 현행 상태는 `99-HANDOFF`.
+
 ---
-date: 2026-08-31
+
+---
+date: 2026-09-07
 type: log
 project: Paper2026 / PlanC
-status: Stage 1 조사 기록. 1차 라운드 잠정 판정 B
+status: ⬛ ARCHIVED (2026-09-07). Stage 1 조사 기록 — 최종 판정 B로 종료
 related: ["[[03-stages]]", "[[02-working-rules]]", "[[04-open-items]]"]
 tags: [PlanC, Stage1, 문헌지형]
 ---
@@ -214,3 +219,32 @@ Harkins·Szymanski 계열이 사회적 태만의 원인을 이렇게 정리한�
 | ⬜ | 서지 충돌 2건 확인 — `04-open-items` §3 |
 
 ⚠️ **Stage 2로 넘어가지 않는다.**
+
+---
+
+# ⭐ Stage 1 최종 종료 판정 — 2026-09-07
+
+> **기존 연구에는 인간-AI 공동생산에서 자기효능감·소유감·자기 크레딧·지각된 기여 수준·내부외부 지식 경계와 관련된 인접 construct와 측정 선례가 존재한다. 또한 최근 HCI 연구는 개인이 자기 기여 수준을 판단하고 그 판단이 추가 정보에 따라 변화할 수 있음을 보여준다. 그러나 특정 인간-AI 공동산출물에서 개인이 자신의 독립적 기여가 무엇이며 어느 정도인지를 스스로 식별할 수 있는 정도를 독립적인 심리 construct로 정의하고 직접 측정한 연구는 확인되지 않았다. 따라서 Stage 1은 B로 종료하며, 이것을 새 construct의 존재나 연구 gap의 확정으로 해석하지 않는다.**
+
+## 🔴 유지할 구분
+
+**Perceived contribution level ≠ ability to identify one's contribution**
+
+## 현상의 조각 분해 — 어디가 남았는가
+
+| 조각 | 기존 연구 | 상태 |
+|---|---|---|
+| AI 없이 할 수 있는가 | **Relying on AI at work reduces self-efficacy, ownership, and meaning** — Lee 등 (2026) *Scientific Reports* 16, 13583 | 🔴 **점유됨** |
+| 내 지식과 외부 지식의 경계 | **Searching for explanations: How the Internet inflates estimates of internal knowledge** — Fisher, Goddu & Keil (2015) *JEP:General* | 🔴 **강한 선례** |
+| 기여 수준의 지각 | **"I Didn't Make the Micro Decisions"** — Kim 등 (2026) · **Timing Matters** / **AI Personalization Paradox** — Qin 등 (2025/2026) | 🔴 **측정 선례 존재** |
+| ⭐ **그 기여를 얼마나 식별할 수 있는가** | — | 🟢 **확인되지 않음** |
+
+## 🔴 원문 대조로 확정된 정정 둘
+
+**① "I Didn't Make the Micro Decisions" — Kim 등 (2026)** — 저자들이 Limitations에서 **「기여 점수는 ground-truth 측정치가 아니라 분석적 추정치」**라고 명시한다. 🔴 **「실제 기여와 지각의 불일치를 실증」이라고 쓰면 안 된다.** miscalibration의 실체는 **도구 노출 전/후 지각 변화**(자기 실행 기여 −1.8점)이고, 저자가 **앵커링 가능성을 한계로 적었다.**
+
+**② AI Personalization Paradox — Qin 등 (2026)**의 Self-Credit Attribution **4문항(α=.849)**은 인용한 원출처 **Timing Matters — Qin 등 (2025) CHI**에 **존재하지 않는다.** 원출처는 **자기·AI 각 1문항**이다. 🔴 **「검증된 선행 4문항 척도」로 인용하면 안 된다.** 그리고 소유감 3문항 중 하나가 「나는 결과물 내용의 주된 기여자다」로 **기여를 직접 묻는다** — 판별타당도 위험.
+
+## 📌 이후 진행
+
+**Stage 2~4 체계는 사용하지 않는다.** 09-07 이후 진행 논리는 **현상 → 기준선 → Human-Human / Human-AI 문헌 비교 → 후보 관계 비교 → 범위 수렴**이며, 상태는 `99-HANDOFF`에 있다.
