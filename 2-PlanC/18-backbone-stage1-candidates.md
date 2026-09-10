@@ -39,6 +39,7 @@ tags: [PlanC, backbone모델, 1단계, candidate-pool]
 | **A-1** | A | **Effects of Dyadic Quality and Duration on Performance Appraisal** — Duarte, Goodson & Klich | *AMJ* 37(3), 499–521 (1994). DOI 10.5465/256698 | 객관 성과 × 관계 품질(LMX) × 관계 지속기간 → 상사 평정 | 현장 | 🟢 Y가 상사 평정 |
 | **A-2** | A | **Self-monitoring and performance appraisal: rating outcomes in project teams** — Miller | *JOB* 21(6) (2000). ⬜ 쪽수 미확인 | 자기감시 성향 → 자기·동료·상사 평정 | 실험실 + 현장 2연구 | 🟢 Y가 세 원천 평정 |
 | **A-3** | A | **The Interactive Effect of Leader–Member Exchange and Communication Frequency on Performance Ratings** — Kacmar, Witt, Zivnuska & Gully | *JAP* 88(4), 764–772 (2003). DOI 10.1037/0021-9010.88.4.764 | LMX × 소통 빈도 → 직무성과 평정 | 현장 (N=188) | 🟢 Y가 성과 평정 |
+| **A-4** | A | 🟢 **B** — **The Relationship between Workplace Ostracism, TMX, Task Interdependence, and Task Performance: A Moderated Mediation Model** — Chung | *IJERPH* 17(12), 4432 (2020). DOI 10.3390/ijerph17124432. **Open access** | 배척 → TMX → 과업성과, 과업 상호의존성이 조절 | 현장 2파(N=242, 한국) | 🟢 Y가 개인 과업성과 |
 | **C-1** | C | ⭐ **The Effects of Group Interdependence on Supervisor Performance Evaluations** — Liden & Mitchell | *Personnel Psychology* 36(2), 289–299 (1983-06). DOI 10.1111/j.1744-6570.1983.tb01438.x | 집단 상호의존성 조작 → 개인 performance evaluation | 실험실 (N=72) | 🟢 Y가 개인 평정 |
 | **C-2** | C | **Task Interdependence as a Moderator of the Relation Between Group Control and Performance** — Liden, Wayne & Bradway | *Human Relations* (1997). ⬜ 권·호·쪽수 미확인 | 집단 통제 × 과업 상호의존성 → 집단 성과 | 현장 (77개 집단) | 🔴 **Y가 집단 성과** |
 | **D-1** | D | **The effects of the social context on performance evaluations** — Mitchell & Liden | *OBHP* 29, 241–256 (1982). ⬜ 호 미확인 | 사회적 맥락 → 평가 | ⬜ 미확인 | 🟡 원문 필요 |
@@ -68,26 +69,82 @@ tags: [PlanC, backbone모델, 1단계, candidate-pool]
 | **Effects of Task Interdependence on the Relationship Between Helping Behavior and Group Performance** — Bachrach 등 | 🔴 **원칙 1.** Y가 집단 성과 |
 | **Learning in teams: peer evaluation for fair assessment of individual contributions** (arXiv) | 🔴 **원칙 1·2.** 동료평가 배분 기제(pie-to-all / pie-to-others)의 정확성을 분석하는 기제 설계 논문 |
 
-### ⚠️ 보류 — 탈락 근거가 없어 지우지 않는다
+---
 
-**The Relationship between Workplace Ostracism, TMX, Task Interdependence, and Task Performance: A Moderated Mediation Model** — 배척 → TMX → 개인 task performance이고 과업 상호의존성이 매개관계를 조절한다. **원칙 1·2는 통과한다.** 다만 X가 배척이어서 우리 문제와의 연결점은 연구자 판단 사항이다.
+## 2-1. 🟢 B — A-4 전문 정독 완료
+
+> 🔴 **등급은 🟢 B다. 🟢🟢 A가 아니다.** MDPI의 **HTML 전문**을 읽었고 **PDF에 기계 검증을 돌리지 않았다** (`02-working-rules` §5). ⚠️ **C-11이 HTML 변환본만 보고 판정한 오류였다.** 문항 전문·표 각주·부록은 PDF에서 다시 확인해야 한다.
+> 📌 Open access(CC BY)라 전문 접근이 가능했다. 나머지 후보는 전부 유료 게재이며 확보는 연구자가 한다 (`02-working-rules` §6).
+
+**Chung, Y. W. (2020). The Relationship between Workplace Ostracism, TMX, Task Interdependence, and Task Performance: A Moderated Mediation Model. *International Journal of Environmental Research and Public Health*, 17(12), 4432.** DOI 10.3390/ijerph17124432. 단독저자, University of Suwon. 🟢 **B**
+
+| # | 항목 | 내용 |
+|---|---|---|
+| **4** | 분석수준 | **개인** — 저자가 TMX·과업 상호의존성을 개인 수준에서 다뤘음을 §5.2에서 명시하고 논란을 스스로 적었다 |
+| **5** | X | 직장 배척(workplace ostracism) |
+| **6** | M | TMX |
+| **7** | Y | **과업성과(task performance)** — 🔴 **자기보고** |
+| **8** | Moderator | 과업 상호의존성 |
+| **9** | 가설 | H1 TMX가 배척–과업성과 관계를 매개한다. H2 과업 상호의존성이 그 매개관계의 강도를 조절하며, 상호의존성이 높을 때 매개가 더 강하다 |
+| **10** | 표본·설계 | 한국 텔레콤·IT·금융 5개 조직 정규직. 2개월 간격 2파. T1 434명 발송 → 366 회수(84%) → 343 사용가능. T2 343명 발송 → 281 회수(82%) → **최종 242명**. 위계적 회귀 + PROCESS |
+| **11** | 척도·문항·출처 | 🟢 **전부 기존 척도이고 출처와 예시문항이 원문에 있다.** 7점 리커트, 한국어 번역 후 역번역. 배척 = Ferris 등(2008) **10문항** ω=.97 · TMX = Seers, Petty & Cashman(1995) **10문항** ω=.85 · 과업 상호의존성 = Pearce & Gregersen(1991) **6문항** ω=.78 · 과업성과 = Williams & Anderson(1991) **7문항** ω=.95 |
+| **13** | 검증결과 | 배척→TMX β=−.33 · TMX→성과 β=.28(배척 통제) · 간접효과 −.09, 부트스트랩 95% CI [−.17, −.05] · TMX × 상호의존성 β=.11 p<.05, f²=.03 · **조건부 간접효과: 고 −.126 유의 / 평균 −.089 / 저 −.054 비유의** |
+
+### 🔴 12. 이 논문으로 주장하면 안 되는 것
+
+| |
+|---|
+| 🔴 **상사평정 효과라고 말하면 안 된다** — 성과가 자기보고다. 저자 스스로 향후 연구가 상사 등 다중 평정자를 쓸 것을 권한다 |
+| 🔴 **개인 기여를 측정했다고 말하면 안 된다** — contribution을 측정하지 않았다 |
+| 🔴 **평정 정확성을 검증했다고 말하면 안 된다** |
+| 🔴 **인과관계로 말하면 안 된다** — 저자가 2파 설계이지만 성격상 횡단이며 T2에서 매개변수와 종속변수를 분리하지 못했다고 적었다 |
+| ⚠️ 공통방법분산 — 저자가 공통잠재요인 검정 결과 공통분산 34%로 심각하지 않다고 판단했다. **저자의 판단이며 부재의 증명이 아니다** |
+| ⚠️ 저자가 **한국이라는 집단주의 사회의 일반화 한계**를 스스로 적었다 |
+
+📌 **이 논문의 위치는 X가 배척이라는 점에서 우리 관심과 갈린다.** 다만 **TMX → 개인 과업성과 관계가 과업 상호의존성에 따라 달라진다**는 부분과 **네 척도의 출처·문항수·신뢰도가 전부 원문에서 확인된다**는 점은 원칙 3에서 가장 강한 후보다.
 
 ---
 
-## 3. 원문 확보 우선순위
+## 3. 확보 상태 — 세 구역
 
-⭕ **C-1 → A-1 → B-1 → A-2.** 앞의 셋이 계열 C·A·B를 각각 대표하고, **원문 없이는 원칙 3을 전혀 판정할 수 없는 것들**이다.
+> 🔴 **세 구역을 섞지 않는다.** 확보 필요(우선순위 순) · 확보 완료(등급별) · 미확보(서지 미확정 포함).
+> 📌 **등급** 🟢🟢 A(PDF+기계검증) · 🟢 B(전문 정독) · 🟡(초록·2차) · ⬜ C(검색). **서지 미확정은 등급과 별도로 ⬜로 표시한다** — 원문이 있어도 권·호를 모를 수 있다.
+> ⚠️ **문헌은 항상 제목과 함께 적는다** (`02-working-rules` §7-7).
 
-| # | 원문 없이 확인된 것 | 🔴 원문이 필요한 것 |
+### 🔴 확보 필요 — 우선순위 순
+
+| 순위 | 제목 · 서지 | 등급 | 경로 | 확인할 것 | grep 문자열 |
+|---|---|---|---|---|---|
+| **1** | ⭐ **The Effects of Group Interdependence on Supervisor Performance Evaluations** — Liden, R. C., & Mitchell, T. R. (1983). *Personnel Psychology* **36**(2), 289–299. DOI 10.1111/j.1744-6570.1983.tb01438.x | ⬜ C | Wiley 유료 | 상호의존성의 원문 정의 · **조작문 wording** · 성과정보 제시 방식 · supervisor 역할 구현 · 평정 도구의 차원과 문항 · N=72 표본 특성 · 효과 방향과 크기 · 🔴 **저자가 「상호의존성 때문에 개인기여 식별이 어렵다」를 직접 쓰는지** | `interdependen` · `manipulat` · `contribution` · `identif` · `dimension` · `scale` · `poor performer` · `rating` |
+| **2** | **Effects of Dyadic Quality and Duration on Performance Appraisal** — Duarte, N. T., Goodson, J. R., & Klich, N. R. (1994). *AMJ* **37**(3), 499–521. DOI 10.5465/256698 | ⬜ C | AOM 유료 | LMX 척도 판본과 **실제 문항** · 관계 지속기간의 측정 방식 · **객관 성과 지표의 정체** · 평정 차원 · 표본과 조직 맥락 · 가설 원문 · 🔴 **주관 준거에 관계효과가 더 크다는 요약이 원문에 부합하는지** | `dyadic quality` · `duration` · `objective` · `subjective` · `LMX` · `item` · `alpha` · `criteri` |
+| **3** | **The Interactive Effect of Leader–Member Exchange and Communication Frequency on Performance Ratings** — Kacmar, K. M., Witt, L. A., Zivnuska, S., & Gully, S. M. (2003). *JAP* **88**(4), 764–772. DOI 10.1037/0021-9010.88.4.764 | ⬜ C | APA 유료 | 두 construct의 정의 · **척도 출처와 문항** · 평정 측정 방식 · 분석수준과 표본(N=188) · 🔴 **소통 빈도가 단순 접촉량인지 업무정보 교환인지 관계적 소통인지** · 상호작용의 정확한 통계값 | `communication frequency` · `LMX` · `item` · `scale` · `alpha` · `interaction` · `level of analysis` · `hierarchical` |
+| **4** | **Social Loafing: A Meta-Analytic Review and Theoretical Integration** — Karau, S. J., & Williams, K. D. (1993). *JPSP* **65**, 681–706 · ⬜ **호 미확정** | 🟡 | APA 유료 | CEM의 정확한 구조 · 🔴 **평가 가능성(evaluation potential)의 원문 정의** · 메타분석에서 그 조건이 실제로 무엇을 뜻하는지 · 개별 원연구의 evaluability 조작 방식 · effort 측정 방식 · 🔴 **저자들이 performance와 effort를 어떻게 구분하는지** | `evaluation potential` · `identifiab` · `evaluab` · `effort` · `performance` · `moderator` · `coded` |
+| 5 | **Self-monitoring and performance appraisal: rating outcomes in project teams** — Miller, M. L. (2000). *JOB* **21**(6) · ⬜ **쪽수 미확정** | ⬜ C | Wiley 유료 | 자기감시 척도 출처 · 세 평정원천의 문항 · Study 1(실험실)과 Study 2 설계차 · 프로젝트 팀의 구성 | `self-monitoring` · `Snyder` · `peer` · `supervisor` · `self-rating` · `project team` · `scale` |
+| 6 | **The effects of the social context on performance evaluations** — Mitchell, T. R., & Liden, R. C. (1982). *OBHP* **29**, 241–256 · ⬜ **호 미확정** | ⬜ C | Elsevier 유료 | 거의 전부 — X/Y 구조 · 조작 · 평정 측정 · 표본 | `social context` · `manipulat` · `evaluation` · `rating` · `group` |
+| 7 | **Cognitive categorization processes in performance evaluation: Confirmatory tests of two models** — Lance, C. E. (1991). *JOB* **12**(1). DOI 10.1002/job.4030120102 | ⬜ C | Wiley 유료 | 두 모형의 정확한 구조 · 어느 쪽이 지지됐는지 · 평정 과제 설계 · 적합도 지표 | `categoriz` · `schema` · `data-driven` · `confirmatory` · `fit` · `rating` |
+| 8 | **People reward others based on their willingness to exert effort** — Xiang, Y., Landy, J., Cushman, F., Vélez, N., & Gershman, S. J. (2025). *JESP* **116**, 104699 · ⬜ **재확인 필요** | ⬜ C | Elsevier 유료 | 과제 설계 · 🔴 **「가능했던 기여」 조작 방식** · 배분 종속변수의 척도 · 책임 판단과 배분의 구분 | `effort` · `willingness` · `bonus` · `allocat` · `responsib` · `could have` · `stimuli` |
+| — | **A cognitive view of the performance appraisal process: A model and research propositions** — DeNisi, A. S., Cafferty, T. P., & Meglino, B. M. (1984). *OBHP* **33**(3), 360–396. DOI 10.1016/0030-5073(84)90029-1 | ⬜ C | Elsevier 유료 | 🔴 **backbone 후보로는 탈락했지만 D 계열 이론 좌표로 인용하려면 확보해야 한다** — C-17이 2차 자료 인용을 금지했다. 명제의 정확한 문장과 모형 그림 | `proposition` · `encod` · `retriev` · `weight` · `combin` · `observ` · `contribution` |
+
+### ✅ 확보 완료 — 등급별
+
+| 등급 | 제목 · 서지 | 기록 |
 |---|---|---|
-| **C-1** | 조작 대상, 결과 방향, 실험실 설계, N=72 | 상호의존성 조작문 전문 · 평정 도구와 차원 · 효과크기 · 표본 한계 진술 |
-| **A-1** | 상호작용 구조, 객관 성과 사용, 주관 준거에서 효과가 큼 | LMX 척도 판본과 문항 · 객관 성과 지표의 정체 · 표본 · 통계표 |
-| **A-3** | 상호작용 방향, N=188 | LMX·소통빈도 척도 출처와 문항 · 평정 방식 · 분석수준 |
-| **A-2** | 프로젝트 팀, 평정 원천 셋, 2연구 구성 | 자기감시 척도 출처 · 평정 문항 · Study 1/2 설계 차이 |
-| **B-1** | 조절변인 목록, 78편, CEM 구조 | 평가 가능성의 원문 정의 · 개별 원연구의 조작 방식 · effort 측정 |
-| **B-2** | 배분을 종속변수로 씀 | 과제 설계 · 「가능했던 기여」 조작 |
-| **D-1 · D-2** | 서지뿐 | 거의 전부 |
-| **C-2** | Y가 집단 성과 | 📌 **확보 불필요.** 원칙 1에서 이미 낮다 |
+| 🟢 **B** | **The Relationship between Workplace Ostracism, TMX, Task Interdependence, and Task Performance: A Moderated Mediation Model** — Chung, Y. W. (2020). *IJERPH* **17**(12), 4432. DOI 10.3390/ijerph17124432 | `18-backbone-stage1-candidates` §2-1 |
+
+⚠️ **A 등급은 없다.** 🔴 **Chung은 HTML 전문이며 PDF 기계 검증을 하지 않았다** — 문항 전문·표 각주·부록은 PDF에서 다시 봐야 한다.
+
+### ⬜ 미확보 — 서지 미확정으로 조회 불가
+
+📌 **이번 후보군에는 없다.** 아홉 편 모두 DOI 또는 권·쪽이 확정되어 확보 요청이 가능하다. **권·호·쪽수만 미확정인 넷(4·5·6·8순위)은 위 구역 안에 ⬜로 표시했다** — 조회는 되기 때문이다.
+
+⚠️ **`05-corrections-log`의 「아직 정정도 검증도 안 된 것」 목록은 별개다.** Campbell & Wiernik (2015)과 Campbell (1990)은 그 목록 소관이며 이 문서에서 다루지 않는다.
+
+### ⭕ 확보 불필요 — 이유와 함께
+
+| 제목 · 서지 | 왜 확보 불필요인가 |
+|---|---|
+| **Task Interdependence as a Moderator of the Relation Between Group Control and Performance** — Liden, R. C., Wayne, S. J., & Bradway, L. K. (1997). *Human Relations* · ⬜ 권·호·쪽수 미확정 | **Y가 집단 성과라는 것이 초록에서 확정된다.** 원칙 1에서 순위가 낮으므로 확보 노력을 쓰지 않는다 |
+| **1단계 탈락 6편** (§2) | 전부 Y가 팀 성과 또는 job crafting이며 초록 수준에서 원칙 1로 판정된다. 🔴 **단 DeNisi 등(1984)은 예외로 확보 필요 구역에 있다** |
 
 ---
 
