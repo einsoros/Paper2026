@@ -25,7 +25,7 @@ tags: [PlanC, Handoff, 인수인계]
 |---|---|
 | **연구 범위** | **Human-AI 협업이라는 생산조건에서 개인의 성과를 어떻게 이해할 것인가** |
 | **확정** | 문제의식 · 작업규칙 · 역할분담 · Human-Human 기준선 · performance 기준선 |
-| **진행** | 🔴 **단계 C — Human-AI 변화요인 탐색.** 단계 A·B 완료 |
+| **진행** | 🔴 **단계 D — 이론 결합 판정.** 단계 A·B 완료 · 단계 C 🟡(C-B 미종결) |
 | **미확정** | 🔴 **backbone 모델 · IV/MV/DV · 이론 · 척도 · 가설 · 방법** |
 | **마일스톤** | **2026-12-07 디펜스** |
 | **협업 구조** | **GPT가 연구설계 주도 · Claude가 원문 검증** |
@@ -64,7 +64,7 @@ tags: [PlanC, Handoff, 인수인계]
 
 ---
 
-## 2. 🔴 현재 진행 작업 — 단계 C · Human-AI 변화요인 탐색
+## 2. 🔴 현재 진행 작업 — 단계 D · 이론 결합 판정
 
 > 🟢 **1단계(후보 검색) 완료** → `18-backbone-stage1-candidates`
 > 🟢 **2단계(원전검증 4편) 완료** → `19-backbone-stage2-verification`
@@ -77,7 +77,10 @@ tags: [PlanC, Handoff, 인수인계]
 > 🟢 **단계 B 완료 (2026-09-10) — A-3·C-1 각각 6항목 복원 + 비교표** → `23-stageB-baseline-restoration`
 > ⭐ **두 baseline은 상위 질문의 서로 다른 경로를 다룬다** — 현상은 **① 생산 구조 → ② 개인에 관한 정보가 무엇으로 남는가 → ③ 평가자의 판단** 세 층이고, **C-1은 주로 ①→③, A-3은 주로 ②→③**이다. 🔴 **①이 ②를 어떻게 바꾸는가는 두 baseline 어느 쪽에서도 검증되지 않았다** → `23-` Ⅲ-a
 > 🔴 **이것은 두 원전이 다룬 경로의 기술이며 연구공백 선언이 아니다**(C-22)
-> 🔴 **backbone 최종 1개는 아직 정하지 않았다.** 다음은 **단계 C — Human-AI 변화요인 탐색** → `21-workflow-A-G`
+> 🟡 **단계 C 완료 (2026-09-10) — 🔴 연결 확정 construct 0개 · ⬜ 후보 2개** → `24-stageC-humanai-change-factors`
+> 🔴 **C-B(평가정보·단서 변화)는 닫히지 않았다** — Human-AI 4편(Reif · Yang · Caplin · He)이 이 파일 §4에는 「검증 완료」로 적혀 있으나 **넷 다 X/M/Z/Y 원전검증 기록이 없다.** 🔴 **검토 기록은 있다** — He는 `_archive-v2/10-stage1-log` §B, 나머지 셋은 `13-` §7·`16-`이 스스로 「확보분 미검증」으로 적는다 → `24-` §0-a
+> 🔴 **단계 D 전에 §4의 「검증 완료 29편」 표기를 정비해야 한다** → `24-` §10-12
+> 🔴 **backbone 최종 1개는 아직 정하지 않았다.** 다음은 **단계 D — 이론 결합 판정** → `21-workflow-A-G`
 > ⬜ **측정 계승성 세부(LMX 문항 전문·리더 폼 계보)는 단계 F에서 재개**한다 — `20-` §9 ⬜ 3-a·3-b
 > 📌 **남은 ⬜ 미확인 5건은 `20-` §9.** 세부 문항의 ⬜와 판정 미완료를 섞지 않는다
 > 📌 **PDF는 `.zip`으로 묶어 올린다** — 컨텍스트를 아끼면서 기계검증 A등급 요건을 충족한다. 발췌만 올리면 부재 판정을 할 수 없으므로 전편을 넣는다
@@ -178,6 +181,8 @@ tags: [PlanC, Handoff, 인수인계]
 | Human-Human 기준선 | Human-AI |
 |---|---|
 | **Production, Information Costs, and Economic Organization** — Alchian & Demsetz (1972) *AER* 62(5) 🟢B<br>**Behavioral Observation Scales for Performance Appraisal Purposes** — Latham & Wexley (1977) *Personnel Psychology* 30(2) 🟢🟢A<br>**Interrater Reliability of Job Performance Ratings** — Rothstein (1990) *JAP* 75(3) 🟢🟢A<br>**Subjective Performance Measures in Optimal Incentive Contracts** — Baker, Gibbons & Murphy (1994) *QJE* 109(4) 🟢B<br>**A Theory of Individual Differences in Task and Contextual Performance** — Motowidlo, Borman & Schmit (1997) *Human Performance* 10(2) 🟢🟢A<br>**How do managers evaluate individual contributions to team production?** — Uribe, Carnahan, Meluso & Austin-Breneman (2022) *SMJ* 43(12) 🟢🟢A | **Bayesian modeling of human–AI complementarity** — Steyvers, Tejeda, Kerrigan & Smyth (2022) *PNAS* 119(11) 🟢🟢A<br>**Barriers to AI Adoption: Image Concerns at Work** — Almog (2025) arXiv:2511.18582 🟢B<br>**Evidence of a social evaluation penalty for using AI** — Reif, Larrick & Soll (2025) *PNAS* 122(19) 🟢🟢A<br>**Peer perceptions of clinicians using generative AI in medical decision-making** — Yang 등 (2025) *npj Digital Medicine* 🟢🟢A<br>**Which Contributions Deserve Credit?** — He, Houde & Weisz (2025) *CHI '25* 🟢🟢A<br>**The ABCs of Who Benefits from Working with AI** — Caplin 등 (2026) *Management Science* 72(7) 🟢🟢A<br>**How AI Assistance Affects Human Skill Development** — Wu 등 (2026) *HCOMP* 🟢🟢A<br>**The Impact of AI Usage and Informativeness** — Wu 등 (2026) *HHAI* 🟢🟢A<br>**"I Didn't Make the Micro Decisions"** — Kim 등 (2026) arXiv:2605.21363 🟢🟢A |
+
+> 🔴 **2026-09-10 확인 — 이 절의 「검증 완료 29편」에는 원전검증이 없는 넷이 섞여 있다**(Reif · Yang · Caplin · He). 정비 대상이다 → `24-` §0-a·§10-12
 
 ### ⭐ 척도 원 출처·계보·층위 검증 10편 — 2026-09-10, 전부 🟢🟢 A
 
@@ -288,7 +293,8 @@ tags: [PlanC, Handoff, 인수인계]
 | **19-backbone-stage2-verification** | **backbone 후보 4편 14항목 · 원칙 1~3 비교표 · 종합판정.** 🔴 **당시 evidence state의 판정으로 보존한다 — 고치지 않는다** |
 | ⭐ **21-workflow-A-G** | **현행 작업지도 — 단계 A~G 전체 여행지도** |
 | **22-stageA-backbone-rejudgment** | **단계 A 개정 판정 — 생존 2 · 보류 1 · 탈락 1.** `19-` §6의 개정판 |
-| ⭐ **23-stageB-baseline-restoration** | **단계 B — A-3·C-1 baseline 6항목 복원 · 비교표 · A-1 예비후보 메모** |
+| **23-stageB-baseline-restoration** | **단계 B — A-3·C-1 baseline 6항목 복원 · 비교표 · A-1 예비후보 메모** |
+| ⭐ **24-stageC-humanai-change-factors** | **단계 C — 기존 9편 재배정 · C-A/B/C 탐색 · 연결 판정 · 원전확보 우선순위 7** |
 | **99-HANDOFF** | ← 이 파일. 상태와 다음 작업만 |
 
 ### 리포 구조
@@ -309,7 +315,8 @@ tags: [PlanC, Handoff, 인수인계]
   20-principle3-scale-provenance.md    ⭐ 원칙 3 척도 원 출처 · 작업 ①②③ 결과
   21-workflow-A-G.md                   ⭐ 현행 작업지도 (단계 A~G)
   22-stageA-backbone-rejudgment.md     단계 A 개정 판정
-  23-stageB-baseline-restoration.md    ⭐ 단계 B baseline 복원
+  23-stageB-baseline-restoration.md    단계 B baseline 복원
+  24-stageC-humanai-change-factors.md  ⭐ 단계 C Human-AI 변화요인
   99-HANDOFF.md
   _archive-v1/    ⬛ 폐기된 Plan C 초기본 (모형·변수·가설)
   _archive-v2/    ⬛ 탐색 과정 기록 (Stage 체계 · 명제 사슬 · 확보 대기열 · 독해원칙 초안)
