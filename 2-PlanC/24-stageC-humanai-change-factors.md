@@ -2,7 +2,7 @@
 date: 2026-09-10
 type: record
 project: Paper2026 / PlanC
-status: 단계 C — Human-AI 변화요인 탐색. C-0 재배정(5편 배정·4편 ⬜) + C-A/B/C 탐색. 연결 확정 construct 0개, 후보 2개. backbone 미선택
+status: 단계 C — Human-AI 변화요인 탐색 · 🟡 보완 중. C-0은 원전검증 5편 배정 + He 제한 배정 + 3편 보류. C-B 미종결. 연결 확정 construct 0개, 후보 2개. backbone 미선택
 related: ["[[21-workflow-A-G]]", "[[23-stageB-baseline-restoration]]", "[[22-stageA-backbone-rejudgment]]", "[[13-humanai-landscape]]", "[[15-mapping-H-I-theta]]", "[[02-working-rules]]", "[[99-HANDOFF]]"]
 tags: [PlanC, 단계C, HumanAI변화요인]
 ---
@@ -13,8 +13,8 @@ tags: [PlanC, 단계C, HumanAI변화요인]
 |---|---|
 | **A** Backbone 재판정 | 🟢 완료 → `22-` |
 | **B** Baseline 구조 복원 | 🟢 완료 → `23-` |
-| **C** Human-AI 변화요인 탐색 | 🟢 **이 문서 — 🔴 단, C-B는 닫히지 않았다**(§0-b) |
-| **D** 이론 결합 판정 | ⬜ |
+| **C** Human-AI 변화요인 탐색 | 🟡 **이 문서 · 보완 중** — 🔴 **C-B가 닫히지 않았고 3편이 배정 보류다**(§0-a·§0-b) |
+| **D** 이론 결합 판정 | ⬜ 🔴 **단계 C 보완 완료 후** |
 | **E** 연구질문·모형 확정 | ⬜ |
 | **F** 측정·설계 계승성 | ⬜ |
 | **G** 가설·프로포절 조립 | ⬜ |
@@ -53,9 +53,13 @@ tags: [PlanC, 단계C, HumanAI변화요인]
 ⭕ **반면 He (2025)는 C-C에 ⬜ 등급으로 배정할 수 있다** — `_archive-v2` 기록에 **무엇을 물었고(크레딧 배분의 규범 판단) 무엇으로 쓰면 안 되는지**가 이미 적혀 있다.
 ---
 
-## 1. C-0 — 기존 검증문헌 재배정
+## 1. C-0 — 기존 Human-AI 문헌 재배정
 
-🔴 **기존 판정을 새 목적에 맞춰 재해석할 뿐, 이전 판정을 지우거나 승격하지 않는다.** 아래 X/M/Z/Y·H-A는 전부 `15-`와 `13-`의 `[원전확인]` 기록에서 옮긴 것이다.
+🔴 **기존 판정을 새 목적에 맞춰 재해석할 뿐, 이전 판정을 지우거나 승격하지 않는다.**
+
+**아래에서 Steyvers · Almog · Wu HCOMP · Wu HHAI · Kim의 X/M/Z/Y·H-A는 `15-`와 `13-`의 `[원전확인]` 기록에서 옮겼다. He는 `_archive-v2/10-stage1-log`의 검토 기록만으로 제한 배정했으며 원전검증은 미실시다.**
+
+📌 **세 층을 통칭하지 않는다** — **① 원전검증 완료 5편**(Steyvers · Almog · Wu HCOMP · Wu HHAI · Kim) · **② 검토 기록만 있는 1편**(He) · **③ 배정 보류 3편**(Reif · Yang · Caplin).
 
 | 문헌 | H-A 유형 | 실제 X / M / Z / Y | 연구맥락 | 등급 | **갈래** | **A-3 / C-1 연결 위치** |
 |---|---|---|---|---|---|---|
@@ -68,11 +72,11 @@ tags: [PlanC, 단계C, HumanAI변화요인]
 
 ### ⭕ C-0 결과
 
-| 갈래 | 배정된 기존 문헌 |
+| 갈래 | 배정 결과 — 🔴 **원전검증 완료 5편 / 검토 기록만 있는 He / 보류 3편을 구분한다** |
 |---|---|
-| **C-A** 업무구조 변화 | 🔴 **0편.** 다섯 편 중 **업무구조를 X로 둔 것이 없다.** Steyvers만 🟡 구조적 참조 |
+| **C-A** 업무구조 변화 | 🔴 **0편.** **X/M/Z/Y 원전검증이 있는 5편 기준 C-A 0편이며, He는 원전검증 미실시이므로 이 집계에서 제외한다.** 다섯 편 중 업무구조를 X로 둔 것이 없다 — Steyvers만 🟡 구조적 참조 |
 | **C-B** 평가정보·단서 변화 | 🟢 **1편** — Almog (2025) |
-| **C-C** 기여·노력·능력·성과 판단 변화 | 🟡 **2편** — Kim 등 (2026, 🔴 **자기 지각이며 평가자 판단이 아니다**) · He 등 (2025, ⬜ **원전검증 미실시 · 규범 판단**) |
+| **C-C** 기여·노력·능력·성과 판단 변화 | 🟡 **2편** — Kim 등 (2026) **원전검증 완료**, 🔴 **자기 지각이며 평가자 판단이 아니다** · He 등 (2025) **검토 기록만**, ⬜ 원전검증 미실시 · 🔴 규범 판단 |
 | 🔴 **연결 불가** | **3편** — Steyvers (2022) · Wu HCOMP (2026) · Wu HHAI (2026). **공통 이유: 평가자(③)가 없다** |
 | ⬜ **배정 보류** | **3편** — Reif · Yang · Caplin (§0-a) |
 
@@ -122,8 +126,8 @@ tags: [PlanC, 단계C, HumanAI변화요인]
 
 | | 문헌 | contribution | effort | ability / competence | performance judgment | 등급 |
 |---|---|---|---|---|---|---|
-| **기존** | **"I Didn't Make the Micro Decisions"** — Kim 등 (2026) | 🟡 **지각된 기여** 2문항 × 2대상. 🔴 **analytical estimate이며 ground truth 아님**(저자 명시) | 🔴 없음 | 🔴 없음 | 🔴 **없음 — 당사자 자기 지각이다** | 🟢🟢 A |
-| **기존** | **Which Contributions Deserve Credit? Perceptions of Attribution in Human-AI Co-Creation** — He, Houde & Weisz (2025). *CHI 2025*. arXiv:2502.18357 · DOI 10.1145/3706598.3713522 | 🟡 **크레딧 배분이 기여 유형·양·주도권에 따라 달라진다.** **동등한 기여에 AI에게 더 적은 크레딧.** ⭕ **attribution과 ownership을 명시적으로 구분해 정의** — construct 판별에 인용 가능 | ⬜ 미확인 | ⬜ 미확인 | 🔴 **없음 — 규범 판단(누가 크레딧을 받아야 하는가)이다** | ⬜ 원전검증 미실시 |
+| **원전검증 완료** | **"I Didn't Make the Micro Decisions"** — Kim 등 (2026) | 🟡 **지각된 기여** 2문항 × 2대상. 🔴 **analytical estimate이며 ground truth 아님**(저자 명시) | 🔴 없음 | 🔴 없음 | 🔴 **없음 — 당사자 자기 지각이다** | 🟢🟢 A |
+| 🟡 **검토 기록만** | **Which Contributions Deserve Credit? Perceptions of Attribution in Human-AI Co-Creation** — He, Houde & Weisz (2025). *CHI 2025*. arXiv:2502.18357 · DOI 10.1145/3706598.3713522 | 🟡 **크레딧 배분이 기여 유형·양·주도권에 따라 달라진다.** **동등한 기여에 AI에게 더 적은 크레딧.** ⭕ **attribution과 ownership을 명시적으로 구분해 정의** — construct 판별에 인용 가능 | ⬜ 미확인 | ⬜ 미확인 | 🔴 **없음 — 규범 판단(누가 크레딧을 받아야 하는가)이다** | ⬜ 원전검증 미실시 |
 | **신규 C-1** | **The AI Penalty** — arXiv:2501.13228. ⬜ **제목 전문·저자·연도 미확정** | ⭐ **관찰자가 「노동자의 지각된 기여」를 평가절하한다**는 것이 핵심 주장. **형평이론**(equity theory) 사용 | 🟡 투입(effort·expertise)을 산출과 대조한다고 기술 | ⬜ 미확인 | 🟡 **보상 결정**(compensation decisions)이 종속측정 | ⬜ **C** |
 
 ### 🔴 판정
@@ -193,7 +197,7 @@ tags: [PlanC, 단계C, HumanAI변화요인]
 
 | 종료조건 | 상태 |
 |---|---|
-| 기존 검증문헌 9편의 재배정 완료 | 🟡 **5편 완료 · 4편 ⬜**(§0-a). 🔴 **9편 전부는 불가능했다** |
+| 기존 Human-AI 문헌 9편의 재배정 완료 | 🟡 **원전검증 완료 5편 배정 · 검토 기록만 있는 He 1편 제한 배정 · 보류 3편**(§0-a). 🔴 **9/9는 불가능했다** |
 | 추가 검색 후 원전확보 우선 후보 목록 확정 | 🟢 **완료**(§8) |
 | 직접 검증된 기존 construct **2~4개, 못 미치면 확보된 만큼** | 🔴 **연결 확정 0개.** ⬜ **후보 2개** — ① 평가자에게 보이는 AI 의존율(Almog) ② human–AI task interdependence 3문항. **억지로 채우지 않았다** |
 | construct별 A-3/C-1 연결 위치와 연결 강도 | 🟢 **완료**(§5). 판정은 **⬜ 보류 2 · 🔴 연결 불가 2 · 🔴 원모형 구조 변경 필요 1** |
