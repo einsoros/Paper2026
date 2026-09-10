@@ -13,7 +13,7 @@ tags: [PlanC, Handoff, 인수인계]
 
 > 🔴 **이 파일은 지식 저장소가 아니다. index + state snapshot이다.**
 > 🔴 **내용을 복제하지 않는다.** 상세는 해당 파일을 열어라.
-> 📌 **마지막 갱신: 2026-09-09** (직전 2026-09-07)
+> 📌 **마지막 갱신: 2026-09-10** (직전 2026-09-09)
 
 ---
 
@@ -68,7 +68,11 @@ tags: [PlanC, Handoff, 인수인계]
 
 > 🟢 **1단계(후보 검색) 완료** → `18-backbone-stage1-candidates`
 > 🟢 **2단계(원전검증 4편) 완료** → `19-backbone-stage2-verification`
-> 🔴 **다음** — **척도 원 출처 4편 확인**으로 A-3의 원칙 3 판정을 확정한 뒤, 조작 원형·선행 인용 4편으로 이론적 설명과 검증 변수를 분리한다. 그 다음에야 backbone 선정과 원칙 4(AI 확장)로 간다
+> 🟢 **척도 원 출처 4편 확인 완료 (2026-09-10)** → ⭐ `20-principle3-scale-provenance`
+> 🔴 **다음** — **작업 ① A-3 재대조 1편 → 작업 ② LMX 7문항 계보 3편 → 작업 ③ 헤더 B 5~8번 4편.** 서지·확인항목·grep은 `20-` §6
+> 🔴 **원칙 3은 확정되지 않았다.** A-3 🟢 잠정 · A-1 미확정 — **독립변수 LMX의 문항이 미확보**(`20-` §5). 미확인 5건은 `20-` §9
+> 📌 **PDF는 `.zip`으로 묶어 올린다** — 컨텍스트를 아끼면서 기계검증 A등급 요건을 충족한다. 발췌만 올리면 부재 판정을 할 수 없으므로 전편을 넣는다
+> 🔴 **(구) 다음** — **척도 원 출처 4편 확인**으로 A-3의 원칙 3 판정을 확정한 뒤, 조작 원형·선행 인용 4편으로 이론적 설명과 검증 변수를 분리한다. 그 다음에야 backbone 선정과 원칙 4(AI 확장)로 간다
 > 🔴 **각 단계 시작 전에 §5의 이해문서 게이트를 통과한다.** 단계가 끝나면 결과를 내고 멈춰 확인을 받는다
 
 **작업지시서: `17-backbone-model-search.md` 전문**
@@ -130,12 +134,14 @@ tags: [PlanC, Handoff, 인수인계]
 
 ### 🔴 확보 필요 — backbone 2단계에서 파생, 우선순위 순
 
+> 🔴 **2026-09-10 이후 확보 목록의 최신본은 `20-principle3-scale-provenance` §6이다.** 1~4순위 넷은 확보·검증 완료. 아래 표는 그 이전 기록이다.
+
 > 🔴 **네 편의 척도가 전부 다른 논문에서 왔다. 문항을 계승하려면 원 출처를 봐야 한다** — 2차 인용 금지(C-17).
 > ⚠️ **2026-09-10 시점에 연구자가 확보했다고 알렸으나 파일이 도착하지 않았다. 다음 스레드에서 다시 받는다.**
 
 | 순 | 제목 · 서지 | 확인할 것 |
 |---|---|---|
-| **1** | **When managers decide not to decide autocratically: An investigation of leader-member exchange and decision influence** — Scandura, T. A., Graen, G. B., & Novak, M. A. (1986). *JAP* 71, 579–585 | 🔴 **LMX 7문항 전문이 실려 있는가.** A-3 원칙 3 판정이 여기 걸린다 |
+| **1** | **When managers decide not to decide autocratically: An investigation of leader-member exchange and decision influence** — Scandura, T. A., Graen, G. B., & Novak, M. A. (1986). *JAP* **71**(4), **579–584** 🟢 정정 · 🟢🟢 A 검증완료 | 🔴 **LMX 7문항 전문이 실려 있는가.** A-3 원칙 3 판정이 여기 걸린다 |
 | **2** | **Effects of impression management on performance ratings: A longitudinal study** — Wayne, S. J., & Liden, R. C. (1995). *AMJ* 38, 232–260 | 🔴 **성과평정 5문항 전문.** A-3 Study 2의 Y |
 | **3** | **The effects of leader-member exchange and job design on productivity and satisfaction: Testing a dual attachment model** — Graen, G., Novak, M., & Sommerkamp, P. (1982). *OBHP* 30, 109–131 | **A-1의 LMX 7문항 원 출처** |
 | **4** | **Affect- and cognition-based trust as foundations for interpersonal cooperation in organizations** — McAllister, D. J. (1995). *AMJ* 38, 24–59 | **A-3 Study 1의 소통빈도 4문항 원 출처** |
@@ -226,9 +232,10 @@ tags: [PlanC, Handoff, 인수인계]
 | **2** | 🔴 **`02-working-rules`** — 판정 방식이 여기서 정해진다 |
 | **3** | 🔴 **`05-corrections-log`** — **같은 오류를 반복하지 않기 위해.** C-1~C-24 |
 | **4** | 🔴 **`17-backbone-model-search`** — 이번 작업지시서 전문 |
-| **5** | ⭐ **`19-backbone-stage2-verification`** — **backbone 후보 4편의 원전검증 결과와 종합판정.** 🔴 **§8 「이 문서로 주장하면 안 되는 것」을 먼저 읽는다** |
-| **6** | **`18-backbone-stage1-candidates`** — 1단계 후보 pool·탈락 근거·확보 상태 세 구역 |
-| **7** | **`16-performance-baseline`** — performance 기준선. 🔴 **§2~§8의 A/B/C 후보 비교는 09-08 면담으로 방향이 바뀌었으므로 참고만** |
+| **5** | ⭐ **`20-principle3-scale-provenance`** — 🔴 **여기부터 이어서 한다.** §6이 다음 작업, §9가 남은 미확인, §10이 주장 금지 |
+| **6** | **`19-backbone-stage2-verification`** — backbone 후보 4편의 원전검증 결과와 종합판정. 🔴 **§8을 먼저 읽는다** |
+| **7** | **`18-backbone-stage1-candidates`** — 1단계 후보 pool·탈락 근거 |
+| **8** | **`16-performance-baseline`** — performance 기준선. 🔴 **§2~§8의 A/B/C 후보 비교는 09-08 면담으로 방향이 바뀌었으므로 참고만** |
 
 ### ⚠️ 알려진 실패 모드
 
@@ -262,7 +269,8 @@ tags: [PlanC, Handoff, 인수인계]
 | **16-performance-baseline** | performance 기준선 + A/B/C 후보 비교 (🔴 09-08 이후 참고용) |
 | ⭐ **17-backbone-model-search** | **현재 작업지시서** |
 | **18-backbone-stage1-candidates** | 1단계 candidate pool · 탈락 근거 · 확보 상태 세 구역 |
-| ⭐ **19-backbone-stage2-verification** | **backbone 후보 4편 14항목 · 원칙 1~3 비교표 · 종합판정** |
+| ⭐ **20-principle3-scale-provenance** | **원칙 3 척도 원 출처 검증 · 척도별 판정 · 미확인 5건 · 남은 확보 8편** |
+| **19-backbone-stage2-verification** | **backbone 후보 4편 14항목 · 원칙 1~3 비교표 · 종합판정** |
 | **99-HANDOFF** | ← 이 파일. 상태와 다음 작업만 |
 
 ### 리포 구조
@@ -279,7 +287,8 @@ tags: [PlanC, Handoff, 인수인계]
   16-performance-baseline.md
   17-backbone-model-search.md   ⭐ 현재 작업지시서
   18-backbone-stage1-candidates.md
-  19-backbone-stage2-verification.md   ⭐ 2단계 원전검증 결과
+  19-backbone-stage2-verification.md   2단계 원전검증 결과
+  20-principle3-scale-provenance.md    ⭐ 원칙 3 척도 원 출처
   99-HANDOFF.md
   _archive-v1/    ⬛ 폐기된 Plan C 초기본 (모형·변수·가설)
   _archive-v2/    ⬛ 탐색 과정 기록 (Stage 체계 · 명제 사슬 · 확보 대기열 · 독해원칙 초안)
