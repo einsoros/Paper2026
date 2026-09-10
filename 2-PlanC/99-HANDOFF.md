@@ -25,7 +25,7 @@ tags: [PlanC, Handoff, 인수인계]
 |---|---|
 | **연구 범위** | **Human-AI 협업이라는 생산조건에서 개인의 성과를 어떻게 이해할 것인가** |
 | **확정** | 문제의식 · 작업규칙 · 역할분담 · Human-Human 기준선 · performance 기준선 |
-| **진행** | 🔴 **단계 B — baseline 구조 복원.** 단계 A 완료(생존 A-3·C-1) |
+| **진행** | 🔴 **단계 C — Human-AI 변화요인 탐색.** 단계 A·B 완료 |
 | **미확정** | 🔴 **backbone 모델 · IV/MV/DV · 이론 · 척도 · 가설 · 방법** |
 | **마일스톤** | **2026-12-07 디펜스** |
 | **협업 구조** | **GPT가 연구설계 주도 · Claude가 원문 검증** |
@@ -64,7 +64,7 @@ tags: [PlanC, Handoff, 인수인계]
 
 ---
 
-## 2. 🔴 현재 진행 작업 — 단계 B · baseline 구조 복원
+## 2. 🔴 현재 진행 작업 — 단계 C · Human-AI 변화요인 탐색
 
 > 🟢 **1단계(후보 검색) 완료** → `18-backbone-stage1-candidates`
 > 🟢 **2단계(원전검증 4편) 완료** → `19-backbone-stage2-verification`
@@ -74,7 +74,10 @@ tags: [PlanC, Handoff, 인수인계]
 > 🟢 **작업 ③ 목록 B 5~8번 완료 (2026-09-10)** — 4편 🟢🟢 A, 층위 계보 둘 → `20-` §11
 > 🟢 **A-3 원칙 3 재검증 완료 — 🟡.** 소통빈도(S1)·성과평정(S2)·LMX 모두 🟡. A-1의 LMX 리더 폼은 🔴 미확보. → `20-` §5
 > 🟢 **단계 A 완료 (2026-09-10) — 생존 2(A-3·C-1) · 보류 1(A-1) · 탈락 1(B-1, 보조이론 자리로 이동)** → `22-stageA-backbone-rejudgment`
-> 🔴 **backbone 최종 1개는 아직 정하지 않았다.** 다음은 **단계 B — baseline 구조 복원**(생존 2편의 최소 골격을 각각 한 장으로) → `21-workflow-A-G`
+> 🟢 **단계 B 완료 (2026-09-10) — A-3·C-1 각각 6항목 복원 + 비교표** → `23-stageB-baseline-restoration`
+> ⭐ **두 baseline은 상위 질문의 서로 다른 절반을 다룬다** — A-3은 **평가자가 쓰는 관계·접촉 정보**, C-1은 **성과가 생산되는 업무구조**. 보완도 대체도 아니다
+> 🔴 **backbone 최종 1개는 아직 정하지 않았다.** 다음은 **단계 C — Human-AI 변화요인 탐색** → `21-workflow-A-G`
+> ⬜ **측정 계승성 세부(LMX 문항 전문·리더 폼 계보)는 단계 F에서 재개**한다 — `20-` §9 ⬜ 3-a·3-b
 > 📌 **남은 ⬜ 미확인 5건은 `20-` §9.** 세부 문항의 ⬜와 판정 미완료를 섞지 않는다
 > 📌 **PDF는 `.zip`으로 묶어 올린다** — 컨텍스트를 아끼면서 기계검증 A등급 요건을 충족한다. 발췌만 올리면 부재 판정을 할 수 없으므로 전편을 넣는다
 > 🔴 **각 단계 시작 전에 §5의 이해문서 게이트를 통과한다.** 단계가 끝나면 결과를 내고 멈춰 확인을 받는다
@@ -283,7 +286,8 @@ tags: [PlanC, Handoff, 인수인계]
 | ⭐ **20-principle3-scale-provenance** | **원칙 3 척도 원 출처 검증 · 척도별 판정 · 미확인 5건 · 남은 확보 8편** |
 | **19-backbone-stage2-verification** | **backbone 후보 4편 14항목 · 원칙 1~3 비교표 · 종합판정.** 🔴 **당시 evidence state의 판정으로 보존한다 — 고치지 않는다** |
 | ⭐ **21-workflow-A-G** | **현행 작업지도 — 단계 A~G 전체 여행지도** |
-| ⭐ **22-stageA-backbone-rejudgment** | **단계 A 개정 판정 — 생존 2 · 보류 1 · 탈락 1.** `19-` §6의 개정판 |
+| **22-stageA-backbone-rejudgment** | **단계 A 개정 판정 — 생존 2 · 보류 1 · 탈락 1.** `19-` §6의 개정판 |
+| ⭐ **23-stageB-baseline-restoration** | **단계 B — A-3·C-1 baseline 6항목 복원 · 비교표 · A-1 예비후보 메모** |
 | **99-HANDOFF** | ← 이 파일. 상태와 다음 작업만 |
 
 ### 리포 구조
@@ -303,7 +307,8 @@ tags: [PlanC, Handoff, 인수인계]
   19-backbone-stage2-verification.md   2단계 원전검증 결과
   20-principle3-scale-provenance.md    ⭐ 원칙 3 척도 원 출처 · 작업 ①②③ 결과
   21-workflow-A-G.md                   ⭐ 현행 작업지도 (단계 A~G)
-  22-stageA-backbone-rejudgment.md     ⭐ 단계 A 개정 판정
+  22-stageA-backbone-rejudgment.md     단계 A 개정 판정
+  23-stageB-baseline-restoration.md    ⭐ 단계 B baseline 복원
   99-HANDOFF.md
   _archive-v1/    ⬛ 폐기된 Plan C 초기본 (모형·변수·가설)
   _archive-v2/    ⬛ 탐색 과정 기록 (Stage 체계 · 명제 사슬 · 확보 대기열 · 독해원칙 초안)
