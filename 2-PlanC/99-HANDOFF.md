@@ -1,9 +1,9 @@
 ---
-date: 2026-09-09
+date: 2026-09-10
 type: handoff
 project: Paper2026 / PlanC
 status: index + state snapshot. 새 스레드를 열면 이 파일을 가장 먼저 읽는다
-related: ["[[00-CONSTITUTION]]", "[[01-phenomenon]]", "[[02-working-rules]]", "[[05-corrections-log]]", "[[12-humanhuman-baseline]]", "[[13-humanai-landscape]]", "[[15-mapping-H-I-theta]]", "[[16-performance-baseline]]", "[[17-backbone-model-search]]"]
+related: ["[[00-CONSTITUTION]]", "[[01-phenomenon]]", "[[02-working-rules]]", "[[05-corrections-log]]", "[[12-humanhuman-baseline]]", "[[13-humanai-landscape]]", "[[15-mapping-H-I-theta]]", "[[16-performance-baseline]]", "[[17-backbone-model-search]]", "[[20-principle3-scale-provenance]]", "[[21-workflow-A-G]]"]
 tags: [PlanC, Handoff, 인수인계]
 ---
 
@@ -25,7 +25,7 @@ tags: [PlanC, Handoff, 인수인계]
 |---|---|
 | **연구 범위** | **Human-AI 협업이라는 생산조건에서 개인의 성과를 어떻게 이해할 것인가** |
 | **확정** | 문제의식 · 작업규칙 · 역할분담 · Human-Human 기준선 · performance 기준선 |
-| **진행** | 🔴 **backbone 모델 탐색** — 계승 가능한 검증된 연구모델 찾기 |
+| **진행** | 🔴 **단계 A — backbone 재판정** — Stage 2 원전검증은 끝났고 원칙 1~3을 종합해 후보를 다시 가린다 |
 | **미확정** | 🔴 **backbone 모델 · IV/MV/DV · 이론 · 척도 · 가설 · 방법** |
 | **마일스톤** | **2026-12-07 디펜스** |
 | **협업 구조** | **GPT가 연구설계 주도 · Claude가 원문 검증** |
@@ -64,19 +64,21 @@ tags: [PlanC, Handoff, 인수인계]
 
 ---
 
-## 2. 🔴 현재 진행 작업 — backbone 모델 탐색
+## 2. 🔴 현재 진행 작업 — 단계 A · backbone 재판정
 
 > 🟢 **1단계(후보 검색) 완료** → `18-backbone-stage1-candidates`
 > 🟢 **2단계(원전검증 4편) 완료** → `19-backbone-stage2-verification`
-> 🟢 **척도 원 출처 4편 확인 완료 (2026-09-10)** → ⭐ `20-principle3-scale-provenance`
-> 🔴 **다음** — **작업 ① A-3 재대조 1편 → 작업 ② LMX 7문항 계보 3편 → 작업 ③ 헤더 B 5~8번 4편.** 서지·확인항목·grep은 `20-` §6
-> 🟢 **그 8편은 연구자가 전부 확보했다. 미확보가 아니다** — 남은 것은 세션 반입과 검증뿐이다
-> 🔴 **원칙 3은 확정되지 않았다.** A-3 🟢 잠정 · A-1 미확정 — **독립변수 LMX의 문항이 미확보**(`20-` §5). 미확인 5건은 `20-` §9
+> 🟢 **척도 원 출처 검증 완료 (2026-09-10)** → ⭐ `20-principle3-scale-provenance`
+> 🟢 **작업 ① A-3 재대조 완료 (2026-09-10) — 판정 🟡** → `20-` §3·§4
+> 🟢 **작업 ② LMX 7문항 계보 완료 (2026-09-10)** — 7문항 전문은 Scandura & Graen(1984) p.430에 있다. **Liden & Graen(1980)은 4문항** → `20-` §12
+> 🟢 **작업 ③ 목록 B 5~8번 완료 (2026-09-10)** — 4편 🟢🟢 A, 층위 계보 둘 → `20-` §11
+> 🟢 **A-3 원칙 3 재검증 완료 — 🟡.** 소통빈도(S1)·성과평정(S2)·LMX 모두 🟡. A-1의 LMX 리더 폼은 🔴 미확보. → `20-` §5
+> 🔴 **Stage 2의 backbone 종합판정은 아직 미완.** 다음은 **단계 A**에서 원칙 1~3을 종합하여 후보를 재판정한다 → `21-workflow-A-G` · 산출물은 `22-stageA-backbone-rejudgment`
+> 📌 **남은 ⬜ 미확인 5건은 `20-` §9.** 세부 문항의 ⬜와 판정 미완료를 섞지 않는다
 > 📌 **PDF는 `.zip`으로 묶어 올린다** — 컨텍스트를 아끼면서 기계검증 A등급 요건을 충족한다. 발췌만 올리면 부재 판정을 할 수 없으므로 전편을 넣는다
-> 🔴 **(구) 다음** — **척도 원 출처 4편 확인**으로 A-3의 원칙 3 판정을 확정한 뒤, 조작 원형·선행 인용 4편으로 이론적 설명과 검증 변수를 분리한다. 그 다음에야 backbone 선정과 원칙 4(AI 확장)로 간다
 > 🔴 **각 단계 시작 전에 §5의 이해문서 게이트를 통과한다.** 단계가 끝나면 결과를 내고 멈춰 확인을 받는다
 
-**작업지시서: `17-backbone-model-search.md` 전문**
+**작업지도: `21-workflow-A-G.md` 전문** · 이전 단계의 지시서는 `17-backbone-model-search.md`
 
 ### 최종 질문
 
@@ -135,7 +137,8 @@ tags: [PlanC, Handoff, 인수인계]
 
 ### 🔴 확보 필요 — backbone 2단계에서 파생, 우선순위 순
 
-> 🔴 **2026-09-10 이후 확보 목록의 최신본은 `20-principle3-scale-provenance` §6이다.** 1~4순위 넷은 확보·검증 완료. 아래 표는 그 이전 기록이다.
+> 🟢 **2026-09-10 기준 1~8번은 전부 확보·검증 완료다. 최신 상태는 `20-` §6·§11·§12이다.** 아래 표는 그 이전 기록이며 확인 항목의 원본으로만 보존한다.
+> ⚠️ 표 안의 「헤더 B」 표기는 정비 시 「목록 B」로 바꾼다 — 연구판정과 분리한다.
 
 > 🔴 **네 편의 척도가 전부 다른 논문에서 왔다. 문항을 계승하려면 원 출처를 봐야 한다** — 2차 인용 금지(C-17).
 > ⚠️ **2026-09-10 시점에 연구자가 확보했다고 알렸으나 파일이 도착하지 않았다. 다음 스레드에서 다시 받는다.**
@@ -165,11 +168,17 @@ tags: [PlanC, Handoff, 인수인계]
 
 ---
 
-## 4. 확보 원전 — 검증 완료 19편
+## 4. 확보 원전 — 검증 완료 29편
 
 | Human-Human 기준선 | Human-AI |
 |---|---|
 | **Production, Information Costs, and Economic Organization** — Alchian & Demsetz (1972) *AER* 62(5) 🟢B<br>**Behavioral Observation Scales for Performance Appraisal Purposes** — Latham & Wexley (1977) *Personnel Psychology* 30(2) 🟢🟢A<br>**Interrater Reliability of Job Performance Ratings** — Rothstein (1990) *JAP* 75(3) 🟢🟢A<br>**Subjective Performance Measures in Optimal Incentive Contracts** — Baker, Gibbons & Murphy (1994) *QJE* 109(4) 🟢B<br>**A Theory of Individual Differences in Task and Contextual Performance** — Motowidlo, Borman & Schmit (1997) *Human Performance* 10(2) 🟢🟢A<br>**How do managers evaluate individual contributions to team production?** — Uribe, Carnahan, Meluso & Austin-Breneman (2022) *SMJ* 43(12) 🟢🟢A | **Bayesian modeling of human–AI complementarity** — Steyvers, Tejeda, Kerrigan & Smyth (2022) *PNAS* 119(11) 🟢🟢A<br>**Barriers to AI Adoption: Image Concerns at Work** — Almog (2025) arXiv:2511.18582 🟢B<br>**Evidence of a social evaluation penalty for using AI** — Reif, Larrick & Soll (2025) *PNAS* 122(19) 🟢🟢A<br>**Peer perceptions of clinicians using generative AI in medical decision-making** — Yang 등 (2025) *npj Digital Medicine* 🟢🟢A<br>**Which Contributions Deserve Credit?** — He, Houde & Weisz (2025) *CHI '25* 🟢🟢A<br>**The ABCs of Who Benefits from Working with AI** — Caplin 등 (2026) *Management Science* 72(7) 🟢🟢A<br>**How AI Assistance Affects Human Skill Development** — Wu 등 (2026) *HCOMP* 🟢🟢A<br>**The Impact of AI Usage and Informativeness** — Wu 등 (2026) *HHAI* 🟢🟢A<br>**"I Didn't Make the Micro Decisions"** — Kim 등 (2026) arXiv:2605.21363 🟢🟢A |
+
+### ⭐ 척도 원 출처·계보·층위 검증 10편 — 2026-09-10, 전부 🟢🟢 A
+
+**Effects of impression management on performance ratings** — Wayne & Liden (1995) *AMJ* 38(1) · **Affect- and cognition-based trust…** — McAllister (1995) *AMJ* 38(1) · **When managers decide not to decide autocratically…** — Scandura, Graen & Novak (1986) *JAP* 71(4) · **The effects of leader-member exchange and job design…** — Graen, Novak & Sommerkamp (1982) *OBHP* 30 · **Moderating Effects of Initial Leader–Member Exchange Status…** — Scandura & Graen (1984) *JAP* 69(3) · **Generalizability of the Vertical Dyad Linkage Model of Leadership** — Liden & Graen (1980) *AMJ* 23(3) · **Identifiability as a deterrent to social loafing** — Williams, Harkins & Latané (1981) *JPSP* 40(2) · **The effects of the social context on performance evaluations** — Mitchell & Liden (1982) *OBHP* 29 · **Social loafing and social facilitation** — Harkins (1987) *JESP* 23 · **Managing marginal employees** — O'Reilly & Weitz (1980) *ASQ* 25(3)
+
+📌 **판정과 확인 내용은 `20-` §1·§11·§12에 있다.**
 
 ### ⭐ backbone 후보 4편 — 2026-09-10 원전검증 완료, 전부 🟢🟢 A
 
@@ -232,7 +241,7 @@ tags: [PlanC, Handoff, 인수인계]
 | **1** | **`00-CONSTITUTION`** — 연구 운영원칙과 역할분담. 🔴 **§1-a 두 원칙을 먼저 내재화** |
 | **2** | 🔴 **`02-working-rules`** — 판정 방식이 여기서 정해진다 |
 | **3** | 🔴 **`05-corrections-log`** — **같은 오류를 반복하지 않기 위해.** C-1~C-24 |
-| **4** | 🔴 **`17-backbone-model-search`** — 이번 작업지시서 전문 |
+| **4** | 🔴 **`21-workflow-A-G`** — **현행 작업지도(단계 A~G) 전문.** 이전 단계의 지시서 `17-backbone-model-search`는 이력으로 보존 |
 | **5** | ⭐ **`20-principle3-scale-provenance`** — 🔴 **여기부터 이어서 한다.** §6이 다음 작업, §9가 남은 미확인, §10이 주장 금지 |
 | **6** | **`19-backbone-stage2-verification`** — backbone 후보 4편의 원전검증 결과와 종합판정. 🔴 **§8을 먼저 읽는다** |
 | **7** | **`18-backbone-stage1-candidates`** — 1단계 후보 pool·탈락 근거 |
@@ -268,10 +277,12 @@ tags: [PlanC, Handoff, 인수인계]
 | **13-humanai-landscape** | Human-AI 원전 검증 |
 | **15-mapping-H-I-theta** | 비교·분류 working map |
 | **16-performance-baseline** | performance 기준선 + A/B/C 후보 비교 (🔴 09-08 이후 참고용) |
-| ⭐ **17-backbone-model-search** | **현재 작업지시서** |
+| **17-backbone-model-search** | backbone 탐색 단계의 작업지시서 (이력) |
 | **18-backbone-stage1-candidates** | 1단계 candidate pool · 탈락 근거 · 확보 상태 세 구역 |
 | ⭐ **20-principle3-scale-provenance** | **원칙 3 척도 원 출처 검증 · 척도별 판정 · 미확인 5건 · 남은 확보 8편** |
-| **19-backbone-stage2-verification** | **backbone 후보 4편 14항목 · 원칙 1~3 비교표 · 종합판정** |
+| **19-backbone-stage2-verification** | **backbone 후보 4편 14항목 · 원칙 1~3 비교표 · 종합판정.** 🔴 **당시 evidence state의 판정으로 보존한다 — 고치지 않는다** |
+| ⭐ **21-workflow-A-G** | **현행 작업지도 — 단계 A~G 전체 여행지도** |
+| **22-stageA-backbone-rejudgment** | **단계 A 개정 판정** (⬜ 미작성) |
 | **99-HANDOFF** | ← 이 파일. 상태와 다음 작업만 |
 
 ### 리포 구조
@@ -286,10 +297,12 @@ tags: [PlanC, Handoff, 인수인계]
   13-humanai-landscape.md
   15-mapping-H-I-theta.md
   16-performance-baseline.md
-  17-backbone-model-search.md   ⭐ 현재 작업지시서
+  17-backbone-model-search.md          backbone 탐색 작업지시서 (이력)
   18-backbone-stage1-candidates.md
   19-backbone-stage2-verification.md   2단계 원전검증 결과
-  20-principle3-scale-provenance.md    ⭐ 원칙 3 척도 원 출처
+  20-principle3-scale-provenance.md    ⭐ 원칙 3 척도 원 출처 · 작업 ①②③ 결과
+  21-workflow-A-G.md                   ⭐ 현행 작업지도 (단계 A~G)
+  22-stageA-backbone-rejudgment.md     단계 A 개정 판정
   99-HANDOFF.md
   _archive-v1/    ⬛ 폐기된 Plan C 초기본 (모형·변수·가설)
   _archive-v2/    ⬛ 탐색 과정 기록 (Stage 체계 · 명제 사슬 · 확보 대기열 · 독해원칙 초안)
