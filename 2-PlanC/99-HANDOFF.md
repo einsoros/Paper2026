@@ -9,6 +9,8 @@ tags: [PlanC, Handoff, 인수인계]
 
 # HANDOFF — Plan C
 
+> 🔴 **인수받은 Claude는 §5의 이해문서 게이트를 먼저 통과한다. 이해문서 제출과 연구자 확인 전에는 어떤 작업도 시작하지 않는다.**
+
 > 🔴 **이 파일은 지식 저장소가 아니다. index + state snapshot이다.**
 > 🔴 **내용을 복제하지 않는다.** 상세는 해당 파일을 열어라.
 > 📌 **마지막 갱신: 2026-09-09** (직전 2026-09-07)
@@ -16,6 +18,8 @@ tags: [PlanC, Handoff, 인수인계]
 ---
 
 ## 1. 현재 어디까지 왔는가
+
+> 📌 **2026-09-10 기준 — backbone 후보 4편 원전검증까지 끝났고 backbone은 아직 선정하지 않았다.**
 
 | | |
 |---|---|
@@ -61,6 +65,11 @@ tags: [PlanC, Handoff, 인수인계]
 ---
 
 ## 2. 🔴 현재 진행 작업 — backbone 모델 탐색
+
+> 🟢 **1단계(후보 검색) 완료** → `18-backbone-stage1-candidates`
+> 🟢 **2단계(원전검증 4편) 완료** → `19-backbone-stage2-verification`
+> 🔴 **다음** — **척도 원 출처 4편 확인**으로 A-3의 원칙 3 판정을 확정한 뒤, 조작 원형·선행 인용 4편으로 이론적 설명과 검증 변수를 분리한다. 그 다음에야 backbone 선정과 원칙 4(AI 확장)로 간다
+> 🔴 **각 단계 시작 전에 §5의 이해문서 게이트를 통과한다.** 단계가 끝나면 결과를 내고 멈춰 확인을 받는다
 
 **작업지시서: `17-backbone-model-search.md` 전문**
 
@@ -119,6 +128,24 @@ tags: [PlanC, Handoff, 인수인계]
 | **이론 · 척도 · 가설 · 방법** |
 | **논문 제목** — 08-26 제목은 유지 어려움 |
 
+### 🔴 확보 필요 — backbone 2단계에서 파생, 우선순위 순
+
+> 🔴 **네 편의 척도가 전부 다른 논문에서 왔다. 문항을 계승하려면 원 출처를 봐야 한다** — 2차 인용 금지(C-17).
+> ⚠️ **2026-09-10 시점에 연구자가 확보했다고 알렸으나 파일이 도착하지 않았다. 다음 스레드에서 다시 받는다.**
+
+| 순 | 제목 · 서지 | 확인할 것 |
+|---|---|---|
+| **1** | **When managers decide not to decide autocratically: An investigation of leader-member exchange and decision influence** — Scandura, T. A., Graen, G. B., & Novak, M. A. (1986). *JAP* 71, 579–585 | 🔴 **LMX 7문항 전문이 실려 있는가.** A-3 원칙 3 판정이 여기 걸린다 |
+| **2** | **Effects of impression management on performance ratings: A longitudinal study** — Wayne, S. J., & Liden, R. C. (1995). *AMJ* 38, 232–260 | 🔴 **성과평정 5문항 전문.** A-3 Study 2의 Y |
+| **3** | **The effects of leader-member exchange and job design on productivity and satisfaction: Testing a dual attachment model** — Graen, G., Novak, M., & Sommerkamp, P. (1982). *OBHP* 30, 109–131 | **A-1의 LMX 7문항 원 출처** |
+| **4** | **Affect- and cognition-based trust as foundations for interpersonal cooperation in organizations** — McAllister, D. J. (1995). *AMJ* 38, 24–59 | **A-3 Study 1의 소통빈도 4문항 원 출처** |
+| **5** | **Identifiability as a deterrent to social loafing: Two cheering experiments** — Williams, K., Harkins, S., & Latané, B. (1981). *JPSP* 40, 303–311 | **evaluation potential의 실제 조작 문구.** B-1은 정의만 준다 |
+| **6** | **The effects of the social context on performance evaluations** — Mitchell, T. R., & Liden, R. C. (1982). *OBHP* 29, 241–256 | **C-1의 직전 연구.** C-1이 p.290에서 결과를 요약 인용 |
+| 7 | **Social loafing and social facilitation** — Harkins, S. G. (1987). *JESP* 23, 1–18 | 「evaluation potential이 태만의 매개변인」 주장의 원 출처 |
+| 8 | **Managing marginal employees: The use of warnings and dismissals** — O'Reilly, C., & Weitz, B. (1980). *ASQ* 25(3), 467–484 (p.482) | **C-1이 가설을 끌어낸 인용의 원 출처** |
+
+🔴 **이 여덟 편은 backbone 후보가 아니다.** 14항목 양식이 아니라 **확인 항목별 결과와 그에 따른 원칙 3 판정 변화**로 정리한다.
+
 ### ⬜ 미확보 · 서지 미확정
 
 | 제목 · 서지 | 비고 |
@@ -131,11 +158,22 @@ tags: [PlanC, Handoff, 인수인계]
 
 ---
 
-## 4. 확보 원전 — 검증 완료 15편
+## 4. 확보 원전 — 검증 완료 19편
 
 | Human-Human 기준선 | Human-AI |
 |---|---|
 | **Production, Information Costs, and Economic Organization** — Alchian & Demsetz (1972) *AER* 62(5) 🟢B<br>**Behavioral Observation Scales for Performance Appraisal Purposes** — Latham & Wexley (1977) *Personnel Psychology* 30(2) 🟢🟢A<br>**Interrater Reliability of Job Performance Ratings** — Rothstein (1990) *JAP* 75(3) 🟢🟢A<br>**Subjective Performance Measures in Optimal Incentive Contracts** — Baker, Gibbons & Murphy (1994) *QJE* 109(4) 🟢B<br>**A Theory of Individual Differences in Task and Contextual Performance** — Motowidlo, Borman & Schmit (1997) *Human Performance* 10(2) 🟢🟢A<br>**How do managers evaluate individual contributions to team production?** — Uribe, Carnahan, Meluso & Austin-Breneman (2022) *SMJ* 43(12) 🟢🟢A | **Bayesian modeling of human–AI complementarity** — Steyvers, Tejeda, Kerrigan & Smyth (2022) *PNAS* 119(11) 🟢🟢A<br>**Barriers to AI Adoption: Image Concerns at Work** — Almog (2025) arXiv:2511.18582 🟢B<br>**Evidence of a social evaluation penalty for using AI** — Reif, Larrick & Soll (2025) *PNAS* 122(19) 🟢🟢A<br>**Peer perceptions of clinicians using generative AI in medical decision-making** — Yang 등 (2025) *npj Digital Medicine* 🟢🟢A<br>**Which Contributions Deserve Credit?** — He, Houde & Weisz (2025) *CHI '25* 🟢🟢A<br>**The ABCs of Who Benefits from Working with AI** — Caplin 등 (2026) *Management Science* 72(7) 🟢🟢A<br>**How AI Assistance Affects Human Skill Development** — Wu 등 (2026) *HCOMP* 🟢🟢A<br>**The Impact of AI Usage and Informativeness** — Wu 등 (2026) *HHAI* 🟢🟢A<br>**"I Didn't Make the Micro Decisions"** — Kim 등 (2026) arXiv:2605.21363 🟢🟢A |
+
+### ⭐ backbone 후보 4편 — 2026-09-10 원전검증 완료, 전부 🟢🟢 A
+
+| 라벨 | 제목 · 서지 |
+|---|---|
+| **C-1** | **THE EFFECTS OF GROUP INTERDEPENDENCE ON SUPERVISOR PERFORMANCE EVALUATIONS** — Liden & Mitchell (1983). *Personnel Psychology* 36, 289–299. ⬜ 호는 표지에 없고 Wiley 서지면 기준 2호 |
+| **A-1** | **EFFECTS OF DYADIC QUALITY AND DURATION ON PERFORMANCE APPRAISAL** — Duarte, Goodson & Klich (1994). *AMJ* 37(3), 499–521 |
+| **A-3** | **The Interactive Effect of Leader–Member Exchange and Communication Frequency on Performance Ratings** — Kacmar, Witt, Zivnuska & Gully (2003). *JAP* 88(4), 764–772 |
+| **B-1** | **Social Loafing: A Meta-Analytic Review and Theoretical Integration** — Karau & Williams (1993). *JPSP* 65(4), 681–706 |
+
+📌 **14항목·비교표·종합판정은 `19-backbone-stage2-verification`에 있다.** 1단계 후보 pool과 탈락 근거는 `18-backbone-stage1-candidates`.
 
 📌 **판정과 상세는 `12`·`13`·`15`·`16`에 있다.**
 
@@ -143,13 +181,54 @@ tags: [PlanC, Handoff, 인수인계]
 
 ## 5. 🔴 인수받은 Claude가 처음 할 일
 
+> 🔴 **이해문서를 제출하기 전에는 어떤 작업도 시작하지 않는다.** 검색·판정·파일 작성·git 명령 모두 포함한다.
+> 🔴 **이해문서에 대해 연구자의 확인을 받은 뒤에만 다음 단계로 넘어간다.** 확인 없이 진행하면 그 산출물은 폐기 대상이다.
+
+### 🔴 진행 규칙 — 이해문서 게이트
+
+| 순 | 무엇을 |
+|---|---|
+| **1** | 아래 읽을 순서대로 문서를 **전부** 읽는다 |
+| **2** | 🔴 **이해문서를 제출한다** — 아래 여덟 항목을 빠뜨리지 않는다 |
+| **3** | ⏸️ **멈춘다.** 연구자가 확인하거나 정정할 때까지 기다린다 |
+| **4** | 정정이 있으면 **반영한 이해문서를 다시 제출**하고 다시 멈춘다 |
+| **5** | 확인을 받은 뒤에만 작업을 시작한다 |
+| **6** | 🔴 **단계가 끝날 때마다 같은 게이트를 다시 통과한다** — 결과를 내고 멈추고, 확인을 받고 다음 단계로 |
+
+### 🔴 이해문서에 반드시 담을 여덟 항목
+
+| # | |
+|---|---|
+| **1** | **무엇을 읽었는지** — 파일명과, 첨부로 받았는지 리포에서 읽었는지. 🔴 **읽지 못한 파일은 읽지 못했다고 적는다** |
+| **2** | **현재 상태를 자기 말로** — 어디까지 끝났고 무엇이 미확정인지. 🔴 **문서 문장을 옮겨 적는 것은 이해문서가 아니다** |
+| **3** | **이번에 할 작업을 자기 말로** — 무엇을 판정하는 작업이며 왜 그것이 지금 필요한지 |
+| **4** | **제 역할의 경계** — 할 것과 하지 않을 것. 🔴 **모형·가설·construct·gap 제안은 GPT 몫이고 원문 확보는 연구자 몫이다** |
+| **5** | **적용할 판정 규칙** — `02-working-rules`에서 이번 작업에 실제로 걸리는 조항 |
+| **6** | **반복하지 않을 오류** — `05-corrections-log`에서 이번 작업에 걸릴 위험이 높은 항목과 그 회피 방법 |
+| **7** | 🔴 **시작 전에 확인이 필요한 것** — 문서 간 충돌, 근거가 미확인인 전제, 지시가 모호한 지점. **없으면 없다고 적는다** |
+| **8** | **산출물의 형태** — 무엇을 어떤 형식으로 내고 어느 파일에 남길지 |
+
+### ⚠️ 이해문서에서 하지 말 것
+
+| |
+|---|
+| 🔴 **읽지 않은 문서를 읽은 것처럼 쓰지 않는다.** 2026-09-09에 인용 출처를 의심받았고, 리포 사본과 첨부의 md5 대조로 해소했다 |
+| 🔴 **문서에 없는 것을 근거로 쓰지 않는다.** 정정 24건 중 여러 건이 이 유형이었다 |
+| 🔴 **작업 계획을 세우면서 새 변수·가설·모형을 끼워 넣지 않는다** |
+| 🔴 **확인이 필요한 것을 「문제 없어 보류」로 적지 않는다.** 무엇을 확보하거나 무엇을 정해야 하는지 이름을 적는다 |
+| 🔴 **이해문서를 낸 다음 답을 기다리지 않고 이어서 작업하지 않는다** |
+
+### 읽을 순서
+
 | 순 | |
 |---|---|
 | **1** | **`00-CONSTITUTION`** — 연구 운영원칙과 역할분담. 🔴 **§1-a 두 원칙을 먼저 내재화** |
 | **2** | 🔴 **`02-working-rules`** — 판정 방식이 여기서 정해진다 |
 | **3** | 🔴 **`05-corrections-log`** — **같은 오류를 반복하지 않기 위해.** C-1~C-24 |
 | **4** | 🔴 **`17-backbone-model-search`** — 이번 작업지시서 전문 |
-| **5** | **`16-performance-baseline`** — performance 기준선. 🔴 **§2~§8의 A/B/C 후보 비교는 09-08 면담으로 방향이 바뀌었으므로 참고만** |
+| **5** | ⭐ **`19-backbone-stage2-verification`** — **backbone 후보 4편의 원전검증 결과와 종합판정.** 🔴 **§8 「이 문서로 주장하면 안 되는 것」을 먼저 읽는다** |
+| **6** | **`18-backbone-stage1-candidates`** — 1단계 후보 pool·탈락 근거·확보 상태 세 구역 |
+| **7** | **`16-performance-baseline`** — performance 기준선. 🔴 **§2~§8의 A/B/C 후보 비교는 09-08 면담으로 방향이 바뀌었으므로 참고만** |
 
 ### ⚠️ 알려진 실패 모드
 
@@ -182,6 +261,8 @@ tags: [PlanC, Handoff, 인수인계]
 | **15-mapping-H-I-theta** | 비교·분류 working map |
 | **16-performance-baseline** | performance 기준선 + A/B/C 후보 비교 (🔴 09-08 이후 참고용) |
 | ⭐ **17-backbone-model-search** | **현재 작업지시서** |
+| **18-backbone-stage1-candidates** | 1단계 candidate pool · 탈락 근거 · 확보 상태 세 구역 |
+| ⭐ **19-backbone-stage2-verification** | **backbone 후보 4편 14항목 · 원칙 1~3 비교표 · 종합판정** |
 | **99-HANDOFF** | ← 이 파일. 상태와 다음 작업만 |
 
 ### 리포 구조
@@ -197,6 +278,8 @@ tags: [PlanC, Handoff, 인수인계]
   15-mapping-H-I-theta.md
   16-performance-baseline.md
   17-backbone-model-search.md   ⭐ 현재 작업지시서
+  18-backbone-stage1-candidates.md
+  19-backbone-stage2-verification.md   ⭐ 2단계 원전검증 결과
   99-HANDOFF.md
   _archive-v1/    ⬛ 폐기된 Plan C 초기본 (모형·변수·가설)
   _archive-v2/    ⬛ 탐색 과정 기록 (Stage 체계 · 명제 사슬 · 확보 대기열 · 독해원칙 초안)
@@ -219,11 +302,18 @@ tags: [PlanC, Handoff, 인수인계]
 | 커밋 접두 | `[mp]` / `[ma]` / `[wp]` — `git config --local paper.machine` |
 | ⚠️ | **`git add -A` 전에 반드시 `git status -s`** · 명령에 **`cd`를 넣지 않는다** |
 | 📌 | 접두는 **파괴적 작업(격리·삭제)에서만 정확히 맞춘다** |
+| 🔴 | **Claude는 원격만 볼 수 있고 로컬 상태는 볼 수 없다.** 2026-09-09에 한 기기가 리포 재편 이전 상태였는데 그대로 진행해 **같은 경로에 파일을 새로 추가하는 add/add 충돌**이 났다. 시작 시 `git log -1`과 `git status -s` 결과를 Claude에게 보여주면 원격과 대조해 어긋남을 먼저 잡는다 |
 
 ### 연구자 선호
 
-**모든 주장에 파일·절 또는 원문 위치 표기** · 파일 전달 시 **리포 경로 명시** · **`cp`/`mv` + `add` + `commit` + `push`를 바로 실행 가능한 형태로** · 🔴 **문헌을 물을 때는 항상 제목을 함께 제시** · 🔴 **원문 확보는 연구자가 한다. Claude는 서지 정보와 확인 항목만 제시**
+🔴 **단계마다 이해문서 제출 → 확인 → 진행** · **모든 주장에 파일·절 또는 원문 위치 표기** · 파일 전달 시 **리포 경로 명시** · **`cp`/`mv` + `add` + `commit` + `push`를 바로 실행 가능한 형태로** · 🔴 **문헌을 물을 때는 항상 제목을 함께 제시** · 🔴 **원문 확보는 연구자가 한다. Claude는 서지 정보와 확인 항목만 제시**
 
 ### ⚠️ 첨부 관련
 
 🔴 **긴 텍스트를 붙여넣으면 첨부로 변환되면서 내용이 비어서 도착하는 경우가 반복됐다.** 텍스트 파일로 저장해 업로드하면 디스크에서 직접 읽을 수 있다. 스크린샷도 정상 작동한다.
+
+⚠️ **스레드마다 이미지 업로드 한도가 있다.** 2026-09-10에 한도 초과로 스레드를 넘겼다. **스크린샷을 많이 쓰는 작업은 스레드를 나눈다.**
+
+⚠️ **「확보했다」고 알려도 첨부가 붙지 않는 경우가 있다.** Claude는 업로드 폴더를 직접 확인하고, 없으면 없다고 알린다 — 있는 것처럼 진행하지 않는다.
+
+📌 **PDF 여러 편을 한 번에 올리면 부하가 크다.** 두 편씩 나눠 받는 편이 12번 항목의 품질에 유리하다.
