@@ -25,7 +25,7 @@ tags: [PlanC, Handoff, 인수인계]
 |---|---|
 | **연구 범위** | **Human-AI 협업이라는 생산조건에서 개인의 성과를 어떻게 이해할 것인가** |
 | **확정** | 문제의식 · 작업규칙 · 역할분담 · Human-Human 기준선 · performance 기준선 |
-| **진행** | 🟡 **단계 C — Human-AI 변화요인 탐색 보완 중.** 🟢 C-0 9/9 · 🟢 C-B Direct 1편 · 🔴 C-A Direct 0(제한검색 남음) |
+| **진행** | 🟢 **단계 C 종료 가능** → 🔴 **다음은 단계 D(이론 결합 판정) · 미시작.** C-B Direct 1편 · C-A Direct 0(gap 아님) |
 | **미확정** | 🔴 **backbone 모델 · IV/MV/DV · 이론 · 척도 · 가설 · 방법** |
 | **마일스톤** | **2026-12-07 디펜스** |
 | **협업 구조** | **GPT가 연구설계 주도 · Claude가 원문 검증** |
@@ -64,7 +64,7 @@ tags: [PlanC, Handoff, 인수인계]
 
 ---
 
-## 2. 🔴 현재 진행 작업 — 단계 C 보완 · C-A 제한검색 남음
+## 2. 🔴 현재 진행 작업 — 단계 D · 이론 결합 판정
 
 > 🟢 **1단계(후보 검색) 완료** → `18-backbone-stage1-candidates`
 > 🟢 **2단계(원전검증 4편) 완료** → `19-backbone-stage2-verification`
@@ -77,16 +77,19 @@ tags: [PlanC, Handoff, 인수인계]
 > 🟢 **단계 B 완료 (2026-09-10) — A-3·C-1 각각 6항목 복원 + 비교표** → `23-stageB-baseline-restoration`
 > ⭐ **두 baseline은 상위 질문의 서로 다른 경로를 다룬다** — 현상은 **① 생산 구조 → ② 개인에 관한 정보가 무엇으로 남는가 → ③ 평가자의 판단** 세 층이고, **C-1은 주로 ①→③, A-3은 주로 ②→③**이다. 🔴 **①이 ②를 어떻게 바꾸는가는 두 baseline 어느 쪽에서도 검증되지 않았다** → `23-` Ⅲ-a
 > 🔴 **이것은 두 원전이 다룬 경로의 기술이며 연구공백 선언이 아니다**(C-22)
-> 🟡 **단계 C 부분 진행 (2026-09-10) — 🟢 C-0 9/9 완료 · 🟢 C-B Direct 1편 확보 · 🔴 C-A Direct 0** → `24-stageC-humanai-change-factors`
-> 🟢 **원전검증 완료 — Reif(§11) · Yang(§12) · He, J.(§13) · Caplin(§14) · Wu & Jiao(§15) · He, G., Yam 등(§16).** C-0 종료표는 `24-` §1
-> ⭐ **C-B가 가장 강하게 채워졌다 — 네 편.** Almog · Reif · Yang · **He, G., Yam 등(2025) *HRM* 64(2)가 C-B Direct**로, **확보 문헌 중 처음이자 유일하게 ②→③을 성과평정으로 직접 검증**했다(실제 상사 65명 × 부하 196명 현장연구)
-> 🔴 **C-B를 「AI penalty 문헌」으로 정리하면 안 된다** — **하향 세 편과 상향 간접경로 한 편이 함께 있다.** 🔴 **방향이 갈리는 원인은 검증되지 않았다**(기술유형·평가자 역할·성과정보 가시성·귀인 메커니즘이 동시에 다름). 🔴 **「AI는 벌하고 로봇은 보상한다」로 쓰지 않는다** → `24-` §3
-> 🔴 **He, G., Yam 등의 「inflate」는 총효과가 아니다** — robot usage → 성과평정 직접효과는 **비유의**(b = 0.09, t = 0.81)이고 검증된 것은 **robot usage → IPT → 성과평정 간접경로**다 → `24-` §16-4
-> 🟡 **C-A는 Adjacent 1편**(Wu & Jiao 2026, human–AI task interdependence). 🔴 **Direct 0 · 제한 추가검색이 남았다** → `24-` §15
-> 🟡 **C-C는 인접 증거 중심** — Kim 등(2026) · He, J. 등(2025). 🔴 **contribution / credit / self-perception을 performance appraisal과 동일시하지 않는다** → `24-` §4·§13
-> ⭕ **Caplin 등(2026)은 Structural reference** — 제3자 평가자가 없고 본인의 task performance와 subjective belief를 다룬다. 🔴 **calibration ≠ appraisal accuracy** → `24-` §14
-> 🔴 **A-3 = Adjacent**(최근접은 He, G., Yam 등) · **C-1 = Structural precedent.** 🔴 **「C-1 Core를 실제 구현했다」고 쓰지 않는다** → `24-` §16-7
-> 🔴 **남은 것 셋** — ① **C-A 제한 추가검색**(최대 3편, 부재를 gap으로 쓰지 않는다) ② **Liden 등(1997) 서지 정체 확인**(후보 셋, `24-` §8-7) ③ **단계 C 전체 확정표**
+> 🟢 **단계 C 종료 가능 (2026-09-11)** — 종료조건 여덟을 모두 충족했다 → `24-stageC-humanai-change-factors` §18-3. **전체 확정표는 `24-` §17**
+> 🟢 **원전검증 완료 11편** — Almog · Reif(§11) · Yang(§12) · He, J.(§13) · Caplin(§14) · Wu & Jiao(§15) · He, G., Yam 등(§16) · Kim · Steyvers · Wu HCOMP · Wu HHAI
+> ⭐ **C-B가 가장 강하게 채워졌다 — 네 편.** **He, G., Yam 등 (2025) *HRM* 64(2), 543–563이 C-B Direct**로, **확보 문헌 중 처음이자 유일하게 ②→③을 성과평정으로 직접 검증**했다(실제 상사 65명 × 부하 196명 현장연구)
+> 🔴 **C-B를 「AI penalty 문헌」으로 정리하면 안 된다** — **하향 세 편과 상향 간접경로 한 편이 함께 있다.** 🔴 **방향이 갈리는 원인은 검증되지 않았다** — 기술유형·평가자 역할·성과정보 가시성·귀인 메커니즘이 동시에 다르다. 🔴 **「AI는 벌하고 로봇은 보상한다」로 쓰지 않는다** → `24-` §3·§18-1 D
+> 🔴 **He, G., Yam 등의 「inflate」는 총효과가 아니다** — robot usage → 성과평정 직접효과는 **비유의**(b = 0.09, t = 0.81). 검증된 것은 **robot usage → IPT → 성과평정 간접경로**다. 🔴 **rating–performance discrepancy를 산출한 것이 아니다** → `24-` §16-4
+> 🟡 **C-A는 Adjacent 1편**(Wu & Jiao 2026). 🔴 **Direct 0 — 네 차례 제한검색으로도 원전검증된 Direct를 확인하지 못했다.** ⚠️ **이것을 gap으로 확정하지 않는다** → `24-` §15·§18-1 A
+> 🔴 **미해결 메타데이터 후보 3편은 확정 evidence가 아니다** — AI as the Phantom Limb(*CHI 2026*) · Fitts' List Revisited(arXiv:2505.04722) · AI teammates commitment deficits. 🔴 **17-a와 같은 줄에 놓지 않는다** → `24-` §17-b
+> 🟡 **C-C는 인접 증거 중심** — He, J. 등(2025)은 **①/②의 기여정보·파트너정보 → authorship credit(③ 바깥 인접 outcome)** · Kim 등(2026)은 당사자 자기 지각. 🔴 **contribution / credit / self-perception을 performance appraisal과 동일시하지 않는다**
+> 🟢 **Liden 등(1997) 서지 확정 (2026-09-11)** — **Liden, Wayne & Bradway (1997). Task Interdependence as a Moderator of the Relation Between Group Control and Performance. *Human Relations* 50(2), 169–181.** ⭐ **3문항의 상류는 Pearce & Gregersen (1991) *JAP* 76, 838–844**이고, **원 문항 주어가 전부 「Group members」**다 → `24-` §15-2-a. 🔴 **「Liden 등(1997)이 개발」·「contribution-identification difficulty를 측정했다」로 쓰지 않는다**
+> ⚠️ **1997년 Liden 공저 세 편이 리포에서 각각 다른 용도로 쓰인다** — 과업 상호의존성 척도(§15) / 성과평정 척도(§16) / A-3의 LMX 이론 근거(`19-` §2). 🔴 **제목 병기를 강제한다** → `24-` §10-19
+> 🟢 **현재 문헌이 허용하는 가장 강한 문장** — 「**기술 사용에 관한 정보는 사람에 대한 판단을 변화시킬 수 있다. 그 방향은 일관된 penalty가 아니며, 확보 문헌에서는 하향과 상향 판단이 모두 관찰된다. 왜 방향이 달라지는지는 현재 문헌만으로 단정할 수 없다.**」 🔴 **이보다 강한 문장을 쓰지 않는다** → `24-` §18-1 E
+> 🔴 **아직 모르는 것** — ①이 ②를 어떻게 바꾸는가 · 개인 기여의 식별 가능성(어느 편도 측정 안 함) · 평가 정확성 · 방향 차이의 원인 → `24-` §18-1 F
+> 🔴 **다음 — 단계 D(이론 결합 판정).** 🔴 **결합안·최종 변수·가설은 아직 제안하지 않았다**
 > 🔴 **단계 D는 시작하지 않는다**
 > ⬜ **측정 계승성 세부(LMX 문항 전문·리더 폼 계보)는 단계 F에서 재개**한다 — `20-` §9 ⬜ 3-a·3-b
 > 📌 **남은 ⬜ 미확인 5건은 `20-` §9.** 세부 문항의 ⬜와 판정 미완료를 섞지 않는다
@@ -189,7 +192,7 @@ tags: [PlanC, Handoff, 인수인계]
 |---|---|
 | **Production, Information Costs, and Economic Organization** — Alchian & Demsetz (1972) *AER* 62(5) 🟢B<br>**Behavioral Observation Scales for Performance Appraisal Purposes** — Latham & Wexley (1977) *Personnel Psychology* 30(2) 🟢🟢A<br>**Interrater Reliability of Job Performance Ratings** — Rothstein (1990) *JAP* 75(3) 🟢🟢A<br>**Subjective Performance Measures in Optimal Incentive Contracts** — Baker, Gibbons & Murphy (1994) *QJE* 109(4) 🟢B<br>**A Theory of Individual Differences in Task and Contextual Performance** — Motowidlo, Borman & Schmit (1997) *Human Performance* 10(2) 🟢🟢A<br>**How do managers evaluate individual contributions to team production?** — Uribe, Carnahan, Meluso & Austin-Breneman (2022) *SMJ* 43(12) 🟢🟢A | **Bayesian modeling of human–AI complementarity** — Steyvers, Tejeda, Kerrigan & Smyth (2022) *PNAS* 119(11) 🟢🟢A<br>**Barriers to AI Adoption: Image Concerns at Work** — Almog (2025) arXiv:2511.18582 🟢B<br>**Evidence of a social evaluation penalty for using AI** — Reif, Larrick & Soll (2025) *PNAS* 122(19) 🟢🟢A<br>**Peer perceptions of clinicians using generative AI in medical decision-making** — Yang 등 (2025) *npj Digital Medicine* 🟢🟢A<br>**Which Contributions Deserve Credit?** — He, Houde & Weisz (2025) *CHI '25* 🟢🟢A<br>**The ABCs of Who Benefits from Working with AI** — Caplin 등 (2026) *Management Science* 72(7) 🟢🟢A<br>**How AI Assistance Affects Human Skill Development** — Wu 등 (2026) *HCOMP* 🟢🟢A<br>**The Impact of AI Usage and Informativeness** — Wu 등 (2026) *HHAI* 🟢🟢A<br>**"I Didn't Make the Micro Decisions"** — Kim 등 (2026) arXiv:2605.21363 🟢🟢A |
 
-> 🟢 **2026-09-10 — Human-AI 9편 전부 원전검증 완료**(Reif `24-` §11 · Yang §12 · He, J. §13 · Caplin §14). 🟢 **표적검증으로 두 편 추가**(Wu & Jiao §15 · He, G., Yam 등 §16). ⚠️ **이 절의 편수 표기는 그 두 편을 아직 포함하지 않는다** → `24-` §0-a·§10-12
+> 🟢 **2026-09-11 — 원전검증 완료 11편.** Human-AI 9편 + 표적검증 2편(Wu & Jiao `24-` §15 · He, G., Yam 등 §16) + Liden, Wayne & Bradway (1997)(§15-2-a). ⚠️ **이 절의 편수 표기는 그 셋을 아직 포함하지 않는다** → `24-` §17-a·§10-12
 
 ### ⭐ 척도 원 출처·계보·층위 검증 10편 — 2026-09-10, 전부 🟢🟢 A
 

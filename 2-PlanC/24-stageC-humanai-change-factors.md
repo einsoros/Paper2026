@@ -2,7 +2,7 @@
 date: 2026-09-10
 type: record
 project: Paper2026 / PlanC
-status: 단계 C — Human-AI 변화요인 탐색 · 🟡 보완 중. C-0 9/9 완료. C-B는 네 편이고 He,G.,Yam 등(§16)이 Direct — 🔴 penalty-only가 아니다. C-A는 Adjacent 1편(§15), Direct 0, 제한검색 남음. C-C는 인접 중심. backbone 미선택
+status: 단계 C — 🟢 종료 가능(§18). 확정표는 §17. C-B는 네 편·He,G.,Yam(§16)이 Direct — 🔴 penalty-only 아님. C-A는 Adjacent 1편(§15)·Direct 0 — 🔴 gap으로 확정하지 않음. C-C는 인접 중심. 메타데이터 후보 3편은 §17-b. backbone 미선택 · 단계 D 미시작
 related: ["[[21-workflow-A-G]]", "[[23-stageB-baseline-restoration]]", "[[22-stageA-backbone-rejudgment]]", "[[13-humanai-landscape]]", "[[15-mapping-H-I-theta]]", "[[02-working-rules]]", "[[99-HANDOFF]]"]
 tags: [PlanC, 단계C, HumanAI변화요인]
 ---
@@ -13,15 +13,15 @@ tags: [PlanC, 단계C, HumanAI변화요인]
 |---|---|
 | **A** Backbone 재판정 | 🟢 완료 → `22-` |
 | **B** Baseline 구조 복원 | 🟢 완료 → `23-` |
-| **C** Human-AI 변화요인 탐색 | 🟡 **이 문서 · 보완 중** — 🟢 C-0 9/9 완료 · 🟢 C-B Direct 1편 확보 · 🔴 **C-A Direct 0, 제한검색 남음** |
-| **D** 이론 결합 판정 | ⬜ 🔴 **단계 C 보완 완료 후** |
+| **C** Human-AI 변화요인 탐색 | 🟢 **이 문서 · 종료 가능**(§18-3) — C-0 9/9 · C-B Direct 1편 · 🔴 **C-A Direct 0**(gap 아님) |
+| **D** 이론 결합 판정 | ▶ **다음** — 🔴 **이 문서에서 시작하지 않았다** |
 | **E** 연구질문·모형 확정 | ⬜ |
 | **F** 측정·설계 계승성 | ⬜ |
 | **G** 가설·프로포절 조립 | ⬜ |
 
 > 🔴 **AI 문헌을 넓게 탐색하지 않았다.** `23-`에서 복원한 A-3·C-1의 구조를 기준으로 **업무구조 변화 / 평가정보·단서 변화 / 인간의 기여·노력·능력·성과 판단 변화**를 직접 검증한 기존 construct만 대상으로 삼았다(2026-09-10 지시).
 > 🔴 **새 construct를 만들지 않았고 backbone을 고르지 않았고 가설을 만들지 않았다.**
-> 🔴 **2~4개를 억지로 채우지 않았다** — 현재 확인된 범위에서 **C-B에 Direct 1편**(§16)과 **C-A에 Adjacent 1편**(§15)이 있고 **C-A Direct는 0**이다. **C-A 제한검색 후 전체 확정표를 낸다.**
+> 🔴 **2~4개를 억지로 채우지 않았다** — **C-B에 Direct 1편**(§16) · **C-A에 Adjacent 1편**(§15) · **C-A Direct 0.** 🔴 **C-A Direct 부재를 gap으로 확정하지 않는다.** 전체 확정표는 **§17**, 종료 판정은 **§18**.
 > 📌 **증거등급**(`21-`) — `[원전확인]` · `[후속연구확인]` · `[메타데이터·초록]` 원문 전문 미확보 · `[추론]`
 > 📌 **분석층**(`23-` Ⅲ-a) — **①** 성과가 만들어지는 업무구조 · **②** 개인에 관해 평가에 이용 가능한 정보·단서 · **③** 평가자의 개인성과 판단
 
@@ -118,7 +118,7 @@ tags: [PlanC, 단계C, HumanAI변화요인]
 | 🔴 **Y가 helping behaviour다. 개인 성과평정이 아니다.** 원칙 1을 통과하지 못한다 — `22-`의 B-1과 같은 유형이다 |
 | ⭕ **그러나 C-A의 핵심 발견은 Y가 아니다** — **「human–AI task interdependence」가 이미 측정된 construct로 존재하고, 그 원 출처가 Liden 등(1997)의 기존 과업 상호의존성 척도**라는 점이다 |
 | ⚠️ **관찰자 관점이다** — 평가 대상 동료의 AI 협업을 **동료가 지각**해 응답한다. 🔴 **formal internal appraisal과 동일시하지 않는다**(`02-working-rules` §4) |
-| ⬜ **서지 미확정** — **Liden 등(1997)의 제목·게재지·권호·쪽수가 미확인이다.** ⚠️ A-1(Duarte 등 1994)과 C-1(Liden & Mitchell 1983)의 Liden과 **동일인일 가능성**이 있으나 **확인하지 않았다.** 🔴 **저자만으로 지칭하지 않는다**(C-20) |
+| 🟢 **서지 확정**(2026-09-11 원전검증) — **Liden, R. C., Wayne, S. J., & Bradway, L. K. (1997). Task Interdependence as a Moderator of the Relation Between Group Control and Performance. *Human Relations*, 50(2), 169–181.** ⭐ **3문항의 더 상류는 Pearce & Gregersen (1991)** — §15-2 참조 |
 | 🔴 **원문이 없으므로 Direct 판정을 내리지 않는다** |
 
 ---
@@ -199,7 +199,7 @@ tags: [PlanC, 단계C, HumanAI변화요인]
 | **평가자에게 보이는 AI 의존율** | Almog (2025) 🟢 B | ⬜ **A-3의 Z 후보 — 미확정** · C-1 = 🔴 해당 없음 | **②→③** | ⬜ **판정 보류** | §4-a A-3 checkpoint 참조 |
 | **AI 사용 사실(평가자에게 주어지는 단서)** | Reif 등 (2025) 🟢🟢 A | 🔴 **A-3의 Z가 아니다 — Reif에서 X다.** C-1 = 🔴 X가 다르다 | **②→③** | 🟡 **A-3 = Adjacent · C-1 = Structural precedent** | §11-3 |
 | **AI가 업무과정에서 맡은 역할에 대한 기술**(1차 결정 / 검증) | Yang 등 (2025) 🟢🟢 A | 🔴 **A-3의 Z가 아니다 — Yang에서 X다.** C-1 = 🔴 X가 다르다 | **②→③** | 🟡 **A-3 = Adjacent · C-1 = Structural precedent** | §12-6 |
-| **human–AI task interdependence**(3문항, Liden 등 1997 수정) | *Behavioral Sciences* 16(6) 985 🟡 | 🔴 **C-1의 X에 그대로 놓을 수 없다** · A-3 = ⬜ 미검토 | **①** | 🔴 **원모형 구조 변경 필요** | §5-b C-1 checkpoint 참조 |
+| **human–AI task interdependence**(3문항, **Liden, Wayne & Bradway 1997** 수정 → 상류는 **Pearce & Gregersen 1991**) | *Behavioral Sciences* 16(6) 985 🟡 | 🔴 **C-1의 X에 그대로 놓을 수 없다** · A-3 = ⬜ 미검토 | **①** | 🔴 **원모형 구조 변경 필요** | §5-b C-1 checkpoint 참조 |
 | **기여의 종류·양·주도권**(9 × 5 × 4 수준) | He 등 (2025) 🟢🟢 A | 🔴 **A-3 = Not connectable.** C-1 = 🔴 X의 층은 같으나 Y가 다르다 | **①→ 규범적 크레딧 배분**(🔴 ③이 아니다) | 🔴 **A-3 = Not connectable · C-1 = Structural precedent** | §13-6 |
 | **지각된 기여**(2문항 × 2대상) | Kim 등 (2026) 🟢🟢 A | 🔴 **A-3의 Y도 C-1의 Y도 아니다** — **당사자 자기 지각**이다 | ②→(자기)지각 | 🔴 **연결 불가** | 두 baseline의 Y는 모두 **타인(평가자)의 판단**이다 |
 | **관찰자의 지각된 기여 평가절하** | The AI Penalty ⬜ C | ⬜ 미확정 | **②→③** 후보 | ⬜ **원문 없이 판정하지 않는다** | §4 |
@@ -277,7 +277,9 @@ tags: [PlanC, 단계C, HumanAI변화요인]
 | ~~**4**~~ 🟢 | ~~**The ABCs of Who Benefits from Working with AI** — Caplin 등 (2026)~~ | **→ 2026-09-10 원전검증 완료(§14).** ⭕ **Structural reference로 확정** | 🟢 완료 |
 | **5** | **The AI Penalty** — arXiv:2501.13228 | 🔴 **전체 서지(제목 전문·저자·연도·게재 상태) 확정이 먼저다.** 그다음 **Y가 보상 결정인지 성과 판단인지**, 형평이론 사용 방식, 조작과 표본 | ⬜ **미확보.** C-C의 가장 직접적인 후보 |
 | ~~**6**~~ 🟢 | ~~**How Employee–AI Collaboration Influences Coworkers' Helping Behaviour** — Wu & Jiao (2026)~~ **→ 2026-09-10 원전검증 완료(§15)** | **human–AI task interdependence 3문항 전문과 앵커** · Liden 등(1997) 원 척도와의 대조 · Study 2의 2×2 조작문 | ⬜ 미확보. **C-A의 유일한 후보** |
-| **7** | ⬜ **Liden 등 (1997)의 과업 상호의존성 척도 원 출처** — 🔴 **제목·게재지·권호·쪽수 미확인.** 후보 셋: ⓐ **Wayne, Shore & Liden (1997). Perceived Organizational Support and Leader-Member Exchange: A Social Exchange Perspective. *AMJ* 40(1), 82–111**(§16의 성과평정 척도 출처) ⓑ `19-` §3의 **Liden, Sparrowe & Wayne (1997)** ⓒ 제3의 문헌. 🔴 **단정하지 않는다.** 서지 혼동 방지 목적이며 연구방향 결정용이 아니다 | 3문항 전문 · 앵커 · 신뢰도 · 분석 단위(사람 사이) | 위 6번의 상류. 🔴 **2차 인용으로 채우지 않는다**(C-17) |
+| ~~**7**~~ 🟢 | ~~⬜ Liden 등 (1997)의 과업 상호의존성 척도 원 출처~~ | **→ 2026-09-11 원전검증 완료(§15-2).** **Liden, Wayne & Bradway (1997) *Human Relations* 50(2), 169–181**으로 확정. ⭐ **후보 A·B 모두 아니었다** | 🟢 완료 |
+| **8** | ⬜ **Task interdependence and extrarole behavior: A test of the mediating effects of felt responsibility** — Pearce, J. L., & Gregersen, H. B. (1991). *JAP* **76**, 838–844 | **3문항의 진짜 원출처.** 원 문항 수 · 앵커 · 신뢰도 · ⭐ **felt responsibility 매개** | ⬜ **낮은 우선순위 — 단계 F 재개.** 문항 전문은 이미 확보됨 |
+| **9** | ⬜ **미해결 메타데이터 후보 3편** — §17-b | 각 후보의 X/M/Z/Y · evaluator · 구조 변수의 조작 여부 · 척도 | ⬜ 대기 |
 
 ### ⬜ 그 외 남은 것
 
@@ -320,7 +322,9 @@ tags: [PlanC, 단계C, HumanAI변화요인]
 | **1~11** | `23-` Ⅵ의 열한 건 — 변동 없음 | ⬜ |
 | **12** | 🟡 **부분 해소 — Reif(§11) · Yang(§12) · He(§13)는 원전검증 완료. 🔴 Caplin 한 편이 남았다.** (원 기록: `99-HANDOFF` §4가 넷을 「검증 완료 · 🟢🟢 A」로 적으나 넷 다 X/M/Z/Y 원전검증 기록이 없었다. `13-` §1은 Reif·Caplin을 **⬜ C**로, §7은 셋을 **「확보, 검증 대기」**로, `16-`은 **「확보분 미검증」**으로 적었다) | 🟡 **부분 해소 · Caplin 남음** |
 | **13** | 🟢 **해소 — He 등(2025)의 원전검증이 `24-` §13(활성 문서)에 들어왔다.** ⚠️ 다만 `_archive-v2/10-stage1-log` §B의 초기 검토 기록은 그대로 남아 있고 **`99-HANDOFF` §5 읽을 순서에 그 폴더가 없다.** 다른 문헌의 초기 기록도 같은 상태일 수 있어 **점검이 필요하다** | 🟡 부분 해소 |
-| **14 🆕** | ⬜ **Liden 등 (1997) 과업 상호의존성 척도의 서지 미확인** — 제목·게재지·권호·쪽수 전부. ⚠️ A-1·C-1의 Liden과 동일인 여부도 미확인 | ⬜ 확인 대기 |
+| **14** | 🟢 **해소 — Liden, Wayne & Bradway (1997) *Human Relations* 50(2), 169–181로 확정**(§15-2) | 🟢 완료 |
+| **19 🆕** | ⚠️ **1997년 Liden 공저 세 편이 리포 안에서 각각 다른 용도로 쓰인다** — ⓐ **Liden, Wayne & Bradway (1997)** *Human Relations* 50(2) = **과업 상호의존성 척도**(§15) ⓑ **Wayne, Shore & Liden (1997)** *AMJ* 40(1), 82–111 = **성과평정 척도**(§16) ⓒ **Liden, Sparrowe & Wayne (1997)** = **A-3의 LMX 이론 근거**(`19-` §2). 🔴 **세 편은 서로 다른 논문이며 제목 병기를 강제한다**(C-19·C-20) | ⬜ 미정비 |
+| **20 🆕 · 🔴 절차** | 🔴 **Liden 등(1997)의 서지가 `18-backbone-stage1-candidates` §1 후보 C-2에 이미 기록되어 있었는데, 「16·18·19는 안 열어도 됨」 범위로 작업해 놓쳤다.** §10-16과 같은 계열. ⭕ **규칙 — 서지 미확인을 선언하기 전에 `18-`·`19-`를 포함한 리포 전체를 검색한다.** `05-corrections-log` 등재 대상 | ⬜ 미등재 |
 | **15 🆕** | ⬜ **`13-` §1 후보 판정 현황표의 Caplin 서지가 「(2025) *Mgmt Sci*」로 남아 있다** — `05-corrections-log` C-19가 **(2026) 72(7), 5843–5852**로 정정한 값과 어긋난다 | ⬜ 미정비 |
 | **17 🆕 · 🔴 정정** | 🔴 **이 문서 초판의 §6 반증 표가 Wu HHAI를 잘못 적었다** — Phase 2의 「low-info는 통제군과 동등」을 Phase 3으로 옮겨 적었다. **원문 §4.2에서 low-info는 Phase 3에서 통제군보다 낮다.** 2026-09-10 원문 전문 재확인으로 정정(§6). `05-corrections-log` 등재 대상 | ⬜ 미등재 |
 | **18 🆕** | ⚠️ **리포에 「He 등(2025)」이 두 편이다** — **He, J.(Jessica He, IBM Research), *CHI '25*, §13** / **He, G.(Guohua He, 선전대), *HRM* 64(2), §16.** 🔴 **제목 병기를 강제한다**(C-20) | 🟡 §13·§16에 명시 |
@@ -845,13 +849,47 @@ tags: [PlanC, 단계C, HumanAI변화요인]
 | **X** | **perceived employee–AI collaboration.** Kong 등(2023) **5문항**, 동료평가 관점 수정, **α = .943.** 🔴 **AI 사용 로그나 실제 빈도가 아니라 관찰 가능한 단서에 기반한 지각**이라고 저자가 명시 |
 | **M₁** | **laziness attribution.** Zhou 등(2025) **3문항**, α = .891 |
 | **M₂** | **responsibility-avoidance attribution.** Tu(2024) 각색, α = .917 |
-| ⭐ **Z** | **human–AI task interdependence.** 🟢 **실제 측정 construct다** — **Liden 등(1997)의 3문항 과업 상호의존성 척도를 employee–AI 문맥으로 문구 수정**, **α = .885.** 예시 「직원과 AI가 수행하는 과업은 서로 의존적이다」 |
+| ⭐ **Z** | **human–AI task interdependence.** 🟢 **실제 측정 construct다** — **Liden, Wayne & Bradway (1997)의 3문항 과업 상호의존성 척도를 employee–AI 문맥으로 문구 수정**, **α = .885.** 예시 「직원과 AI가 수행하는 과업은 서로 의존적이다」 |
 | **Y** | **coworker helping behaviour.** Podsakoff 등(2009) **5문항** 각색, α = .936 |
 | **통제** | 성별·연령·학력·근속·협업기간·**동료와의 관계 품질**·AI 사용 경험 |
 
 **측정모형** — 5요인 χ² = 212.263, df = 160, χ²/df = 1.327, **CFI = .992 · TLI = .990 · SRMR = .025 · RMSEA = .030.** AVE > .50 · CR > .70 · HTMT < .85. CMB: 시차측정 + 익명 + 공통방법요인 추가 후 SRMR 불변 + marker variable(근속 r = −.034).
 
-🔴 **Liden 등(1997)에 대해 저자가 명시하지 않은 것 셋** — ⓐ **무엇을 어떻게 수정했는지**(「wording modified for the employee–AI context」 한 구절뿐) ⓑ **3문항 전문**(예시 1개만) ⓒ **원 척도의 앵커와 신뢰도.**
+🔴 **Wu & Jiao가 명시하지 않은 것 셋** — ⓐ **무엇을 어떻게 수정했는지**(「wording modified for the employee–AI context」 한 구절뿐) ⓑ **3문항 전문**(예시 1개만) ⓒ **원 척도의 앵커와 신뢰도.**
+
+### ⭐ 15-2-a. 척도 계보 — 세 단계 · 2026-09-11 원전검증
+
+**Liden, R. C., Wayne, S. J., & Bradway, L. K. (1997). Task Interdependence as a Moderator of the Relation Between Group Control and Performance. *Human Relations*, 50(2), 169–181.** 🟢🟢 **A**(13쪽, 표지 인쇄값으로 호 확정. University of Illinois at Chicago. 1995 SHRM Yoder-Heneman Award)
+
+```
+Pearce & Gregersen (1991) JAP 76, 838–844  →  Liden, Wayne & Bradway (1997)가 집단 수준으로 수정  →  Wu & Jiao (2026)가 인간-AI 문맥으로 수정
+```
+
+🔴 **「Liden 등(1997)이 개발한 3문항」으로 쓰지 않는다.** 원문 §Measures p.173: **「We modified three items developed by Pearce and Gregersen (1991) to measure the level of task interdependence among group members.」** `[원전확인]`
+
+**문항 3개 전문** `[원전확인]`
+
+| |
+|---|
+| 「Group members work closely with each other in doing their work」 |
+| 「Group members frequently must coordinate their efforts with each other」 |
+| 「The way individual members perform their jobs has a significant impact upon others in the group」 |
+
+| | |
+|---|---|
+| 🔴 **분석단위** | **집단 수준이다.** 문항 주어가 전부 **「Group members」**이고, 응답자는 **77개 집단의 관리자**(집단 평균 규모 8.2명, 구성원 391명). 🔴 **개인 수준도, 사람-도구 사이도 아니다** |
+| 🔴 **앵커** | **조직별로 달랐다** — 서비스 조직 **7점**(1 = strongly disagree ~ 7 = strongly agree) · 제조 조직 **5점**을 7점 등가로 변환. 🔴 **HR 연구진 요구로 일부 앵커가 수정됐고 저자가 그 때문에 조직을 통제했다고 명시한다** |
+| **신뢰도** | **α = .74**(합산). 🔴 **Wu & Jiao의 α = .885와 다르다** |
+| **원 논문의 X/Z/Y** | X = Group Control(Greenberger 등 1989 11문항 집단 수준 수정, α=.77) · Z = 위 3문항 · 🔴 **Y = 집단 성과**(관리자가 7차원 평정, α=.88) |
+| **결과** | GC × TI 유의, **ΔR² = .08**(저자 표현 8.4%), F∆ = 7.87\*\*, b = .20(SE .07). **저상호의존에서는 집단 통제가 높을수록 성과가 낮아지고, 고상호의존에서는 높아진다** |
+| 🔴 **주효과가 음(−)이다** | 전체 투입 후 GC b = **−.95**\*, TI b = **−.81**\*. 상관은 GC–성과 .23\*, TI–성과 .24\*로 정(+) |
+| 🔴 **한계(저자)** | **CMV**(전부 관리자 응답) · **관리자 지각이 구성원 지각과 다를 수 있음** · **편의표본** · **횡단이라 인과 불가** |
+
+⭐ **C-1 인용 문장을 원문에서 확인했다** — p.172: **「And in such task interdependent groups, it is difficult for supervisors to identify individual contributions (Liden & Mitchell, 1983).」** 🟢 `18-` §5의 기록이 맞았다. 참고문헌 목록에 **「LIDEN, R. C., & MITCHELL, T. R. The effects of group interdependence on supervisor performance evaluations. *Personnel Psychology*, 1983, 36, 289–299」**이 있어 C-1 서지가 재확인된다(⬜ 호는 여전히 미인쇄).
+
+🔴 **그러나 이 논문도 「기여 식별 곤란」을 측정하지 않았다.** 그 문장은 **가설 도출 논리**이고, 측정된 것은 위 3문항(집단 구성원 간 밀접성)이다. 🔴 **「Liden 등(1997)이 contribution-identification difficulty를 측정했다」고 쓰면 안 된다.**
+
+⚠️ **p.171에서 「높은 과업 상호의존성은 사회적 태만 같은 역기능 행동을 촉진할 수도 있다(Kidwell & Bennett, 1993)」**를 적는다 — B-1(Karau & Williams 1993)과 **같은 해의 다른 사회적 태만 문헌**이다.
 
 ⚠️ **개념 정의의 출처가 문서 안에서 갈린다** — §2.1은 **Tan & Li (2025)**, §3.4는 **Van der Vegt & Janssen (2003)**을 인용하고 척도 출처는 **Liden 등(1997)**이다. 🔴 **「이 construct의 원 출처」를 단정할 수 없다.** ⬜ **서지 정체 확인은 §10-14에 올린다.**
 
@@ -896,8 +934,11 @@ tags: [PlanC, 단계C, HumanAI변화요인]
 ⭐ **계보 연장** — 저자 §2.2: 「**어떤 형태의 외부 지원이든 과업 결과가 개인 행위자에게 기여를 귀속시키는 진단성(diagnosticity)을 약화시킨다**」(Hohenstein & Jung 2020 인용). 🔴 **그런데 이 논문도 「기여 식별 곤란」을 측정하지 않았다.** `20-` §11 계보 가가 이렇게 연장된다.
 
 ```
-1980 ⑤추측(O'Reilly & Weitz) → 1982 ④해석(Mitchell & Liden) → 1983 ③조작(C-1) → 2026 ④해석(Wu & Jiao)
+1980 ⑤추측(O'Reilly & Weitz) → 1982 ④해석(Mitchell & Liden) → 1983 ③조작(C-1)
+   → 1997 ④인용(Liden, Wayne & Bradway) → 2026 ④해석(Wu & Jiao)
 ```
+
+🟢 **1997 항은 ⑤ 우리 추론이 아니라 원문 인용문으로 확인됐다**(§15-2-a).
 
 🔴 **43년이 지나도 ③은 C-1 하나뿐이고, C-1에서도 성과평정은 t = 1.44 비유의였다.** ⚠️ **계보의 기술이며 연구공백 선언이 아니다**(C-22).
 
@@ -906,8 +947,8 @@ tags: [PlanC, 단계C, HumanAI변화요인]
 | 층 | 계승 가능성 |
 |---|---|
 | **theory** | 🔴 **불가.** C-1은 이론명이 없고 이쪽은 attribution theory다 |
-| **variable** | 🟡 **이름은 유사하나 분석단위가 다르다** — C-1은 **피평가자들 사이(3인 집단)**, 이쪽은 **한 직원과 AI 사이**. 🔴 동일시 금지(`02-working-rules` §4) |
-| **measurement** | 🟡 **Liden 등(1997) 3문항을 인간-AI 문맥으로 수정한 전례가 있다는 것 자체가 자원**이다. 🔴 **문항 전문·수정 내용이 원문에 없다** |
+| **variable** | 🟡 **이름은 유사하나 분석단위가 다르다** — C-1은 **피평가자들 사이(3인 집단)**, 이쪽은 **한 직원과 AI 사이**. ⭕ **2026-09-11에 원전 근거를 얻었다** — **원 척도의 문항 주어가 전부 「Group members」**다(§15-2-a). 🔴 동일시 금지(`02-working-rules` §4) · 🔴 **Wu & Jiao의 human–AI task interdependence를 C-1 X의 직접 계승으로 표현하지 않는다** |
+| **measurement** | 🟡 **3문항을 인간-AI 문맥으로 수정한 전례가 있다는 것 자체가 자원**이고, 🟢 **2026-09-11에 원 문항 전문·앵커·α를 확보했다**(§15-2-a). 🔴 **Wu & Jiao가 무엇을 어떻게 수정했는지는 여전히 ⬜** |
 | **relationship** | 🔴 **불가.** C-1은 **X → Y 주효과**, 이쪽은 **X → M 경로의 조절** |
 | **Y** | 🔴 **불가** |
 
@@ -1041,3 +1082,143 @@ tags: [PlanC, 단계C, HumanAI변화요인]
 | 🔴 **이 한 편으로 Reif · Yang을 반박했다고 쓰면 안 된다** — 기술 유형·평가자 역할·성과정보 가시성·귀인 메커니즘이 **동시에 다르고** 방향 차이의 원인은 검증되지 않았다 |
 | 🔴 **「AI는 벌하고 로봇은 보상한다」로 정리하면 안 된다** |
 | 🔴 **「C-1 Core를 실제 구현했다」고 쓰면 안 된다**(16-7) |
+
+---
+
+## 17. ⭕ 단계 C 전체 확정표 — 2026-09-11
+
+> 🔴 **이 표에는 원전검증을 마친 문헌만 올린다.** 🔴 **메타데이터 수준 후보는 §17-b에 따로 둔다 — 같은 줄에 놓지 않는다.**
+> 📌 **분석층** — **①** 성과가 만들어지는 업무구조 · **②** 개인에 관해 평가에 이용 가능한 정보·단서 · **③** 평가자의 개인성과 판단
+> 📌 **증거등급** — `[원전확인]` · `[메타데이터·초록]` · `[analyst inference]`
+
+### 17-a. 원전검증 완료 문헌 — 11편
+
+**(가) 배정과 연결**
+
+| # | 문헌 | Human-AI 형태 | 갈래 | 분석층 | evaluator | 강도 | A-3 | C-1 |
+|---|---|---|---|---|---|---|---|---|
+| **1** | **Barriers to AI Adoption: Image Concerns at Work** — Almog (2025). arXiv:2511.18582 | 인간 초기 → AI 권고 → 인간 최종 | **C-B** | ②→③ | 🟢 **있다** — HR 전문가 1명 + 재고용 노동자 93명 | 🟡 Adjacent | ⬜ 미확정 | 🔴 Not conn. |
+| **2** | **Evidence of a social evaluation penalty for using AI** — Reif, Larrick & Soll (2025). *PNAS* 122(19), e2426766122 | 기술된 AI 도움 · 출처만 조작 | **C-B 중심 · C-C 보조** | ②→③ | 🟢 **있다** — 온라인 참가자(채용 판단자) | 🟡 Adjacent | 🟡 Adjacent | 🟡 Struct. prec. |
+| **3** | **Peer perceptions of clinicians using generative AI in medical decision-making** — Yang 등 (2025). *npj Digit. Med.* 8, 530 | GenAI 역할 기술(1차 결정/검증) | **C-B 중심 · C-C 보조** | ②→③ | 🟢 **있다** — 현직 임상의 276명(vignette 평정) | 🟡 Adjacent | 🟡 Adjacent | 🟡 Struct. prec. |
+| **4** | ⭐ **Leaders Inflate Performance Ratings for Employees Who Use Robots to Augment Their Performance** — He, G., Yam 등 (2025). *HRM* 64(2), 543–563 | 🔴 **소셜로봇 사용 빈도**(GenAI 아님) | **C-B** | ②→③ | 🟢🟢 **실제 상사** — Study 3 현장 65명 × 부하 196명 | 🟢 **Direct** | 🟡 **Adjacent**(최근접) | 🟡 Struct. prec. |
+| **5** | **Which Contributions Deserve Credit? Perceptions of Attribution in Human-AI Co-Creation** — He, J., Houde & Weisz (2025). *CHI '25* | 글쓰기 파트너(human/AI 참가자간) | **C-C** | ①/② → **authorship credit(③ 바깥 인접 outcome)** | 🔴 **없다** — 당사자 자신(2인칭) | 🟡 Adjacent | 🔴 Not conn. | 🟡 Struct. prec. |
+| **6** | **"I Didn't Make the Micro Decisions"** — Kim 등 (2026). arXiv:2605.21363v2 | 반복 상호작용(ShareChat) | **C-C** | ②→(당사자)자기지각 | 🔴 **없다** | 🟡 Adjacent | 🔴 Not conn. | 🔴 Not conn. |
+| **7** | 🟡 **How Employee–AI Collaboration Influences Coworkers' Helping Behaviour** — Wu & Jiao (2026). *Behav. Sci.* 16(6), 985 | 지각된 employee–AI 협업 | **C-A** | ① → 귀인 → helping | 🟢 **있다** — 동료 관찰자(단일 응답자) | 🟡 **Adjacent** | 🔴 Not conn. | 🟡 Struct. prec. · 🔴 **원모형 구조 변경 필요** |
+| **8** | **The ABCs of Who Benefits from Working with AI** — Caplin 등 (2026). *Manag. Sci.* 72(7), 5843–5852 | 본인 과업 + AI 조언(블록 교차) | ⭕ **Structural reference** | 🔴 해당 없음 | 🔴 **없다** — 본인 수행 | ⭕ Struct. ref. | 🔴 Not conn. | 🔴 Not conn. |
+| **9** | **Bayesian modeling of human–AI complementarity** — Steyvers 등 (2022). *PNAS* 119(11) | 인간‖AI 독립 수행 | 🔴 **연결 불가** | 🔴 없음 | 🔴 **없다** | 🔴 Not conn. | 🔴 | 🔴 |
+| **10** | **How AI Assistance Affects Human Skill Development** — Wu 등 (2026). *HCOMP* | 개인 과업 + 선택적 AI 호출 | 🔴 **연결 불가** | 🔴 없음 | 🔴 **없다** | 🔴 Not conn. | 🔴 | 🔴 |
+| **11** | **The Impact of AI Usage and Informativeness on Skill Development in Logical Reasoning** — Wu 등 (2026). *HHAI*, 145–159 | 개인 과업 + 선택적 AI 호출 | 🔴 **연결 불가** · ⬜ **C-C 참고 한 줄**(§4) | 🔴 없음 | 🔴 **없다** | 🔴 Not conn. | 🔴 | 🔴 |
+
+**(나) X/M/Z/Y · 핵심 결과 · 반증 · 등급**
+
+| # | X / M / Z / Y | 핵심 결과 | 🔴 반증 · null · 제한 | 등급 |
+|---|---|---|---|---|
+| **1** | X = 평가자에게 보이는 정보 조건(정확도만 / +AI 의존율) · Y(A) 노동자 AI 의존·정확도 · **Y(B) 별도 평가자 점수** · θ = 기대 정확도 | **AI 의존이 평가자 점수를 낮춘다**(−0.36\*\*\*) | 🔴 **정보 개입 자체는 무효** — Public과 Public w/info가 모든 결과에서 구별되지 않음. 초기 정확도 0.008 n.s. | 🟢 B |
+| **2** | X = 도움의 출처(AI/비AI/무도움) · **M = laziness**(Study 4만) · Z = 과업 유형 · 평가자 자신의 AI 사용 · Y = laziness · agency 6차원 · Task Fit · Hire | ⭐ **최강 증거는 Study 2 source-only** — 도움 기술 동일, 출처만 달랐을 때 laziness·competence·diligence·independence·self-assuredness 차이가 95% CI에서 0 배제(N=1,203) | 🔴 **ambitious·dominant 비유의** · **Study 3 후보 AI 사용 주효과 P=0.516 비유의** · **Study 4 디지털 과업 Task Fit P=0.112** · **고빈도 AI 사용 평가자에서 비유의** · 🔴 **저자가 「확립된 조직의 performance assessments로 일반화되는지는 향후 연구」라고 적음** | 🟢🟢 A |
+| **3** | X = GenAI 역할 기술(Control/primary/verify) · **M = clinical skills 지각** · Y = clinical skills · overall competence · healthcare experience | 세 Y 전체 F 모두 p<.001, ηp² = .20~.27. 두 GenAI 조건이 각각 Control보다 유의하게 낮음. **매개 종착 Y는 competence와 healthcare experience** | 🔴 **GenAI 유용성 판단은 조건 간 차이 없음**(도구 평가와 사람 평가가 분리) · ⬜ **Clinical Skills의 primary vs verify F값 원문 표기 모호** · 🔴 **평균 순서만으로 「모든 쌍이 유의하게 단계적」이라 쓰지 않는다** · 🔴 저자가 **척도 개발·타당화 기회가 없었다**고 명시 | 🟢🟢 A |
+| **4** | X = **로봇 사용 빈도**(고/저) · **M = IPT**(Ward 2013·2021 각색 5문항) · **Z = 상사의 로봇 경험 지각**(Yam 등 2021 4문항) · Y = **성과평정**(Wayne, Shore & Liden 1997 6문항) | 🟢 **성과·노력 정보를 조건 간 동일하게 제시한 뒤 IPT가 높아지고, IPT가 성과평정을 높였다**(S2 b=0.45, t=6.00\*\*\* · 간접효과 0.52 CI[0.33,0.74]). **현장연구에서 재현**(간접효과 0.06, CV[0.001,0.146]) · Z가 X→M을 조절(γ₁₂=−0.18) | 🔴 **총효과 비유의**(b=0.09, t=0.81) · ⚠️ **Study 3 CV 하한이 0에 붙어 있다** · 🔴 **각주 3 — 「직원의 일반적 노력」 지각은 조건 간 차이 없음**(p=.67, d=−0.08) · 🔴 CMV · 상사의 로봇사용 인지도 미통제 · 서비스업·소셜로봇·빈도만 | 🟢🟢 A |
+| **5** | X = **기여 유형(9)·양(5)·주도권(2×2) + 파트너 정체성(human/AI, 참가자간)** · Y = **authorship credit 배분**(7점 범주, 합 고정) | **내용 기여 > 형식 기여**(r=.40). ⭐ **equal writing에서 인간 95% CI[−0.30,−0.01] = 동등 저자 / AI [−0.89,−0.45] = 제2저자** | 🔴 **예외 넷** — fact checking p=.06 · new ideas p=.09 · **synthesize information 비유의** · **전체 텍스트 능동 작성 시 비유의** · 🔴 **규범 판단이고 기여 식별 측정 아님** · 표본이 단일 기술기업·생성형 AI 경험자(31.6%가 AI 직무) | 🟢🟢 A |
+| **6** | X = 도구 노출(전/후) · Y = **지각된 기여 2문항 × 2대상** | 자기 실행 기여 Δ −1.8 · LLM 실행 +0.5 | 🔴 **통계검정 없음** · 저자가 **앵커링 가능성**을 한계로 명시 · ground truth 아님 | 🟢🟢 A |
+| **7** | X = 지각된 employee–AI 협업(Kong 등 2023 5문항) · **M₁ laziness**(Zhou 등 2025 3문항) · **M₂ responsibility-avoidance**(Tu 2024) · **Z = human–AI task interdependence**(3문항) · Y = **coworker helping behaviour / intention** | **X→Y** β=−0.406(S1) · **Z가 X→M 둘을 조절**(β=.039/.065) · **Study 2 병렬매개에서 responsibility(−0.225)가 laziness(−0.187)보다 크다** | 🔴 **Y가 helping이며 개인성과 판단이 아니다** · 🔴 **低TI에서 laziness 경로 비유의**(S1 CI[−0.109, **0.003**] · S2 [−0.224, **0.029**]) · ⚠️ S1 조절 계수가 매우 작다 · ⚠️ S2 조작 d=2.05/2.59 · 🔴 **인간-인간 조건이 없다** | 🟢🟢 A |
+| **8** | X = AI 배정(T) · **Z = calibration C=−\|E[K−R]\|** · A = accuracy · Y = treated block 정확도 | **AI가 정확도 +6.9pp** · ⭐ **calibration × treatment = 1.35**(SE .54, 5% 유의, 총효과의 약 20%) · **저능력×고보정 최대 이득(≈10pp)** · IQR 5.84→3.86(−34%) | 🔴 **매개 없음** · 🔴 **평가자 없음** · 🔴 **calibration ≠ appraisal accuracy** · 처치군 68%가 AI 권고를 그대로 따랐을 때보다 못함 | 🟢🟢 A |
+| **9** | X 없음 · Y = 사례의 참 레이블 z_i | 인간·CNN 결합 | 🔴 **개인 target 없음** · `evaluator` 0회 | 🟢🟢 A |
+| **10** | X 없음 · θ = 잠재 초기·사후 능력 | α_solo | 🔴 **저자가 「인과가 아니라 연관」으로 해석하라고 명시** · 조건 통제 시 CI가 0 포함 | 🟢🟢 A |
+| **11** | X = AI가 드러내는 객체 수(1 vs 3) · Y = 관측 reward rate | high-info가 Phase 2에서 통제군보다 높음(p<0.10) | 🔴 **low-info는 Phase 3에서 통제군보다 낮다**(저자 표기 p=0.08) · 🔴 **저자가 p=.08을 「significantly lower」로 쓰지만 우리는 유의로 쓰지 않는다**(C-12) · Figure 6은 **90% CI** · §4.4 지각–객관 괴리는 **1문항·검정 없음** | 🟢🟢 A |
+
+### 17-b. 🔴 미해결 메타데이터 후보 — 3편 · **확정 evidence 아님**
+
+> 🔴 **원문 미확보·미검증이므로 단계 C의 확정 evidence로 승격하지 않는다.** 🔴 **17-a와 같은 줄에 놓지 않는다.**
+
+| 문헌 | 현 시점 지위 | 왜 승격하지 않는가 |
+|---|---|---|
+| **AI as the Phantom Limb: The Asymmetry of Attribution in Human vs. AI Delegation** — *CHI 2026*, DOI 10.1145/3772318.3791075. ⬜ 저자·쪽 미확인 | 🔴 **「C-C / attribution 관련 메타데이터 후보」 또는 「C-A 비핵심 후보」** | **구조 변수가 조작되지 않았고**(위임 구조는 전 조건 고정, 조작된 것은 위임 대상의 정체·역량·피드백) **Y가 responsibility attribution**이다. 🔴 **C-A Adjacent로 확정하지 않는다** |
+| **Fitts' List Revisited: An Empirical Study on Function Allocation in a Two-Agent Physical Human-Robot Collaborative Position/Force Task** — arXiv:2505.04722. ⬜ 저자·게재 상태 미확인 | 🔴 **「C-A Adjacent 후보(메타데이터)」** | ⭕ **구조(기능 배분) 조작 + competence 평정**이 한 논문에 있는 유일한 편이나 🔴 **자기평정이고 원문 미검증** |
+| **AI teammates and human performance: Evidence for commitment deficits** — ScienceDirect S245195882500243X (2025). ⬜ 서지 미확인 | 🔴 **「Structural reference 후보(메타데이터)」** | **outcome interdependence 구조 전례**이나 **Y가 자기 task performance이고 평가자가 없다** |
+
+🔴 **배제한 것** — *Who is Helping Whom?*(arXiv:2502.06976, Y가 task reward) · *Collaborating with AI Agents*(arXiv:2503.18238, Y가 산출물 품질·생산성) · **AI가 평가자인 문헌군**(arXiv:2505.21752 · Frontiers 2026 · Emerald 2024 · Cha *JIS*) — 🔴 **방향이 반대다.**
+
+---
+
+## 18. ⭕ 단계 C 핵심 요약과 종료 판정 — 2026-09-11
+
+### 18-1. 여섯 질문에 대한 답
+
+**A. AI가 들어오면 ① 업무구조가 달라진다는 직접 증거는 무엇인가**
+
+🔴 **원전검증 기준으로 없습니다.** **C-A Direct = 0편.**
+
+⭕ 가장 가까운 것은 **Wu & Jiao (2026)**이고 **Adjacent**입니다 — **human–AI task interdependence가 실제 측정 construct로 존재**하고 그것이 **X→귀인 경로를 조절**합니다. 🔴 **그러나 Y가 coworker helping behaviour이며 개인성과 판단이 아닙니다.**
+
+⚠️ **저자 자신은 「AI 때문에 새로 생긴 구조」라고 주장하지 않습니다** — **기존 all-human task interdependence의 맥락 확장**이라고 적습니다(§15-3).
+
+**B. ② 평가자가 보는 정보·단서가 달라져 ③ 사람 판단이 변한다는 직접 증거는 무엇인가**
+
+🟢 **여기가 가장 강하게 채워졌습니다 — 네 편.**
+
+| |
+|---|
+| ⭐ **He, G., Yam 등 (2025)** — **C-B Direct.** 확보 문헌 중 **처음이자 유일하게 ②→③을 성과평정으로 직접 검증**했고, **실제 상사 65명이 실제 부하 196명을 평가한 현장연구**가 있습니다 |
+| ⭐ **Reif 등 (2025) Study 2** — **도움 기술을 동일하게 두고 출처만 AI/비AI/무도움으로 갈랐을 때** laziness·competence·diligence·independence·self-assuredness 판단이 달라졌습니다(N=1,203, 95% CI가 0 배제) |
+| **Yang 등 (2025)** — **의사결정 내용과 권고 결과가 동일한데 GenAI의 역할 기술만 달랐을 때** 현직 임상의 276명의 임상기술·역량·의료경험 평가가 모두 낮아졌습니다 |
+| **Almog (2025)** — 평가자에게 보이는 AI 의존율이 평가자 점수를 낮춥니다 |
+
+**C. ③ 기여·역량·성과 판단 자체가 달라지는 인접 증거는 무엇인가**
+
+🟡 **인접 증거 중심입니다.** **He, J., Houde & Weisz (2025)** — 동일하게 기술된 기여에 대해 **파트너가 인간일 때와 AI일 때 배분되는 authorship credit이 달랐습니다**(equal writing에서 인간은 동등 저자 범위, AI는 제2저자 범위). **Kim 등 (2026)** — 당사자의 지각된 기여가 도구 노출 후 달라집니다.
+
+🔴 **둘 다 formal individual performance judgment를 직접 검증한 것이 아닙니다.** He, J. 등은 **규범적 배분 판단**이고 Kim 등은 **당사자 자기 지각**입니다.
+
+**D. 방향은 일관적인가**
+
+🔴 **일관되지 않습니다.**
+
+| 편 | 평가자 | Y | 매개 | 방향 |
+|---|---|---|---|---|
+| Almog (2025) | HR 전문가 + 재고용 노동자 | 평가자 점수 | 🔴 없음 | **하향** |
+| Reif 등 (2025) | 온라인 참가자(채용 판단) | Task Fit · Hire | **laziness** | **하향** |
+| Yang 등 (2025) | 현직 임상의(vignette) | 임상기술·역량 | **clinical skills 지각** | **하향** |
+| ⭐ He, G., Yam 등 (2025) | 🟢 **실제 상사** | 🟢 **성과평정** | **IPT** | **상향 — 🔴 간접경로만** |
+
+🔴 **왜 방향이 갈리는지는 현재 문헌만으로 단정하지 않습니다.** **기술 유형**(GenAI / 소셜로봇) · **평가자 역할**(관찰자·채용판단자·동료 임상의 / 실제 상사) · **성과정보의 가시성**(인물 기술문만 / 성과·노력 수치를 명시) · **귀인 메커니즘**(laziness / clinical skills / IPT)이 **동시에 다릅니다.**
+
+🔴 **「AI는 벌하고 로봇은 보상한다」로 정리하지 않습니다.**
+
+⚠️ **노력 지각이라는 축으로 맞세우는 것조차 불가능합니다** — He, G., Yam 등의 **각주 3에서 「직원의 일반적 노력」 지각은 조건 간 차이가 없었습니다**(p=.67, d=−0.08).
+
+**E. 현재 문헌이 허용하는 가장 강한 문장**
+
+> 🟢 **「기술 사용에 관한 정보는 사람에 대한 판단을 변화시킬 수 있다. 그 방향은 일관된 penalty가 아니며, 확보 문헌에서는 하향과 상향 판단이 모두 관찰된다. 왜 방향이 달라지는지는 현재 문헌만으로 단정할 수 없다.」**
+
+🔴 **이보다 강한 문장을 쓰지 않습니다.**
+
+**F. 아직 모르는 것**
+
+| |
+|---|
+| 🔴 **① 업무구조 변화가 개인성과 판단으로 이어진다는 원전검증된 직접 증거** — **C-A Direct 0.** ⚠️ **이것을 gap으로 확정하지 않습니다** |
+| 🔴 **①이 ②를 어떻게 바꾸는가** — 확보 문헌 어느 편도 검증하지 않았습니다(`23-` Ⅲ-a) |
+| 🔴 **개인 기여의 식별 가능성** — 어느 편도 측정하지 않았습니다. **He, J. 등조차 물은 것은 「누가 저자로 인정받아야 하는가」라는 규범 판단**입니다 |
+| 🔴 **평가 정확성** — 어느 편도 rating–performance discrepancy를 산출하지 않았습니다. **He, G., Yam 등의 「inflate」도 그것이 아닙니다** |
+| 🔴 **방향 차이의 원인** — 네 요인이 동시에 다릅니다 |
+| ⬜ **미해결 메타데이터 후보 3편**(§17-b) · ⬜ **Pearce & Gregersen (1991)** — 단계 F 재개 |
+
+### 18-2. 🔴 종료조건 체크
+
+| 조건 | 상태 |
+|---|---|
+| **C-0 9/9 완료** | 🟢 **충족**(§17-a 1~11번 중 기존 9편) |
+| **필요한 제한 추가검색 완료** | 🟢 **충족** — 네 차례 검색, 후보 3편까지만 올림. 🔴 **무한 확장하지 않았습니다** |
+| **직접 검증 construct 0~4개 확보** | 🟢 **충족** — **C-B에 Direct 1편**(IPT, He·Yam). **C-A Direct 0.** 🔴 **억지로 채우지 않았습니다** |
+| **A-3 / C-1 연결 위치와 강도 정리** | 🟢 **충족**(§17-a 가). **A-3 = Adjacent**(최근접 He, G., Yam) · **C-1 = Structural precedent** |
+| **counter / null evidence 포함** | 🟢 **충족**(§17-a 나 · §6) |
+| **unresolved 명시** | 🟢 **충족**(§18-1 F · §17-b · §8) |
+| **새 construct를 발명하지 않았는가** | 🟢 **충족** — 이 문서에 우리가 만든 construct는 없습니다 |
+| **단계 D 논의를 시작하지 않았는가** | 🟢 **충족** — 결합안·최종 변수·가설을 제안하지 않았습니다 |
+
+### 18-3. ⭕ 판정 — **단계 C 종료 가능**
+
+🟢 **종료조건 여덟을 모두 충족했습니다. 단계 C를 종료할 수 있습니다.**
+
+🔴 **다만 종료의 내용을 정확히 적습니다** — **「Human-AI 환경에서 ②→③이 달라진다는 직접 증거는 확보했고, ①이 달라져 판단으로 이어진다는 직접 증거는 이번 범위에서 확인하지 못했다」**까지입니다.
+
+🔴 **단계 D의 변수·결합안·가설은 제안하지 않습니다.**
