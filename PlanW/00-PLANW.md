@@ -1,8 +1,8 @@
 ---
 문서: 00-PLANW
 역할: PlanW의 목적·범위·운영원칙·기본 전제
-갱신: 2026-09-13 08:25 KST
-핵심: 운영원칙 확정. 3층 구조 · 근거등급 A/B/C/D · 파일 규칙 · 스레드 시작게이트/종료조건(§7) 시행 중
+갱신: 2026-09-14 18:57 KST
+핵심: 운영원칙 확정. AI 맥락 금지 조항은 D-023 으로 해제됨(§3). 나머지 규칙 유지
 ---
 
 # 00-PLANW — 목적 · 범위 · 운영원칙
@@ -46,9 +46,12 @@ PlanW는 HRM/OB(인적자원관리/조직행동, Human Resource Management / Org
 
 ## 3. 현재 범위 제한
 
-- 이 단계에서 AI, GenAI(생성형 AI), automation, digitalization,
-  algorithmic management, Human-AI collaboration을 연결하지 않는다.
-- 사용자의 현업 사례를 backbone 정당화 근거로 사용하지 않는다.
+- ~~이 단계에서 AI, GenAI, automation, digitalization, algorithmic management,
+  Human-AI collaboration 을 연결하지 않는다.~~ → **D-023 으로 해제 (2026-09-14).**
+  현재 연구는 GenAI 를 **맥락 · 표본 조건**으로 사용한다. 다만 AI 는 X 가 아니며,
+  연구대상은 "새로운 업무도구가 개입할 때의 자기역량 인식"이다.
+- 사용자의 현업 사례를 backbone 정당화 근거로 사용하지 않는다. **(유지)**
+- 리더십은 substantive candidate 에서 제외한다. **(유지)**
 
 ## 4. 연구 판단 규칙 — 근거등급 표기
 

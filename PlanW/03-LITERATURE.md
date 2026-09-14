@@ -1,8 +1,8 @@
 ---
 문서: 03-LITERATURE
 역할: 선행연구 대장 — 역할 · 원전 확인 여부 · 채택/보류/탈락과 사유
-갱신: 2026-09-14 12:31 KST
-핵심: 등록 26편. 원전 확인 5편 · backbone 채택 0편. Track A · Track B 모두 CLOSED
+갱신: 2026-09-14 18:57 KST
+핵심: 등록 30편. **WM2 채택 3편**(Zhu 2026 · Parker 1998 · 이하린·박윤희 2021). Track A · B CLOSED
 ---
 
 # 03-LITERATURE — 선행연구 대장
@@ -22,7 +22,52 @@
 
 **모든 판정에는 사유를 한 줄 붙인다** (D-015 · D-016). 결론만 있는 행은 다음 스레드가 쓸 수 없다.
 
-## 2. 원전 확인 완료 (A등급 기록 가능)
+## 2. **WM2 채택 문헌** — 측정 출처
+
+### Zhu, Q., Li, X., Dong, Y., Chang, P., & Fan, M. (2026)
+*Not all cognitive offloading is equal: distinguishing dependent and autonomous offloading to
+generative AI.* **Frontiers in Psychology 17: 1878629.** DOI 10.3389/fpsyg.2026.1878629.
+정주대학교(중국). 오픈액세스 — **원전 확인 ✅ (본문 + Supplementary Appendix A·B)**
+
+- **역할**: X(Dependent Cognitive Offloading 4문항) · Y2(Subsequent Autonomous Capability 4문항)
+- N = 589, 3파 시차설계(2주 간격), 대학생 516 + 초기경력 근로자 73
+- 11요인 CFA: χ²(847)=1825.22, CFI .92, TLI .91, RMSEA .044, SRMR .042.
+  두 offloading 척도를 합치면 유의하게 악화(Δχ²=726.53, Δdf=10, p<.001). **두 척도 상관 r = .08**
+- 척도개발 절차: construct 당 6–8문항 초안 → 전문가 4인 검토 → 대학원생 30명 파일럿 → 4문항
+- **Appendix A 에 construct 경계표** — dependent offloading 을 AI dependency,
+  automation complacency/blind trust 와 각각 구분. **"왜 사용량이 아니라 방식인가"의 원저자 근거**
+- 판정: **GO — 측정 채택**
+- 저자 자인 한계: "preliminary, domain-specific instruments", 인접 construct 와의
+  경험적 판별타당도 미확립, 검사-재검사 미확인, 중국 표본
+- **주의**: Zhu 는 dependent→autonomous capability 를 **매개(cognitive agency transfer ·
+  intrinsic motivation) 경유 간접효과**로 검증했다. WM2 는 매개 없이 직접 연결하며,
+  "왜 매개를 뺐나"에 대한 답은 **메커니즘 규명이 아니라 연결 구조 자체가 대상**이라는 것
+
+### Parker, S. K. (1998) — §3 의 W-1 항목 하단에 별도 기록
+### 이하린 · 박윤희 (2021) — 아래 참조
+
+### 이하린 · 박윤희 (2021)
+「자기결정성과 리더의 참여적 의사결정이 사내벤처 창업의도와 혁신행동에 미치는 영향:
+역할확장 자기효능감의 매개효과를 중심으로」 **『기업교육과 인재연구』 23(3), 67–99.**
+DOI 10.46260/KSLP.23.3.2. 이화여자대학교 — **원전 확인 ✅**
+
+- **역할**: RBSE **한국어 10문항** 출처
+- Parker 의 RBSE Questionnaire 10문항 전부를 **forward- and backward-translation** 으로 번안.
+  5점 척도, **α = .918**. 사내벤처 운영기업 재직자 225부 배포 → **216부** 분석. AMOS 구조방정식
+- 판정: **GO — 측정 채택.** 단 **문항 8 오역 수정 필요** (`contact`→`contract`)
+- 부수: 본문에서 출처를 `Parker(1988)` 로 오기. 인용 시 **1998** 로 쓸 것
+
+### Parker, S. K. (1998)
+*Enhancing role breadth self-efficacy: The roles of job enrichment and other organizational
+interventions.* **Journal of Applied Psychology 83(6), 835–852.** — **원전 확인 ✅**
+
+- **역할**: RBSE 원척도. 10문항, 5점(1 not at all confident ~ 5 very confident), 합산
+- α = .96 (Study 1, N=608) / .95·.96 (Study 2, N=677). 표준화 부하 .68–.88
+- 3요인 CFA 로 자아존중감 · 주도적 성격과 판별: χ²(206)=993.09, NNFI .89, CFI .90
+- 판정: **GO — 측정 원출처**
+- 문항 2·4·5·6 이 조직 · 관리직 언어. 상세는 `04-MEASUREMENT.md` §2
+
+## 3. 원전 확인 완료 — 기타 (A등급 기록 가능)
 
 ### W-1 · Morgeson, F. P., Delaney-Klinger, K., & Hemingway, M. A. (2005)
 *The Importance of Job Autonomy, Cognitive Ability, and Job-Related Skill for Predicting
@@ -90,7 +135,7 @@ DOI 10.51457/kjcp.2022.12.6.2.45 — **원전 확인 ✅**
   이다. 게다가 **코칭리더십–인사평가효과성 상관 .70, 코칭리더십 α .98** 인데 판별타당도 검증이
   없다.
 
-## 3. Track A — 개인 직무역량 · perceived competence 계보 (**CLOSED**)
+## 4. Track A — 개인 직무역량 · perceived competence 계보 (**CLOSED**)
 
 **탐색 목표였음**: 개인 자체의 직무능력 · 직무역량 · perceived competence 를 **직접 측정한**
 국내 실증연구와 measurement lineage.
@@ -107,7 +152,7 @@ lineage + 이어받을 substantive problem** 셋이 동시에 잡히지 않는�
 | 박순봉 (2014) | 현직 컨설턴트 112명이 **자신의 역량수준을 직접 평가**. 역량을 능력 · 지식 · 자세로 구분 | **NO-GO** — 4번 Measurement 탈락. '능력' 문항이 문제진단 · 대안제시 · 프로젝트관리 등 **컨설턴트 직무특화**이고 김광용 외(2008) · 윤성환(2008) · 장동인(2011) · 신동주(2012)를 재인용해 자체구성. **저자 본인이 문항 재개발 필요를 limitation 에 적었고 표본에 따라 요인구조가 달라졌다고 밝힘** |
 | 권우석 · 이지민 · 이규민 (2016) | 『외식경영연구』 19(1), 7–27. 서울 프랜차이즈 레스토랑 직원 178명. 심리적 권한위임 → **perceived job competency** → 직무태도 · OCB. 측정 출처 미확인 | **NO-GO** — 1번 Problem 탈락. 이 연구의 문제를 PlanW 가 이어받을 이유가 없다. 척도가 좋더라도 measurement 를 근거로 살리면 금지된 순서가 된다. 측정 출처 1줄 확인은 **PARK** |
 
-## 4. Track B — 인사평가효과성 계보 (**CLOSED**)
+## 5. Track B — 인사평가효과성 계보 (**CLOSED**)
 
 Track A 종료 중 발견된 **다른 방향 후보**(D-014 출구 (b))였다. 한태영(2010) 척도가 국내 후속에
 실제 상속되고 있어 4번 Measurement 는 통과 가능해 보였으나, **1번 Problem 에서 닫혔다.**
@@ -145,7 +190,7 @@ Track A 종료 중 발견된 **다른 방향 후보**(D-014 출구 (b))였다. �
   얼마나 정확히 구분했는가), 2010 은 피평가자가 지각하는 정확성이다. 측정대상이 반대 방향이다.
   Claude 1차 보고에서 실제로 이 둘을 한 축으로 묶는 오류가 있었다.
 
-## 5. DROP · 기타 탈락
+## 6. DROP · 기타 탈락
 
 | 논문 | 사유 |
 |---|---|
@@ -166,7 +211,7 @@ Track A 종료 중 발견된 **다른 방향 후보**(D-014 출구 (b))였다. �
 | 「다면평가제도의 실효성에 관한 연구」 / 조태준 · 김상우 「다면평가의 활용 방식에 따른 유형화 연구」(11개 기관 조사) | 2번 Empirical 탈락 — 사례연구 · 제도 유형화 |
 | 정혜선 · 윤정구 (2020) 「직무역량 중심의 성과관리 시스템 개발과 적용 사례 연구」 『인사조직연구』 | **판정 보류** — 제목상 사례연구로 2번 탈락 가능성이 높으나 초록 미확인. 1번부터 판정할 근거가 부족 |
 
-## 6. W-2 — Role breadth 측정계보 조사 결과 (전부 미확보 ⬜ · B등급)
+## 7. W-2 — Role breadth 측정계보 조사 결과 (전부 미확보 ⬜ · B등급)
 
 **판정: C — 실행성 문제 큼.** Morgeson 식 role breadth 를 다른 직군에서 재사용한 검증 사례를
 찾지 못했고, 일반화된 검증척도가 있는 쪽은 **construct 가 다른** Morrison 계보다.
@@ -191,7 +236,7 @@ Track A 종료 중 발견된 **다른 방향 후보**(D-014 출구 (b))였다. �
 **제외 확인**: Parker (1998) RBSE(역할폭 자기효능감)와 Parker, Wall & Jackson (1997)
 flexible role orientation 은 역량 지각 · 지향 구성개념이며 Role breadth 가 아니다.
 
-## 7. 기록 규칙
+## 8. 기록 규칙
 
 - 논문 한 편당 한 행 또는 한 블록. 판정이 바뀌면 그 자리를 수정한다(쌓지 않는다).
 - **탈락 사유를 반드시 명시한다.** 6단계 필터(D-012)의 **1번 Problem 에서 탈락한 논문은
