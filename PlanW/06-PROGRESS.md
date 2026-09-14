@@ -1,8 +1,8 @@
 ---
 문서: 06-PROGRESS
 역할: Done / Now / Next / Blocked 상태판
-갱신: 2026-09-14 18:57 KST
-핵심: Working Model 2 확정, 측정 18문항 확보. 다음은 8문항 한국어 번역 → 예비조사
+갱신: 2026-09-14 19:25 KST
+핵심: WM2 확정 · 18문항 확보 · 프로포절 골격 1차 검토 완료. 다음은 01~03장 집필
 ---
 
 # 06-PROGRESS — 진행 상태
@@ -28,6 +28,8 @@
 
 ## Next
 
+0. **프로포절 01~03장 집필** (연구배경 → 문제제기 → 연구목적).
+   논리 점프 3건과 gap 서술 교체는 `99-HANDOFF.md` §6 참조. 이 세 장이 서면 뒤는 따라온다
 1. **8문항 한국어 번역** — Dependent Cognitive Offloading 4 + Subsequent Autonomous Capability 4.
    forward-backward translation. **2차 번역**(중국어→영어→한국어)임을 측정 절에 명시
 2. RBSE **문항 8 오역 수정** (`contact`→`contract` 오역)
