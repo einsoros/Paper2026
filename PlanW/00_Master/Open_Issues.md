@@ -2,7 +2,7 @@
 title: Open Issues
 type: master
 status: OPEN
-updated: 2026-09-20 16:38 KST
+updated: 2026-09-20 17:10 KST
 ---
 
 # Open Issues
@@ -117,7 +117,7 @@ AO를 측정하지 않는 것이 '낮은 DCO = 높은 AO'를 가정한다는 의
 
 | 상태 | 문헌 |
 |---|---|
-| **verified** (원문 전문 확인) | [[Zhu_2026]] · [[Parker_1998]] · [[Zhang_2026]] · [[Man_Tang_2022]] · Kulal(2025) · 이하린·박윤희(2021) |
+| **verified** (원문 전문 확인) | [[Zhu_2026]] · [[Parker_1998]] · [[Zhang_2026]] · [[Man_Tang_2022]] · [[Kulal_2025]] · [[Lee_Park_2021]] |
 | **partially verified** (서지·요지 확보, 원문 미확인) | Lee et al.(2026) · Gist & Mitchell(1992) · Zhu, Y. et al.(2024) · Axtell & Parker(2003) · Ye et al.(2026) |
 | **pending** (제목 또는 서지 미확보) | Koopmann(2016) · Nadler(2015) · 근소우·권인수(2017) |
 

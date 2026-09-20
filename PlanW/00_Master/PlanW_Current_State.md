@@ -2,7 +2,7 @@
 title: PlanW Current State
 type: master
 status: FROZEN
-updated: 2026-09-20 16:38 KST
+updated: 2026-09-20 17:10 KST
 ---
 
 # PlanW — 현재 상태
@@ -146,7 +146,7 @@ Consent
 | 미결 사항 | [[Open_Issues]] |
 | 연구질문 | [[PlanA_to_PlanW]] · [[Research_Gap]] · [[Contribution]] |
 | 가설·연구질문 | [[H1_DCO_SAC]] · [[RQ1_DCO_RBSE]] |
-| 문헌 | [[Zhu_2026]] · [[Parker_1998]] · [[Zhang_2026]] · [[Man_Tang_2022]] |
+| 문헌 | [[Zhu_2026]] · [[Parker_1998]] · [[Zhang_2026]] · [[Man_Tang_2022]] · [[Lee_Park_2021]] · [[Kulal_2025]] |
 | 방법 | [[Population_Sampling]] · [[Survey_Design]] · [[Measurement]] · [[Translation]] · [[Controls]] · [[Analysis_Plan]] |
 | 폐기 | [[Rejected_Ideas]] · [[Superseded_Decisions]] |
 
