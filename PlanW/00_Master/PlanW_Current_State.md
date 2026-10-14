@@ -2,7 +2,7 @@
 title: PlanW Current State
 type: master
 status: FROZEN
-updated: 2026-09-20 17:10 KST
+updated: 2026-10-14 10:30 KST
 ---
 
 # PlanW — 현재 상태
@@ -24,6 +24,25 @@ updated: 2026-09-20 17:10 KST
 > — AI에 의존하지 않고 해당 업무영역의 유사 과업을 독립적으로 수행할 수 있다는 판단과,
 > 규정된 기술적 역할범위를 넘어 보다 폭넓고 주도적인 역할을 수행할 수 있다는 판단 —
 > 과 각각 어떠한 관계를 갖는가?
+
+---
+
+## 용어
+
+| 구성개념 | 우리말 | 원어 |
+|---|---|---|
+| DCO | **의존적 인지위임** | Dependent Cognitive Offloading |
+| SAC | **독립수행 자신감** | Subsequent Autonomous Capability |
+| RBSE | **역할확장 자기효능감** | Role Breadth Self-Efficacy |
+
+**"수행가능성 판단"은 두 종속변수를 묶어 연구문제를 서술하기 위한 표현**이며
+상위 구성개념이 아니다. SAC·RBSE를 한 상위요인의 하위차원이라고 주장하지 않는다.
+"직무수행 가능성 인식", "유지 축 / 확장 축" 같은 표현은 쓰지 않는다.
+
+**확정 제목**
+
+> 생성형 AI에 대한 의존적 인지위임과 근로자의 수행가능성 판단 간의 관계
+> — 독립수행 자신감과 역할확장 자기효능감을 중심으로 —
 
 ---
 
@@ -87,11 +106,10 @@ DCO를 그 자리에 놓는 것은 본 연구의 이론적 연결이다.
 | SAC | 4 | 5점 동의형 | [[Zhu_2026]] Suppl. Appendix B |
 | RBSE | **10 (Parker original)** | 5점 자신감형 | [[Parker_1998]] Table 1 |
 
-**Core = 18 items.** 선별·인구통계·주의점검은 핵심 측정문항이 아니다.
+**Core = 18 items. 한국어 문안 확정 (2026-10-13).**
+순번역 → 역번역 → 원문 대조(3개 문항 조정) → 서면 인지 프로빙 16명(1개 문항 조정) 완료.
 
-→ [[Measurement]] / [[Translation]]
-
----
+→ [[Measurement]] / [[Translation]] / [[Pretest_Record]] / [[Survey_Final]]
 
 ## Design
 
@@ -114,27 +132,30 @@ Consent
 
 핵심 척도 18문항은 **각각 온전한 블록으로 유지**하며 중간에 다른 문항을 삽입하지 않는다.
 
+**설문지 동결 (2026-10-14).** 전문은 [[Survey_Final]].
+목표 유효표본 **300명**. 본조사 수집 과정에서 **초기 30~50명을 먼저 확인**한 뒤
+설문 변경 없이 동일 조건으로 잔여 표본을 수집한다(soft launch).
+
 → [[Survey_Design]] / [[Analysis_Plan]]
 
 ---
 
 ## Current Stage
 
-**교수님 중간보고 전.**
+**설문지 동결 완료. 리서치 업체 견적 문의 단계.**
+
+2026-10-06 지도교수 면담에서 현재 모형과 H1 · RQ1 구성을 유지하고
+신속히 진행하기로 확인받았다. → [[Decision_Log]]
 
 ---
 
 ## Next
 
-1. Obsidian freeze ← **현재**
-2. 교수님 보고 PPT
-3. 발표 리허설
-4. 교수님 피드백
-5. survey finalization / translation / pilot
-6. main survey
-7. statistical analysis
-8. result report
-9. thesis writing
+1. 리서치 업체 견적 · 선정 ← **현재**
+2. soft launch 30~50명 — 응답분포 및 자료 품질 확인
+3. 본조사 잔여 표본 수집 (유효 300명)
+4. 자료 정제 → 확인적 요인분석 → 구조모형
+5. 결과 정리 → 논문 집필
 
 ---
 
@@ -142,12 +163,17 @@ Consent
 
 | 영역 | 노트 |
 |---|---|
+| **집필 지침** | **[[Writing_Notes]]** — 논문 쓸 때 먼저 읽을 것 |
 | 결정 기록 | [[Decision_Log]] |
 | 미결 사항 | [[Open_Issues]] |
 | 연구질문 | [[PlanA_to_PlanW]] · [[Research_Gap]] · [[Contribution]] |
 | 가설·연구질문 | [[H1_DCO_SAC]] · [[RQ1_DCO_RBSE]] |
-| 문헌 | [[Zhu_2026]] · [[Parker_1998]] · [[Zhang_2026]] · [[Man_Tang_2022]] · [[Lee_Park_2021]] · [[Kulal_2025]] |
+| 문헌 | [[Zhu_2026]] · [[Parker_1998]] · [[Zhang_2026]] · [[Man_Tang_2022]] · **[[Lee_2026]]** · [[Lee_Park_2021]] · [[Kulal_2025]] |
 | 방법 | [[Population_Sampling]] · [[Survey_Design]] · [[Measurement]] · [[Translation]] · [[Controls]] · [[Analysis_Plan]] |
+| 실행 | **[[Survey_Final]]** · **[[Pretest_Record]]** |
+
+**집필 단계 폴더** — `02_Theory/`(2장 노트) · `06_Data/`(자료 기록) · `07_Writing/`(장별 진행).
+각 폴더의 `README.md` 에 만들 노트와 작성 원칙이 있다.
 | 폐기 | [[Rejected_Ideas]] · [[Superseded_Decisions]] |
 
 ---
