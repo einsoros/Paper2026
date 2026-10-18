@@ -2,7 +2,7 @@
 title: Open Issues
 type: master
 status: OPEN
-updated: 2026-09-20 16:38 KST
+updated: 2026-10-14 10:30 KST
 ---
 
 # Open Issues
@@ -10,6 +10,23 @@ updated: 2026-09-20 16:38 KST
 > 실제 의사결정이 남아 있는 것만 적는다.
 > 방향은 정해졌으나 세부 문구가 미확정인 것은 해당 노트에서 WORKING으로 표시한다.
 > **미확정 사항을 확정된 것처럼 쓰지 않는다.**
+
+---
+
+## 0. 현재 핵심 미결 (2026-10-18)
+
+| | 내용 |
+|---|---|
+| **R1** | **RBSE의 이론적 위치.** DCO–RBSE 직접·인접 GenAI 선행연구 확인 |
+| **R2** | RBSE를 **확인적 가설**로 둘지 **탐색적 RQ**로 둘지 최종 결정 |
+| **R3** | M/W를 정말 추가할 필요가 있는지. **추가 자체가 목적이 아니다** |
+| **R4** | DCO의 IV 지위를 변경할 충분한 이론적·측정적 이점이 있는지 |
+| **R5** | [[Zhang_2026]] 등 RBSE 관련 원전 재검증 필요 여부 |
+
+**다시 열지 않는 것** → [[_Ledger]] 의 "재확인이 불필요한 것" 절.
+[[Ye_2026]] 의 기본 구조, Ye의 직무 자기효능감과 SAC의 차이,
+단일 문항 사용 가능 여부, [[Boldt_Gilbert_2019]] · [[Grinschgl_2021_PsyRes]] 기본 판정은
+**미결 사항이 아니다.**
 
 ---
 
@@ -21,9 +38,9 @@ updated: 2026-09-20 16:38 KST
 |---|---|---|---|
 | A1 | **추정방법(estimator)** | OPEN | 분석계획 확정 시 |
 | A2 | **5점 척도의 순서형 처리** | OPEN | A1과 함께 |
-| A3 | **목표 표본크기 N** | OPEN | A1·A2 확정 후 Monte Carlo 검정력 분석 |
+| A3 | ~~목표 표본크기 N~~ | **CLOSED** | 지도교수 지침 최소 200명 이상 → **목표 유효표본 300명**으로 발주 |
 | A4 | **최종 통제변수 세트** | OPEN | 아래 B1 참조 |
-| A5 | **패널 업체 선정** | OPEN | 견적 비교 |
+| A5 | **패널 업체 선정** | OPEN | 견적 문의 중. **soft launch 가능 여부**를 조건으로 확인 |
 | A6 | **판별타당도 판정기준** | OPEN | 아래 B2 참조 |
 
 **A3 주의** — Zhu의 r = −.23을 그대로 검정력 분석의 효과크기로 넣지 않는다.
@@ -79,20 +96,19 @@ AO를 측정하지 않는 것이 '낮은 DCO = 높은 AO'를 가정한다는 의
 
 ---
 
-## C. 번역 관련
+## C. 번역 관련 — **전부 CLOSED (2026-10-13)**
 
-| # | 항목 | 상태 |
-|---|---|---|
-| C1 | DCO·SAC 8문항 한국어 문안 | **working translation** — 정식 순·역번역 필요 |
-| C1b | **RBSE 10문항 — 이하린·박윤희(2021) 실제 번안본 확보** | **미결. 확보 여부에 따라 재번역 여부가 갈린다** |
-| C2 | 순번역자·역번역자 지정 | 미정 |
-| C3 | SAC2 `have developed the skills` 번역 | 번역 단계에서 결정 |
-| C4 | DCO1 `prefer` / DCO2 `tend to` 구분 | 번역 단계에서 결정 |
-| C5 | RBSE10 `Visiting` 처리 | 번역 단계에서 결정 |
-| C6 | RBSE `your work area` 일관 처리 | 번역 단계에서 결정 |
-| C7 | RBSE 공통 문두 + 과업 진술문 구조의 한국어 형태 | 형식 방향만 확정, 표현 미확정 |
+순번역 → 역번역 → 원문 대조 → 서면 인지 프로빙 16명을 거쳐 18문항 한국어 문안을 확정하였다.
+절차와 판정 근거는 [[Pretest_Record]], 최종 문항은 [[Survey_Final]].
 
-→ [[Translation]]
+조정한 문항은 B1 · B4 · B6 (번역 대조) 과 B10 (인지 프로빙) 네 곳이다.
+
+**본조사에서 확인할 사항으로 이월**
+
+- **A2** — "큰 수정없이 받아들인다"가 검토 여부와 수정 필요성 두 가지로 해석될 수 있음
+- **C1~C4** — 일부 응답자가 문항 간 의미적 유사성을 지적. 측정모형에서 평가
+- **RBSE 전반** — 일부 응답자가 자신감 판단 시 업무기회 · 조직문화 · 직급을 함께 고려
+- **S3** — 사전검토 참여자 전원이 '예'. 본조사 탈락 분포에서 변별력 확인
 
 ---
 
@@ -102,7 +118,6 @@ AO를 측정하지 않는 것이 '낮은 DCO = 높은 AO'를 가정한다는 의
 
 | 문헌 | 용도 | 우선순위 |
 |---|---|---|
-| Lee, E. H., Yin, Y., Jia, N., & Wakslak, C. J. (2026). *Relying on AI at work reduces self-efficacy, ownership, and meaning while active collaboration mitigates the effects.* Scientific Reports, 16, 13583 | H1의 실증 근거 (r = −.45, 사전등록 실험) | **높음** |
 | Gist, M. E., & Mitchell, T. R. (1992). *Self-efficacy: A theoretical analysis of its determinants and malleability.* AMR 17(2), 183–211 | 상위 이론 틀 | **높음** |
 | Zhu, Y. et al. (2024). *Can high performers take charge?* Journal of Business Research, 179, 114709 | 과업수행 → RBSE 계보 | 중간 |
 | Axtell, C. M., & Parker, S. K. (2003). *Promoting role breadth self-efficacy through involvement, work redesign and training.* Human Relations, 56(1), 113–131 | RBSE 선행요인 | 중간 |
@@ -117,8 +132,8 @@ AO를 측정하지 않는 것이 '낮은 DCO = 높은 AO'를 가정한다는 의
 
 | 상태 | 문헌 |
 |---|---|
-| **verified** (원문 전문 확인) | [[Zhu_2026]] · [[Parker_1998]] · [[Zhang_2026]] · [[Man_Tang_2022]] · Kulal(2025) · 이하린·박윤희(2021) |
-| **partially verified** (서지·요지 확보, 원문 미확인) | Lee et al.(2026) · Gist & Mitchell(1992) · Zhu, Y. et al.(2024) · Axtell & Parker(2003) · Ye et al.(2026) |
+| **verified** (원문 전문 확인) | [[Zhu_2026]] · [[Parker_1998]] · [[Zhang_2026]] · [[Man_Tang_2022]] · **[[Lee_2026]]** · [[Kulal_2025]] · [[Lee_Park_2021]] |
+| **partially verified** (서지·요지 확보, 원문 미확인) | Gist & Mitchell(1992) · Zhu, Y. et al.(2024) · Axtell & Parker(2003) · Ye et al.(2026) |
 | **pending** (제목 또는 서지 미확보) | Koopmann(2016) · Nadler(2015) · 근소우·권인수(2017) |
 
 **partially verified는 [A]로 인용하지 않는다.**
@@ -132,5 +147,6 @@ AO를 측정하지 않는 것이 '낮은 DCO = 높은 AO'를 가정한다는 의
 | `02_Theory/` 5개 노트 | 교수님 보고 후 |
 | `04_Literature/` 나머지 문헌 노트 | 논문 목차 확정 후 (사용처를 정확히 쓰기 위함) |
 | `06_Advisor/` | 발표자료 제작 시 |
-| 설문지 전문 (별도 문서) | 번역 확정 후 |
+| ~~설문지 전문~~ | **완료** → [[Survey_Final]] |
 | 지도교수 심사신청 메일 초안 | 미작성 |
+| 리서치 업체 견적 문의 | **진행 중** |
