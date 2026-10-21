@@ -1,8 +1,11 @@
 ---
 title: Eloundou 2023
+citekey: eloundou2023GPTs
 type: literature
 status: FROZEN
 updated: 2026-10-18 14:00 KST
+evidence: 확인완료
+tags: [planw, 배경]
 ---
 
 # Citation

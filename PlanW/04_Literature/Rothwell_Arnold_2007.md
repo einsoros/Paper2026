@@ -1,8 +1,11 @@
 ---
 title: Rothwell Arnold 2007
+citekey: rothwell2007Self
 type: literature
 status: FROZEN
 updated: 2026-10-18 14:00 KST
+evidence: 확인완료
+tags: [planw, 미채택]
 ---
 
 # Citation

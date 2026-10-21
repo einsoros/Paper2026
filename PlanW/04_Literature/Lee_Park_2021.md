@@ -1,8 +1,11 @@
 ---
 title: Lee Park 2021
+citekey: leepark2021Self
 type: literature
 status: FROZEN
 updated: 2026-09-20 17:10 KST
+evidence: 확인완료
+tags: [planw, 번역참고]
 ---
 
 # Citation

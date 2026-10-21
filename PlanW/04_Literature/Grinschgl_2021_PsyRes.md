@@ -1,8 +1,11 @@
 ---
 title: Grinschgl 2021 PsyRes
+citekey: grinschgl2021From
 type: literature
 status: FROZEN
 updated: 2026-10-18 14:00 KST
+evidence: 확인완료
+tags: [planw, 인지오프로딩]
 ---
 
 # Citation

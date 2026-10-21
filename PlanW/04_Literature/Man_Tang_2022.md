@@ -1,8 +1,11 @@
 ---
 title: Man Tang 2022
+citekey: tang2022When
 type: literature
 status: FROZEN
 updated: 2026-09-20 16:38 KST
+evidence: 확인완료
+tags: [planw, 인접]
 ---
 
 # Citation

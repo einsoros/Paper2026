@@ -1,8 +1,11 @@
 ---
 title: Parker 1998
+citekey: parker1998Enhancing
 type: literature
 status: FROZEN
 updated: 2026-09-20 16:38 KST
+evidence: 확인완료
+tags: [planw, 원척도]
 ---
 
 # Citation

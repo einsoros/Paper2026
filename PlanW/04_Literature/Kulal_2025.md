@@ -1,8 +1,11 @@
 ---
 title: Kulal 2025
+citekey: kulal2025Cognitive
 type: literature
 status: FROZEN
 updated: 2026-09-20 17:10 KST
+evidence: 확인완료
+tags: [planw, 참고]
 ---
 
 # Citation

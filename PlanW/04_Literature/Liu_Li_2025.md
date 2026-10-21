@@ -1,8 +1,11 @@
 ---
 title: Liu Li 2025
+citekey: liu2025Examining
 type: literature
 status: FROZEN
 updated: 2026-10-18 14:00 KST
+evidence: 확인완료
+tags: [planw, 서지보완필요]
 ---
 
 # Citation

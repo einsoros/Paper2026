@@ -1,8 +1,11 @@
 ---
 title: Inanc 2015
+citekey: inanc2015Direct
 type: literature
 status: FROZEN
 updated: 2026-10-18 22:00 KST
+evidence: 확인완료
+tags: [planw, 미채택]
 ---
 
 # Citation

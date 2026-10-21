@@ -1,8 +1,11 @@
 ---
 title: Shojaei 2026
+citekey: shojaei2026Helpful
 type: literature
 status: FROZEN
 updated: 2026-10-18 14:00 KST
+evidence: 확인완료
+tags: [planw, AI의존]
 ---
 
 # Citation

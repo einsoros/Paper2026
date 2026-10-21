@@ -1,8 +1,11 @@
 ---
 title: Kayes Yoon 2022
+citekey: kayes2022Cognitive
 type: literature
 status: FROZEN
 updated: 2026-10-18 14:00 KST
+evidence: 확인완료
+tags: [planw, 조직수준]
 ---
 
 # Citation

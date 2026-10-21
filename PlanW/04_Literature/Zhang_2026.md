@@ -1,8 +1,11 @@
 ---
 title: Zhang 2026
+citekey: zhangq2026Dual
 type: literature
 status: FROZEN
 updated: 2026-09-20 16:38 KST
+evidence: 확인완료
+tags: [planw, H2]
 ---
 
 # Citation

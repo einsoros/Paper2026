@@ -1,8 +1,11 @@
 ---
 title: Brynjolfsson 2023
+citekey: brynjolfsson2023Generative
 type: literature
 status: FROZEN
 updated: 2026-10-18 14:00 KST
+evidence: 확인완료
+tags: [planw, AI활용]
 ---
 
 # Citation
