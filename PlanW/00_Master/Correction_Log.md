@@ -2,7 +2,7 @@
 title: Correction Log
 type: master
 status: WORKING
-updated: 2026-10-18 14:00 KST
+updated: 2026-10-18 22:00 KST
 ---
 
 # 오판 기록

@@ -93,3 +93,31 @@ Zhu에서는 DCO가 T1, SAC가 T3였으나 PlanW는 횡단이다.
 
 Parker 원문과 국내 선행연구가 모두 5점이므로 5점 유지가 자연스럽다.
 [[Man_Tang_2022]]는 7점을 썼으므로 α 비교 시 척도 차이를 언급한다.
+
+
+---
+
+# 2026-10-18 추가 — GenAI Use (IV1)
+
+```
+출처     Zhang, Q., Zhang, J., & Dong, S. (2026). Frontiers in Psychology, 17, 1793095
+문항     4
+척도     5점 리커트 (1 = 전혀 그렇지 않다)  — DCO · SAC 와 형식 일치
+```
+
+**원문항**
+1. I use GenAI assistants to obtain ideas
+2. I use GenAI assistants to acquire solutions for problems
+3. I use GenAI assistants to get knowledge
+4. I use GenAI assistants to ask questions
+
+⚠️ **번역 · 역번역 · 사전검토 미실시.** 시행 전 필수 → [[Open_Issues]] S1
+
+⚠️ **구성개념 명칭** — [[Zhang_2026]] 원문은 **"GenAI use"** 이며 "work-related"는 원문에 없다.
+본 연구에서 **업무상 인지적 활용**으로 조작적으로 정의한다.
+
+⚠️ **2번 문항이 DCO 4번과 내용이 근접하다.** 다만 **해법을 얻는 것과 최종안으로 채택하는 것은
+다른 행동**이므로 문항을 삭제하지 않는다. **분리 여부는 사전검토와 확인적 요인분석에서 확인한다.**
+
+**한계** — [[Zhang_2026]] 4문항은 척도 개발 논문이 아니라 사용 연구에서 쓰인 측정이다.
+타당화 축적이 제한적이다.
