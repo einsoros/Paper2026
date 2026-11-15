@@ -2,7 +2,7 @@
 title: Analysis Plan
 type: method
 status: WORKING
-updated: 2026-10-24 KST
+updated: 2026-11-15 16:10 KST
 ---
 
 # 분석계획
@@ -313,7 +313,7 @@ GenAI Use 만 7점이고 나머지는 5점이다. **요인 내 일관성만 있�
 순서형 처리로 전환할 경우 **평균 · 분산 조정 가중최소제곱법
 (Weighted Least Squares Mean and Variance adjusted, WLSMV)** 을 사용한다.
 
-**[GAP] 추정량 선택 원칙의 방법론적 근거 확인.**
+~~**[GAP] 추정량 선택 원칙의 방법론적 근거 확인.**~~ → **닫음 (2026-11-15)** [[Rhemtulla_2012]] 원문 확인. 적용 결과는 [[Decision_Log]] 2026-11-15
 ⚠️ **왜도 · 첨도의 수치 cutoff 를 만들어 자동 전환 규칙으로 삼지 않는다.**
 추정량 선택에는 문항의 범주 수, 분포, 결측, 척도를 연속변수로 취급할지 여부가 함께 들어간다.
 숫자 하나로 자동 결정할 문제가 아니다.
