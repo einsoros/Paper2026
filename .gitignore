@@ -8,3 +8,16 @@
 .obsidian/cache/
 *.patch
 .claude/
+
+# 원자료 · 업체 결과물 — 공개 리포에 올리지 않는다 (자료는 연구자 로컬에 보관)
+*.sav
+*.xlsx
+*.xls
+*.csv
+*.hwp
+*.hwpx
+*.spv
+*.amw
+*.AmosOutput
+*.zip
+결과자료/
