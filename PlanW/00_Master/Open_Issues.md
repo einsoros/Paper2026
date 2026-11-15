@@ -2,7 +2,7 @@
 title: Open Issues
 type: master
 status: OPEN
-updated: 2026-10-25 KST
+updated: 2026-11-15 09:05 KST
 ---
 
 # Open Issues
@@ -45,8 +45,8 @@ updated: 2026-10-25 KST
 
 | | 내용 |
 |---|---|
-| **A7** | 불성실 응답 **제외기준 수치**. 기준의 종류와 적용 순서는 확정됨 → [[Analysis_Plan]] 1절 |
-| **A8** | 업체 **코드북과 원자료의 대응 확인** |
+| ~~A7~~ | **CLOSED (11-14)** — 수치 cutoff 를 두지 않는다([[Analysis_Plan]] 139행). 사전 규칙 적용 결과 주분석 N = 300 → [[Cleaning]] |
+| ~~A8~~ | **CLOSED (11-14)** — 업체 GUIDE 시트로 코드 방향 확인, .sav 와 엑셀 대조 완료 → [[Collection_Log]] |
 
 ⚠️ 결과 패턴별 해석 틀을 [[Analysis_Plan]] 5절에 사전 정리했다.
 **결과를 보고 그 중 하나를 골라 "예측했다"고 쓰지 않는다.**
