@@ -2,7 +2,7 @@
 title: PlanW Current State
 type: master
 status: FROZEN
-updated: 2026-11-15 16:30 KST
+updated: 2026-11-17 17:50 KST
 ---
 
 # PlanW — 현재 상태
@@ -195,7 +195,9 @@ Consent
 남은 [GAP] — 판별타당도 판정 규칙의 문헌 근거. 추정량 근거는 [[Rhemtulla_2012]] 로 닫음(2026-11-15).
 측정모형 확정(2차 추가분석) → [[Measurement_Model]] 2절
 구조모형(통제 전) — H1 · H2 · RQ2 유의, RQ1 비유의(β = .096, p = .093), R² SAC .474 · RBSE .526 → [[Structural_Model]] 3절
-다음 — ③ U1 · U2 통제모형, U2 제외 민감도 모형
+통제모형(주모형, U1 · U2 숫자 코딩) — H1 · H2 · RQ2 안정. RQ1 은 정적 방향이나 유의성이 사양에 민감(주모형 p = .093, 더미 p = .041)
+→ [[Structural_Model]] 4절
+다음 — ④ 판별타당도(HTMT · 경쟁모형 χ² 차이). [GAP] 판정 규칙 문헌 확인 필요
 정정 대기 — 회사 계정 인수인계 문서 3절의 정정 목록과 추가 발견 9건(별도 커밋으로 처리).
 
 ---
