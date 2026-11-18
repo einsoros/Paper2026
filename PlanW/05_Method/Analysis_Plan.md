@@ -2,7 +2,7 @@
 title: Analysis Plan
 type: method
 status: WORKING
-updated: 2026-11-18 09:55 KST
+updated: 2026-11-18 14:40 KST
 ---
 
 # 분석계획
@@ -245,14 +245,17 @@ GenAI Use 만 7점이고 나머지는 5점이다. **요인 내 일관성만 있�
 **엇갈리면 어느 하나를 사후적으로 최종 심판으로 지정하지 않고,
 엇갈린다는 사실과 그 원인을 보고한다.** 기준을 바꾸어 구별성을 주장하지 않는다.
 
-**[GAP] 최종 판정 규칙은 판별타당도 방법론 문헌을 확인한 뒤 확정한다.**
+> **2026-11-18 확정 · 판단 우선순위 변경** — 주 판정은 CICFA(cut)([[Ronkko_Cho_2022]]), ①②③ 은 병기.
+> 아래 "어느 하나를 사후적으로 최종 심판으로 지정하지 않는다"를 변경한 것이다 → [[Decision_Log]] 2026-11-18
+
+~~**[GAP] 최종 판정 규칙은 판별타당도 방법론 문헌을 확인한 뒤 확정한다.**~~ → 닫음 (2026-11-18)
 ⚠️ **이 규칙을 직관으로 만들지 않는다.** WAU–DCO 의 구별은 B1 성립과 직접 연결되므로
 "합리적으로 보인다" 수준으로 결정해서는 안 된다. **자료 도착 전까지 확인한다.**
 
-확인할 문헌 (서지는 기억에 의존한 것이며 **원문 확보 후 검증 필요**)
-- Henseler, Ringle, & Sarstedt (2015). *J. Acad. Mark. Sci., 43*(1), 115–135. — HTMT 원전
-- Voorhees, Brashear Ramirez, Calantone, & Ramirez (2016). *J. Acad. Mark. Sci., 44*(1), 119–134.
-- Rönkkö & Cho (2022). *Organizational Research Methods, 25*(1), 6–14.
+확인한 문헌 (2026-11-18 원문 확인)
+- [[Henseler_2015]] Henseler, Ringle, & Sarstedt (2015). *J. Acad. Mark. Sci., 43*(1), 115–135. — HTMT 원전
+- [[Voorhees_2016]] Voorhees, Brady, Calantone, & Ramirez (2016). *J. Acad. Mark. Sci., 44*(1), 119–134.
+- [[Ronkko_Cho_2022]] Rönkkö & Cho (2022). *Organizational Research Methods*. 권 · 호 · 쪽 [GAP]
 
 **[GAP]** HTMT 주기준 제안은 근거 문헌 원문 미확인으로 **철회되었다.** → [[Superseded_Decisions]]
 
