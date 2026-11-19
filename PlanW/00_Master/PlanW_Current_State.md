@@ -2,7 +2,7 @@
 title: PlanW Current State
 type: master
 status: FROZEN
-updated: 2026-11-18 14:40 KST
+updated: 2026-11-19 11:30 KST
 ---
 
 # PlanW — 현재 상태
@@ -197,7 +197,9 @@ Consent
 구조모형(통제 전) — H1 · H2 · RQ2 유의, RQ1 비유의(β = .096, p = .093), R² SAC .474 · RBSE .526 → [[Structural_Model]] 3절
 통제모형(주모형, U1 · U2 숫자 코딩) — H1 · H2 · RQ2 안정. RQ1 은 정적 방향이나 유의성이 사양에 민감(주모형 p = .093, 더미 p = .041)
 → [[Structural_Model]] 4절
-다음 — ④ 판별타당도 계산 (규칙 확정 → [[Decision_Log]] 2026-11-18 오후)
+판별타당도 — 주 판정 CICFA(cut) 여섯 쌍 모두 문제 없음(최대 DCO–SAC UL .775), 병기 지표 일관 → [[Measurement_Model]] 4 · 5절
+측정모형 확정 · 기술통계(N = 297) 재계산 → [[Measurement_Model]] 3절 · 분석표본 특성 → [[Collection_Log]] 9절
+다음 — 집필 재료 정리 (3 · 4장)
 정정 대기 — 회사 계정 인수인계 문서 3절의 정정 목록과 추가 발견 9건(별도 커밋으로 처리).
 
 ---

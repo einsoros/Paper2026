@@ -2,7 +2,7 @@
 title: Decision Log
 type: decision
 status: WORKING
-updated: 2026-11-18 14:40 KST
+updated: 2026-11-19 11:30 KST
 ---
 
 # Decision Log
@@ -27,7 +27,8 @@ updated: 2026-11-18 14:40 KST
 ```
 UL       양의 상관: 95% 신뢰구간 상한 / 음의 상관: 95% 신뢰구간 하한의 절댓값  (Rönkkö & Cho Table 12)
 구간     UL < .80 문제 없음 · .80–.90 경미 · .90–1 중간 · ≥ 1 심각
-χ² 차이  요인 분산 1 로 척도화, 비교 쌍의 상관만 1 로 제약. MLR 이므로 Satorra-Bentler 척도보정 차이검정
+χ² 차이  요인 분산 1 로 척도화, 비교 쌍의 상관을 ±1 로 제약하고 함의된 등식 제약 2개를 함께 둔다(자유도 차이 3).
+         MLR 이므로 Satorra-Bentler 척도보정 차이검정. 제약모형은 의도한 경계모형(특이행렬) — 보조 근거로만 (2026-11-19 보완)
 측정모형 [[Measurement_Model]] 2절 M1 (N = 297, MLR)
 엇갈리면  판정은 CICFA(cut). 다른 지표의 경고는 숨기지 않고 엇갈림과 원인을 보고
 ```
