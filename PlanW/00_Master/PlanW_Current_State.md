@@ -2,7 +2,7 @@
 title: PlanW Current State
 type: master
 status: FROZEN
-updated: 2026-11-19 11:30 KST
+updated: 2026-11-19 14:30 KST
 ---
 
 # PlanW — 현재 상태
@@ -199,7 +199,8 @@ Consent
 → [[Structural_Model]] 4절
 판별타당도 — 주 판정 CICFA(cut) 여섯 쌍 모두 문제 없음(최대 DCO–SAC UL .775), 병기 지표 일관 → [[Measurement_Model]] 4 · 5절
 측정모형 확정 · 기술통계(N = 297) 재계산 → [[Measurement_Model]] 3절 · 분석표본 특성 → [[Collection_Log]] 9절
-다음 — 집필 재료 정리 (3 · 4장)
+집필 재료 — [[Ch3_Material]] · [[Ch4_Material]] · [[Ch5_Material]] (2026-11-19). 장부 정합성 점검 결과는 대화로 보고, 수정 대기
+다음 — 정합성 불일치 처리 결정 → 집필(Obsidian)
 정정 대기 — 회사 계정 인수인계 문서 3절의 정정 목록과 추가 발견 9건(별도 커밋으로 처리).
 
 ---
