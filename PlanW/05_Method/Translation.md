@@ -7,7 +7,10 @@ updated: 2026-09-20 16:38 KST
 
 # 번역 — 원본표 및 절차
 
-> **현재 한국어 문항은 전부 working translation이다.**
+> ⚠️ **2026-11-19 — 이 노트는 2026-09-20 시점 기록이다.** 이후 DCO · SAC · RBSE 18문항은 순번역 · 역번역 · 서면 인지 프로빙을
+> 완료했다 → [[Pretest_Record]]. GenAI Use 4문항은 연구자 직접 번역(역번역 · 사전검토 미실시). 아래 "현재 상태"는 당시 기준이다.
+>
+> **(2026-09-20 당시) 현재 한국어 문항은 전부 working translation이다.**
 > validated / final translation이라고 쓰지 않는다.
 
 ---

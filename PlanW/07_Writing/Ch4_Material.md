@@ -272,7 +272,7 @@ S.E. 는 MLR 강건 표준오차. ML 추정에서도 네 경로의 판단 동일
 | 문항 기술통계 | 22문항 M · SD · 왜도 · 첨도 · 최대 단일범주 % | [[Measurement_Model]] 3절 |
 | 추정법 비교 | MLR 대 ML — 네 경로 계수 · p, 측정모형 적합도 | 이 파일 3절 · [[Measurement_Model]] 2절 |
 | 민감도 전체 결과 | 통제변수 범주형 모형의 전체 계수 | [[Structural_Model]] 4절 |
-| 번역 및 사전검토 절차표 | 필요시 한 장 | [[Pretest_Record]] · ⚠️ [[Ch3_Material]] 3-3 충돌 해소 후 |
+| 번역 및 사전검토 절차표 | 필요시 한 장 (18문항 절차 + GenAI Use 직접 번역 명시) | [[Pretest_Record]] · [[Ch3_Material]] 3-3 |
 
 [[Writing_Notes]] 9절은 "최종 한국어 18문항"으로 되어 있다 — **GenAI Use 4문항 추가로 22문항**이다.
 

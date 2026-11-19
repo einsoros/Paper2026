@@ -2,7 +2,7 @@
 title: Decision Log
 type: decision
 status: WORKING
-updated: 2026-11-19 11:30 KST
+updated: 2026-11-19 15:10 KST
 ---
 
 # Decision Log
@@ -10,6 +10,27 @@ updated: 2026-11-19 11:30 KST
 > 날짜 역순(newest first). 한 파일로 유지한다.
 > 번복·철회는 기존 항목을 지우지 않고 새 항목으로 추가하며, 무엇을 대체하는지 명시한다.
 > 폐기된 논리는 [[Rejected_Ideas]]에, 수정된 과거 결정은 [[Superseded_Decisions]]에 함께 기록한다.
+
+---
+
+## 2026-11-19 — 번역 기록 확인, 장부 오기 · 미반영 일괄 정정
+
+**확인 (다니엘)** — DCO · SAC · RBSE 18문항은 순번역 · 역번역 · 서면 인지 프로빙(16명)을 실제로 수행했다([[Pretest_Record]] 가 맞음).
+지도교수는 생략해도 된다고 했으나 연구자가 수행했다. **GenAI Use 4문항은 시간 제약으로 연구자가 직접 번역**했고 역번역 · 사전검토는 하지 않았다.
+
+**정정한 것** — 정합성 점검(2026-11-19)의 단순 오기와 결정 미반영 항목
+- "역번역 · 인지면접 미실시" 서술 → [[PlanW_Current_State]] · [[Writing_Notes]] · [[Analysis_Plan]] · [[Translation]](당시 기록 표시)
+- [[PlanW_Current_State]] — U1 · U2 명칭(U1 사용기간 · U2 사용빈도), GenAI Use 척도(7점) · 출처([[Zhang_Yu_Ma_2026]]), 원척도 명칭, 설문 순서(v4),
+  soft launch 미실시, 주의점검 문항 결정됨, 일정, 문헌 원문 확인 상태, 350명 상향 기록에 실제 300명 병기
+- [[Writing_Notes]] — Lee 원문 확인, 설문 순서, 부록 22문항, 번역 문안의 적용 범위
+- [[Analysis_Plan]] — N = 297
+- [[Open_Issues]] — A2 · A6 닫음, A4 통제변수 세트, A7 이후 변경, 문헌 확인 상태
+- [[Survey_Final]] — v3 절이 대체되었다는 표시
+- [[Collection_Log]] 6절 — "업체 분석" → "1차 통계분석"
+
+**정정하지 않은 것 (결정 대기)** — 기여 ① 문구, 약어(GenAI Use / WAU), 사전 계획 미수행 분석(2요인 · 1요인 모형, 집단별 기술통계, 표본크기 근거)
+
+**Status** FROZEN
 
 ---
 

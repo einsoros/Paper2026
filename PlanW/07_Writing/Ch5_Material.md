@@ -241,7 +241,7 @@ GenAI Use 와 사용기간 · 사용빈도를 통제한 상태에서 DCO 는 RBS
 | 척도의 타당화 수준 — DCO · SAC 는 학생 중심(87.6%) 표본에서 개발된 예비 도구, GenAI Use 는 사용 연구의 측정 | [[Zhu_2026]] [A] · [[Zhang_Yu_Ma_2026]] | 다만 본 표본에서 신뢰도 · 수렴 · 판별타당도는 확보됨. **새 연결을 시도한 것 자체를 사과하지 않는다** → [[Analysis_Plan]] 「한계」 |
 | SAC 4문항 중 AI 부재를 명시하는 것은 3문항 | [[Translation]] (C2 원문에 AI 조건 없음) | 단 C2 적재량 .917 — 실제 측정에서 문제로 나타나지 않음 |
 | 측정모형 적합도가 지표별로 상이 (RMSEA .079) | [[Measurement_Model]] 2절 | 사후 수정 없이 사전 규칙만 적용한 결과 |
-| GenAI Use 번역 · 사전검토 미실시 | [[PlanW_Current_State]] | ⚠️ 나머지 18문항의 기록은 충돌 중 → [[Ch3_Material]] 3-3 |
+| GenAI Use 4문항 — 연구자 직접 번역, 역번역 · 사전검토 미실시 | [[PlanW_Current_State]] · [[Ch3_Material]] 3-3 | 18문항은 순번역 · 역번역 · 인지 프로빙 완료(2026-11-19 확인). 다만 GenAI Use 도 본 표본에서 α .914 · 적재량 .83 ~ .87 |
 | 범위제한 — 최근 1개월 AI 사용자만, 만 20~59세 온라인 패널, 할당 미적용 | [[Analysis_Plan]] 「한계」 · [[PlanW_Current_State]] | 일반화 범위 |
 | RQ1 유의성의 사양 민감성 | [[Structural_Model]] 4절 | RQ1 해석 수위 |
 | 통제변수 코딩을 사전에 정하지 않았다 | [[Decision_Log]] · [[Structural_Model]] 4절 | 투명성 |
