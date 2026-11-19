@@ -2,7 +2,7 @@
 title: Ch3_Material
 type: method
 status: WORKING
-updated: 2026-11-19 16:00 KST
+updated: 2026-11-19 18:00 KST
 ---
 
 # 제3장 연구방법 — 집필 재료
@@ -344,7 +344,7 @@ SAC ↔ RBSE 잔차공분산 허용 · SAC → RBSE 직접경로 없음
 
 | 항목 | 계획 | 현황 |
 |---|---|---|
-| 대안 측정모형 비교 | [[Analysis_Plan]] 2절 — GenAI Use + DCO 병합 · SAC + RBSE 병합 · 2요인 · 1요인(공통방법편의 점검) | 쌍별 병합(상관 ±1 + 등식 제약)은 판별타당도 χ² 차이로 수행. **2요인 · 1요인 모형은 미수행 — 모형 명세 검토 후 실행 결정(2026-11-19)** |
+| 대안 측정모형 비교 | [[Analysis_Plan]] 2절 — GenAI Use + DCO 병합 · SAC + RBSE 병합 · 2요인 · 1요인(공통방법편의 점검) | **수행 (2026-11-19)** — M3a · M3b 는 판별타당도 제약모형과 동등함을 확인해 재사용, M2 · M1f 실행. 결과를 본 뒤 실행했음을 기록 → [[Measurement_Model]] 6절 |
 | 집단별 기술통계 | [[Analysis_Plan]] 6절 — 직군 · 직급 · 업종 · 규모 · U3 · U4 별 핵심변수 평균 · 분포 | **수행 (2026-11-19)** → [[Measurement_Model]] 3절 |
 | 표본크기 근거 | [[Population_Sampling]] — Monte Carlo 검정력 분석 | **미수행 · 하지 않기로 결정 (2026-11-19)** |
 
