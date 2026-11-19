@@ -2,7 +2,7 @@
 title: Style Guide
 type: writing
 status: FROZEN
-updated: 2026-10-24 KST
+updated: 2026-11-19 16:00 KST
 ---
 
 # 집필 표기 기준
@@ -108,7 +108,7 @@ updated: 2026-10-24 KST
 **2.5~2.9 에서 각 구성개념을 정의할 때 최초 1회만** 도입한다.
 
 ```
-업무 관련 생성형 인공지능 활용(Work-related Generative AI Use, WAU)
+업무 관련 생성형 인공지능 활용(Work-related Generative AI Use, 이하 GenAI Use)   ← 2026-11-19 WAU 에서 변경
 의존적 인지위임(Dependent Cognitive Offloading, DCO)
 독립수행 자신감(Subsequent Autonomous Capability, SAC)
 역할확장 자기효능감(Role Breadth Self-Efficacy, RBSE)
@@ -143,7 +143,7 @@ updated: 2026-10-24 KST
 
 | 내용 | 등장 | 처리 |
 |---|---|---|
-| Zhang et al.(2026)의 N = 541 과 WAU–RBSE 정적 관련 | 2.5 · 2.9 · 2.12 | **2.5 에서 삭제함.** 2.5 는 척도를 규정하는 절이며 결과까지 말할 필요가 없다. 2.9(AI 맥락 관련성)와 2.12(H2 근거)는 역할이 달라 유지 |
+| Zhang et al.(2026)의 N = 541 과 GenAI Use–RBSE 정적 관련 | 2.5 · 2.9 · 2.12 | **2.5 에서 삭제함.** 2.5 는 척도를 규정하는 절이며 결과까지 말할 필요가 없다. 2.9(AI 맥락 관련성)와 2.12(H2 근거)는 역할이 달라 유지 |
 | "두 특성이 경험적으로 구별될 수 있다는 점은 최근 보고되었다" | 2.2 · 2.7 | **2.7 의 표현을 바꿈** |
 
 ### 4-2. 중복을 허용하는 경우

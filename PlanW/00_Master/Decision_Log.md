@@ -2,7 +2,7 @@
 title: Decision Log
 type: decision
 status: WORKING
-updated: 2026-11-19 15:10 KST
+updated: 2026-11-19 16:00 KST
 ---
 
 # Decision Log
@@ -10,6 +10,35 @@ updated: 2026-11-19 15:10 KST
 > 날짜 역순(newest first). 한 파일로 유지한다.
 > 번복·철회는 기존 항목을 지우지 않고 새 항목으로 추가하며, 무엇을 대체하는지 명시한다.
 > 폐기된 논리는 [[Rejected_Ideas]]에, 수정된 과거 결정은 [[Superseded_Decisions]]에 함께 기록한다.
+
+---
+
+## 2026-11-19 (오후) — 기여 ① 문구, 약어, 미수행 분석 처리
+
+**Decision** (헷 · 다니엘 합의)
+
+```
+기여 ①     "AI 사용의 양이 아닌 방식" 폐기 →
+           생성형 AI 활용 정도와 의존적 인지위임을 구별하고, 두 특성이 SAC · RBSE 와 맺는 고유한 관련성을 분석
+           학술적 독창성의 범위는 선행연구 비교 후 확정
+약어       주요 독립변수 = GenAI Use 로 통일. WAU 는 원척도 문항 코드(WAU1~4)로만
+           사용빈도는 U2. WAU 를 빈도의 약어로 쓰지 않는다
+집단별 기술통계   수행 (사전 지정 범위: 직위 · 직무 · 업종 · 규모 · U3 · U4) → [[Measurement_Model]] 3절
+경쟁 측정모형     2요인 · 1요인 — 명세와 비교 목적 검토 후 실행 결정 (대기)
+표본크기 분석     Monte Carlo 하지 않음. 문헌 근거 기록 없음을 확인하고 사실대로 기술
+```
+
+**Why**
+- 기여 ① — 원 문구가 [[Writing_Notes]] 1절의 금지 문구("사용량 대 사용 방식" 대비)와 충돌했다. DCO 는 사용 방식 전체가 아니라 의존적 위임의 정도다
+- 약어 — 헷이 WAU 를 "Weekly AI Use(주간 사용빈도)"로 이해해 의견을 냈으나, 리포에서 WAU 는 [[Zhang_Yu_Ma_2026]] 원척도의 문항 코드이며
+  GenAI Use 와 **같은 변수**다(개 확인). 빈도 변수는 U2 이므로 WAU 를 빈도 의미로 쓰면 혼동이 생긴다. 결정(GenAI Use 통일)은 유지
+- 표본크기 — 기록상 근거는 지도교수 면담(최소 200명, 10-06)과 동결 시 목표 300명(10-14, 산출 근거 없음)뿐이다. 사후 계산은 사전 결정 근거가 될 수 없다
+
+**바꾼 곳** — [[Writing_Notes]] 8 · 11절, [[Style_Guide]] 3-3, [[Ch2_Draft_1]] · [[Ch2_Draft_2]] · [[Ch2_Draft_3]] 의 WAU 표기, [[Ch2_Outline]], [[Analysis_Plan]],
+[[PlanW_Current_State]](역사 기록 행 제외), [[Theory_Check]] · [[Construct_Map]] · [[Risko_Gilbert_2016]], [[Ch3_Material]] · [[Ch4_Material]] · [[Ch5_Material]].
+이전 날짜 항목의 WAU 표기는 기록으로 보존한다.
+
+**Status** FROZEN
 
 ---
 
