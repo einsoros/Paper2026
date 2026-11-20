@@ -2,7 +2,7 @@
 title: Ch3_Material
 type: method
 status: WORKING
-updated: 2026-11-19 18:00 KST
+updated: 2026-11-20 13:10 KST
 ---
 
 # 제3장 연구방법 — 집필 재료
@@ -277,8 +277,7 @@ SAC ↔ RBSE 잔차공분산 허용 · SAC → RBSE 직접경로 없음
 
 - 판단 순서와 이유 → [[Decision_Log]] 2026-11-15
 - **"리커트라서 MLR"이 아니라 "분포를 확인해 연속형으로 처리하되 다변량 정규성 위배가 확인되어 강건 추정"** 이라는 논리로 쓴다
-- ⚠️ MLR 의 보정 방식은 **lavaan 구현을 확인해 정확히 쓴다**. lavaan 의 MLR 은 Huber-White 강건 표준오차와 척도보정 검정통계를 쓰며,
-  [[Rhemtulla_2012]] 의 robust ML(Mplus, Satorra-Bentler 계열)과 같지 않다 — **lavaan 문서 원문 확인 [GAP]**
+- MLR 의 보정 방식 — lavaan 문서로 확인 완료 → 5-3-1절
 - 왜도 · 첨도 cutoff 를 자동 규칙으로 쓰지 않았다 → [[Analysis_Plan]] 4절
 - [A] Rhemtulla 원문의 적재량 설계는 .3 ~ .7 로 본 연구(.686 ~ .930)보다 작고, 큰 적재량에서 ML 편향이 두드러졌다 → [[Rhemtulla_2012]] Limits.
   3장에 쓸지는 선택. 쓰면 5장 한계와 연결
@@ -295,6 +294,18 @@ SAC ↔ RBSE 잔차공분산 허용 · SAC → RBSE 직접경로 없음
   (Satorra-Bentler 척도보정 χ² 차이 251.84, df 1, p < .001) → [[Measurement_Model]] 2절
 - **사전에 오차상관을 박아 두지 않았다** — 제약 없는 모형을 먼저 돌렸으므로 "원척도에서 보고된 문항내용 중복이 본 표본에서도 재현되었다"는 서술이 성립한다 → [[Analysis_Plan]] 2절
 - RBSE 문항 순서가 Parker Table 1 순서와 같음을 대조했다 → [[Measurement_Model]] 2절
+
+### 5-3-1. 소프트웨어 구현 — 원문 확인 (2026-11-20)
+
+| 항목 | 확인한 내용 | 출처 |
+|---|---|---|
+| MLR | "maximum likelihood estimation with robust (Huber-White) standard errors" + "a scaled test statistic that is (asymptotically) equal to the Yuan-Bentler test statistic" | lavaan 공식 튜토리얼 「Estimators and more」 [A] |
+| 척도보정 χ² 차이검정 | `lavTestLRT(method = "satorra.bentler.2001")` — Satorra & Bentler(2001)의 근사식. 상황에 따라 음수가 나올 수 있다고 문서가 명시. 본 연구의 모든 비교는 양수 | lavaan 0.6-17 도움말 [A] · Satorra & Bentler(2001) 원문 미확인 [GAP] |
+
+**3장 서술** — "R 의 lavaan 패키지(0.6-17)를 사용하였고, 다변량 정규성 위배를 고려하여 강건 최대우도 추정(MLR; Huber-White 강건 표준오차와
+Yuan-Bentler 척도보정 검정통계량)을 적용하였다. 중첩모형 비교에는 Satorra-Bentler 척도보정 χ² 차이검정을 사용하였다."
+- ⚠️ [[Rhemtulla_2012]] 의 robust ML 은 Mplus 의 Satorra-Bentler 계열 보정이다. lavaan MLR 과 **보정 방식이 같지 않다** — 근거 인용 시 "같은 계열의 강건 추정"까지
+- lavaan 자체의 인용 문헌(Rosseel, 2012, *Journal of Statistical Software*)은 원문 미확인 [GAP] — 소프트웨어 인용 관행상 필요
 
 ### 5-4. 판별타당도 판정
 
@@ -360,7 +371,7 @@ SAC ↔ RBSE 잔차공분산 허용 · SAC → RBSE 직접경로 없음
 | 2 | ~~표본크기 근거~~ | 사실 기술로 결정 (2026-11-19) |
 | 3 | 연구윤리 심의 · 승인번호 | 학교 확인 |
 | 4 | 선별 탈락자 수 · 사유 | 업체 자료 확인 |
-| 5 | Anderson & Gerbing(1988), Hu & Bentler(1999) | 원문 확인 후 인용 여부 결정 |
-| 6 | lavaan MLR 구현 방식 | lavaan 문서 확인 |
+| 5 | Anderson & Gerbing(1988), Hu & Bentler(1999) | **원문 미확보** — 공개본 접근 불가. 다니엘 PDF 필요 |
+| 6 | ~~lavaan MLR 구현 방식~~ | 확인 완료 (2026-11-20) → 5-3-1절. 남은 것: Rosseel(2012) · Satorra & Bentler(2001) 원문 |
 | 7 | Rönkkö & Cho(2022) 권 · 호 · 쪽 | 학술지 최종본 확인 |
 | 8 | ~~GenAI Use 약어 통일~~ | GenAI Use 로 결정 (2026-11-19) |
