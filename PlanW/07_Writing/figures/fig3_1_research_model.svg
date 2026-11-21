@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="490" viewBox="0 60 960 490" font-family="Noto Sans CJK KR, sans-serif">
+  <defs>
+    <marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="9" markerHeight="9" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#111"/>
+    </marker>
+  </defs>
+  <rect y="60" width="960" height="490" fill="#fff"/>
+  <!-- covariance between predictors -->
+  <path d="M68,168 Q4,260 68,352" fill="none" stroke="#111" stroke-width="1.6" marker-start="url(#a)" marker-end="url(#a)"/>
+  <!-- latent ellipses -->
+  <g fill="#fff" stroke="#111" stroke-width="2">
+    <ellipse cx="200" cy="140" rx="135" ry="60"/>
+    <ellipse cx="200" cy="380" rx="135" ry="60"/>
+    <ellipse cx="740" cy="140" rx="135" ry="60"/>
+    <ellipse cx="740" cy="380" rx="135" ry="60"/>
+  </g>
+  <g font-size="19" text-anchor="middle" fill="#111">
+    <text x="200" y="124">업무 관련 생성형</text><text x="200" y="149">인공지능 활용</text>
+    <text x="200" y="176" font-size="17">(GenAI Use)</text>
+    <text x="200" y="374">의존적 인지위임</text>
+    <text x="200" y="402" font-size="17">(DCO)</text>
+    <text x="740" y="134">역할확장 자기효능감</text>
+    <text x="740" y="162" font-size="17">(RBSE)</text>
+    <text x="740" y="374">독립수행 자신감</text>
+    <text x="740" y="402" font-size="17">(SAC)</text>
+  </g>
+  <!-- hypotheses: solid -->
+  <g stroke="#111" stroke-width="2.2" fill="none" marker-end="url(#a)">
+    <line x1="336" y1="140" x2="602" y2="140"/>
+    <line x1="336" y1="380" x2="602" y2="380"/>
+  </g>
+  <!-- research questions: dashed -->
+  <g stroke="#111" stroke-width="2" fill="none" stroke-dasharray="9 6" marker-end="url(#a)">
+    <line x1="318" y1="170" x2="626" y2="352"/>
+    <line x1="318" y1="350" x2="626" y2="168"/>
+  </g>
+  <g font-size="18" fill="#111" text-anchor="middle">
+    <text x="469" y="128">H2 (+)</text>
+    <text x="469" y="406">H1 (−)</text>
+    <rect x="370" y="204" width="56" height="26" fill="#fff"/><text x="398" y="223">RQ1</text>
+    <rect x="370" y="290" width="56" height="26" fill="#fff"/><text x="398" y="309">RQ2</text>
+  </g>
+  <!-- disturbances and residual covariance -->
+  <g fill="#fff" stroke="#111" stroke-width="1.6">
+    <circle cx="912" cy="140" r="16"/><circle cx="912" cy="380" r="16"/>
+  </g>
+  <g font-size="17" text-anchor="middle" font-style="italic" fill="#111">
+    <text x="912" y="146">ζ</text><text x="912" y="386">ζ</text>
+  </g>
+  <g stroke="#111" stroke-width="1.6" marker-end="url(#a)">
+    <line x1="896" y1="140" x2="878" y2="140"/><line x1="896" y1="380" x2="878" y2="380"/>
+  </g>
+  <path d="M922,155 Q958,260 922,365" fill="none" stroke="#111" stroke-width="1.6" marker-start="url(#a)" marker-end="url(#a)"/>
+  <!-- controls -->
+  <rect x="210" y="468" width="540" height="40" fill="#fff" stroke="#111" stroke-width="1.4" stroke-dasharray="4 3"/>
+  <text x="480" y="494" font-size="17" text-anchor="middle" fill="#111">통제변수: 인공지능 사용기간 · 인공지능 사용빈도</text>
+  <!-- legend -->
+  <g font-size="15" fill="#111">
+    <line x1="210" y1="535" x2="250" y2="535" stroke="#111" stroke-width="2.2"/><text x="258" y="540">가설</text>
+    <line x1="320" y1="535" x2="360" y2="535" stroke="#111" stroke-width="2" stroke-dasharray="9 6"/><text x="368" y="540">연구질문</text>
+    <text x="470" y="540">↔ 공분산 · ζ 잔차</text>
+  </g>
+</svg>
