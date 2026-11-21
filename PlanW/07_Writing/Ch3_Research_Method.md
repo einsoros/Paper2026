@@ -2,7 +2,7 @@
 title: Ch3_Research_Method
 type: writing
 status: DRAFT
-updated: 2026-11-21 17:40 KST
+updated: 2026-11-21 17:56 KST
 ---
 
 # 제3장 연구방법 — 뼈대

@@ -2,7 +2,7 @@
 title: Style Guide
 type: writing
 status: FROZEN
-updated: 2026-11-19 16:00 KST
+updated: 2026-11-21 17:56 KST
 ---
 
 # 집필 표기 기준
