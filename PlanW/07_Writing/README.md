@@ -12,7 +12,7 @@ updated: 2026-10-19 KST
 **집필 전 반드시 읽는다** → [[Writing_Notes]]
 
 ```
-파일명     Ch1_Introduction.md · Ch2_Literature.md · Ch3_Method.md
+파일명     Ch1_Introduction.md · Ch2_Literature.md · Ch3_Research_Method.md
            Ch4_Results.md · Ch5_Discussion.md
 상단       제목 · 버전 · 수정일 · 상태
 작업 메모  본문과 구분. 최종 제출본에 넣지 않는다
@@ -40,6 +40,7 @@ updated: 2026-10-19 KST
 | [[Ch3_Material]] | 표본 · 측정 · 수집 · 정제 · 추정법 · 판별타당도 · 분석 절차 — 이유 · 근거 · 원문 확인 상태 · [GAP] |
 | [[Ch4_Material]] | 4장 표 안(표 4.1~4.6) · 수치 · 출처 · 해석 범위 · 주 분석과 사후 분석 구분 |
 | [[Ch5_Material]] | 가설 · 연구질문별 논의 재료, 선행연구 연결, 해석 등급, 한계, 후속연구, 미확보 근거 |
+| [[Format_Defense_Guide]] | 학교 학위논문 양식 요약 · 표기 기준 대조 · 디펜스(2026-12-07) 구성과 예상 질문 |
 
 ⚠️ 위 「진행 상태」 표는 2026-10 기준이다. 현재 상태는 [[PlanW_Current_State]].
 
