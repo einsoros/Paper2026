@@ -3,7 +3,7 @@ title: Ronkko_Cho_2022
 citekey: ronkko2022Updated
 type: literature
 status: FROZEN
-updated: 2026-11-18 14:40 KST
+updated: 2026-11-21 11:00 KST
 evidence: 확인완료
 tags: [planw, 방법론, 판별타당도]
 ---
@@ -12,10 +12,10 @@ tags: [planw, 방법론, 판별타당도]
 
 Rönkkö, M., & Cho, E. (2022).
 *An updated guideline for assessing discriminant validity.*
-**Organizational Research Methods**. https://doi.org/10.1177/1094428120968614
+**Organizational Research Methods, 25**(1), 6–14. https://doi.org/10.1177/1094428120968614
 
 원문 확인 — 개(Jyväskylä 대학 저장소 JYX 공개본, 2026-11-18).
-**[GAP]** 권 · 호 · 쪽은 학술지 최종본에서 미확인(리포의 기존 기재 25(1), 6–14 는 기억에 의한 것).
+권 · 호 · 쪽 확인(2026-11-21) — JYX 저장소 메타데이터(25, 1, 6–14)와 Springer 게재 논문 참고문헌(25, 6–14)이 일치. 헷이 제시한 6–25 는 두 출처와 맞지 않아 쓰지 않는다
 
 # What the source actually studied [A]
 

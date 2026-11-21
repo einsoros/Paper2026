@@ -255,7 +255,7 @@ GenAI Use 만 7점이고 나머지는 5점이다. **요인 내 일관성만 있�
 확인한 문헌 (2026-11-18 원문 확인)
 - [[Henseler_2015]] Henseler, Ringle, & Sarstedt (2015). *J. Acad. Mark. Sci., 43*(1), 115–135. — HTMT 원전
 - [[Voorhees_2016]] Voorhees, Brady, Calantone, & Ramirez (2016). *J. Acad. Mark. Sci., 44*(1), 119–134.
-- [[Ronkko_Cho_2022]] Rönkkö & Cho (2022). *Organizational Research Methods*. 권 · 호 · 쪽 [GAP]
+- [[Ronkko_Cho_2022]] Rönkkö & Cho (2022). *Organizational Research Methods, 25*(1), 6–14.
 
 **[GAP]** HTMT 주기준 제안은 근거 문헌 원문 미확인으로 **철회되었다.** → [[Superseded_Decisions]]
 
