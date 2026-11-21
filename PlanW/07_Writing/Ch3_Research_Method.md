@@ -30,7 +30,9 @@ updated: 2026-11-21 17:40 KST
 
 **그림 3.1** 연구모형
 
-> 그림 원본 — `figures/fig3_1_research_model.svg`(수정용) · `.png`(Word 삽입용). 통제변수 표시 방식(상자 / 화살표)은 미정
+주. 통제변수(인공지능 사용기간 · 인공지능 사용빈도)는 네 구성개념 모두에 투입하였으며, 구체적인 투입 방식은 3.5절에 제시하였다.
+
+> 그림 원본 — `figures/fig3_1_research_model.svg`(수정용) · `.png`(Word 삽입용). 통제변수는 상자 + 주석으로 표시(헷 검토, 11-21). 실제 사양 대조: `06_Data/scripts/planw_2nd_analysis.R` 160–163행 — SAC · RBSE · GenAI Use · DCO 모두 U1 · U2 에 회귀(8경로), 통제변수는 고정 외생변수. 발표판은 이 SVG 에서 ζ · 잔차공분산 · 통제 상자를 덜어 만든다
 > 왼쪽 GenAI Use · DCO (둘 사이 양방향 곡선), 오른쪽 SAC · RBSE (잔차 간 양방향 곡선)
 > 경로 넷: DCO → SAC (H1, −) · GenAI Use → RBSE (H2, +) · GenAI Use → SAC (RQ1) · DCO → RBSE (RQ2)
 > 하단: 통제변수 — 인공지능 사용기간, 인공지능 사용빈도 · SAC → RBSE 화살표 없음

@@ -37,8 +37,8 @@
   <g font-size="18" fill="#111" text-anchor="middle">
     <text x="469" y="128">H2 (+)</text>
     <text x="469" y="406">H1 (−)</text>
-    <rect x="370" y="204" width="56" height="26" fill="#fff"/><text x="398" y="223">RQ1</text>
-    <rect x="370" y="290" width="56" height="26" fill="#fff"/><text x="398" y="309">RQ2</text>
+    <rect x="344" y="189" width="56" height="26" fill="#fff"/><text x="372" y="208">RQ1</text>
+    <rect x="344" y="305" width="56" height="26" fill="#fff"/><text x="372" y="324">RQ2</text>
   </g>
   <!-- disturbances and residual covariance -->
   <g fill="#fff" stroke="#111" stroke-width="1.6">
